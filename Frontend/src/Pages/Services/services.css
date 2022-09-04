@@ -1,0 +1,10 @@
+.services-bg{
+    background-image: linear-gradient(#000000e1, #000000e1),
+    url("./../../../public/assets/image/background/services.jpg");
+  width: auto;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}

@@ -1,0 +1,60 @@
+.aboutus-bg {
+    background-image: linear-gradient(#000000e1, #000000e1),
+      url("./../../../public/assets/image/background/aboutus1.jpg");
+    width: auto;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .aboutus-description-1{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+  .mission-vision-value-bg{
+    background-image: linear-gradient(#3d3d3da1, #3d3d3d63),
+      url("./../../../public/assets/image/background/mission-vision-value-bg.jpg");
+      width: auto;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      /* opacity: 0.3; */
+      background-attachment: fixed;
+  }
+  /* .vision{
+    
+  } */
+  .vision-text{
+    height: 250px;
+  /* From https://css.glass */
+  background: #ffffffc0;
+  border-radius: 10px;
+  box-shadow: 0 4px 30px #0000001a;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  }
+  .core-value-content-body{
+    /* height: 300px; */
+    background: #ffffffc0;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px #0000001a;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+  .vision-content-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .mission-content-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .value-content-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+  }

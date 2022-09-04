@@ -1,0 +1,124 @@
+
+.footer-text{
+    margin-top: 0px;
+    color: #fff;
+    text-align: right;
+}
+.footer{
+    background-color: #000000;
+}
+
+.footer2{
+    background-color: #000000;
+    /* height: 50px; */
+    /* float: right; */
+    font-size: 13px;
+}
+.footer-headline{
+    color: #ffffff;
+    font-family: "Roboto";
+    border-bottom: 1px solid #fff;
+}
+.touch-with-us-text{
+    color: #fff;
+    text-decoration: none;
+}
+.touch-with-us-text:hover{
+    color: #FDC215;
+}
+
+.quick-link-text{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    display: block;
+}
+.quick-link-text:hover{
+    color: #FDC215;
+    padding: 5px;
+    transition: 0.5s;
+    border-radius: 20px 50px;
+}
+
+
+
+.effect {
+    width: 100%;
+}
+
+.effect .buttons {
+    display: flex;
+}
+.effect a:last-child {
+    margin-right: 0px;
+}
+
+.effect a {
+    text-decoration: none !important;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.effect a i {
+    position: relative;
+    z-index: 3;
+}
+.effect a.fb {
+    background-color: #4267B2;
+}
+.effect a.whatsup {
+    background-color: #00A884;
+}
+.effect a.linkedin {
+    background-color: #0072b1;
+}
+
+/* aeneas effect */
+.effect.aeneas a {
+    transition: transform 0.4s linear 0s, border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;
+}
+.effect.aeneas a i {
+    transition: transform 0.4s linear 0s;
+}
+.effect.aeneas a:hover {
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+.effect.aeneas a:hover i {
+    transform: rotate(-360deg);
+}
+
+
+.hasib{
+    color: #ec008c;
+    text-decoration: none;
+
+}
+.icon-block{
+    position: relative;
+    width: 30px;
+    height:30px;
+    display:block;
+    text-align:center;
+    /* margin:0 10px; */
+    border-radius: 50%;
+    border: none;
+    padding-top: 2px;
+    box-sizing: border-box;
+    background: #ffffff;
+    transition: .5s;
+}
+.cont-us-text{
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}

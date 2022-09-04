@@ -1,0 +1,145 @@
+.contact-bg {
+    background-image: linear-gradient(#000000e1, #000000e1),
+      url("./../../../public/assets/image/background/contactus.jpg");
+    width: auto;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .page-title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color:#fff;
+    padding-top: 10%;
+    text-transform: uppercase;
+  }
+  .shape-image {
+    transform: translate(0px,-60%);
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    /* transform: rotate(180deg); */
+  }
+  /* Button style 1*/
+.button-style {
+    /* width: 200px; */
+    padding: 15px 30px;
+    position: relative;
+    overflow: hidden;
+  }
+  .button-style:hover .wave {
+    top: -120px;
+  }
+  .button-style span {
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+  .button-style .wave {
+    width: 200px;
+    height: 200px;
+    background-color: #0400ff;
+    box-shadow: inset 0 0 50px #0400ff;
+    position: absolute;
+    left: 0;
+    top: -80px;
+    transition: 0.4s;
+  }
+  .button-style .wave::before,
+  .button-style .wave::after {
+    width: 200%;
+    height: 200%;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -75%);
+  }
+  .button-style .wave::before {
+    border-radius: 45%;
+    background-color: #141414;
+    animation: wave 5s linear infinite;
+  }
+  .button-style .wave::after {
+    border-radius: 40%;
+    background-color: #14141480;
+    animation: wave 10s linear infinite;
+  }
+  @keyframes wave {
+    0% {
+      transform: translate(-50%, -75%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -75%) rotate(360deg);
+    }
+  }
+
+
+.box{
+	position: relative;
+  height: 250px;
+}
+
+.box:after, .box:before{
+	mix-blend-mode:multiply;
+	filter:none;
+	z-index: -1;
+	content:'';
+	width:calc(100% + (25px * 2));
+	height:calc(100% + (25px * 2));
+	position: absolute;
+	display: block;
+	animation: border 10s ease-in-out infinite;
+	transform:translateX(-30px) translateY(-30px);
+}
+@keyframes border {
+  0%, 100% {
+    -webkit-clip-path: polygon(0 0, calc(100% - (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 100%, calc(0% + (33.3333333333px)) calc(100% - (33.3333333333px)));
+            clip-path: polygon(0 0, calc(100% - (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 100%, calc(0% + (33.3333333333px)) calc(100% - (33.3333333333px)));
+  }
+  50% {
+    -webkit-clip-path: polygon(calc(0% + (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 0, calc(100% - (33.3333333333px)) calc(100% - (33.3333333333px)), 0 100%);
+            clip-path: polygon(calc(0% + (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 0, calc(100% - (33.3333333333px)) calc(100% - (33.3333333333px)), 0 100%);
+  }
+}
+
+.box:after{
+	animation-delay: -5s;
+  background: #ee0979;
+  background: -webkit-gradient(to right, #ee0979, #ff6a00);
+  background: linear-gradient(to right, #ee0979, #ff6a00);
+	clip-path: polygon(0 0, calc(100% - (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 100%, calc(0% + (33.3333333333px)) calc(100% - (33.3333333333px)));
+}
+.box:before {
+  background: #4ca1af;
+  background: -webkit-gradient(to right, #4ca1af, #c4e0e5);
+  background: linear-gradient(to right, #4ca1af, #c4e0e5);
+	  clip-path: polygon(calc(0% + (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 0, calc(100% - (33.3333333333px)) calc(100% - (33.3333333333px)), 0 100%);
+}
+
+
+.card-bg{
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.icon-border{
+  padding: 20px;
+  border-radius: 50%;
+  border: 2px solid rgb(255, 0, 0);
+}
+.contactus-title{
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  padding-top: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.contactus-text{
+  font-family: 'Poppins',sans-serif;
+}

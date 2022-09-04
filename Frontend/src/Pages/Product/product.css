@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+.product-bg{
+    background-image: linear-gradient(#000000e1, #000000e1),
+    url("./../../../public/assets/image/background/services.jpg");
+  width: auto;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.product-name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #3120E0;
+}
+.product-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
