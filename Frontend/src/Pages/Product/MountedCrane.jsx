@@ -1,8 +1,15 @@
 import React from "react";
 import ProductSlider from "../../Component/Product-slider/ProductSlider";
 import "./product.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function MountedCrane() {
+  AOS.init({
+    duration: 500,
+    delay: 200,
+    mirror: false,
+  });
   return (
     <>
       <section className="product-bg">
@@ -11,9 +18,13 @@ function MountedCrane() {
 
       <section className="product-info-background">
         <div className="container">
-
           <div className="row mb-5">
-          <div className="col-md-4 mt-5">
+            <div
+              className="col-md-6 mt-5"
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
               <div className="text-center  my-5">
                 <img
                   src="/assets/image/products/unic.png"
@@ -21,19 +32,20 @@ function MountedCrane() {
                   alt="Sheet Pile Driven"
                   style={{ height: "40px", width: "200px" }}
                 />
-                <p className="product-name text-center mb-5">
-                  Crane
-                </p>
+                <p className="product-name text-center mb-5">Crane</p>
               </div>
             </div>
 
-            <div className="col-md-6 mt-5">
+            <div
+              className="col-md-6 mt-5"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                    <span style={{ fontWeight: "bold" }}>
-                      FURUKAWA UNIC's
-                    </span>{" "}
+                    <span style={{ fontWeight: "bold" }}>FURUKAWA UNIC's</span>{" "}
                     strength is distinguished by its superior quality and
                     technology. Since the introduction of the first
                     truck-mounted crane in Japan in 1961, they have been
@@ -43,14 +55,12 @@ function MountedCrane() {
                     work like a two in one vehicle, providing the facility of
                     both carrying and lifting heavy goods. These trucks are
                     designed to be well balanced and easily maneuverable.{" "}
-                    <span style={{fontWeight: "bold" }}>
-                      UNIC
-                    </span> cranes are straight-boom type cranes which provide greater
-                    accuracy of reach over obstacles and straight and stable
-                    lifting ability.
-                    <span style={{fontWeight: "bold" }}>
-                       UNIC  
-                    </span> also have compact crawler crane for challenging terrains.
+                    <span style={{ fontWeight: "bold" }}>UNIC</span> cranes are
+                    straight-boom type cranes which provide greater accuracy of
+                    reach over obstacles and straight and stable lifting
+                    ability.
+                    <span style={{ fontWeight: "bold" }}>UNIC</span> also have
+                    compact crawler crane for challenging terrains.
                   </p>
                 </div>
               </div>

@@ -6,9 +6,9 @@ import "aos/dist/aos.css";
 
 function Services() {
   AOS.init({
-    duration: 800,
+    duration: 500,
     delay: 200,
-    mirror: true,
+    mirror: false,
   });
   return (
     <>
@@ -48,8 +48,9 @@ function Services() {
                 <div className="">
                   <img
                     src="/assets/image/background/services-1.png"
-                    className="geological-consultancy-box"
+                    className="img-fluid"
                     alt="Geological Consultancy"
+                    style={{ height: "300px", width: "300px" }}
                   />
                 </div>
               </div>

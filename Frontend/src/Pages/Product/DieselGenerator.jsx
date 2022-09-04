@@ -1,47 +1,67 @@
 import React from "react";
 import ProductSlider from "../../Component/Product-slider/ProductSlider";
 import "./product.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function DieselGenerator() {
+  AOS.init({
+    duration: 500,
+    delay: 200,
+    mirror: false,
+  });
   return (
     <>
       <section className="product-bg">
         <h1 className="text-center page-title">Diesel Generator</h1>
       </section>
 
-
       <section className="product-info-background">
         <div className="container">
           <div className="row mb-5">
-            <div className="col-md-4 mt-5">
+            <div
+              className="col-md-6 mt-5"
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
               <div className="text-center my-5">
-              <img
+                <img
                   src="/assets/image/products/Denyo.png"
                   className="img-fluid"
                   alt="Sheet Pile Driven"
                   style={{ height: "40px", width: "200px" }}
                 />
                 <p className="product-name text-center mb-5">
-                Diesel Generator
+                  Diesel Generator
                 </p>
               </div>
             </div>
 
-            <div className="col-md-8 mt-5">
+            <div
+              className="col-md-6 mt-5"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text">
-                    <span style={{    fontWeight: "bold" }}>Denyo </span>
-                     is one of the market leading generator manufacturers in the
+                    <span style={{ fontWeight: "bold" }}>Denyo </span>
+                    is one of the market leading generator manufacturers in the
                     world. Their product praised for the robust manufacturing,
-                    high reliability and long-lasting service. <span style={{    fontWeight: "bold" }}>Denyo</span> has a wide
+                    high reliability and long-lasting service.{" "}
+                    <span style={{ fontWeight: "bold" }}>Denyo</span> has a wide
                     range of products for different applications. Their
                     generators range from 25kVA up to 1100kVA. The engines for
                     the generators are sourced from a few high-end diesel
                     experts of Japan namely Komatsu, Mitsubishi, Yanmar, Kobuta,
                     Isuzu. The alternators and genset assemblies are designed,
-                    developed and manufactured at <span style={{    fontWeight: "bold" }}>Denyo</span> in Japan with exception
-                    of some smaller models (up to 125) being manufactured at 
-                    <span style={{    fontWeight: "bold" }}> Denyo's</span> factory in Indonesia and Vietnam.
+                    developed and manufactured at{" "}
+                    <span style={{ fontWeight: "bold" }}>Denyo</span> in Japan
+                    with exception of some smaller models (up to 125) being
+                    manufactured at
+                    <span style={{ fontWeight: "bold" }}> Denyo's</span> factory
+                    in Indonesia and Vietnam.
                   </p>
                 </div>
               </div>
@@ -54,9 +74,7 @@ function DieselGenerator() {
         <div className="container">
           <div className="card border-0">
             <div className="card-body shadow">
-              <h3 className="mml-title text-center pt-5">
-                List
-              </h3>
+              <h3 className="mml-title text-center pt-5">List</h3>
               <table className="table display">
                 <thead>
                   <tr>

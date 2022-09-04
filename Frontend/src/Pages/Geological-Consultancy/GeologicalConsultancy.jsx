@@ -64,17 +64,13 @@ function GeologicalConsultancy() {
             </div>
 
             <div className="col-md-6">
-              <div className="">
-                <div class="losange">
-                  <div class="los1">
-                    <img
-                      src="/assets/image/background/geo-2.jpg"
-                      className=""
-                      alt="Geological Consultancy"
-                      width="255"
-                      height="320"
-                    />
-                  </div>
+            <div className="text-center">
+                <div className="">
+                  <img
+                    src="/assets/image/background/geo-2.jpg"
+                    className="img-fluid geo-img"
+                    alt="Geological Consultancy"
+                  />
                 </div>
               </div>
             </div>

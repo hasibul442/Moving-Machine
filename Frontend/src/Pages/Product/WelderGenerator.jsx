@@ -1,8 +1,15 @@
 import React from "react";
 import ProductSlider from "../../Component/Product-slider/ProductSlider";
 import "./product.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function WelderGenerator() {
+  AOS.init({
+    duration: 500,
+    delay: 200,
+    mirror: false,
+  });
   return (
     <>
       <section className="product-bg">
@@ -14,7 +21,12 @@ function WelderGenerator() {
       <section className="product-info-background">
         <div className="container">
           <div className="row mb-5">
-            <div className="col-md-4 mt-5">
+            <div
+              className="col-md-6 mt-5"
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
               <div className="text-center my-5">
                 <img
                   src="/assets/image/products/Denyo.png"
@@ -26,7 +38,12 @@ function WelderGenerator() {
               </div>
             </div>
 
-            <div className="col-md-8 mt-5">
+            <div
+              className="col-md-6 mt-5"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">

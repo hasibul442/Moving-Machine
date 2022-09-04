@@ -1,7 +1,16 @@
-import React from 'react'
-import ProductSlider from '../../Component/Product-slider/ProductSlider'
-import './product.css'
+import React from "react";
+import ProductSlider from "../../Component/Product-slider/ProductSlider";
+import "./product.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 function Cutting() {
+  AOS.init({
+    duration: 500,
+    delay: 200,
+    mirror: false,
+  });
+
   return (
     <>
       <section className="product-bg">
@@ -10,28 +19,34 @@ function Cutting() {
 
       <section className="product-info-background">
         <div className="container">
-          <h2 className="product-name text-center mt-5 mb-5">
-            <span style={{ color: '#EE6983' }}>ESAB</span> Cutting Machine
-          </h2>
-
           <div className="row mb-5">
-            <div className="col-md-6 mt-5">
-              <div className="text-center">
+            <div
+              className="col-md-6 mt-5"
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
+              <div className="text-center  my-5">
                 <img
-                  src="/assets/image/products/Slide2.PNG"
-                  className="img-fluid geological-consultancy-box"
+                  src="/assets/image/products/esab.png"
+                  className="img-fluid"
                   alt="Sheet Pile Driven"
+                  style={{ height: "50px", width: "200px" }}
                 />
+                <p className="product-name text-center mb-5">Cutting Machine</p>
               </div>
             </div>
 
-            <div className="col-md-6 mt-5">
+            <div
+              className="col-md-6 mt-5"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                    <span style={{fontWeight: 'bold' }}>
-                      ESAB
-                    </span>{' '}
+                    <span style={{ fontWeight: "bold" }}>ESAB</span>{" "}
                     cutting-edge, world-class equipment and solutions are
                     designed with client input and produced with the skills and
                     tradition of a global manufacturing leader. Over the time
@@ -119,7 +134,7 @@ function Cutting() {
 
       <ProductSlider />
     </>
-  )
+  );
 }
 
-export default Cutting
+export default Cutting;

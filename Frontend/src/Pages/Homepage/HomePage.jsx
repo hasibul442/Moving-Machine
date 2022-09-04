@@ -42,9 +42,9 @@ function seeless() {
 }
 function HomePage() {
   AOS.init({
-    duration: 800,
+    duration: 500,
     delay: 200,
-    mirror: true,
+    mirror: false,
   });
 
   const settings = {

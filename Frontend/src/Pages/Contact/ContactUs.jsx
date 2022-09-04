@@ -173,7 +173,7 @@ function ContactUs() {
                     aria-describedby="emailHelp"
                     placeholder="Subject Line"
                   >
-                    <option selected disabled>Choose One Option</option>
+                    <option defaultValue disabled>Choose One Option</option>
                     <option value="Genarel Query">Genarel Query</option>
                     <option value="Product Inquery">Product Inquery</option>
                     <option value="Servicesy">Services</option>

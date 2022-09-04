@@ -1,7 +1,14 @@
-import React from 'react'
-import ProductSlider from '../../Component/Product-slider/ProductSlider'
-import './product.css'
+import React from "react";
+import ProductSlider from "../../Component/Product-slider/ProductSlider";
+import "./product.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function Crimping() {
+  AOS.init({
+    duration: 500,
+    delay: 200,
+    mirror: false,
+  });
   return (
     <>
       <section className="product-bg">
@@ -10,37 +17,42 @@ function Crimping() {
 
       <section className="product-info-background">
         <div className="container">
-          <h2 className="product-name text-center mt-5 mb-5">
-            <span style={{ color: '#EE6983' }}>LillBacka</span> Finn-Power
-            Crimping Machines
-          </h2>
-
           <div className="row mb-5">
-            <div className="col-md-6 mt-5">
-              <div className="text-center">
+            <div
+              className="col-md-6 mt-5"
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
+              <div className="text-center  my-5">
                 <img
-                  src="/assets/image/products/Slide8.PNG"
-                  className="img-fluid geological-consultancy-box"
+                  src="/assets/image/products/lillbacka.png"
+                  className="img-fluid"
                   alt="Sheet Pile Driven"
+                  style={{ height: "45px", width: "200px" }}
                 />
+                <p className="product-name text-center mb-5">
+                  Finn-Power Crimping Machines
+                </p>
               </div>
             </div>
 
-            <div className="col-md-6 mt-5">
+            <div
+              className="col-md-6 mt-5"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                    Every year,{' '}
-                    <span style={{ fontWeight: 'bold' }}>
-                      Lillbacka{' '}
-                    </span>{' '}
+                    Every year,{" "}
+                    <span style={{ fontWeight: "bold" }}>Lillbacka </span>{" "}
                     Powerco Oy produces thousands of crimping machines, as well
                     as hose cutting and nut crimping equipment. Finn-Power is
                     well-known for its high-quality, long-lasting hydraulic
-                    crimping machines, which are manufactured by{' '}
-                    <span style={{  fontWeight: 'bold' }}>
-                      Lillbacka{' '}
-                    </span>{' '}
+                    crimping machines, which are manufactured by{" "}
+                    <span style={{ fontWeight: "bold" }}>Lillbacka </span>{" "}
                     Powerco, a Finnish company with over 50 years of
                     manufacturing expertise. They provide dependable,
                     long-lasting, and precise crimping machines to fulfill the
@@ -132,7 +144,7 @@ function Crimping() {
 
       <ProductSlider />
     </>
-  )
+  );
 }
 
-export default Crimping
+export default Crimping;
