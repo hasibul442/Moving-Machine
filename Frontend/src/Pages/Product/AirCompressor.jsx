@@ -12,22 +12,23 @@ function AirCompressor() {
 
       <section className="product-info-background">
         <div className="container">
-          <h2 className="product-name text-center mt-5 mb-5">
-            <span style={{ color: "#EE6983" }}>AIRMAN</span> Air Compressor
-          </h2>
 
           <div className="row mb-5">
-            <div className="col-md-6 mt-5">
-              <div className="text-center">
-                <img
-                  src="/assets/image/products/Slide3.PNG"
-                  className="img-fluid geological-consultancy-box"
+            <div className="col-md-4 mt-4">
+            <div className="text-center my-5">
+              <img
+                  src="/assets/image/products/airman.png"
+                  className="img-fluid"
                   alt="Sheet Pile Driven"
+                  style={{ height: "30px", width: "200px" }}
                 />
+                <p className="product-name text-center mb-5">
+                 Air Compressor
+                </p>
               </div>
             </div>
 
-            <div className="col-md-6 mt-5">
+            <div className="col-md-8 mt-5">
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">

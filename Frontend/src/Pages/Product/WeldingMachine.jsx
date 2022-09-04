@@ -16,17 +16,21 @@ function WeldingMachine() {
         </h2>
 
         <div className="row mb-5">
-          <div className="col-md-6 mt-5">
-            <div className="text-center">
-              <img
-                src="/assets/image/products/Slide2.PNG"
-                className="img-fluid geological-consultancy-box"
-                alt="Sheet Pile Driven"
-              />
+        <div className="col-md-4 mt-5">
+              <div className="text-center  my-4">
+                <img
+                  src="/assets/image/products/esab.png"
+                  className="img-fluid"
+                  alt="Sheet Pile Driven"
+                  style={{ height: "50px", width: "200px" }}
+                />
+                <p className="product-name text-center mb-5">
+                  Welding Machine
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div className="col-md-6 mt-5">
+          <div className="col-md-8 mt-5">
             <div className="card border-0 shadow">
               <div className="card-body">
                 <p className="product-text text-justify">

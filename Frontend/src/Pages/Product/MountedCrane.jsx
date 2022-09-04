@@ -11,18 +11,19 @@ function MountedCrane() {
 
       <section className="product-info-background">
         <div className="container">
-          <h2 className="product-name text-center mt-5 mb-5">
-            <span style={{ color: "#EE6983" }}>Movax</span> Pile Drivers
-          </h2>
 
           <div className="row mb-5">
-            <div className="col-md-6 mt-5">
-              <div className="text-center">
+          <div className="col-md-4 mt-5">
+              <div className="text-center  my-5">
                 <img
-                  src="/assets/image/products/Slide4.PNG"
-                  className="img-fluid geological-consultancy-box"
+                  src="/assets/image/products/unic.png"
+                  className="img-fluid"
                   alt="Sheet Pile Driven"
+                  style={{ height: "40px", width: "200px" }}
                 />
+                <p className="product-name text-center mb-5">
+                  Crane
+                </p>
               </div>
             </div>
 

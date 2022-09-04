@@ -18,7 +18,7 @@ function Footer() {
     <>
       <section>
         <div className="footer">
-          <div className="container ">
+          <div className="container-fluid">
             <div className="row pt-4">
               <div className="col-lg-3">
                 <div className="my-auto">

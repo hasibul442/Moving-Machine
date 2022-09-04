@@ -11,25 +11,25 @@ function DieselGenerator() {
 
       <section className="product-info-background">
         <div className="container">
-          <h2 className="product-name text-center mt-5 mb-5">
-            <span style={{ color: "#EE6983" }}>Denyo</span> Diesel Generator
-          </h2>
-
           <div className="row mb-5">
-            <div className="col-md-6 mt-5">
-              <div className="text-center">
-                <img
-                  src="/assets/image/products/Slide6.PNG"
-                  className="img-fluid geological-consultancy-box"
+            <div className="col-md-4 mt-5">
+              <div className="text-center my-5">
+              <img
+                  src="/assets/image/products/Denyo.png"
+                  className="img-fluid"
                   alt="Sheet Pile Driven"
+                  style={{ height: "40px", width: "200px" }}
                 />
+                <p className="product-name text-center mb-5">
+                Diesel Generator
+                </p>
               </div>
             </div>
 
-            <div className="col-md-6 mt-5">
+            <div className="col-md-8 mt-5">
               <div className="card border-0 shadow">
                 <div className="card-body">
-                  <p className="product-text text-justify">
+                  <p className="product-text">
                     <span style={{    fontWeight: "bold" }}>Denyo </span>
                      is one of the market leading generator manufacturers in the
                     world. Their product praised for the robust manufacturing,
