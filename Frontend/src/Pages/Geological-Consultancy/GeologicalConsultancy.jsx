@@ -1,7 +1,15 @@
 import React from "react";
 import "./geologicalconsultancy.css";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 function GeologicalConsultancy() {
+  AOS.init({
+    duration: 500,
+    delay: 200,
+    mirror: false,
+  });
   return (
     <>
       <div className="geological-bg">
@@ -20,7 +28,9 @@ function GeologicalConsultancy() {
           {/* <h2 className="mml-title text-center mb-5">Get In Touch</h2> */}
 
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6"   data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine">
               <div className="text-center">
                 <div className="">
                   <img
@@ -32,7 +42,9 @@ function GeologicalConsultancy() {
               </div>
             </div>
 
-            <div className="col-md-6 ">
+            <div className="col-md-6 "   data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine">
               <div className="geo_consult-text">
                 {/* <h2 className="mml-title text-center pt-5">Vision</h2> */}
                 <p className="p-5 geo_consult-content-text">
@@ -48,7 +60,9 @@ function GeologicalConsultancy() {
           </div>
 
           <div className="row mt-5">
-            <div className="col-md-6 ">
+            <div className="col-md-6 "   data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine">
               <div className="geo_consult-text">
                 {/* <h2 className="mml-title text-center pt-5">Vision</h2> */}
                 <p className="p-5 geo_consult-content-text">
@@ -63,7 +77,9 @@ function GeologicalConsultancy() {
               </div>
             </div>
 
-            <div className="col-md-6">
+            <div className="col-md-6"   data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine">
             <div className="text-center">
                 <div className="">
                   <img

@@ -10,7 +10,7 @@
   }
   .aboutus-description-1{
     text-align: justify;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noway', sans-serif;
     font-size: 16px;
   }
   .mission-vision-value-bg{
@@ -44,17 +44,17 @@
     -webkit-backdrop-filter: blur(10px);
   }
   .vision-content-text{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Noway', sans-serif;
     font-size: 16px;
     font-weight: 600;
   }
   .mission-content-text{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Noway', sans-serif;
     font-size: 16px;
     font-weight: 600;
   }
   .value-content-text{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Noway', sans-serif;
     font-size: 15px;
     font-weight: 600;
   }

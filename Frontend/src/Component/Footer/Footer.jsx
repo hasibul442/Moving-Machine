@@ -20,7 +20,7 @@ function Footer() {
         <div className="footer">
           <div className="container-fluid">
             <div className="row pt-4">
-              <div className="col-lg-3">
+              <div className="col-lg-2">
                 <div className="my-auto">
                   <div className="p-5">
                     <img

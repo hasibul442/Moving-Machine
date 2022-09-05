@@ -3,7 +3,8 @@ import "./about.css";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 function About() {
   const settings = {
     className: "owl-theme  pb-5",
@@ -24,6 +25,12 @@ function About() {
       1000: { items: 4 },
     },
   };
+
+  AOS.init({
+    duration: 500,
+    delay: 200,
+    mirror: false,
+  });
   return (
     <>
     <section className="aboutus-bg">
@@ -81,7 +88,9 @@ function About() {
           <div className="vision">
             <div className="container">
               <div className="row">
-                <div className="col-md-6 vision-text">
+                <div className="col-md-6 vision-text "              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine">
                   <div className="">
                     <h2 className="mml-title text-center pt-5">Vision</h2>
                     <p className="p-2 vision-content-text">
@@ -102,7 +111,9 @@ function About() {
             <div className="container">
               <div className="row">
                 <div className="col-md-6"></div>
-                <div className="col-md-6 vision-text">
+                <div className="col-md-6 vision-text"               data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine">
                   <div className=" ">
                     <h2 className="mml-title text-center pt-5">Mission</h2>
                     <div className="p-2 mission-content-text">
@@ -125,7 +136,9 @@ function About() {
           <div className="core-value pt-4 pb-5">
             <div className="container">
               <div className="row">
-                <div className="col-md-12 core-value-content-body">
+                <div className="col-md-12 core-value-content-body" data-aos="fade-up"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine">
                   <div className="my-auto">
                     <h2 className="mml-title text-center pt-5">Core Value</h2>
                     <div className="ml-5 value-content-text">

@@ -9,7 +9,7 @@
     background-attachment: fixed;
   }
   .page-title{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Noway', sans-serif;
     font-size: 50px;
     font-weight: 600;
     color:#fff;
@@ -134,12 +134,12 @@
   border: 2px solid rgb(255, 0, 0);
 }
 .contactus-title{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Noway', sans-serif;
   text-transform: uppercase;
   padding-top: 10px;
   font-size: 24px;
   font-weight: 700;
 }
 .contactus-text{
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Noway',sans-serif;
 }
