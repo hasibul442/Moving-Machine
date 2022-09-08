@@ -56,8 +56,8 @@ function HomePage() {
     slidestoshow: 1,
     slidestoscroll: 1,
     autoplay: true,
-    autoplaySpeed: 8000,
-    autoplayTimeout: 8000,
+    autoplaySpeed: 5000,
+    autoplayTimeout: 5000,
     autoplayHoverPause: true,
     margin: 30,
     responsive: {

@@ -150,7 +150,7 @@ function Footer() {
                         <i className="fab fa-whatsapp"></i>
                       </a>
                       <a
-                        href="#"
+                        href="/"
                         className="linkedin"
                         title="Join us on Facebook"
                       >
@@ -179,8 +179,6 @@ function Footer() {
               Developed by{" "}
               <a
                 href="https://hasibulhasan.web.app/"
-                rel="noreffer"
-                target="_blank"
                 className="hasib"
               >
                 Hasib
