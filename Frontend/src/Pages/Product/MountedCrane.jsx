@@ -69,7 +69,7 @@ function MountedCrane() {
         </div>
       </section>
 
-      <section className="pt-5 pb-5">
+      {/* <section className="pt-5 pb-5">
         <div className="container">
           <div className="card border-0">
             <div className="card-body shadow">
@@ -139,7 +139,72 @@ function MountedCrane() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+
+<div className="pt-5 pb-5">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-3"></div>
+            <div className="col-md-6">
+              <div className="card border-0">
+                <div className="card-body shadow">
+                  <h2 className="text-center mml-title">Brochures</h2>
+
+                  <div className="brochures-name mt-5">
+                    <a href="/assets/dumy.pdf" className="brochures-download">
+                      <div className="d-flex justify-content-between">
+                        <div className="p-2 bd-highlight">1</div>
+                        <div className="p-2 bd-highlight">
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the
+                          industry's standard dummy text ever since the 1500s
+
+                          <span></span>
+                        </div>
+                        <div className="p-2 bd-highlight">
+                          <i className="fas fa-file-pdf"></i>
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="/assets/dumy.pdf" className="brochures-download">
+                      <div className="d-flex justify-content-between">
+                        <div className="p-2 bd-highlight">2</div>
+                        <div className="p-2 bd-highlight">
+                          when an unknown printer took a galley of type and
+                          scrambled it to make a type specimen book. It has
+                          survived not only five centuries,
+
+                          <span></span>
+                        </div>
+                        <div className="p-2 bd-highlight">
+                          <i className="fas fa-file-pdf"></i>
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="/assets/dumy.pdf" className="brochures-download">
+                      <div className="d-flex justify-content-between">
+                        <div className="p-2 bd-highlight">3</div>
+                        <div className="p-2 bd-highlight">
+                          It is a long established fact that a reader will be
+                          distracted by the readable content of a page when
+                          looking at its layout.
+
+                          <span></span>
+                        </div>
+                        <div className="p-2 bd-highlight">
+                          <i className="fas fa-file-pdf"></i>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <ProductSlider />
     </>

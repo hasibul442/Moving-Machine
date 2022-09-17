@@ -151,7 +151,7 @@ function About() {
                             style={{ color: "#EF5B0C" }}
                           ></i>
                           <p className="pt-3">
-                            Becoming the Best In This Area of operation
+                            Becoming the finest in corresponding fields
                           </p>
                         </div>
 
@@ -160,7 +160,7 @@ function About() {
                             className="fas fa-user-headset fa-4x"
                             style={{ color: "#0078AA" }}
                           ></i>
-                          <p className="pt-3">Delighting customer</p>
+                          <p className="pt-3">Providing top-notch customer support</p>
                         </div>
 
                         <div className="col-md-2 text-center">
@@ -168,7 +168,7 @@ function About() {
                             className="fas fa-check fa-4x"
                             style={{ color: "#3CCF4E" }}
                           ></i>
-                          <p className="pt-3">Quality advanced product</p>
+                          <p className="pt-3">Offering quality advanced products</p>
                         </div>
 
                         <div className="col-md-2 text-center">
@@ -176,14 +176,14 @@ function About() {
                             className="fas fa-users fa-4x"
                             style={{ color: "#EB1D36" }}
                           ></i>
-                          <p className="pt-3">Teamwork</p>
+                          <p className="pt-3">Building teamwork</p>
                         </div>
                         <div className="col-md-2 text-center">
                           <i
                             className="fas fa-balance-scale fa-4x"
                             style={{ color: "#610C63" }}
                           ></i>
-                          <p className="pt-3">Integrity</p>
+                          <p className="pt-3">Upholding integrity</p>
                         </div>
 
                         <div className="col-md-1"></div>

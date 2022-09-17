@@ -20,3 +20,29 @@
     font-size: 18px;
     text-align: justify;
 }
+.brochures-download{
+    font-family: 'Noway', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+}
+.brochures-download:hover{
+    color: #000000;
+    text-decoration: none;
+} 
+.brochures-download:hover span{
+    padding-right: 20px;
+}
+.brochures-download span:after{
+    padding-left: 20px;
+    content: "Download";
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.brochures-download:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

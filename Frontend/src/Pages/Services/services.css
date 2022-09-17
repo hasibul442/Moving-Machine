@@ -8,3 +8,11 @@
   background-size: cover;
   background-attachment: fixed;
 }
+.geological_service_text{
+  font-family: 'Noway', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.geological_service_text > ul >li{
+  line-height: 2.5rem;
+}

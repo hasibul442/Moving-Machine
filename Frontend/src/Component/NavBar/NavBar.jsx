@@ -129,12 +129,40 @@ function Navbar() {
                   </div>
                 </li>
 
-                <li className="nav-item">
+                <li className="nav-item dropdown dropdown_auto">
+                  <a
+                    className="nav-link dropdown-toggle "
+                    href="#services"
+                    id="dropdown04"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Services
+                  </a>
+                  <div
+                    className="dropdown-menu dropdown_auto_menu"
+                    aria-labelledby="dropdown04"
+                  >
+                    <Link className="dropdown-item" to="/services">
+                      Repaire & Maintenance{" "}
+                    </Link>
+                    <Link className="dropdown-item" to="/rental">
+                      Rental
+                    </Link>
+                    <Link className="dropdown-item" to="/geological">
+                      Geological E&P Services
+                    </Link>
+                    
+                  </div>
+                </li>
+
+                {/* <li className="nav-item">
                   <Link to="/services" className="nav-link">
                     Services
                   </Link>
-                </li>
-                <li className="nav-item">
+                </li> */}
+                {/* <li className="nav-item">
                   <Link to="/rental" className="nav-link">
                     Rental
                   </Link>
@@ -143,7 +171,7 @@ function Navbar() {
                   <Link to="/Geological-Consultancy" className="nav-link">
                     Geological Consultancy
                   </Link>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <Link to="/contactus" className="nav-link">
                     Contact Us

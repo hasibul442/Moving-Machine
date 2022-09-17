@@ -13,7 +13,7 @@ function Services() {
   return (
     <>
       <div className="services-bg">
-        <h1 className="text-center page-title">Services</h1>
+        <h1 className="text-center page-title">Repaire & Maintenance</h1>
       </div>
 
       <div className="mt-5 mb-5">

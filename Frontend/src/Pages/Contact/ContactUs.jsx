@@ -14,7 +14,7 @@ function ContactUs() {
         />
       </div> */}
 
-      <div className="mt-5">
+      {/* <div className="mt-5">
         <div className="container ">
           <h2 className="mml-title text-center mb-5">Get In Touch</h2>
           <div className="row">
@@ -37,7 +37,6 @@ function ContactUs() {
                 </div>
               </div>
             </div>
-            {/* <div className="col-md-1"></div> */}
             <div className="col-md-4 p-3">
               <div className="card box card-bg">
                 <div className="p-4">
@@ -49,7 +48,8 @@ function ContactUs() {
                     <p className="contactus-title text-center">Phone</p>
                     <div className="mt-3">
                       <p className="contactus-text">
-                        Telephone: +880248811048<br/>
+                        Telephone: +880248811048
+                        <br />
                         Phone: +8801321120451
                       </p>
                     </div>
@@ -67,11 +67,60 @@ function ContactUs() {
                     ></i>
                     <p className="contactus-title text-center">Email</p>
                     <div className="mt-3">
-                      <p className="contactus-text">
-                        info@mmlbd.com
-                      </p>
+                      <p className="contactus-text">info@mmlbd.com</p>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
+
+      <div className="mt-5">
+        <div className="container">
+          <p className="mml-title text-center mb-5">Get In Touch</p>
+          <div className="row">
+            <div className="col-md-4 p-3">
+              <div className="text-center">
+                <i
+                  className="fas fa-map-marker-alt fa-3x"
+                  style={{ color: "#000" }}
+                ></i>
+                <div>
+                  <p className="contactus-text mt-3 mx-3">
+                    <b>
+                      House # 428 (A); Road # 30 New DOHS, Mohakhali, Dhaka-1206
+                    </b>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4 p-3">
+              <div className="text-center">
+                <i className="fas fa-phone-alt fa-3x" style={{ color: "#000" }}></i>
+                <div>
+                  <p className="contactus-text mt-3 mx-3">
+                    <b>
+                      Tel: +880248811048
+                      <br />
+                      Phone: +8801321120451
+                    </b>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4 p-3">
+              <div className="text-center">
+                <i className="fas fa-envelope fa-3x" style={{ color: "#000" }}></i>
+                <div>
+                  <p className="contactus-text mt-3 mx-3">
+                    <b>
+                    info@mmlbd.com
+                    </b>
+                  </p>
                 </div>
               </div>
             </div>
@@ -167,18 +216,22 @@ function ContactUs() {
                     {" "}
                     Subject <small className="text-danger">*</small>
                   </label>
-                  <select 
+                  <select
                     className="form-control"
                     id="name"
                     aria-describedby="emailHelp"
                     placeholder="Subject Line"
                   >
-                    <option defaultValue disabled>Choose One Option</option>
+                    <option defaultValue disabled>
+                      Choose One Option
+                    </option>
                     <option value="Genarel Query">Genarel Query</option>
                     <option value="Product Inquery">Product Inquery</option>
                     <option value="Servicesy">Services</option>
                     <option value="Rental">Rental</option>
-                    <option value="Geological Consultancy">Geological Consultancy</option>
+                    <option value="Geological Consultancy">
+                      Geological Consultancy
+                    </option>
                   </select>
                 </div>
                 <br />

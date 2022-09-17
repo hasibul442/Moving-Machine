@@ -17,6 +17,7 @@ import SheetPileDriver from './Pages/Product/SheetPileDriver';
 import WelderGenerator from './Pages/Product/WelderGenerator';
 import WeldingMachine from './Pages/Product/WeldingMachine';
 import Rental from './Pages/Rental/Rental';
+import Geological from './Pages/Services/Geological';
 import Services from './Pages/Services/Services';
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
             <Route path="/weldergenerator" element={<WelderGenerator />} />
             <Route path="/weldingmachine" element={<WeldingMachine />} />
             <Route path="/about-us" element={<About />} />
+            <Route path="/geological" element={<Geological />} />
           </Routes>
         </div>
         <Footer />

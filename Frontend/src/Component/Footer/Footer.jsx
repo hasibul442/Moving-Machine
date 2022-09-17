@@ -18,112 +18,122 @@ function Footer() {
     <>
       <section>
         <div className="footer">
-          <div className="container-fluid">
+          <div className="container">
             <div className="row pt-4">
-              <div className="col-lg-2">
+              {/* <div className="col-lg-2">
                 <div className="my-auto">
                   <div className="p-5">
-                    <img
-                      src="/assets/image/logo/logo-2.png"
-                      alt=""
-                      className="img-fluid"
-                      style={{ height: "100px", width: "100px" }}
-                    />
+                   
+                  </div>
+                </div>
+              </div> */}
+
+              <div className="col-lg-6">
+                <div className="d-flex flex-row">
+                    <div className="p-2">
+                      <div className="px-3 pt-5">
+                        <img
+                          src="/assets/image/logo/logo-2.png"
+                          alt=""
+                          className="img-fluid"
+                          style={{ height: "100px", width: "100px" }}
+                        />
+                      </div>
+                    </div>
+                  <div className="p-2">
+                    <h5 className="text-white pb-1">
+                      <span className="footer-headline">Contact Us</span>
+                    </h5>
+
+                    <div className="d-flex flex-row">
+                      <div className="">
+                        <div className="icon-block">
+                          <i
+                            className="fas fa-map-marker-alt"
+                            style={{ color: "#D61C4E" }}
+                          ></i>
+                        </div>
+                      </div>
+                      <div className="p-2">
+                        <div className="cont-us-text">
+                          <a
+                            className="touch-with-us-text"
+                            href="https://goo.gl/maps/fNXbEh9e6tEeKg718"
+                          >
+                            House# 428A (3rd Floor), Road# 30,
+                            <br /> New DOHS Mohakhali, Dhaka
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="d-flex flex-row">
+                      <div className="">
+                        <div className="icon-block">
+                          <i
+                            className="fas fa-phone-office"
+                            style={{ color: "#590696" }}
+                          ></i>
+                        </div>
+                      </div>
+                      <div className="p-2">
+                        <div className="cont-us-text">
+                          <a
+                            className="touch-with-us-text"
+                            href="tel:+880248811048"
+                          >
+                            (+880) 248811048
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="d-flex flex-row">
+                      <div className="">
+                        <div className="icon-block">
+                          <i
+                            className="fas fa-mobile-alt"
+                            style={{ color: "#00FFAB" }}
+                          ></i>
+                        </div>
+                      </div>
+                      <div className="p-2">
+                        <div className="cont-us-text">
+                          <a
+                            className="touch-with-us-text"
+                            href="tel:+8801713090871"
+                          >
+                            (+880) 1321120451
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="d-flex flex-row">
+                      <div className="">
+                        <div className="icon-block">
+                          <i
+                            className="fas fa-envelope"
+                            style={{ color: "#F806CC" }}
+                          ></i>
+                        </div>
+                      </div>
+                      <div className="p-2">
+                        <div className="cont-us-text">
+                          <a
+                            className="touch-with-us-text"
+                            href="mailto:info@mmlbd.com"
+                          >
+                            info@mmlbd.com
+                          </a>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3">
-                <h5 className="text-white pb-1">
-                  <span className="footer-headline">Contact Us</span>
-                </h5>
 
-                <div className="d-flex flex-row">
-                  <div className="">
-                    <div className="icon-block">
-                      <i
-                        className="fas fa-map-marker-alt"
-                        style={{ color: "#D61C4E" }}
-                      ></i>
-                    </div>
-                  </div>
-                  <div className="p-2">
-                    <div className="cont-us-text">
-                      <a
-                        className="touch-with-us-text"
-                        href="https://goo.gl/maps/fNXbEh9e6tEeKg718"
-                      >
-                        House# 428A (3rd Floor), Road# 30,
-                        <br /> New DOHS Mohakhali, Dhaka
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="d-flex flex-row">
-                  <div className="">
-                    <div className="icon-block">
-                      <i
-                        className="fas fa-phone-office"
-                        style={{ color: "#590696" }}
-                      ></i>
-                    </div>
-                  </div>
-                  <div className="p-2">
-                    <div className="cont-us-text">
-                      <a
-                        className="touch-with-us-text"
-                        href="tel:+880248811048"
-                      >
-                        (+880) 248811048
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="d-flex flex-row">
-                  <div className="">
-                    <div className="icon-block">
-                      <i
-                        className="fas fa-mobile-alt"
-                        style={{ color: "#00FFAB" }}
-                      ></i>
-                    </div>
-                  </div>
-                  <div className="p-2">
-                    <div className="cont-us-text">
-                      <a
-                        className="touch-with-us-text"
-                        href="tel:+8801713090871"
-                      >
-                        (+880) 1321120451
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="d-flex flex-row">
-                  <div className="">
-                    <div className="icon-block">
-                      <i
-                        className="fas fa-envelope"
-                        style={{ color: "#F806CC" }}
-                      ></i>
-                    </div>
-                  </div>
-                  <div className="p-2">
-                    <div className="cont-us-text">
-                      <a
-                        className="touch-with-us-text"
-                        href="mailto:info@mmlbd.com"
-                      >
-                        info@mmlbd.com
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-<div className="col-lg-2"></div>
+              <div className="col-lg-2"></div>
               <div className="col-lg-4">
                 <h5 className="text-white">
                   <span className="footer-headline"> Social Link</span>
@@ -173,14 +183,11 @@ function Footer() {
         </div>
 
         <div className="footer2">
-          <p className="text-right container footer-text my-auto pt-2 pb-2">
+          <p className="text-right container-fluid footer-text my-auto pt-2 pb-2">
             Copyright © {new Date().getFullYear()} Moving Mechines Ltd.{" "}
             <p>
               Developed by{" "}
-              <a
-                href="https://hasibulhasan.web.app/"
-                className="hasib"
-              >
+              <a href="https://hasibulhasan.web.app/" className="hasib">
                 Hasib
               </a>
             </p>
