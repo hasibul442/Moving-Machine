@@ -26,10 +26,13 @@
     font-weight: 600;
     color: #000000;
     text-decoration: none;
+    background-color: #fff;
 }
 .brochures-download:hover{
-    color: #000000;
+    background: #f01717;
+    color: #f01717;
     text-decoration: none;
+    transition: 0.5s;
 } 
 .brochures-download:hover span{
     padding-right: 20px;
@@ -45,4 +48,11 @@
 .brochures-download:hover span:after {
     opacity: 1;
     right: 0;
+  }
+
+  .brochures-header{
+    background-color: blue;
+  }
+  .brochures-title{
+    color: #fff;
   }

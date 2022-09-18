@@ -1,14 +1,14 @@
-import React from "react";
-import ProductSlider from "../../Component/Product-slider/ProductSlider";
-import "./product.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from 'react'
+import ProductSlider from '../../Component/Product-slider/ProductSlider'
+import './product.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 function DieselGenerator() {
   AOS.init({
     duration: 500,
     delay: 200,
     mirror: false,
-  });
+  })
   return (
     <>
       <section className="product-bg">
@@ -29,7 +29,7 @@ function DieselGenerator() {
                   src="/assets/image/products/Denyo.png"
                   className="img-fluid"
                   alt="Sheet Pile Driven"
-                  style={{ height: "40px", width: "200px" }}
+                  style={{ height: '40px', width: '200px' }}
                 />
                 <p className="product-name text-center mb-5">
                   Diesel Generator
@@ -46,21 +46,21 @@ function DieselGenerator() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text">
-                    <span style={{ fontWeight: "bold" }}>Denyo </span>
+                    <span style={{ fontWeight: 'bold' }}>Denyo </span>
                     is one of the market leading generator manufacturers in the
                     world. Their product praised for the robust manufacturing,
-                    high reliability and long-lasting service.{" "}
-                    <span style={{ fontWeight: "bold" }}>Denyo</span> has a wide
+                    high reliability and long-lasting service.{' '}
+                    <span style={{ fontWeight: 'bold' }}>Denyo</span> has a wide
                     range of products for different applications. Their
                     generators range from 25kVA up to 1100kVA. The engines for
                     the generators are sourced from a few high-end diesel
                     experts of Japan namely Komatsu, Mitsubishi, Yanmar, Kobuta,
                     Isuzu. The alternators and genset assemblies are designed,
-                    developed and manufactured at{" "}
-                    <span style={{ fontWeight: "bold" }}>Denyo</span> in Japan
+                    developed and manufactured at{' '}
+                    <span style={{ fontWeight: 'bold' }}>Denyo</span> in Japan
                     with exception of some smaller models (up to 125) being
                     manufactured at
-                    <span style={{ fontWeight: "bold" }}> Denyo's</span> factory
+                    <span style={{ fontWeight: 'bold' }}> Denyo's</span> factory
                     in Indonesia and Vietnam.
                   </p>
                 </div>
@@ -142,63 +142,62 @@ function DieselGenerator() {
         </div>
       </section> */}
 
-<div className="pt-5 pb-5">
+      <div className="pt-5 pb-5">
         <div className="container">
           <div className="row">
             <div className="col-md-3"></div>
             <div className="col-md-6">
               <div className="card border-0">
-                <div className="card-body shadow">
-                  <h2 className="text-center mml-title">Brochures</h2>
-
+                <div className=" shadow">
+                  <div className="brochures-header">
+                    <h2 className="text-center py-3 brochures-title">
+                      Brochures
+                    </h2>
+                  </div>
                   <div className="brochures-name mt-5">
                     <a href="/assets/dumy.pdf" className="brochures-download">
                       <div className="d-flex justify-content-between">
-                        <div className="p-2 bd-highlight">1</div>
-                        <div className="p-2 bd-highlight">
+                        <div className="px-3 py-2 bd-highlight">1</div>
+                        <div className="px-2 py-2 bd-highlight">
                           Lorem Ipsum is simply dummy text of the printing and
                           typesetting industry. Lorem Ipsum has been the
                           industry's standard dummy text ever since the 1500s
-
-                          <span></span>
                         </div>
-                        <div className="p-2 bd-highlight">
-                          <i className="fas fa-file-pdf"></i>
+                        <div className="px-2 py-2 bd-highlight">
+                          <span></span>
                         </div>
                       </div>
                     </a>
+                    <hr />
 
                     <a href="/assets/dumy.pdf" className="brochures-download">
                       <div className="d-flex justify-content-between">
-                        <div className="p-2 bd-highlight">2</div>
-                        <div className="p-2 bd-highlight">
+                        <div className="px-3 py-2 bd-highlight">2</div>
+                        <div className="px-2 py-2 bd-highlight">
                           when an unknown printer took a galley of type and
                           scrambled it to make a type specimen book. It has
                           survived not only five centuries,
-
-                          <span></span>
                         </div>
-                        <div className="p-2 bd-highlight">
-                          <i className="fas fa-file-pdf"></i>
+                        <div className="px-2 py-2 bd-highlight">
+                          <span></span>
                         </div>
                       </div>
                     </a>
-
+                    <hr />
                     <a href="/assets/dumy.pdf" className="brochures-download">
                       <div className="d-flex justify-content-between">
-                        <div className="p-2 bd-highlight">3</div>
-                        <div className="p-2 bd-highlight">
+                        <div className="px-3 py-2 bd-highlight">3</div>
+                        <div className="px-2 py-2 bd-highlight">
                           It is a long established fact that a reader will be
                           distracted by the readable content of a page when
                           looking at its layout.
-
-                          <span></span>
                         </div>
-                        <div className="p-2 bd-highlight">
-                          <i className="fas fa-file-pdf"></i>
+                        <div className="px-2 py-2 bd-highlight">
+                          <span></span>
                         </div>
                       </div>
                     </a>
+                    <hr />
                   </div>
                 </div>
               </div>
@@ -209,7 +208,7 @@ function DieselGenerator() {
 
       <ProductSlider />
     </>
-  );
+  )
 }
 
-export default DieselGenerator;
+export default DieselGenerator
