@@ -4,6 +4,7 @@ import './App.css';
 import Footer from './Component/Footer/Footer';
 import NavBar from './Component/NavBar/NavBar';
 import About from './Pages/About/About';
+import Career from './Pages/Career/Career';
 import ContactUs from './Pages/Contact/ContactUs';
 import GeologicalConsultancy from './Pages/Geological-Consultancy/GeologicalConsultancy';
 import HomePage from './Pages/Homepage/HomePage';
@@ -44,6 +45,8 @@ function App() {
             <Route path="/weldingmachine" element={<WeldingMachine />} />
             <Route path="/about-us" element={<About />} />
             <Route path="/geological" element={<Geological />} />
+            <Route path="/career" element={<Career />} />
+
           </Routes>
         </div>
         <Footer />

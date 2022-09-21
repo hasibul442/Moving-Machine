@@ -8,7 +8,7 @@ function Services() {
   AOS.init({
     duration: 500,
     delay: 200,
-    mirror: false,
+    mirror: true,
   });
   return (
     <>
@@ -22,8 +22,8 @@ function Services() {
             <div
               className="col-md-6"
               data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
+              data-aos-offset="20"
+              data-aos-anchor-placement="top-bottom"
             >
               <div className=""></div>
               <div className="geo_consult-text">
@@ -41,8 +41,8 @@ function Services() {
             <div
               className="col-md-6"
               data-aos="fade-left"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
+              data-aos-offset="20"
+              data-aos-anchor-placement="top-bottom"
             >
               <div className="text-center">
                 <div className="">

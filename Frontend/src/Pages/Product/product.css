@@ -2,18 +2,19 @@
 .product-bg{
     background-image: linear-gradient(#000000e1, #000000e1),
     url("./../../../public/assets/image/background/services.jpg");
-  width: auto;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+    width: auto;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .product-name{
     font-family: "Noway", sans-serif;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 35px;
     color: #000000;
+    text-transform: uppercase;
 }
 .product-text{
     font-family: 'Noway', sans-serif;
@@ -26,7 +27,7 @@
     font-weight: 600;
     color: #000000;
     text-decoration: none;
-    background-color: #fff;
+    /* background-color: #ff0000 !important; */
 }
 .brochures-download:hover{
     background: #f01717;
@@ -43,7 +44,7 @@
     opacity: 0;
     top: 0;
     right: -20px;
-    transition: 0.5s;
+    /* transition: 0.5s; */
 }
 .brochures-download:hover span:after {
     opacity: 1;
@@ -51,8 +52,12 @@
   }
 
   .brochures-header{
-    background-color: blue;
+    background-color: #FA9494;
   }
   .brochures-title{
     color: #fff;
+    font-family: 'Noway', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
   }

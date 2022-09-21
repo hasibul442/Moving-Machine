@@ -12,7 +12,7 @@ function Navbar() {
 
   const changeBackground = () => {
     // console.log(window.scrollY);
-    if (window.scrollY > 100) {
+    if (window.scrollY > 280) {
       setNavbar(true);
       setNavbarLogo(true);
     } else {
@@ -178,7 +178,7 @@ function Navbar() {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/contactus" className="nav-link">
+                  <Link to="/career" className="nav-link">
                     career
                   </Link>
                 </li>

@@ -30,16 +30,16 @@ function Footer() {
 
               <div className="col-lg-6">
                 <div className="d-flex flex-row">
-                    <div className="p-2">
-                      <div className="px-3 pt-5">
-                        <img
-                          src="/assets/image/logo/logo-2.png"
-                          alt=""
-                          className="img-fluid"
-                          style={{ height: "100px", width: "100px" }}
-                        />
-                      </div>
+                  <div className="p-2">
+                    <div className="px-3  pt-5">
+                      <img
+                        src="/assets/image/logo/logo-2.png"
+                        alt=""
+                        className="img-fluid pr-5"
+                        style={{ height: "100px", width: "100px" }}
+                      />
                     </div>
+                  </div>
                   <div className="p-2">
                     <h5 className="text-white pb-1">
                       <span className="footer-headline">Contact Us</span>
@@ -177,22 +177,32 @@ function Footer() {
                   {/* </div> */}
                   {/* </div> */}
                 </div>
+                <p className=" footer-text my-auto pt-5">
+                  Copyright © {new Date().getFullYear()} Moving Mechines Ltd.{" "}
+                  <br />
+                  <span className="">
+                    Developed by{" "}
+                    <a href="https://hasibulhasan.web.app/" className="hasib">
+                      Hasib
+                    </a>
+                  </span>
+                </p>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="footer2">
+        {/* <div className="footer2">
           <p className="text-right container-fluid footer-text my-auto pt-2 pb-2">
-            Copyright © {new Date().getFullYear()} Moving Mechines Ltd.{" "}
-            <p>
+            Copyright © {new Date().getFullYear()} Moving Mechines Ltd. <br />
+            <span className="">
               Developed by{" "}
               <a href="https://hasibulhasan.web.app/" className="hasib">
                 Hasib
               </a>
-            </p>
+            </span>
           </p>
-        </div>
+        </div> */}
       </section>
     </>
   );

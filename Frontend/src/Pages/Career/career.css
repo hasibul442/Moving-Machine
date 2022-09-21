@@ -1,6 +1,6 @@
-.rental-bg {
+.career-bg {
     background-image: linear-gradient(#000000e1, #000000e1),
-      url("./../../../public/assets/image/background/rental.jpg");
+      url("./../../../public/assets/image/background/career.jpeg");
       width: auto;
       height: 380px;
       background-repeat: no-repeat;
@@ -8,10 +8,3 @@
       background-size: cover;
       background-attachment: fixed;
   }
-  .rental-text{
-    font-family: 'Noway', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-  }
-
-  

@@ -8,7 +8,7 @@ function WeldingMachine() {
   AOS.init({
     duration: 500,
     delay: 200,
-    mirror: false,
+    mirror: true,
   });
   return (
     <>
@@ -22,15 +22,15 @@ function WeldingMachine() {
             <div
               className="col-md-6 mt-5"
               data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
+              data-aos-offset="20"
+              data-aos-anchor-placement="top-bottom"
             >
               <div className="text-center  my-5">
                 <img
                   src="/assets/image/products/esab.png"
                   className="img-fluid"
                   alt="Sheet Pile Driven"
-                  style={{ height: "50px", width: "200px" }}
+                  style={{ height: "70px", width: "200px" }}
                 />
                 <p className="product-name text-center mb-5">Welding Machine</p>
               </div>
@@ -39,8 +39,8 @@ function WeldingMachine() {
             <div
               className="col-md-6 mt-5"
               data-aos="fade-left"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
+              data-aos-offset="20"
+              data-aos-anchor-placement="top-bottom"
             >
               <div className="card border-0 shadow">
                 <div className="card-body">
@@ -131,11 +131,11 @@ function WeldingMachine() {
         </div>
       </section> */}
 
-<div className="pt-5 pb-5">
+      <div className="pt-5 pb-5">
         <div className="container">
           <div className="row">
-            <div className="col-md-3"></div>
-            <div className="col-md-6">
+            <div className="col-md-2"></div>
+            <div className="col-md-8">
               <div className="card border-0">
                 <div className=" shadow">
                   <div className="brochures-header">
@@ -146,7 +146,14 @@ function WeldingMachine() {
                   <div className="brochures-name mt-5">
                     <a href="/assets/dumy.pdf" className="brochures-download">
                       <div className="d-flex justify-content-between">
-                        <div className="px-3 py-2 bd-highlight">1</div>
+                        <div className="px-4 bd-highlight">
+                          <img
+                            src="/assets/image/brochures/b-1.jpg"
+                            className=""
+                            alt="Sheet Pile Driven"
+                            style={{ height: "50px", width: "30px" }}
+                          />
+                        </div>
                         <div className="px-2 py-2 bd-highlight">
                           Lorem Ipsum is simply dummy text of the printing and
                           typesetting industry. Lorem Ipsum has been the
@@ -161,7 +168,14 @@ function WeldingMachine() {
 
                     <a href="/assets/dumy.pdf" className="brochures-download">
                       <div className="d-flex justify-content-between">
-                        <div className="px-3 py-2 bd-highlight">2</div>
+                        <div className="px-4">
+                          <img
+                            src="/assets/image/brochures/b-1.jpg"
+                            className=""
+                            alt="Sheet Pile Driven"
+                            style={{ height: "50px", width: "30px" }}
+                          />
+                        </div>
                         <div className="px-2 py-2 bd-highlight">
                           when an unknown printer took a galley of type and
                           scrambled it to make a type specimen book. It has
@@ -175,7 +189,14 @@ function WeldingMachine() {
                     <hr />
                     <a href="/assets/dumy.pdf" className="brochures-download">
                       <div className="d-flex justify-content-between">
-                        <div className="px-3 py-2 bd-highlight">3</div>
+                        <div className="px-4">
+                          <img
+                            src="/assets/image/brochures/b-1.jpg"
+                            className=""
+                            alt="Sheet Pile Driven"
+                            style={{ height: "50px", width: "30px" }}
+                          />
+                        </div>
                         <div className="px-2 py-2 bd-highlight">
                           It is a long established fact that a reader will be
                           distracted by the readable content of a page when

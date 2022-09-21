@@ -65,8 +65,8 @@ a:focus {
   font-size: 14px;
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-weight: 600;
   color: #0f2c67;
   text-transform: uppercase;
@@ -78,8 +78,8 @@ a:focus {
   font-size: 14px;
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   font-weight: 600;
   color: #0f2c67;
   text-transform: uppercase;
@@ -149,7 +149,10 @@ a:focus {
   border-radius: 4px;
 }
 .dropdown-item {
+  padding-top: 5px;
+  padding-bottom: 5px;
   font-size: 14px;
+  font-weight: bold;
   color: #000 !important;
 }
 .dropdown_auto:hover .dropdown_auto_menu {

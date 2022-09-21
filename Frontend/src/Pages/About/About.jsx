@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import "./about.css";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
@@ -28,12 +28,13 @@ function About() {
 
   AOS.init({
     duration: 500,
-    delay: 200,
+    delay: 300,
     mirror: false,
+    // anchorPlacement:"top"
   });
   return (
     <>
-    <section className="aboutus-bg">
+      <section className="aboutus-bg">
         <h1 className="text-center page-title">About Us</h1>
       </section>
 
@@ -55,29 +56,29 @@ function About() {
             </div> */}
 
             <div className="col-md-12 aboutus-description-1">
-                <p>
-                  Moving Machines Limited, a private limited company, was
-                  established in early 2014 with a mission to source machines
-                  and equipment of cutting-age technology for customers of
-                  construction industry in Bangladesh. Subsequently the company
-                  expanded its operation in the fields of manufacturing, oil and
-                  gas and environment protection. To fulfill its mission the
-                  company relentlessly worked to delight its customers through
-                  exclusive and quality products supported by outstanding
-                  consultancy, sales, repairment and rental services. Over the
-                  years the company has been able to establish a long list of
-                  delighted customers that includes reputed local and
-                  international construction companies, manufacturing companies
-                  and public entities.
-                  <br />
-                  <br />
-                  The company takes the pride of mentioning its participation in
-                  various capacities in projects like Chattogram-Cox’s Bazar
-                  Rail Line project, Matarbari coal power plant project, Kalna
-                  bridge project, Kalshi flyover project, Chattogram flyover
-                  project, Meghna ghat power plant project, Rooppur Power plant
-                  project, and Jamuna Railway Bridge Project.{" "}
-                </p>
+              <p>
+                Moving Machines Limited, a private limited company, was
+                established in early 2014 with a mission to source machines and
+                equipment of cutting-age technology for customers of
+                construction industry in Bangladesh. Subsequently the company
+                expanded its operation in the fields of manufacturing, oil and
+                gas and environment protection. To fulfill its mission the
+                company relentlessly worked to delight its customers through
+                exclusive and quality products supported by outstanding
+                consultancy, sales, repairment and rental services. Over the
+                years the company has been able to establish a long list of
+                delighted customers that includes reputed local and
+                international construction companies, manufacturing companies
+                and public entities.
+                <br />
+                <br />
+                The company takes the pride of mentioning its participation in
+                various capacities in projects like Chattogram-Cox’s Bazar Rail
+                Line project, Matarbari coal power plant project, Kalna bridge
+                project, Kalshi flyover project, Chattogram flyover project,
+                Meghna ghat power plant project, Rooppur Power plant project,
+                and Jamuna Railway Bridge Project.{" "}
+              </p>
             </div>
           </div>
         </div>
@@ -88,9 +89,12 @@ function About() {
           <div className="vision">
             <div className="container">
               <div className="row">
-                <div className="col-md-6 vision-text "              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine">
+                <div
+                  className="col-md-6 vision-text "
+                  data-aos="fade-right"
+                  data-aos-offset="20"
+                  data-aos-anchor-placement="top-bottom"
+                >
                   <div className="">
                     <h2 className="mml-title text-center pt-5">Vision</h2>
                     <p className="p-2 vision-content-text">
@@ -111,9 +115,12 @@ function About() {
             <div className="container">
               <div className="row">
                 <div className="col-md-6"></div>
-                <div className="col-md-6 vision-text"               data-aos="fade-left"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine">
+                <div
+                  className="col-md-6 vision-text"
+                  data-aos="fade-left"
+                  data-aos-offset="20"
+                  data-aos-anchor-placement="top-bottom"
+                >
                   <div className=" ">
                     <h2 className="mml-title text-center pt-5">Mission</h2>
                     <div className="p-2 mission-content-text">
@@ -136,9 +143,12 @@ function About() {
           <div className="core-value pt-4 pb-5">
             <div className="container">
               <div className="row">
-                <div className="col-md-12 core-value-content-body" data-aos="fade-up"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine">
+                <div
+                  className="col-md-12 core-value-content-body"
+                  data-aos="fade-up"
+                  data-aos-offset="20"
+                  data-aos-anchor-placement="top-bottom"
+                >
                   <div className="my-auto">
                     <h2 className="mml-title text-center pt-5">Core Value</h2>
                     <div className="ml-5 value-content-text">
@@ -160,7 +170,9 @@ function About() {
                             className="fas fa-user-headset fa-4x"
                             style={{ color: "#0078AA" }}
                           ></i>
-                          <p className="pt-3">Providing top-notch customer support</p>
+                          <p className="pt-3">
+                            Providing top-notch customer support
+                          </p>
                         </div>
 
                         <div className="col-md-2 text-center">
@@ -168,7 +180,9 @@ function About() {
                             className="fas fa-check fa-4x"
                             style={{ color: "#3CCF4E" }}
                           ></i>
-                          <p className="pt-3">Offering quality advanced products</p>
+                          <p className="pt-3">
+                            Offering quality advanced products
+                          </p>
                         </div>
 
                         <div className="col-md-2 text-center">
@@ -311,7 +325,7 @@ function About() {
         </div>
       </section>
     </>
-  )
+  );
 }
 
-export default About
+export default About;

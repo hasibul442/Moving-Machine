@@ -1,12 +1,12 @@
 .geological-bg {
     background-image: linear-gradient(#000000e1, #000000e1),
       url("./../../../public/assets/image/background/Geological-Consultancy.jpg");
-    width: auto;
-    height: 350px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+      width: auto;
+      height: 380px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
   }
   .text-1{
     /* margin-top: 25%; */

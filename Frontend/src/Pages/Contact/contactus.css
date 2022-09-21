@@ -1,19 +1,19 @@
 .contact-bg {
     background-image: linear-gradient(#000000e1, #000000e1),
       url("./../../../public/assets/image/background/contactus.jpg");
-    width: auto;
-    height: 350px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+      width: auto;
+      height: 380px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
   }
   .page-title{
     font-family:'Noway', sans-serif;
     font-size: 52px;
     font-weight: 600;
     color:#fff;
-    padding-top: 10rem;
+    padding-top: 12rem;
     text-transform: uppercase;
   }
   .shape-image {
