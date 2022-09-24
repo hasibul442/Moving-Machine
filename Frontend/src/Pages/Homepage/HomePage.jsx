@@ -71,23 +71,27 @@ function HomePage() {
     <div className="navbar-space"></div>
       <section className="carousel-section">
         <Carousel>
-          <Carousel.Item>
+
+          
+        <Carousel.Item>
             <Link to="/aboutus">
               <img
                 className="d-block w-100"
                 // style={{ height: "650px" }}
-                src="/assets/image/slider/Slide8.PNG"
+                src="/assets/image/slider/Slide5.PNG"
                 alt="Banner_Photo"
               />
             </Link>
           </Carousel.Item>
+
+          
 
           <Carousel.Item>
             <Link to="/aboutus">
               <img
                 className="d-block w-100"
                 // style={{ height: "650px" }}
-                src="/assets/image/slider/Slide1.PNG"
+                src="/assets/image/slider/Slide7.PNG"
                 alt="Banner_Photo"
               />
             </Link>
@@ -131,7 +135,7 @@ function HomePage() {
               <img
                 className="d-block w-100"
                 // style={{ height: "650px" }}
-                src="/assets/image/slider/Slide5.PNG"
+                src="/assets/image/slider/Slide8.PNG"
                 alt="Banner_Photo"
               />
             </Link>
@@ -142,22 +146,13 @@ function HomePage() {
               <img
                 className="d-block w-100"
                 // style={{ height: "650px" }}
-                src="/assets/image/slider/Slide6.PNG"
+                src="/assets/image/slider/Slide1.PNG"
                 alt="Banner_Photo"
               />
             </Link>
           </Carousel.Item>
 
-          <Carousel.Item>
-            <Link to="/aboutus">
-              <img
-                className="d-block w-100"
-                // style={{ height: "650px" }}
-                src="/assets/image/slider/Slide7.PNG"
-                alt="Banner_Photo"
-              />
-            </Link>
-          </Carousel.Item>
+
         </Carousel>
       </section>
 
@@ -196,11 +191,7 @@ function HomePage() {
                 established in early 2014 with a mission to source machines and
                 equipment of cutting-age technology for customers of
                 construction industry in Bangladesh. Subsequently the company
-                expanded its operation in the fields of manufacturing, oil and
-                gas and environment protection. To fulfill its mission the
-                company relentlessly worked to delight its customers through
-                exclusive and quality products supported by outstanding
-                consultancy, sales, repairment and rental services.
+                expanded its operation in the fields of . . .
               </p>
               <div>
               <Link to="/about-us" className="learn-more button-style-2 border-0">

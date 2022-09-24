@@ -1,27 +1,25 @@
 
 .footer-text{
-    margin-top: 0px;
+    margin-top: 30px;
     color: #fff;
-    text-align: left;
+    text-align: right;
+    font-size: 12px;
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight: 400;
 }
 .footer{
     background-color: #000000;
 }
 
-.footer2{
-    background-color: #000000;
-    /* height: 50px; */
-    /* float: right; */
-    font-size: 13px;
-}
 .footer-headline{
     color: #ffffff;
     font-family: "Roboto";
-    border-bottom: 1px solid #fff;
+    border-bottom: 2px solid #fff;
 }
 .touch-with-us-text{
     color: #fff;
     text-decoration: none;
+    font-weight: 500;
 }
 .touch-with-us-text:hover{
     color: #FDC215;
@@ -118,7 +116,7 @@
 }
 .cont-us-text{
     color: #fff;
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
+    /* font-family: "Roboto", sans-serif; */
+    font-size: 16px;
     font-weight: 300;
 }

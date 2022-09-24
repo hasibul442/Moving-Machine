@@ -1,7 +1,7 @@
 import React from "react";
 // import React, { useEffect, useState } from "react";
 import "./footer.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 // import countapi from "countapi-js";
 
 // import CountUp from "react-countup";
@@ -18,7 +18,7 @@ function Footer() {
     <>
       <section>
         <div className="footer">
-          <div className="container">
+          <div className="container-fluid">
             <div className="row pt-4">
               {/* <div className="col-lg-2">
                 <div className="my-auto">
@@ -28,9 +28,11 @@ function Footer() {
                 </div>
               </div> */}
 
+              <div className="col-lg-1"></div>
+
               <div className="col-lg-6">
-                <div className="d-flex flex-row">
-                  <div className="p-2">
+                <div >
+                  {/* <div className="p-2">
                     <div className="px-3  pt-5">
                       <img
                         src="/assets/image/logo/logo-2.png"
@@ -39,22 +41,22 @@ function Footer() {
                         style={{ height: "100px", width: "100px" }}
                       />
                     </div>
-                  </div>
+                  </div> */}
                   <div className="p-2">
                     <h5 className="text-white pb-1">
                       <span className="footer-headline">Contact Us</span>
                     </h5>
 
-                    <div className="d-flex flex-row">
+                    <div className="d-flex flex-row pb-2">
                       <div className="">
-                        <div className="icon-block">
+                        <div className="icon-block" style={{ marginTop:"10px" }}>
                           <i
                             className="fas fa-map-marker-alt"
                             style={{ color: "#D61C4E" }}
                           ></i>
                         </div>
                       </div>
-                      <div className="p-2">
+                      <div className="px-2">
                         <div className="cont-us-text">
                           <a
                             className="touch-with-us-text"
@@ -67,7 +69,7 @@ function Footer() {
                       </div>
                     </div>
 
-                    <div className="d-flex flex-row">
+                    <div className="d-flex flex-row pb-2">
                       <div className="">
                         <div className="icon-block">
                           <i
@@ -76,7 +78,7 @@ function Footer() {
                           ></i>
                         </div>
                       </div>
-                      <div className="p-2">
+                      <div className="px-2">
                         <div className="cont-us-text">
                           <a
                             className="touch-with-us-text"
@@ -88,7 +90,7 @@ function Footer() {
                       </div>
                     </div>
 
-                    <div className="d-flex flex-row">
+                    <div className="d-flex flex-row pb-2">
                       <div className="">
                         <div className="icon-block">
                           <i
@@ -97,7 +99,7 @@ function Footer() {
                           ></i>
                         </div>
                       </div>
-                      <div className="p-2">
+                      <div className="px-2">
                         <div className="cont-us-text">
                           <a
                             className="touch-with-us-text"
@@ -109,7 +111,7 @@ function Footer() {
                       </div>
                     </div>
 
-                    <div className="d-flex flex-row">
+                    <div className="d-flex flex-row pb-1">
                       <div className="">
                         <div className="icon-block">
                           <i
@@ -118,7 +120,7 @@ function Footer() {
                           ></i>
                         </div>
                       </div>
-                      <div className="p-2">
+                      <div className="px-2">
                         <div className="cont-us-text">
                           <a
                             className="touch-with-us-text"
@@ -133,12 +135,12 @@ function Footer() {
                 </div>
               </div>
 
-              <div className="col-lg-2"></div>
+              <div className="col-lg-1"></div>
               <div className="col-lg-4">
                 <h5 className="text-white">
                   <span className="footer-headline"> Social Link</span>
                 </h5>
-                <div className="mx-auto">
+                <div className="mx-auto pt-2">
                   <div className="effect aeneas">
                     <div className="buttons">
                       <a
@@ -177,7 +179,7 @@ function Footer() {
                   {/* </div> */}
                   {/* </div> */}
                 </div>
-                <p className=" footer-text my-auto pt-5">
+                <p className=" footer-text  pt-5">
                   Copyright © {new Date().getFullYear()} Moving Mechines Ltd.{" "}
                   <br />
                   <span className="">

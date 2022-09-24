@@ -35,13 +35,13 @@ function About() {
   return (
     <>
       <section className="aboutus-bg">
-        <h1 className="text-center page-title">About Us</h1>
+        <h1 className="text-center page-title">Who We Are</h1>
       </section>
 
       <section className="about-section mt-5 mb-5" id="about">
         <div className="container">
           <div className="row">
-            <h2 className="mml-title text-center mb-5">Who We Are</h2>
+            {/* <h2 className="mml-title text-center mb-5">Who We Are</h2> */}
 
             {/* <div className="col-md-6">
               <div className="text-center">

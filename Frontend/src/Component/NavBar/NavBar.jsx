@@ -61,7 +61,7 @@ function Navbar() {
                 </li>
                 <li className="nav-item">
                   <NavLink to="/about-us" className="nav-link">
-                    About us
+                  WHO WE ARE
                   </NavLink>
                 </li>
 
@@ -179,7 +179,7 @@ function Navbar() {
                 </li>
                 <li className="nav-item">
                   <Link to="/career" className="nav-link">
-                    career
+                    Career
                   </Link>
                 </li>
               </ul>

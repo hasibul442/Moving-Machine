@@ -61,7 +61,7 @@
 .geo_consult-text{
 background: #ffffffc0;
 border-radius: 10px;
-box-shadow: -5px 5px 15px #ff0000d0;
+box-shadow: -5px 5px 15px #000000d0;
 backdrop-filter: blur(10px);
 -webkit-backdrop-filter: blur(10px);
 transition: 0.5s;

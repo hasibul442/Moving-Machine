@@ -20,7 +20,7 @@ function ContactUs() {
                 <div>
                   <p className="contactus-text mt-3 mx-3">
                     <b>
-                      House # 428 (A); Road # 30 New DOHS, Mohakhali, Dhaka-1206
+                      House # 428 (A); Road # 30,<br />New DOHS Mohakhali, Dhaka-1206
                     </b>
                   </p>
                 </div>
@@ -33,9 +33,9 @@ function ContactUs() {
                 <div>
                   <p className="contactus-text mt-3 mx-3">
                     <b>
-                      Tel: +880248811048
+                      Land Phone: +88 02 48811048
                       <br />
-                      Phone: +8801321120451
+                      Cell Phone: +88 01321-120451
                     </b>
                   </p>
                 </div>
