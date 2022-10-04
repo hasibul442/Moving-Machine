@@ -28,14 +28,25 @@ function Navbar() {
   return (
     <>
       <section id="nav-bar">
-        <nav className={ navbar1 ? "navbar navbar-expand-lg shadow navbar-dark ftco_navbar bg-dark ftco-navbar-light nav-backgroung-minhight" : "navbar navbar-expand-lg shadow navbar-dark ftco_navbar bg-dark ftco-navbar-light nav-backgroung-maxhight"} id="ftco-navbar">
+        <nav
+          className={
+            navbar1
+              ? "navbar navbar-expand-lg shadow navbar-dark ftco_navbar bg-dark ftco-navbar-light nav-backgroung-minhight"
+              : "navbar navbar-expand-lg shadow navbar-dark ftco_navbar bg-dark ftco-navbar-light nav-backgroung-maxhight"
+          }
+          id="ftco-navbar"
+        >
           <div className="container">
             <Link className="navbar-brand" to="/">
               <img
                 src="/assets/image/logo/logo-2.png"
                 alt="Company Logo"
                 // height="40px"
-                className={ navbar1 ? "navbar-logo  minimg-size" : "navbar-logo maximage-size"}
+                className={
+                  navbar1
+                    ? "navbar-logo  minimg-size"
+                    : "navbar-logo maximage-size"
+                }
               />
             </Link>
             <div
@@ -61,27 +72,9 @@ function Navbar() {
                 </li>
                 <li className="nav-item">
                   <NavLink to="/about-us" className="nav-link">
-                  WHO WE ARE
+                    WHO WE ARE
                   </NavLink>
                 </li>
-
-                {/* <li className="nav-item dropdown dropdown_auto">
-            
-            <div className="nav-link dropdown-toggle"  id="dropdown04"  aria-haspopup="true" aria-expanded="false">About Us</div>
-              
-          <ScrollspyNav  scrollTargetIds={ ['vision','mission','core-value' ] } offset={-100}
-                    activeNavClass="is-active"
-                    scrollDuration="500"
-                    headerBackground="true">
-              <div className="dropdown-menu dropdown_auto_menu" aria-labelledby="dropdown04">
-                  <a className="dropdown-item" href="#vision">Vision</a>
-                  <a className="dropdown-item" href='#mission'>Mission</a>
-                  <a className="dropdown-item" href='#core-value'>Core Values</a>
-              </div>
-            </ScrollspyNav>
-              
-            
-            </li> */}
 
                 <li className="nav-item dropdown dropdown_auto">
                   <a
@@ -92,44 +85,65 @@ function Navbar() {
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    Products
+                    What We Do
                   </a>
                   <div
                     className="dropdown-menu dropdown_auto_menu"
                     aria-labelledby="dropdown04"
                   >
-                    <Link className="dropdown-item" to="/sheetpiledriver">
-                      Sheet Pile Driver{" "}
+                    <div className="container">
+                    <div className="row">
+                      <div className="col-sm-6">
+                        <h3 className="dropdown-title">Products</h3>
+                        <Link className="dropdown-item" to="/dieselgenerator">
+                          Diesel Generator
+                        </Link>
+                        <Link className="dropdown-item" to="/weldergenerator">
+                          Welder Generator/Engine Welder
+                        </Link>
+                        <Link className="dropdown-item" to="/sheetpiledriver">
+                          Sheet Pile Driver{" "}
+                        </Link>
+
+                        <Link className="dropdown-item" to="/aircompressor">
+                          Portable Air Compressor
+                        </Link>
+                        <Link className="dropdown-item" to="/mountedcrane">
+                          Truck-Mounted Crane
+                        </Link>
+                        <Link className="dropdown-item" to="/crimping">
+                          Crimping Machine
+                        </Link>
+                        {/* <Link className="dropdown-item" to="/">Gantry Crane</Link> */}
+                        <Link className="dropdown-item" to="/geotextile">
+                          Geotextile
+                        </Link>
+                        <Link className="dropdown-item" to="/weldingmachine">
+                          Welding Machine
+                        </Link>
+                        <Link className="dropdown-item" to="/cutting">
+                          Cutting Machine
+                        </Link>
+                      </div>
+
+                      <div className="col-sm-6">
+                        <h3 className="dropdown-title">Services</h3>
+                        <Link className="dropdown-item" to="/services">
+                      Repaire & Maintenance{" "}
                     </Link>
-                    <Link className="dropdown-item" to="/dieselgenerator">
-                      Diesel Generator
+                    <Link className="dropdown-item" to="/rental">
+                      Rental Services
                     </Link>
-                    <Link className="dropdown-item" to="/weldergenerator">
-                      Welder Generator/Engine Welder
+                    <Link className="dropdown-item" to="/geological">
+                      Geological E&P Services
                     </Link>
-                    <Link className="dropdown-item" to="/aircompressor">
-                      Portable Air Compressor
-                    </Link>
-                    <Link className="dropdown-item" to="/mountedcrane">
-                      Truck-Mounted Crane
-                    </Link>
-                    {/* <Link className="dropdown-item" to="/">Gantry Crane</Link> */}
-                    <Link className="dropdown-item" to="/geotextile">
-                      Geotextile
-                    </Link>
-                    <Link className="dropdown-item" to="/weldingmachine">
-                      Welding Machine
-                    </Link>
-                    <Link className="dropdown-item" to="/cutting">
-                      Cutting Machine
-                    </Link>
-                    <Link className="dropdown-item" to="/crimping">
-                      Crimping Machine
-                    </Link>
+                      </div>
+                    </div>
+                    </div>
                   </div>
                 </li>
 
-                <li className="nav-item dropdown dropdown_auto">
+                {/* <li className="nav-item dropdown dropdown_auto">
                   <a
                     className="nav-link dropdown-toggle "
                     href="#services"
@@ -148,14 +162,13 @@ function Navbar() {
                       Repaire & Maintenance{" "}
                     </Link>
                     <Link className="dropdown-item" to="/rental">
-                      Rental
+                      Rental Services
                     </Link>
                     <Link className="dropdown-item" to="/geological">
                       Geological E&P Services
                     </Link>
-                    
                   </div>
-                </li>
+                </li> */}
 
                 {/* <li className="nav-item">
                   <Link to="/services" className="nav-link">

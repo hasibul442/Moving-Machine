@@ -69,7 +69,7 @@ cursor: pointer;
 }
 
 .geo_consult-text:hover{
-  box-shadow: 5px 10px 15px #2f00ff;
+  box-shadow: 5px 10px 15px #000000d0;
 }
 
 .geo_consult-content-text{

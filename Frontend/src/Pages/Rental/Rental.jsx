@@ -13,7 +13,7 @@ function Rental() {
   return (
     <>
       <div className="rental-bg">
-        <h1 className="text-center page-title">Rental</h1>
+        <h1 className="text-center page-title">Rental Services</h1>
       </div>
 
       <div className="mt-5 mb-5">
@@ -107,7 +107,7 @@ function Rental() {
               </div>
             </div>
 
-            <div className="col-md-4 mb-3" data-aos="zoom-in">
+            {/* <div className="col-md-4 mb-3" data-aos="zoom-in">
               <div className="products">
                 <div className="card border-0 shadow card-5">
                   <div className="layer"></div>
@@ -126,7 +126,7 @@ function Rental() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="col-md-4 mb-3" data-aos="zoom-in">
               <div className="products">
