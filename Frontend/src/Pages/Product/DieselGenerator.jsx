@@ -9,8 +9,11 @@ function DieselGenerator() {
     delay: 200,
     mirror: true,
   });
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
-    <>
+    <section>
       <section className="product-bg">
         <h1 className="text-center page-title">Diesel Generator</h1>
       </section>
@@ -156,7 +159,7 @@ function DieselGenerator() {
       </div>
 
       <ProductSlider />
-    </>
+    </section>
   );
 }
 

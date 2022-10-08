@@ -10,8 +10,11 @@ function Rental() {
     delay: 200,
     mirror: false,
   });
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
-    <>
+    <section>
       <div className="rental-bg">
         <h1 className="text-center page-title">Rental Services</h1>
       </div>
@@ -152,7 +155,7 @@ function Rental() {
         </div>
       </div>
 
-    </>
+    </section>
   );
 }
 

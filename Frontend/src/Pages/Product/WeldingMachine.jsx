@@ -10,8 +10,11 @@ function WeldingMachine() {
     delay: 200,
     mirror: true,
   });
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
-    <>
+    <section>
       <section className="product-bg">
         <h1 className="text-center page-title">Welding Machine</h1>
       </section>
@@ -217,7 +220,7 @@ function WeldingMachine() {
       </div>
 
       <ProductSlider />
-    </>
+    </section>
   );
 }
 

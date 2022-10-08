@@ -1,8 +1,11 @@
 import React from "react";
 
 function Geological() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
-    <>
+    <section>
       <div className="geological-bg">
         <h1 className="text-center page-title">Geological E&P Services</h1>
       </div>
@@ -52,7 +55,7 @@ function Geological() {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 }
 

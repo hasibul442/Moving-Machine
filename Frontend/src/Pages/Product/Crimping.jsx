@@ -9,8 +9,11 @@ function Crimping() {
     delay: 200,
     mirror: true,
   });
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
-    <>
+    <section>
       <section className="product-bg">
         <h1 className="text-center page-title">Crimping Machine</h1>
       </section>
@@ -156,7 +159,7 @@ function Crimping() {
       </div>
 
       <ProductSlider />
-    </>
+    </section>
   );
 }
 

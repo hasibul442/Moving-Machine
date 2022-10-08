@@ -10,8 +10,11 @@ function WelderGenerator() {
     delay: 200,
     mirror: true,
   });
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
-    <>
+    <section>
       <section className="product-bg">
         <h1 className="text-center page-title">
           Welder generator/Engine welder
@@ -228,7 +231,7 @@ function WelderGenerator() {
       </div>
 
       <ProductSlider />
-    </>
+    </section>
   );
 }
 

@@ -1,8 +1,11 @@
 import React from "react";
 import "./contactus.css";
 function ContactUs() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
-    <>
+    <section>
       <div className="contact-bg">
         <h1 className="text-center page-title">Contact Us</h1>
       </div>
@@ -205,7 +208,7 @@ function ContactUs() {
           ></iframe>
         </div>
       </div>
-    </>
+    </section>
   );
 }
 

@@ -26,7 +26,7 @@ function Navbar() {
   });
 
   return (
-    <>
+    <section>
       <section id="nav-bar">
         <nav
           className={
@@ -200,7 +200,7 @@ function Navbar() {
           </div>
         </nav>
       </section>
-    </>
+    </section>
   );
 }
 

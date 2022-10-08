@@ -11,8 +11,11 @@ function SheetPileDriver() {
     delay: 200,
     mirror: true,
   });
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
-    <>
+    <section>
       <section className="product-bg">
         <h1 className="text-center page-title">Sheet Pile Driver</h1>
       </section>
@@ -223,7 +226,7 @@ function SheetPileDriver() {
       </div>
 
       <ProductSlider />
-    </>
+    </section>
   );
 }
 

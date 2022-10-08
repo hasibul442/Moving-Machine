@@ -32,8 +32,11 @@ function About() {
     mirror: false,
     // anchorPlacement:"top"
   });
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
-    <>
+    <section>
       <section className="aboutus-bg">
         <h1 className="text-center page-title">Who We Are</h1>
       </section>
@@ -324,7 +327,7 @@ function About() {
           </div>
         </div>
       </section>
-    </>
+    </section>
   );
 }
 

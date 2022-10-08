@@ -1,8 +1,11 @@
 import React from "react";
 import "./career.css";
 function Career() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
-    <>
+    <section>
       <div className="career-bg pb-5">
         <h1 className="text-center page-title">Career</h1>
       </div>
@@ -23,7 +26,7 @@ function Career() {
             <p className="pt-5 text-center">Mail us your Resume at <b>info@mmlbd.com</b> Let's see what awaits!</p>
         </div>
       </div>
-    </>
+    </section>
   );
 }
 

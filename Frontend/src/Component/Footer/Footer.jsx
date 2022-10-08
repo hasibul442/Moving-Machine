@@ -15,7 +15,7 @@ function Footer() {
   //   },[])
 
   return (
-    <>
+    <section>
       <section>
         <div className="footer">
           <div className="container-fluid">
@@ -206,7 +206,7 @@ function Footer() {
           </p>
         </div> */}
       </section>
-    </>
+    </section>
   );
 }
 

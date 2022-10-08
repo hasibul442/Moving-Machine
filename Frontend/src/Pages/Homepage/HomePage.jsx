@@ -1,11 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Carousel } from "react-bootstrap";
 
 import "./homepage.css";
 import "./../Custom/card-hover.css";
 
 import "animate.css";
-import ShowMoreText from "react-show-more-text";
 import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -14,33 +13,7 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
-function seemore() {
-  return (
-    <section>
-      <br />
-      <button className="learn-more button-style-2 border-0">
-        <span className="circle" aria-hidden="true">
-          <span className="icon arrow"></span>
-        </span>
-        <span className="button-text">See More</span>
-      </button>
-    </section>
-  );
-}
-function seeless() {
-  return (
-    <section>
-      <br />
-      <button className="learn-more button-style-2 border-0">
-        <span className="circle" aria-hidden="true">
-          <span className="icon arrow"></span>
-        </span>
-        <span className="button-text">See Less</span>
-      </button>
-    </section>
-  );
-}
-function HomePage() {
+function HomePage()  {
   AOS.init({
     duration: 500,
     delay: 200,
@@ -66,14 +39,15 @@ function HomePage() {
       1000: { items: 4 },
     },
   };
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
-    <>
-    <div className="navbar-space"></div>
+    <div>
+      <div className="navbar-space"></div>
       <section className="carousel-section">
         <Carousel>
-
-          
-        <Carousel.Item>
+          <Carousel.Item>
             <Link to="/aboutus">
               <img
                 className="d-block w-100"
@@ -83,8 +57,6 @@ function HomePage() {
               />
             </Link>
           </Carousel.Item>
-
-          
 
           <Carousel.Item>
             <Link to="/aboutus">
@@ -151,16 +123,12 @@ function HomePage() {
               />
             </Link>
           </Carousel.Item>
-
-
         </Carousel>
       </section>
 
       <section className="about-section mt-5 mb-5" id="about">
         <div className="container">
           <div className="row">
-            
-
             <div className="col-md-4">
               <div className="text-center">
                 {/* <div className="mx-auto image-block">
@@ -171,7 +139,7 @@ function HomePage() {
                   />
                 </div> */}
                 <div className="my-auto">
-                <p className="about-us-title">About Us</p>
+                  <p className="about-us-title">About Us</p>
                 </div>
               </div>
             </div>
@@ -194,12 +162,15 @@ function HomePage() {
                 expanded its operation in the fields of . . .
               </p>
               <div>
-              <Link to="/about-us" className="learn-more button-style-2 border-0">
-                <span className="circle" aria-hidden="true">
-                  <span className="icon arrow"></span>
-                </span>
-                <span className="button-text">See More</span>
-              </Link>
+                <Link
+                  to="/about-us"
+                  className="learn-more button-style-2 border-0"
+                >
+                  <span className="circle" aria-hidden="true">
+                    <span className="icon arrow"></span>
+                  </span>
+                  <span className="button-text">See More</span>
+                </Link>
               </div>
               {/* </ShowMoreText> */}
             </div>
@@ -635,8 +606,8 @@ function HomePage() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
-}
+};
 
 export default HomePage;

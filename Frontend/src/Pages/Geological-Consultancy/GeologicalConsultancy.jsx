@@ -10,8 +10,11 @@ function GeologicalConsultancy() {
     delay: 200,
     mirror: false,
   });
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
-    <>
+    <section>
       <div className="geological-bg">
         <h1 className="text-center page-title">Geological Consultancy</h1>
       </div>
@@ -93,7 +96,7 @@ function GeologicalConsultancy() {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 }
 
