@@ -2,8 +2,8 @@ import React from "react";
 import "./contactus.css";
 function ContactUs() {
   React.useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section>
       <div className="contact-bg">
@@ -23,22 +23,9 @@ function ContactUs() {
                 <div>
                   <p className="contactus-text mt-3 mx-3">
                     <b>
-                      House # 428 (A); Road # 30,<br />New DOHS Mohakhali, Dhaka-1206
-                    </b>
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-4 p-3">
-              <div className="text-center">
-                <i className="fas fa-phone-alt fa-3x" style={{ color: "#000" }}></i>
-                <div>
-                  <p className="contactus-text mt-3 mx-3">
-                    <b>
-                      Land Phone: +88 02 48811048
+                      House # 428 (A); Road # 30,
                       <br />
-                      Cell Phone: +88 01321-120451
+                      New DOHS Mohakhali, Dhaka-1206
                     </b>
                   </p>
                 </div>
@@ -47,11 +34,40 @@ function ContactUs() {
 
             <div className="col-md-4 p-3">
               <div className="text-center">
-                <i className="fas fa-envelope fa-3x" style={{ color: "#000" }}></i>
+                <i
+                  className="fas fa-phone-alt fa-3x"
+                  style={{ color: "#000" }}
+                ></i>
                 <div>
                   <p className="contactus-text mt-3 mx-3">
                     <b>
-                    info@mmlbd.com
+                      Land Phone:{" "}
+                      <a href="tel:+880248811048" className="get-in-touch">
+                        +88 02 48811048
+                      </a>
+                      <br />
+                      Cell Phone:{" "}
+                      <a href="tel:+8801321120451" className="get-in-touch">
+                        +88 01321-120451
+                      </a>
+                    </b>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4 p-3">
+              <div className="text-center">
+                <i
+                  className="fas fa-envelope fa-3x"
+                  style={{ color: "#000" }}
+                ></i>
+                <div>
+                  <p className="contactus-text mt-3 mx-3">
+                    <b>
+                      <a className="get-in-touch" href="mailto:info@mmlbd.com">
+                        info@mmlbd.com
+                      </a>
                     </b>
                   </p>
                 </div>

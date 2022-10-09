@@ -1,47 +1,17 @@
 import React from "react";
-// import React, { useEffect, useState } from "react";
 import "./footer.css";
-// import { Link } from "react-router-dom";
-// import countapi from "countapi-js";
 
-// import CountUp from "react-countup";
 function Footer() {
-  // const [countamount, setCountamount] = useState("");
-
-  //   useEffect(() => {
-  //     countapi.update('katalystbd.com','katalystbanglagesh', 1).then((result) => {
-  //       setCountamount(result);
-  //     });
-  //   },[])
-
   return (
     <section>
       <section>
         <div className="footer">
           <div className="container-fluid">
             <div className="row pt-4">
-              {/* <div className="col-lg-2">
-                <div className="my-auto">
-                  <div className="p-5">
-                   
-                  </div>
-                </div>
-              </div> */}
-
               <div className="col-lg-1"></div>
 
               <div className="col-lg-6">
                 <div >
-                  {/* <div className="p-2">
-                    <div className="px-3  pt-5">
-                      <img
-                        src="/assets/image/logo/logo-2.png"
-                        alt=""
-                        className="img-fluid pr-5"
-                        style={{ height: "100px", width: "100px" }}
-                      />
-                    </div>
-                  </div> */}
                   <div className="p-2">
                     <h5 className="text-white pb-1">
                       <span className="footer-headline">Contact Us</span>

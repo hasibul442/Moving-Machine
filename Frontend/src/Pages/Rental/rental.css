@@ -1,17 +1,87 @@
 .rental-bg {
-    background-image: linear-gradient(#000000e1, #000000e1),
-      url("./../../../public/assets/image/background/rental.jpg");
-      width: auto;
-      height: 380px;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      background-attachment: fixed;
-  }
-  .rental-text{
-    font-family: 'Noway', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-  }
+  background-image: linear-gradient(#000000ef, #000000ef),
+    url("./../../../public/assets/image/background/rental.jpg");
+  width: auto;
+  height: 380px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.rental-text {
+  font-family: "Noway", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
 
-  
+
+
+.box .pic {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer !important;
+}
+.box .pic:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0;
+  transition: all 0.3s ease 0s;
+}
+.box:hover .pic:before {
+  opacity: 0.4;
+}
+.box .pic:after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  top: -35%;
+  left: -110%;
+  bottom: -10%;
+  background: rgba(0, 0, 0, 0.6);
+  transform: rotate(10deg);
+  transition: all 0.4s ease 0s;
+}
+.box:hover .pic:after {
+  left: -50%;
+}
+.box .pic img {
+  width: 200px;
+  height: 200px;
+  cursor: pointer !important;
+}
+
+.box .box-content {
+  background: #FDC215;
+  text-align: center;
+  padding: .5rem 15px;
+  transition: all 0.3s ease 0s;
+}
+.box:hover .box-content {
+  background: #ED2226;
+  transition: 0.5s;
+}
+
+.box .title {
+  /* font-size: 18px; */
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #000;
+  margin-top: 0;
+  transition: 0.5s;
+}
+.box:hover .title {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 990px) {
+  .box {
+    margin-bottom: 20px;
+  }
+}

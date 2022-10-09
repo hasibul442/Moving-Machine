@@ -79,7 +79,7 @@
     }
   }
 
-
+/* 
 .box{
 	position: relative;
   height: 250px;
@@ -143,3 +143,14 @@
 .contactus-text{
   font-family: 'Noway',sans-serif;
 }
+
+.get-in-touch{
+  font-family: 'Noway',sans-serif;
+  text-decoration: none;
+  color: #000;
+}
+.get-in-touch:hover{
+  font-family: 'Noway',sans-serif;
+  text-decoration: none;
+  color: #000;
+} */
