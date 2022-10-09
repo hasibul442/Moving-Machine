@@ -3,6 +3,7 @@ import ProductSlider from "../../Component/Product-slider/ProductSlider";
 import "./product.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Brochures from "../../Component/Brochures/Brochures";
 function AirCompressor() {
   AOS.init({
     duration: 500,
@@ -63,6 +64,75 @@ function AirCompressor() {
         </div>
       </section>
 
+      <section className="pt-5 pb-5">
+        <div className="product-block">
+          <div className="container-fluid">
+            <p className="product-block-title">
+            AIR COMPRESSOR EQUIPMENT & CUSTOMIZED SOLUTIONS{" "}
+            </p>
+
+            <section className="product-image">
+              <div className="row justify-content-center">
+                <div className="col-md-2">
+                  <p className="product-description-name">Standard Type PDS Series</p>
+                  <div className="text-center">
+                    <img
+                      src="/assets/image/product-description/Airman/1.png"
+                      alt=""
+                      className="img-fluid product-details-image"
+                    />
+                  </div>
+                </div>
+
+                <div className="col-md-2">
+                  <p className="product-description-name">After-Cooler Type PDS-C Series</p>
+                  <div className="text-center">
+                    <img
+                      src="/assets/image/product-description/Airman/2.png"
+                      alt=""
+                      className="img-fluid product-details-image"
+                    />
+                  </div>
+                </div>
+
+                <div className="col-md-2">
+                  <p className="product-description-name">Leak Gard Type PDS-L Series</p>
+                  <div className="text-center">
+                    <img
+                      src="/assets/image/product-description/Airman/3.png"
+                      alt=""
+                      className="img-fluid product-details-image"
+                    />
+                  </div>
+                </div>
+
+                <div className="col-md-2">
+                  <p className="product-description-name">Dry-Air Type PDS-D Series</p>
+                  <div className="text-center">
+                    <img
+                      src="/assets/image/product-description/Airman/4.png"
+                      alt=""
+                      className="img-fluid product-details-image"
+                    />
+                  </div>
+                </div>
+
+                <div className="col-md-2">
+                  <p className="product-description-name">High Pressure Type PDSE,F,G,H,J,K Series</p>
+                  <div className="text-center">
+                    <img
+                      src="/assets/image/product-description/Airman/5.png"
+                      alt=""
+                      className="img-fluid product-details-image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
       <div className="pt-5 pb-5">
         <div className="container">
           <div className="row">
@@ -70,11 +140,7 @@ function AirCompressor() {
             <div className="col-md-8">
               <div className="card border-0">
                 <div className=" shadow">
-                  <div className="brochures-header">
-                    <h2 className="text-center py-3 brochures-title">
-                      Brochures
-                    </h2>
-                  </div>
+                  <Brochures />
                   <div className="brochures-name mt-5">
                     <a href="/assets/dumy.pdf" className="brochures-download">
                       <div className="d-flex justify-content-between">

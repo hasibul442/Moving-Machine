@@ -3,6 +3,7 @@ import ProductSlider from "../../Component/Product-slider/ProductSlider";
 import "./product.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Brochures from "../../Component/Brochures/Brochures";
 
 function Geotextile() {
   AOS.init({
@@ -73,6 +74,64 @@ function Geotextile() {
         </div>
       </section>
 
+      <section className="pt-5 pb-5">
+        <div className="product-block">
+          <div className="container-fluid">
+            <p className="product-block-title">
+            GEOTEXTILE EQUIPMENT & CUSTOMIZED SOLUTIONS{" "}
+            </p>
+
+            <section className="product-image">
+              <div className="row justify-content-center">
+                <div className="col-md-2">
+                  <p className="product-description-name">Mirafi® PET</p>
+                  <div className="text-center">
+                    <img
+                      src="/assets/image/product-description/Tencate/1.png"
+                      alt=""
+                      className="img-fluid product-details-image"
+                    />
+                  </div>
+                </div>
+
+                <div className="col-md-2">
+                  <p className="product-description-name">Polyfelt® TS & KET</p>
+                  <div className="text-center">
+                    <img
+                      src="/assets/image/product-description/Tencate/2.png"
+                      alt=""
+                      className="img-fluid product-details-image"
+                    />
+                  </div>
+                </div>
+
+                <div className="col-md-2">
+                  <p className="product-description-name">Polyfelt® Heavy Duty TS & KE</p>
+                  <div className="text-center">
+                    <img
+                      src="/assets/image/product-description/Tencate/3.png"
+                      alt=""
+                      className="img-fluid product-details-image"
+                    />
+                  </div>
+                </div>
+
+                <div className="col-md-2">
+                  <p className="product-description-name">Polyfelt® F</p>
+                  <div className="text-center">
+                    <img
+                      src="/assets/image/product-description/Tencate/4.png"
+                      alt=""
+                      className="img-fluid product-details-image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
       <div className="pt-5 pb-5">
         <div className="container">
           <div className="row">
@@ -80,11 +139,7 @@ function Geotextile() {
             <div className="col-md-8">
               <div className="card border-0">
                 <div className=" shadow">
-                  <div className="brochures-header">
-                    <h2 className="text-center py-3 brochures-title">
-                      Brochures
-                    </h2>
-                  </div>
+                <Brochures />
                   <div className="brochures-name mt-5">
                     <a href="/assets/dumy.pdf" className="brochures-download">
                       <div className="d-flex justify-content-between">
