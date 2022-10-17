@@ -1,9 +1,39 @@
+import emailjs from '@emailjs/browser';
 import React from "react";
+import Swal from 'sweetalert2';
 import "./contactus.css";
+
+
 function ContactUs() {
   React.useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  function sendEmail(e){
+    e.preventDefault();
+
+    emailjs.sendForm('service_smtp', 'template_3sbleul', e.target, 'qjWL4E310QZpvJxwd')
+    .then((result) => {
+      
+        result = Swal.fire({
+          icon : 'success',
+          title : 'Message Sent Successfully',
+          showConfirmButton : false,
+          timer : 1500
+
+        });
+ 
+        e.target.reset();
+    }, (error) => {
+      error = Swal.fire({
+        icon: 'error',
+        title: 'Opps. Please Try Again',
+        showConfirmButton: false,
+        timer: 1500
+      });
+    });
+
+  }
   return (
     <section>
       <div className="contact-bg">
@@ -81,7 +111,7 @@ function ContactUs() {
         <div className="container">
           <h2 className="mml-title text-center mb-5">Messages Us</h2>
 
-          <form>
+          <form onSubmit={sendEmail}>
             <div className="row">
               <div className="col-sm-6">
                 <div className="form-group">
@@ -93,8 +123,8 @@ function ContactUs() {
                     type="text"
                     className="form-control"
                     id="name"
-                    aria-describedby="emailHelp"
                     placeholder="Enter Name"
+                    name="full_name"
                   />
                 </div>
                 <br />
@@ -108,8 +138,8 @@ function ContactUs() {
                     type="email"
                     className="form-control"
                     id="email"
-                    aria-describedby="emailHelp"
                     placeholder="Enter Email"
+                    name="email"
                   />
                 </div>
                 <br />
@@ -125,6 +155,7 @@ function ContactUs() {
                     id="phone"
                     aria-describedby="phone"
                     placeholder="Enter Phone Number"
+                    name="phone_number"
                   />
                 </div>
                 <br />
@@ -138,7 +169,7 @@ function ContactUs() {
                     type="text"
                     className="form-control"
                     id="org-name"
-                    aria-describedby="emailHelp"
+                    name='organization_name'
                     placeholder="Enter Oraganization Name"
                   />
                 </div>
@@ -155,7 +186,7 @@ function ContactUs() {
                     type="text"
                     className="form-control"
                     id="name"
-                    aria-describedby="emailHelp"
+                    name='position'
                     placeholder="Enter Position Name"
                   />
                 </div>
@@ -168,7 +199,7 @@ function ContactUs() {
                   <select
                     className="form-control"
                     id="name"
-                    aria-describedby="emailHelp"
+                    name='subject'
                     placeholder="Subject Line"
                   >
                     <option defaultValue disabled>
@@ -192,7 +223,7 @@ function ContactUs() {
                   <textarea
                     className="form-control"
                     id="name"
-                    aria-describedby="emailHelp"
+                    name='message'
                     placeholder="Your Message"
                     rows="5"
                   ></textarea>
