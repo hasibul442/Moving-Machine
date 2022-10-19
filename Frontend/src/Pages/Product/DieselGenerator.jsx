@@ -77,14 +77,11 @@ function DieselGenerator() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">
-              DIESEL GENERATOR EQUIPMENT & CUSTOMIZED SOLUTIONS{" "}
-            </p>
+            <p className="product-block-title">DIESEL GENERATOR EQUIPMENT</p>
 
             <section className="product-image">
               <div className="row justify-content-center">
                 <div className="col-md-2">
-                  <p className="product-description-name">DCA-45USKE</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Deyno-g/1.png"
@@ -95,7 +92,6 @@ function DieselGenerator() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name">Malie DCA-45MZ</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Deyno-g/2.png"
@@ -106,7 +102,6 @@ function DieselGenerator() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name"> DCA-25USIE</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Deyno-g/3.png"
@@ -117,7 +112,6 @@ function DieselGenerator() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name"> DA-6000SS</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Deyno-g/4.png"
@@ -128,7 +122,6 @@ function DieselGenerator() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name"> DCA-6LSX</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Deyno-g/5.png"
@@ -136,6 +129,24 @@ function DieselGenerator() {
                       className="img-fluid product-details-image"
                     />
                   </div>
+                </div>
+              </div>
+
+              <div className="row justify-content-center">
+                <div className="col-md-2">
+                  <p className="product-description-name">DCA-45USKE</p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">Malie DCA-45MZ</p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name"> DCA-25USIE</p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name"> DA-6000SS</p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name"> DCA-6LSX</p>
                 </div>
               </div>
             </section>

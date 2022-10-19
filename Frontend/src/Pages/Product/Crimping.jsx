@@ -11,8 +11,8 @@ function Crimping() {
     mirror: true,
   });
   React.useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section>
       <section className="product-bg">
@@ -77,14 +77,11 @@ function Crimping() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">
-            CRIMPING MACHINES EQUIPMENT & CUSTOMIZED SOLUTIONS{" "}
-            </p>
+            <p className="product-block-title">CRIMPING MACHINES EQUIPMENT</p>
 
             <section className="product-image">
-              <div className="row justify-content-center">
+              <div className="row align-items-end justify-content-center">
                 <div className="col-md-2">
-                  <p className="product-description-name">P20CS SCC</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Lillbacka/1.png"
@@ -95,7 +92,6 @@ function Crimping() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name">IM2</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Lillbacka/2.png"
@@ -106,7 +102,6 @@ function Crimping() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name">P32CS SCC</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Lillbacka/3.png"
@@ -115,21 +110,32 @@ function Crimping() {
                     />
                   </div>
                 </div>
+              </div>
 
+              <div className="row justify-content-center">
+                <div className="col-md-2">
+                  <p className="product-description-name">P20CS SCC</p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">IM2</p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">P32CS SCC</p>
+                </div>
               </div>
             </section>
           </div>
         </div>
       </section>
 
-<div className="pt-5 pb-5">
+      <div className="pt-5 pb-5">
         <div className="container">
           <div className="row">
             <div className="col-md-2"></div>
             <div className="col-md-8">
               <div className="card border-0">
                 <div className=" shadow">
-                <Brochures />
+                  <Brochures />
                   <div className="brochures-name mt-5">
                     <a href="/assets/dumy.pdf" className="brochures-download">
                       <div className="d-flex justify-content-between">

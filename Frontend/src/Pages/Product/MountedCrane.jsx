@@ -77,13 +77,12 @@ function MountedCrane() {
         <div className="product-block">
           <div className="container-fluid">
             <p className="product-block-title">
-            TRUCK-MOUNTED CRANE EQUIPMENT & CUSTOMIZED SOLUTIONS{" "}
+              TRUCK-MOUNTED CRANE EQUIPMENT & CUSTOMIZED SOLUTIONS{" "}
             </p>
 
             <section className="product-image">
               <div className="row justify-content-center">
                 <div className="col-md-2">
-                  <p className="product-description-name">URV290</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Unic/1.png"
@@ -94,7 +93,6 @@ function MountedCrane() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name">URV550K-TH</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Unic/2.png"
@@ -105,7 +103,6 @@ function MountedCrane() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name">URV550H</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Unic/3.png"
@@ -116,7 +113,6 @@ function MountedCrane() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name">URV800</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Unic/4.png"
@@ -127,7 +123,6 @@ function MountedCrane() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name">URV1004-CNCT</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Unic/5.png"
@@ -138,7 +133,6 @@ function MountedCrane() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name">UR1504</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Unic/6.png"
@@ -146,6 +140,27 @@ function MountedCrane() {
                       className="img-fluid product-details-image"
                     />
                   </div>
+                </div>
+              </div>
+
+              <div className="row justify-content-center">
+                <div className="col-md-2">
+                  <p className="product-description-name">URV290</p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">URV550K-TH</p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">URV550H</p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">URV800</p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">URV1004-CNCT</p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">UR1504</p>
                 </div>
               </div>
             </section>
@@ -160,7 +175,7 @@ function MountedCrane() {
             <div className="col-md-8">
               <div className="card border-0">
                 <div className=" shadow">
-                <Brochures />
+                  <Brochures />
                   <div className="brochures-name mt-5">
                     <a href="/assets/dumy.pdf" className="brochures-download">
                       <div className="d-flex justify-content-between">

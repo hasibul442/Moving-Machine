@@ -84,7 +84,6 @@ function WelderGenerator() {
             <section className="product-image">
               <div className="row justify-content-center">
                 <div className="col-md-2">
-                  <p className="product-description-name"> DCW-480ESW</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Deyno-w/1.png"
@@ -95,7 +94,6 @@ function WelderGenerator() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name"> DLW-200X2LS</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Deyno-w/2.png"
@@ -106,7 +104,6 @@ function WelderGenerator() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name"> DLW-300LS</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Deyno-w/3.png"
@@ -117,7 +114,6 @@ function WelderGenerator() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name"> DLW-300LSW2</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Deyno-w/4.png"
@@ -128,7 +124,6 @@ function WelderGenerator() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name"> DLW-400LSW</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Deyno-w/5.png"
@@ -136,6 +131,23 @@ function WelderGenerator() {
                       className="img-fluid product-details-image"
                     />
                   </div>
+                </div>
+              </div>
+              <div className="row justify-content-center">
+                <div className="col-md-2">
+                  <p className="product-description-name"> DLW-300LS</p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name"> DLW-200X2LS</p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name"> DLW-300LSW2</p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name"> DLW-400LSW</p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name"> DCW-480ESW</p>
                 </div>
               </div>
             </section>
@@ -150,7 +162,7 @@ function WelderGenerator() {
             <div className="col-md-8">
               <div className="card border-0">
                 <div className=" shadow">
-                <Brochures />
+                  <Brochures />
                   <div className="brochures-name mt-5">
                     <a href="/assets/dumy.pdf" className="brochures-download">
                       <div className="d-flex justify-content-between">

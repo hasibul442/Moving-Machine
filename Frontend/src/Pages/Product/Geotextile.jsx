@@ -77,14 +77,11 @@ function Geotextile() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">
-            GEOTEXTILE EQUIPMENT & CUSTOMIZED SOLUTIONS{" "}
-            </p>
+            <p className="product-block-title">GEOTEXTILE EQUIPMENT</p>
 
             <section className="product-image">
               <div className="row justify-content-center">
                 <div className="col-md-2">
-                  <p className="product-description-name">Mirafi® PET</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Tencate/1.png"
@@ -95,7 +92,6 @@ function Geotextile() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name">Polyfelt® TS & KET</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Tencate/2.png"
@@ -106,7 +102,6 @@ function Geotextile() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name">Polyfelt® Heavy Duty TS & KE</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Tencate/3.png"
@@ -117,7 +112,6 @@ function Geotextile() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name">Polyfelt® F</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Tencate/4.png"
@@ -125,6 +119,22 @@ function Geotextile() {
                       className="img-fluid product-details-image"
                     />
                   </div>
+                </div>
+              </div>
+              <div className="row justify-content-center">
+                <div className="col-md-2">
+                  <p className="product-description-name">Mirafi® PET</p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">Polyfelt® TS & KET</p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">
+                    Polyfelt® Heavy Duty TS & KE
+                  </p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">Polyfelt® F</p>
                 </div>
               </div>
             </section>
@@ -139,7 +149,7 @@ function Geotextile() {
             <div className="col-md-8">
               <div className="card border-0">
                 <div className=" shadow">
-                <Brochures />
+                  <Brochures />
                   <div className="brochures-name mt-5">
                     <a href="/assets/dumy.pdf" className="brochures-download">
                       <div className="d-flex justify-content-between">

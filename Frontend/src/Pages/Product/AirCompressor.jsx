@@ -67,14 +67,11 @@ function AirCompressor() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">
-            AIR COMPRESSOR EQUIPMENT & CUSTOMIZED SOLUTIONS{" "}
-            </p>
+            <p className="product-block-title">AIR COMPRESSOR EQUIPMENT</p>
 
             <section className="product-image">
-              <div className="row justify-content-center">
+              <div className="row align-items-end  justify-content-center">
                 <div className="col-md-2">
-                  <p className="product-description-name">Standard Type PDS Series</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Airman/1.png"
@@ -85,7 +82,6 @@ function AirCompressor() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name">After-Cooler Type PDS-C Series</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Airman/2.png"
@@ -96,7 +92,6 @@ function AirCompressor() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name">Leak Gard Type PDS-L Series</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Airman/3.png"
@@ -107,7 +102,6 @@ function AirCompressor() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name">Dry-Air Type PDS-D Series</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Airman/4.png"
@@ -118,7 +112,6 @@ function AirCompressor() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name">High Pressure Type PDSE,F,G,H,J,K Series</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Airman/5.png"
@@ -126,6 +119,34 @@ function AirCompressor() {
                       className="img-fluid product-details-image"
                     />
                   </div>
+                </div>
+              </div>
+
+              <div className="row justify-content-center">
+                <div className="col-md-2">
+                  <p className="product-description-name">
+                    Standard Type PDS Series
+                  </p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">
+                    After-Cooler Type PDS-C Series
+                  </p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">
+                    Leak Gard Type PDS-L Series
+                  </p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">
+                    Dry-Air Type PDS-D Series
+                  </p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">
+                    High Pressure Type PDSE,F,G,H,J,K Series
+                  </p>
                 </div>
               </div>
             </section>

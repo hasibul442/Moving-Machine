@@ -66,14 +66,11 @@ function Cutting() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">
-            WELDING MACHINE EQUIPMENT & CUSTOMIZED SOLUTIONS{" "}
-            </p>
+            <p className="product-block-title">WELDING MACHINE EQUIPMENT</p>
 
             <section className="product-image">
-              <div className="row justify-content-center">
+              <div className="row align-items-end justify-content-center">
                 <div className="col-md-2">
-                  <p className="product-description-name">Global Oxy-Fuel IR-CBU Pro</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Esab-c/1.png"
@@ -84,7 +81,6 @@ function Cutting() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name">Suprarex™ HDX</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Esab-c/2.png"
@@ -95,7 +91,6 @@ function Cutting() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name">A-Series Power Supply</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Esab-c/3.png"
@@ -106,7 +101,6 @@ function Cutting() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name">Hydrocut HDX</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Esab-c/4.png"
@@ -117,7 +111,6 @@ function Cutting() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name">m2 200i Plasma Cutting Systems</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Esab-c/5.png"
@@ -125,6 +118,30 @@ function Cutting() {
                       className="img-fluid product-details-image"
                     />
                   </div>
+                </div>
+              </div>
+
+              <div className="row justify-content-center">
+                <div className="col-md-2">
+                  <p className="product-description-name">
+                    Global Oxy-Fuel IR-CBU Pro
+                  </p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">Suprarex™ HDX</p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">
+                    A-Series Power Supply
+                  </p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">Hydrocut HDX</p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">
+                    m2 200i Plasma Cutting Systems
+                  </p>
                 </div>
               </div>
             </section>
@@ -139,7 +156,7 @@ function Cutting() {
             <div className="col-md-8">
               <div className="card border-0">
                 <div className=" shadow">
-                <Brochures />
+                  <Brochures />
                   <div className="brochures-name mt-5">
                     <a href="/assets/dumy.pdf" className="brochures-download">
                       <div className="d-flex justify-content-between">

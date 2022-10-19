@@ -72,14 +72,11 @@ function SheetPileDriver() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">
-              PILING EQUIPMENT & CUSTOMIZED SOLUTIONS{" "}
-            </p>
+            <p className="product-block-title">Sheet piling equipment</p>
 
             <section className="product-image">
-              <div className="row justify-content-center">
+              <div className="row align-items-end justify-content-center">
                 <div className="col-md-2">
-                  <p className="product-description-name">PILE DRIVERS</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Movax/1.png"
@@ -90,7 +87,6 @@ function SheetPileDriver() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name">PILING HAMMERS</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Movax/2.png"
@@ -101,7 +97,6 @@ function SheetPileDriver() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name">PILING DRILLS</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Movax/3.png"
@@ -112,7 +107,6 @@ function SheetPileDriver() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name">PILING DRILLS</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Movax/4.png"
@@ -123,7 +117,6 @@ function SheetPileDriver() {
                 </div>
 
                 <div className="col-md-2">
-                  <p className="product-description-name">PILING DRILLS</p>
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Movax/5.png"
@@ -131,6 +124,24 @@ function SheetPileDriver() {
                       className="img-fluid product-details-image"
                     />
                   </div>
+                </div>
+              </div>
+
+              <div className="row justify-content-center">
+                <div className="col-md-2">
+                  <p className="product-description-name">PILE DRIVERS</p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">PILING HAMMERS</p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">PILING DRILLS</p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">PILING DRILLS</p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">PILING DRILLS</p>
                 </div>
               </div>
             </section>
