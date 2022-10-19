@@ -1,8 +1,41 @@
+import emailjs from '@emailjs/browser';
 import React from "react";
+import Swal from 'sweetalert2';
 import "./contactus.css";
+
+
 function ContactUs() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  function sendEmail(e){
+    e.preventDefault();
+
+    emailjs.sendForm('service_smtp', 'template_3sbleul', e.target, 'qjWL4E310QZpvJxwd')
+    .then((result) => {
+      
+        result = Swal.fire({
+          icon : 'success',
+          title : 'Message Sent Successfully',
+          showConfirmButton : false,
+          timer : 1500
+
+        });
+ 
+        e.target.reset();
+    }, (error) => {
+      error = Swal.fire({
+        icon: 'error',
+        title: 'Opps. Please Try Again',
+        showConfirmButton: false,
+        timer: 1500
+      });
+    });
+
+  }
   return (
-    <>
+    <section>
       <div className="contact-bg">
         <h1 className="text-center page-title">Contact Us</h1>
       </div>
@@ -20,22 +53,9 @@ function ContactUs() {
                 <div>
                   <p className="contactus-text mt-3 mx-3">
                     <b>
-                      House # 428 (A); Road # 30,<br />New DOHS Mohakhali, Dhaka-1206
-                    </b>
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-4 p-3">
-              <div className="text-center">
-                <i className="fas fa-phone-alt fa-3x" style={{ color: "#000" }}></i>
-                <div>
-                  <p className="contactus-text mt-3 mx-3">
-                    <b>
-                      Land Phone: +88 02 48811048
+                      House # 428 (A); Road # 30,
                       <br />
-                      Cell Phone: +88 01321-120451
+                      New DOHS Mohakhali, Dhaka-1206
                     </b>
                   </p>
                 </div>
@@ -44,11 +64,40 @@ function ContactUs() {
 
             <div className="col-md-4 p-3">
               <div className="text-center">
-                <i className="fas fa-envelope fa-3x" style={{ color: "#000" }}></i>
+                <i
+                  className="fas fa-phone-alt fa-3x"
+                  style={{ color: "#000" }}
+                ></i>
                 <div>
                   <p className="contactus-text mt-3 mx-3">
                     <b>
-                    info@mmlbd.com
+                      Land Phone:{" "}
+                      <a href="tel:+880248811048" className="get-in-touch">
+                        +88 02 48811048
+                      </a>
+                      <br />
+                      Cell Phone:{" "}
+                      <a href="tel:+8801321120451" className="get-in-touch">
+                        +88 01321-120451
+                      </a>
+                    </b>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4 p-3">
+              <div className="text-center">
+                <i
+                  className="fas fa-envelope fa-3x"
+                  style={{ color: "#000" }}
+                ></i>
+                <div>
+                  <p className="contactus-text mt-3 mx-3">
+                    <b>
+                      <a className="get-in-touch" href="mailto:info@mmlbd.com">
+                        info@mmlbd.com
+                      </a>
                     </b>
                   </p>
                 </div>
@@ -62,7 +111,7 @@ function ContactUs() {
         <div className="container">
           <h2 className="mml-title text-center mb-5">Messages Us</h2>
 
-          <form>
+          <form onSubmit={sendEmail}>
             <div className="row">
               <div className="col-sm-6">
                 <div className="form-group">
@@ -74,8 +123,8 @@ function ContactUs() {
                     type="text"
                     className="form-control"
                     id="name"
-                    aria-describedby="emailHelp"
                     placeholder="Enter Name"
+                    name="full_name"
                   />
                 </div>
                 <br />
@@ -89,8 +138,8 @@ function ContactUs() {
                     type="email"
                     className="form-control"
                     id="email"
-                    aria-describedby="emailHelp"
                     placeholder="Enter Email"
+                    name="email"
                   />
                 </div>
                 <br />
@@ -106,6 +155,7 @@ function ContactUs() {
                     id="phone"
                     aria-describedby="phone"
                     placeholder="Enter Phone Number"
+                    name="phone_number"
                   />
                 </div>
                 <br />
@@ -119,7 +169,7 @@ function ContactUs() {
                     type="text"
                     className="form-control"
                     id="org-name"
-                    aria-describedby="emailHelp"
+                    name='organization_name'
                     placeholder="Enter Oraganization Name"
                   />
                 </div>
@@ -136,7 +186,7 @@ function ContactUs() {
                     type="text"
                     className="form-control"
                     id="name"
-                    aria-describedby="emailHelp"
+                    name='position'
                     placeholder="Enter Position Name"
                   />
                 </div>
@@ -149,7 +199,7 @@ function ContactUs() {
                   <select
                     className="form-control"
                     id="name"
-                    aria-describedby="emailHelp"
+                    name='subject'
                     placeholder="Subject Line"
                   >
                     <option defaultValue disabled>
@@ -173,7 +223,7 @@ function ContactUs() {
                   <textarea
                     className="form-control"
                     id="name"
-                    aria-describedby="emailHelp"
+                    name='message'
                     placeholder="Your Message"
                     rows="5"
                   ></textarea>
@@ -205,7 +255,7 @@ function ContactUs() {
           ></iframe>
         </div>
       </div>
-    </>
+    </section>
   );
 }
 

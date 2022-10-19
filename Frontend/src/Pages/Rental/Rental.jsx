@@ -10,8 +10,11 @@ function Rental() {
     delay: 200,
     mirror: false,
   });
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
-    <>
+    <section>
       <div className="rental-bg">
         <h1 className="text-center page-title">Rental Services</h1>
       </div>
@@ -24,7 +27,7 @@ function Rental() {
             service need for{" "}
           </p>
 
-          <div className="row mt-5">
+          {/* <div className="row mt-5">
             <div className="col-md-4 mb-3" data-aos="zoom-in">
               <div className="products">
                 <div className="card border-0 shadow card-1">
@@ -107,27 +110,6 @@ function Rental() {
               </div>
             </div>
 
-            {/* <div className="col-md-4 mb-3" data-aos="zoom-in">
-              <div className="products">
-                <div className="card border-0 shadow card-5">
-                  <div className="layer"></div>
-                  <div className="card-body">
-                    <div className="text-center">
-                      <img
-                        src="/assets/image/rental/welding.png"
-                        style={{ height: "100px", width: "100px" }}
-                        alt="product1"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <h5 className="product-title text-center mt-3">
-                      Welding
-                    </h5>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-
             <div className="col-md-4 mb-3" data-aos="zoom-in">
               <div className="products">
                 <div className="card border-0 shadow card-6">
@@ -148,11 +130,79 @@ function Rental() {
                 </div>
               </div>
             </div>
+          </div> */}
+
+          <div className="row mt-5">
+            <div className="col-md-4 col-sm-6 mb-4">
+              <div className="box">
+                <div className="pic text-center">
+                <img src="/assets/image/rental/Lifting.png"  alt="product1"
+                        className="img-fluid"
+                      />
+                </div>
+                <div className="box-content">
+                  <h5 className="title">Lifting</h5>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4 col-sm-6 mb-4">
+              <div className="box">
+                <div className="pic text-center">
+                <img src="/assets/image/rental/Earth-Moving.png"  alt="product1"
+                        className="img-fluid"
+                      />
+                </div>
+                <div className="box-content">
+                  <h5 className="title">Earth Moving</h5>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4 col-sm-6 mb-4">
+              <div className="box">
+                <div className="pic text-center">
+                <img src="/assets/image/rental/pilling.png"  alt="product1"
+                        className="img-fluid"
+                      />
+                </div>
+                <div className="box-content">
+                  <h5 className="title">Sheet-Piling</h5>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4 col-sm-6 mb-4">
+              <div className="box">
+                <div className="pic text-center">
+                <img src="/assets/image/rental/power.png"  alt="product1"
+                        className="img-fluid"
+                      />
+                </div>
+                <div className="box-content">
+                  <h5 className="title">Power Generation</h5>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4 col-sm-6 mb-4">
+              <div className="box">
+                <div className="pic text-center">
+                <img src="/assets/image/rental/air.png"  alt="product1"
+                        className="img-fluid"
+                      />
+                </div>
+                <div className="box-content">
+                  <h5 className="title"> Air Compressor</h5>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
 
-    </>
+    </section>
   );
 }
 

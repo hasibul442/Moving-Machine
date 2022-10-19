@@ -3,14 +3,18 @@ import ProductSlider from "../../Component/Product-slider/ProductSlider";
 import "./product.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Brochures from "../../Component/Brochures/Brochures";
 function Crimping() {
   AOS.init({
     duration: 500,
     delay: 200,
     mirror: true,
   });
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
-    <>
+    <section>
       <section className="product-bg">
         <h1 className="text-center page-title">Crimping Machine</h1>
       </section>
@@ -70,6 +74,54 @@ function Crimping() {
         </div>
       </section>
 
+      <section className="pt-5 pb-5">
+        <div className="product-block">
+          <div className="container-fluid">
+            <p className="product-block-title">
+            CRIMPING MACHINES EQUIPMENT & CUSTOMIZED SOLUTIONS{" "}
+            </p>
+
+            <section className="product-image">
+              <div className="row justify-content-center">
+                <div className="col-md-2">
+                  <p className="product-description-name">P20CS SCC</p>
+                  <div className="text-center">
+                    <img
+                      src="/assets/image/product-description/Lillbacka/1.png"
+                      alt=""
+                      className="img-fluid product-details-image"
+                    />
+                  </div>
+                </div>
+
+                <div className="col-md-2">
+                  <p className="product-description-name">IM2</p>
+                  <div className="text-center">
+                    <img
+                      src="/assets/image/product-description/Lillbacka/2.png"
+                      alt=""
+                      className="img-fluid product-details-image"
+                    />
+                  </div>
+                </div>
+
+                <div className="col-md-2">
+                  <p className="product-description-name">P32CS SCC</p>
+                  <div className="text-center">
+                    <img
+                      src="/assets/image/product-description/Lillbacka/3.png"
+                      alt=""
+                      className="img-fluid product-details-image"
+                    />
+                  </div>
+                </div>
+
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
 <div className="pt-5 pb-5">
         <div className="container">
           <div className="row">
@@ -77,11 +129,7 @@ function Crimping() {
             <div className="col-md-8">
               <div className="card border-0">
                 <div className=" shadow">
-                  <div className="brochures-header">
-                    <h2 className="text-center py-3 brochures-title">
-                      Brochures
-                    </h2>
-                  </div>
+                <Brochures />
                   <div className="brochures-name mt-5">
                     <a href="/assets/dumy.pdf" className="brochures-download">
                       <div className="d-flex justify-content-between">
@@ -156,7 +204,7 @@ function Crimping() {
       </div>
 
       <ProductSlider />
-    </>
+    </section>
   );
 }
 

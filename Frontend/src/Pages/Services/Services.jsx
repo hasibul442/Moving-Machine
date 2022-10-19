@@ -10,8 +10,11 @@ function Services() {
     delay: 200,
     mirror: true,
   });
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
-    <>
+    <section>
       <div className="services-bg">
         <h1 className="text-center page-title">Repair & Maintenance</h1>
       </div>
@@ -138,7 +141,7 @@ function Services() {
       </div>
 
     
-    </>
+    </section>
   );
 }
 

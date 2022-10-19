@@ -27,7 +27,7 @@ function ProductSlider() {
     },
   };
   return (
-    <>
+    <section>
       <section className="container">
         <h2 className="mml-title text-center pt-5 pb-5">Other Product</h2>
         <OwlCarousel {...settings}>
@@ -240,7 +240,7 @@ function ProductSlider() {
 
         </OwlCarousel>
       </section>
-    </>
+    </section>
   );
 }
 

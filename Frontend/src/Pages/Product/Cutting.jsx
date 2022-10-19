@@ -3,6 +3,7 @@ import ProductSlider from "../../Component/Product-slider/ProductSlider";
 import "./product.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Brochures from "../../Component/Brochures/Brochures";
 
 function Cutting() {
   AOS.init({
@@ -10,9 +11,11 @@ function Cutting() {
     delay: 200,
     mirror: true,
   });
-
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
-    <>
+    <section>
       <section className="product-bg">
         <h1 className="text-center page-title">Cutting Machine</h1>
       </section>
@@ -60,6 +63,75 @@ function Cutting() {
         </div>
       </section>
 
+      <section className="pt-5 pb-5">
+        <div className="product-block">
+          <div className="container-fluid">
+            <p className="product-block-title">
+            WELDING MACHINE EQUIPMENT & CUSTOMIZED SOLUTIONS{" "}
+            </p>
+
+            <section className="product-image">
+              <div className="row justify-content-center">
+                <div className="col-md-2">
+                  <p className="product-description-name">Global Oxy-Fuel IR-CBU Pro</p>
+                  <div className="text-center">
+                    <img
+                      src="/assets/image/product-description/Esab-c/1.png"
+                      alt=""
+                      className="img-fluid product-details-image"
+                    />
+                  </div>
+                </div>
+
+                <div className="col-md-2">
+                  <p className="product-description-name">Suprarex™ HDX</p>
+                  <div className="text-center">
+                    <img
+                      src="/assets/image/product-description/Esab-c/2.png"
+                      alt=""
+                      className="img-fluid product-details-image"
+                    />
+                  </div>
+                </div>
+
+                <div className="col-md-2">
+                  <p className="product-description-name">A-Series Power Supply</p>
+                  <div className="text-center">
+                    <img
+                      src="/assets/image/product-description/Esab-c/3.png"
+                      alt=""
+                      className="img-fluid product-details-image"
+                    />
+                  </div>
+                </div>
+
+                <div className="col-md-2">
+                  <p className="product-description-name">Hydrocut HDX</p>
+                  <div className="text-center">
+                    <img
+                      src="/assets/image/product-description/Esab-c/4.png"
+                      alt=""
+                      className="img-fluid product-details-image"
+                    />
+                  </div>
+                </div>
+
+                <div className="col-md-2">
+                  <p className="product-description-name">m2 200i Plasma Cutting Systems</p>
+                  <div className="text-center">
+                    <img
+                      src="/assets/image/product-description/Esab-c/5.png"
+                      alt=""
+                      className="img-fluid product-details-image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
       <div className="pt-5 pb-5">
         <div className="container">
           <div className="row">
@@ -67,11 +139,7 @@ function Cutting() {
             <div className="col-md-8">
               <div className="card border-0">
                 <div className=" shadow">
-                  <div className="brochures-header">
-                    <h2 className="text-center py-3 brochures-title">
-                      Brochures
-                    </h2>
-                  </div>
+                <Brochures />
                   <div className="brochures-name mt-5">
                     <a href="/assets/dumy.pdf" className="brochures-download">
                       <div className="d-flex justify-content-between">
@@ -146,7 +214,7 @@ function Cutting() {
       </div>
 
       <ProductSlider />
-    </>
+    </section>
   );
 }
 
