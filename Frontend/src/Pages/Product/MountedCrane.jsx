@@ -81,7 +81,7 @@ function MountedCrane() {
             </p>
 
             <section className="product-image">
-              <div className="row justify-content-center">
+              <div className="row align-items-end  justify-content-center">
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
