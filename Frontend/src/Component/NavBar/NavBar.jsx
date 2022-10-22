@@ -92,53 +92,57 @@ function Navbar() {
                     aria-labelledby="dropdown04"
                   >
                     <div className="container">
-                    <div className="row">
-                      <div className="col-sm-6">
-                        <h3 className="dropdown-title">Products</h3>
-                        <Link className="dropdown-item" to="/dieselgenerator">
-                          Diesel Generator
-                        </Link>
-                        <Link className="dropdown-item" to="/weldergenerator">
-                          Welder Generator/Engine Welder
-                        </Link>
-                        <Link className="dropdown-item" to="/sheetpiledriver">
-                          Sheet Pile Driver{" "}
-                        </Link>
+                      <div className="row">
+                        <div className="col-sm-4">
+                          <h3 className="dropdown-title">Products</h3>
+                          <Link className="dropdown-item" to="/dieselgenerator">
+                            Diesel Generator
+                          </Link>
+                          <Link className="dropdown-item" to="/weldergenerator">
+                            Welder Generator
+                          </Link>
+                          <Link className="dropdown-item" to="/sheetpiledriver">
+                            Sheet Pile Driver{" "}
+                          </Link>
 
-                        <Link className="dropdown-item" to="/aircompressor">
-                          Portable Air Compressor
-                        </Link>
-                        <Link className="dropdown-item" to="/mountedcrane">
-                          Truck-Mounted Crane
-                        </Link>
-                        <Link className="dropdown-item" to="/crimping">
-                          Crimping Machine
-                        </Link>
-                        {/* <Link className="dropdown-item" to="/">Gantry Crane</Link> */}
-                        <Link className="dropdown-item" to="/geotextile">
-                          Geotextile
-                        </Link>
-                        <Link className="dropdown-item" to="/weldingmachine">
-                          Welding Machine
-                        </Link>
-                        <Link className="dropdown-item" to="/cutting">
-                          Cutting Machine
-                        </Link>
-                      </div>
+                          <Link className="dropdown-item" to="/aircompressor">
+                            Portable Air Compressor
+                          </Link>
+                          <Link className="dropdown-item" to="/mountedcrane">
+                            Truck-Mounted Crane
+                          </Link>
+                          <Link className="dropdown-item" to="/crimping">
+                            Crimping Machine
+                          </Link>
+                          {/* <Link className="dropdown-item" to="/">Gantry Crane</Link> */}
+                          <Link className="dropdown-item" to="/geotextile">
+                            Geotextile
+                          </Link>
+                          <Link className="dropdown-item" to="/weldingmachine">
+                            Welding Machine
+                          </Link>
+                          <Link className="dropdown-item" to="/cutting">
+                            Cutting Machine
+                          </Link>
+                        </div>
 
-                      <div className="col-sm-6">
-                        <h3 className="dropdown-title">Services</h3>
-                        <Link className="dropdown-item" to="/services">
-                      Repaire & Maintenance{" "}
-                    </Link>
-                    <Link className="dropdown-item" to="/rental">
-                      Rental Services
-                    </Link>
-                    <Link className="dropdown-item" to="/geological">
-                      Geological E&P Services
-                    </Link>
+                        <div className="col-sm-4">
+                          <h3 className="dropdown-title">Services</h3>
+                          <Link className="dropdown-item" to="/services">
+                            Repaire & Maintenance{" "}
+                          </Link>
+                          <Link className="dropdown-item" to="/rental">
+                            Rental Services
+                          </Link>
+                        </div>
+
+                        <div className="col-sm-4">
+                          <h3 className="dropdown-title">Oil & Gas</h3>
+                          <Link className="dropdown-item" to="/geological">
+                            Geological E&P Services
+                          </Link>
+                        </div>
                       </div>
-                    </div>
                     </div>
                   </div>
                 </li>

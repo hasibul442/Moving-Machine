@@ -24,12 +24,12 @@ function Cutting() {
         <div className="container">
           <div className="row mb-5">
             <div
-              className="col-md-6 mt-5"
+              className="col-md-8 mt-5 px-5"
               data-aos="fade-right"
               data-aos-offset="20"
               data-aos-anchor-placement="top-bottom"
             >
-              <div className="text-center  my-5">
+              <div className="text-center">
                 <img
                   src="/assets/image/products/esab.png"
                   className="img-fluid"
@@ -37,6 +37,21 @@ function Cutting() {
                   style={{ height: "70px", width: "200px" }}
                 />
                 <p className="product-name text-center mb-5">Cutting Machine</p>
+              </div>
+              <div>
+                <p className="product-key-point-title">
+                Advantages of ESAB cutting Machine:
+                </p>
+                <ul className="product-key-point-list">
+                  <li>Cutting-edge CNC technology</li>
+                  {/* <li>12 hours power delivery at 80% load.</li> */}
+                  <li>Compact design with CNC control ideal for small business</li>
+                  <li>High-tech Plasma technology for efficient cutting</li>
+                  <li>
+                  Water Plasma technology which brings down consumption of gas
+                  </li>
+                  <li>Multi-head gantry design for versatility of cutting</li>
+                </ul>
               </div>
             </div>
 

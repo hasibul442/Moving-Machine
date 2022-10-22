@@ -56,6 +56,12 @@
   }
   .value-content-text{
     font-family: 'Noway', sans-serif;
-    font-size: 15px;
+    /* font-size: 15px; */
     font-weight: 600;
+  }
+  .value-content-text .text-description{
+    font-family: 'Noway', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    /* color: #358d7e; */
   }

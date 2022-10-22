@@ -23,12 +23,12 @@ function Crimping() {
         <div className="container">
           <div className="row mb-5">
             <div
-              className="col-md-6 mt-5"
+              className="col-md-8 mt-5 px-5"
               data-aos="fade-right"
               data-aos-offset="20"
               data-aos-anchor-placement="top-bottom"
             >
-              <div className="text-center  my-5">
+              <div className="text-center">
                 <img
                   src="/assets/image/products/lillbacka.png"
                   className="img-fluid"
@@ -42,7 +42,7 @@ function Crimping() {
             </div>
 
             <div
-              className="col-md-6 mt-5"
+              className="col-md-4 mt-5"
               data-aos="fade-left"
               data-aos-offset="20"
               data-aos-anchor-placement="top-bottom"
@@ -50,22 +50,7 @@ function Crimping() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                    Every year,{" "}
-                    <span style={{ fontWeight: "bold" }}>Lillbacka </span>{" "}
-                    Powerco Oy produces thousands of crimping machines, as well
-                    as hose cutting and nut crimping equipment. Finn-Power is
-                    well-known for its high-quality, long-lasting hydraulic
-                    crimping machines, which are manufactured by{" "}
-                    <span style={{ fontWeight: "bold" }}>Lillbacka </span>{" "}
-                    Powerco, a Finnish company with over 50 years of
-                    manufacturing expertise. They provide dependable,
-                    long-lasting, and precise crimping machines to fulfill the
-                    needs of various sectors. Finn-Power crimping machines are
-                    built with cutting-edge manufacturing equipment and
-                    technology. Precision made parts, along with our engineering
-                    and assembly experience, as well as our quality control and
-                    final testing methods, result in dependable and precise
-                    crimping machines for your production needs.
+                  Every year, Lillbacka Powerco Oy produces thousands of crimping machines, as well as hose cutting and nut crimping equipment. Finn-Power is well-known for its high-quality, long-lasting hydraulic crimping machines, which are manufactured by Lillbacka Powerco, a Finnish company with over 50 years of manufacturing expertise. They provide dependable, long-lasting, and precise crimping machines to fulfill the needs of various sectors. Finn-Power crimping machines are built with cutting-edge manufacturing equipment and technology. Precision made parts, along with our engineering and assembly experience, as well as our quality control and final testing methods, result in dependable and precise crimping machines for your production needs.
                   </p>
                 </div>
               </div>

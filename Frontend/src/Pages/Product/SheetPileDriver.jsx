@@ -25,12 +25,12 @@ function SheetPileDriver() {
         <div className="container">
           <div className="row mb-5">
             <div
-              className="col-md-6 mt-5"
+              className="col-md-8 mt-5 px-5"
               data-aos="fade-right"
               data-aos-offset="20"
               data-aos-anchor-placement="top-bottom"
             >
-              <div className="text-center  my-5">
+              <div className="text-center">
                 <img
                   src="/assets/image/products/movex.png"
                   className="img-fluid"
@@ -39,10 +39,22 @@ function SheetPileDriver() {
                 />
                 <p className="product-name text-center mb-5">Pile Drivers</p>
               </div>
+              <div>
+                <p className="product-key-point-title">
+                MOVAX solutions are:
+                </p>
+                <ul className="product-key-point-list">
+                  <li>Fastest way to handle, pitch, drive, and extract piles</li>
+                  <li>High accuracy due to excavator mounting and side grip driving</li>
+                  <li>High level control and efficiency. Excavator mounted, can be easily manipulated</li>
+                  <li>Higher versatility compared to crane mounted drive</li>
+                  <li>Unmatched safety thanks to the side grip technology's intrinsic safety, high-quality manufacturing from Europe</li>
+                </ul>
+              </div>
             </div>
 
             <div
-              className="col-md-6 mt-5"
+              className="col-md-4 mt-5"
               data-aos="fade-left"
               data-aos-offset="20"
               data-aos-anchor-placement="top-bottom"
@@ -50,19 +62,10 @@ function SheetPileDriver() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text">
-                    <b>MOVAX</b> Oy, founded in 1993, is a privately held
-                    Finnish company that is a world-leading creator, developer,
-                    and manufacturer of excavator-mounted piling and foundation
-                    equipment with innovative automatic control systems and
-                    information management solutions. <b>MOVAX</b> holds more
-                    than 40 patents in innovation of piling equipment sector.
-                    Their excavator-mounted piling and foundation equipment has
-                    a positive track record of being high quality and being
-                    produced in Finland. They provide wide range of products
-                    such as, pile drivers, piling hammers, piling drills,
-                    multi-tool leaders and stabilization leaders.{" "}
+                  MOVAX Oy, founded in 1993, is a privately held Finnish company that is a world-leading creator, developer, and manufacturer of excavator-mounted piling and foundation equipment with innovative automatic control systems and information management solutions. MOVAX holds more than 40 patents in innovation of piling equipment sector. Their excavator-mounted piling and foundation equipment has a positive track record of being high quality and being produced in Finland. They provide wide range of products such as, pile drivers, piling hammers, piling drills, multi-tool leaders and stabilization leaders.
                   </p>
                 </div>
+
               </div>
             </div>
           </div>

@@ -12,8 +12,8 @@ function MountedCrane() {
     mirror: true,
   });
   React.useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section>
       <section className="product-bg">
@@ -24,12 +24,12 @@ function MountedCrane() {
         <div className="container">
           <div className="row mb-5">
             <div
-              className="col-md-6 mt-5"
+              className="col-md-8 mt-5 px-5"
               data-aos="fade-right"
               data-aos-offset="20"
               data-aos-anchor-placement="top-bottom"
             >
-              <div className="text-center  my-5">
+              <div className="text-center">
                 <img
                   src="/assets/image/products/unic.png"
                   className="img-fluid"
@@ -38,10 +38,29 @@ function MountedCrane() {
                 />
                 <p className="product-name text-center mb-5">Crane</p>
               </div>
+
+              <div>
+                <p className="product-key-point-title">
+                  We highly recommend UNIC because:
+                </p>
+                <ul className="product-key-point-list">
+                  <li>Professional grade support</li>
+                  <li>
+                    Highly skilled engineers happily provide authentic
+                    suggestions for end user
+                  </li>
+                  <li>
+                    Easily mountable and compatible with wide range of trucks
+                  </li>
+                  <li>Compact design for using less space</li>
+                  <li>Highly reliable Japanese technology</li>
+                  <li>Simplistic mechanical design for easy maintenance.</li>
+                </ul>
+              </div>
             </div>
 
             <div
-              className="col-md-6 mt-5"
+              className="col-md-4 mt-5"
               data-aos="fade-left"
               data-aos-offset="20"
               data-aos-anchor-placement="top-bottom"
@@ -49,22 +68,19 @@ function MountedCrane() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                    <span style={{ fontWeight: "bold" }}>FURUKAWA UNIC's</span>{" "}
-                    strength is distinguished by its superior quality and
-                    technology. Since the introduction of the first
+                    FURUKAWA UNIC's strength is distinguished by its superior
+                    quality and technology. Since the introduction of the first
                     truck-mounted crane in Japan in 1961, they have been
                     developing new technologies to fulfill the demands of the
                     customers while also improving in quality. They provide a
                     wide range of truck mounted cranes. Truck mounted cranes
                     work like a two in one vehicle, providing the facility of
                     both carrying and lifting heavy goods. These trucks are
-                    designed to be well balanced and easily maneuverable.{" "}
-                    <span style={{ fontWeight: "bold" }}>UNIC</span> cranes are
-                    straight-boom type cranes which provide greater accuracy of
-                    reach over obstacles and straight and stable lifting
-                    ability.
-                    <span style={{ fontWeight: "bold" }}>UNIC</span> also have
-                    compact crawler crane for challenging terrains.
+                    designed to be well balanced and easily maneuverable. UNIC
+                    cranes are straight-boom type cranes which provide greater
+                    accuracy of reach over obstacles and straight and stable
+                    lifting ability. UNIC also have compact crawler crane for
+                    challenging terrains.
                   </p>
                 </div>
               </div>

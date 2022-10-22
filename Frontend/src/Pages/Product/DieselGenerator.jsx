@@ -11,8 +11,8 @@ function DieselGenerator() {
     mirror: true,
   });
   React.useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section>
       <section className="product-bg">
@@ -23,12 +23,12 @@ function DieselGenerator() {
         <div className="container">
           <div className="row mb-5">
             <div
-              className="col-md-6 mt-5"
+              className="col-md-8 mt-5 px-5"
               data-aos="fade-right"
               data-aos-offset="20"
               data-aos-anchor-placement="top-bottom"
             >
-              <div className="text-center my-5">
+              <div className="text-center">
                 <img
                   src="/assets/image/products/Denyo.png"
                   className="img-fluid"
@@ -39,10 +39,28 @@ function DieselGenerator() {
                   Diesel Generator
                 </p>
               </div>
+
+              <div>
+                <p className="product-key-point-title">
+                  Unique features of Denyo Generator:
+                </p>
+                <ul className="product-key-point-list">
+                  <li>
+                    Continuous power delivery for 240 hours at 70% load.
+                    (Service to service)
+                  </li>
+                  {/* <li>12 hours power delivery at 80% load.</li> */}
+                  <li>Low fuel consumption</li>
+                  <li>Low sound operations</li>
+                  <li>
+                    Operational sounds lower than 45 dB(A). (Mālie models only)
+                  </li>
+                </ul>
+              </div>
             </div>
 
             <div
-              className="col-md-6 mt-5"
+              className="col-md-4 mt-5"
               data-aos="fade-left"
               data-aos-offset="20"
               data-aos-anchor-placement="top-bottom"
@@ -50,22 +68,17 @@ function DieselGenerator() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text">
-                    <span style={{ fontWeight: "bold" }}>Denyo </span>
-                    is one of the market leading generator manufacturers in the
-                    world. Their product praised for the robust manufacturing,
-                    high reliability and long-lasting service.{" "}
-                    <span style={{ fontWeight: "bold" }}>Denyo</span> has a wide
-                    range of products for different applications. Their
-                    generators range from 25kVA up to 1100kVA. The engines for
-                    the generators are sourced from a few high-end diesel
-                    experts of Japan namely Komatsu, Mitsubishi, Yanmar, Kobuta,
-                    Isuzu. The alternators and genset assemblies are designed,
-                    developed and manufactured at{" "}
-                    <span style={{ fontWeight: "bold" }}>Denyo</span> in Japan
+                    Denyo is one of the market leading generator manufacturers
+                    in the world. Their product praised for the robust
+                    manufacturing, high reliability and long-lasting service.
+                    Denyo has a wide range of products for different
+                    applications. These generators range from 5kVA up to
+                    1100kVA. These generators use engines sourced from a few
+                    high-end diesel experts of Japan namely Komatsu, Mitsubishi,
+                    Yanmar, Kobuta, Isuzu. The alternators and genset assemblies
+                    are designed, developed, and manufactured at Denyo in Japan
                     with exception of some smaller models (up to 125) being
-                    manufactured at
-                    <span style={{ fontWeight: "bold" }}> Denyo's</span> factory
-                    in Indonesia and Vietnam.
+                    manufactured at Denyo’s factory in Indonesia and Vietnam.
                   </p>
                 </div>
               </div>
@@ -153,6 +166,19 @@ function DieselGenerator() {
           </div>
         </div>
       </section>
+
+      {/* <section className="pt-5 pb-5">
+        <div className="container">
+          <div className="card">
+            <div className="card-body">
+              <div className="row justyify-content-center">
+                <div className="col-md-6">
+                </div>
+               </div> 
+            </div>
+          </div>
+        </div>
+      </section> */}
 
       <div className="pt-5 pb-5">
         <div className="container">

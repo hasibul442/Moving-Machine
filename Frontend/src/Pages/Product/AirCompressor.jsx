@@ -23,12 +23,12 @@ function AirCompressor() {
         <div className="container">
           <div className="row mb-5">
             <div
-              className="col-md-6 mt-4 "
+              className="col-md-8 mt-5 px-5"
               data-aos="fade-right"
               data-aos-offset="20"
               data-aos-anchor-placement="top-bottom"
             >
-              <div className="text-center my-5">
+              <div className="text-center">
                 <img
                   src="/assets/image/products/airman.png"
                   className="img-fluid"
@@ -37,10 +37,22 @@ function AirCompressor() {
                 />
                 <p className="product-name text-center mb-5">Air Compressor</p>
               </div>
+              <div>
+                <p className="product-key-point-title">
+                Why chose AIRMAN?
+                </p>
+                <ul className="product-key-point-list">
+                  <li>Compact design</li>
+                  <li>Highly reliable Japanese quality</li>
+                  <li>The most popular air compressor in Bangladesh</li>
+                  <li>High re-sale value</li>
+                  <li>Screw type operation for high efficiency</li>
+                </ul>
+              </div>
             </div>
 
             <div
-              className="col-md-6 mt-5"
+              className="col-md-4 mt-5"
               data-aos="fade-left"
               data-aos-offset="20"
               data-aos-anchor-placement="top-bottom"
@@ -48,14 +60,7 @@ function AirCompressor() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                    Since its founding in 1938, Hokuetsu Industries Co. Ltd. has
-                    been a maker of air compressors. Combining their many years’
-                    innovations in air, electric and hydraulic pressure
-                    technologies, they made their{" "}
-                    <span style={{ fontWeight: "bold" }}>AIRMAN </span> product
-                    line. They have high performance engine and electric air
-                    compressors both indoor and outdoor. These compressors can
-                    be both box type (without wheel) or trolly mounted.
+                  Since its founding in 1938, Hokuetsu Industries Co. Ltd. has been a maker of air compressors. Combining their many years’ innovations in air, electric and hydraulic pressure technologies, they made their AIRMAN product line. They have high performance engine and electric air compressors both indoor and outdoor. These compressors can be both box type (without wheel) or trolly mounted.
                   </p>
                 </div>
               </div>

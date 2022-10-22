@@ -24,12 +24,12 @@ function WeldingMachine() {
         <div className="container">
           <div className="row mb-5">
             <div
-              className="col-md-6 mt-5"
+              className="col-md-8 mt-5 px-5"
               data-aos="fade-right"
               data-aos-offset="20"
               data-aos-anchor-placement="top-bottom"
             >
-              <div className="text-center  my-5">
+              <div className="text-center">
                 <img
                   src="/assets/image/products/esab.png"
                   className="img-fluid"
@@ -38,10 +38,25 @@ function WeldingMachine() {
                 />
                 <p className="product-name text-center mb-5">Welding Machine</p>
               </div>
+              <div>
+                <p className="product-key-point-title">
+                Advantages of ESAB Welding:
+                </p>
+                <ul className="product-key-point-list">
+                  <li>Compact Design</li>
+                  {/* <li>12 hours power delivery at 80% load.</li> */}
+                  <li>Electricity efficiency</li>
+                  <li>Portability</li>
+                  <li>
+                  High quality German Technology
+                  </li>
+                  <li>Simple interface for ease of use</li>
+                </ul>
+              </div>
             </div>
 
             <div
-              className="col-md-6 mt-5"
+              className="col-md-4 mt-5"
               data-aos="fade-left"
               data-aos-offset="20"
               data-aos-anchor-placement="top-bottom"

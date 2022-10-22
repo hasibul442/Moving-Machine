@@ -12,26 +12,24 @@ function WelderGenerator() {
     mirror: true,
   });
   React.useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section>
       <section className="product-bg">
-        <h1 className="text-center page-title">
-          Welder generator/Engine welder
-        </h1>
+        <h1 className="text-center page-title">Welder generator</h1>
       </section>
 
       <section className="product-info-background">
         <div className="container">
           <div className="row mb-5">
             <div
-              className="col-md-6 mt-5"
+              className="col-md-8 mt-5 px-5"
               data-aos="fade-right"
               data-aos-offset="20"
               data-aos-anchor-placement="top-bottom"
             >
-              <div className="text-center my-5">
+              <div className="text-center">
                 <img
                   src="/assets/image/products/Denyo.png"
                   className="img-fluid"
@@ -40,10 +38,23 @@ function WelderGenerator() {
                 />
                 <p className="product-name text-center mb-5">Engine Welder</p>
               </div>
+
+              <div>
+                <p className="product-key-point-title">
+                Benefits of Denyo Welder-Generator:
+                </p>
+                <ul className="product-key-point-list">
+                  <li>Fuel economy</li>
+                  <li>High efficiency welding.</li>
+                  <li>Automatic standby and auto start feature.</li>
+                  <li>Dual head welding setup available. (Selective models only)</li>
+                  <li>Can also be used as regular generator for power delivery</li>
+                </ul>
+              </div>
             </div>
 
             <div
-              className="col-md-6 mt-5"
+              className="col-md-4 mt-5"
               data-aos="fade-left"
               data-aos-offset="20"
               data-aos-anchor-placement="top-bottom"
@@ -51,17 +62,13 @@ function WelderGenerator() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                    <span style={{ fontWeight: "bold" }}>Denyo</span> engines
-                    are known for their durability, versatility and fuel/energy
-                    efficiency. Since foundation of the company in 1948,{" "}
-                    <span style={{ fontWeight: "bold" }}>Denyo</span> is making
-                    engine driven welder generators.{" "}
-                    <span style={{ fontWeight: "bold" }}>Denyo</span> offer the
-                    excellent performance and ruggedness unique to Japanese
-                    products and have a track record of use in extremely cold
-                    wilderness and extremely hot desert. With their over 70
-                    years of manufacturing experience,{" "}
-                    <span style={{ fontWeight: "bold" }}>Denyo</span> have
+                    Denyo engines are known for their durability, versatility
+                    and fuel/energy efficiency. Since foundation of the company
+                    in 1948, Denyo is making engine driven welder generators.
+                    Denyo offer the excellent performance and ruggedness unique
+                    to Japanese products and have a track record of use in
+                    extremely cold wilderness and extremely hot desert. With
+                    their over 70 years of manufacturing experience, Denyo have
                     become one of the main market leaders in the world. Their
                     product line includes both petrol and diesel version which
                     uses high-quality engine from YAMAHA (petrol), Kubota

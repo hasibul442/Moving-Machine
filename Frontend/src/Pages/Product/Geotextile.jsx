@@ -24,7 +24,7 @@ function Geotextile() {
         <div className="container">
           <div className="row mb-5">
             <div
-              className="col-md-6 mt-5"
+              className="col-md-8 mt-5 px-5"
               data-aos="fade-right"
               data-aos-offset="20"
               data-aos-anchor-placement="top-bottom"
@@ -41,7 +41,7 @@ function Geotextile() {
             </div>
 
             <div
-              className="col-md-6 mt-5"
+              className="col-md-4 mt-5"
               data-aos="fade-left"
               data-aos-offset="20"
               data-aos-anchor-placement="top-bottom"
@@ -49,23 +49,7 @@ function Geotextile() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                    <span style={{ fontWeight: "bold" }}>Tencate </span>{" "}
-                    Geosynthetics offers a worldwide manufacturing platform, a
-                    commercial and technical organization, and has effectively
-                    consolidated and grown key markets to optimize client value.{" "}
-                    <span style={{ fontWeight: "bold" }}>Tencate </span>{" "}
-                    Geosynthetics and{" "}
-                    <span style={{ fontWeight: "bold" }}>Tencate </span>{" "}
-                    Industrial Fabrics are two business subsidiaries of{" "}
-                    <span style={{ fontWeight: "bold" }}>Tencate </span>{" "}
-                    Geosynthetics that service the global market. They develop,
-                    manufacture, and provide innovative and dependable
-                    geosynthetics and industrial textiles by processing
-                    synthetic raw materials. In Asia,{" "}
-                    <span style={{ fontWeight: "bold" }}>Tencate </span>{" "}
-                    Geosynthetics headquarter is located at Malaysia and
-                    manufacturing facility is stablished in Selengor, Malaysia
-                    and Zhuhai, China.
+                  TENCATE Geosynthetics offers a worldwide manufacturing platform, a commercial and technical organization, and has effectively consolidated and grown key markets to optimize client value. TENCATE Geosynthetics and TENCATE Industrial Fabrics are two business subsidiaries of TENCATE Geosynthetics that service the global market. They develop, manufacture, and provide innovative and dependable geosynthetics and industrial textiles by processing synthetic raw materials. In Asia, TENCATE Geosynthetics headquarter is located at Malaysia and manufacturing facility is stablished in Selengor, Malaysia and Zhuhai, China.
                   </p>
                 </div>
               </div>
