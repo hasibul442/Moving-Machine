@@ -85,3 +85,21 @@
     margin-bottom: 20px;
   }
 }
+
+.rental-text-bg{
+  background-image: linear-gradient(#3d3d3da1, #3d3d3d63),
+      url("./../../../public/assets/image/background/rental-3.jpg");
+      width: auto;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      /* opacity: 0.3; */
+      background-attachment: fixed;
+}
+.details1{
+  background-color: #ffffffc0;
+  border-radius: 10px;
+  box-shadow: 0 4px 30px #0000001a;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}

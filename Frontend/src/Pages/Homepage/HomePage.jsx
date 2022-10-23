@@ -145,15 +145,6 @@ function HomePage()  {
             </div>
 
             <div className="col-md-8 aboutus-description">
-              {/* <ShowMoreText
-                lines={6}
-                more={seemore()}
-                less={seeless()}
-                className="content-css"
-                anchorClass="my-anchor-css-class"
-                expanded={false}
-                truncatedEndingComponent={" . . . . . . "}
-              > */}
               <p>
                 Moving Machines Limited, a private limited company, was
                 established in early 2014 with a mission to source machines and

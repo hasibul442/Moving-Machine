@@ -44,20 +44,6 @@ function About() {
       <section className="about-section mt-5 mb-5" id="about">
         <div className="container">
           <div className="row">
-            {/* <h2 className="mml-title text-center mb-5">Who We Are</h2> */}
-
-            {/* <div className="col-md-6">
-              <div className="text-center">
-                <div className="mx-auto">
-                  <img
-                    src="/assets/image/homepage/Jaso-poster.png"
-                    alt=""
-                    className="about-us-box"
-                  />
-                </div>
-              </div>
-            </div> */}
-
             <div className="col-md-12 aboutus-description-1">
               <p>
               Moving Machines Limited, a private limited company, was established in early 2014 with a commitment to source and supply of machines and equipment of cutting-age technology for customers of construction industry in Bangladesh. Subsequently the company expanded its services to customers in the fields of oil and gas, manufacturing and environmental protection. To fulfill its commitment the company relentlessly worked to delight its customers through exclusive and quality products supported by outstanding consultancy, sales, repairment and rental services. Over the years the company has been able to establish a long list of delighted customers that includes reputed local and international construction companies, manufacturing companies and public entities.
