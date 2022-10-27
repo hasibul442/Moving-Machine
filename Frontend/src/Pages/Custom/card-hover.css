@@ -1,0 +1,67 @@
+.products .card {
+  overflow: hidden;
+  transition: 0.5s;
+}
+.product-title {
+  font-family: 'Roboto', sans-serif;
+}
+.products .card .card-body {
+  z-index: 2;
+  position: relative;
+}
+.products .card:hover {
+  color: #ffffff;
+  transition: 0.5s;
+}
+.products .card:hover .layer {
+  top: 0;
+}
+
+.products .card .layer {
+  z-index: 1;
+  position: absolute;
+  top: calc(100% - 3px);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  transition: 0.5s;
+}
+
+.card-1 .layer {
+  background: #5fd068;
+}
+/* .card-1 img{
+    background-color: #ff006231;
+    transition: 0.5s;
+  }
+  .card-1:hover img{
+    background-color: #ffffff;
+    transition: 0.5s;
+  } */
+
+.card-2 .layer {
+  background: #3330e4;
+}
+
+.card-3 .layer {
+  background: #a760ff;
+}
+
+.card-4 .layer {
+  background: #947ec3;
+}
+.card-5 .layer {
+  background: #37e2d5;
+}
+.card-6 .layer {
+  background: #34b3f1;
+}
+.card-7 .layer {
+  background: #f24c4c;
+}
+.card-8 .layer {
+  background: #590696;
+}
+.card-9 .layer {
+  background: #ff06b7;
+}

@@ -47,78 +47,71 @@ function HomePage()  {
       <div className="navbar-space"></div>
       <section className="carousel-section">
         <Carousel>
-          <Carousel.Item>
-            <Link to="/aboutus">
+          <Carousel.Item interval={1500}>
+            <Link to="/dieselgenerator">
               <img
                 className="d-block w-100"
-                // style={{ height: "650px" }}
-                src="/assets/image/slider/Slide5.PNG"
+                src="/assets/image/slider/Slide1.PNG"
                 alt="Banner_Photo"
               />
             </Link>
           </Carousel.Item>
 
-          <Carousel.Item>
-            <Link to="/aboutus">
+          <Carousel.Item interval={1500}>
+            <Link to="/aircompressor">
               <img
                 className="d-block w-100"
-                // style={{ height: "650px" }}
-                src="/assets/image/slider/Slide7.PNG"
-                alt="Banner_Photo"
-              />
-            </Link>
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <Link to="/aboutus">
-              <img
-                className="d-block w-100"
-                // style={{ height: "650px" }}
                 src="/assets/image/slider/Slide2.PNG"
                 alt="Banner_Photo"
               />
             </Link>
           </Carousel.Item>
 
-          <Carousel.Item>
-            <Link to="/aboutus">
+          <Carousel.Item interval={1500}>
+            <Link to="/weldergenerator">
               <img
                 className="d-block w-100"
-                // style={{ height: "650px" }}
                 src="/assets/image/slider/Slide3.PNG"
                 alt="Banner_Photo"
               />
             </Link>
           </Carousel.Item>
 
-          <Carousel.Item>
-            <Link to="/aboutus">
+          <Carousel.Item interval={1500}>
+            <Link to="/sheetpiledriver">
               <img
                 className="d-block w-100"
-                // style={{ height: "650px" }}
                 src="/assets/image/slider/Slide4.PNG"
                 alt="Banner_Photo"
               />
             </Link>
           </Carousel.Item>
 
-          <Carousel.Item>
-            <Link to="/aboutus">
+          <Carousel.Item interval={1500}>
+            <Link to="/mountedcrane">
               <img
                 className="d-block w-100"
-                // style={{ height: "650px" }}
-                src="/assets/image/slider/Slide8.PNG"
+                src="/assets/image/slider/Slide5.PNG"
                 alt="Banner_Photo"
               />
             </Link>
           </Carousel.Item>
 
-          <Carousel.Item>
-            <Link to="/aboutus">
+          <Carousel.Item interval={1500}>
+            <Link to="/crimping">
               <img
                 className="d-block w-100"
-                // style={{ height: "650px" }}
-                src="/assets/image/slider/Slide1.PNG"
+                src="/assets/image/slider/Slide6.PNG"
+                alt="Banner_Photo"
+              />
+            </Link>
+          </Carousel.Item>
+
+          <Carousel.Item interval={1500}>
+            <Link to="/geotextile">
+              <img
+                className="d-block w-100"
+                src="/assets/image/slider/Slide7.PNG"
                 alt="Banner_Photo"
               />
             </Link>
@@ -129,31 +122,25 @@ function HomePage()  {
       <section className="about-section mt-5 mb-5" id="about">
         <div className="container">
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-6">
               <div className="text-center">
-                {/* <div className="mx-auto image-block">
-                  <img
-                    src="/assets/image/homepage/Jaso-poster.png"
-                    alt=""
-                    className="img-fluid image-style-1"
-                  />
-                </div> */}
                 <div className="my-auto">
-                  <p className="about-us-title">About Us</p>
+                  <p className="about-us-title">Inception</p>
                 </div>
               </div>
             </div>
 
-            <div className="col-md-8 aboutus-description">
+            <div className="col-md-6 aboutus-description">
               <p>
                 Moving Machines Limited, a private limited company, was
-                established in early 2014 with a mission to source machines and
-                equipment of cutting-age technology for customers of
-                construction industry in Bangladesh. Subsequently the company
-                expanded its operation in the fields of . . .
+                established early 2014 with a commitment to source and supply of
+                machines and equipment of cutting-age technology for customers
+                of construction industry in Bangladesh. Subsequently the company
+                expanded its services to customers in the fields of oil and gas,
+                manufacturing and environmental protection.
               </p>
               <div>
-                <Link
+                {/* <Link
                   to="/about-us"
                   className="learn-more button-style-2 border-0"
                 >
@@ -161,7 +148,7 @@ function HomePage()  {
                     <span className="icon arrow"></span>
                   </span>
                   <span className="button-text">See More</span>
-                </Link>
+                </Link> */}
               </div>
               {/* </ShowMoreText> */}
             </div>
@@ -169,41 +156,57 @@ function HomePage()  {
         </div>
       </section>
 
-      {/* <section className="mission-vision-value-bg">
+      <section className="mission-vision-value-bg">
         <section id="vision" className="pt-5">
           <div className="vision">
             <div className="container">
               <div className="row">
-                <div className="col-md-6 vision-text">
+                <div
+                  className="col-md-12 vision-text "
+                  data-aos="fade-right"
+                  data-aos-offset="20"
+                  data-aos-anchor-placement="top-bottom"
+                >
                   <div className="">
-                    <h2 className="mml-title text-center pt-5">Vision</h2>
-                    <p className="p-2 vision-content-text">
-                      To become the leader in providing solution to the
-                      customers of its areas of operation through quality
-                      advanced product and customer-delighting service.
+                    <h2 className="mml-title text-center pt-5">
+                      Mission & Vision
+                    </h2>
+                    <p className="px-5 mx-5 text-center py-2 vision-content-text">
+                      We strive to become the leader in providing sustainable
+                      solution to the customers of our areas of operation
+                      through delivering quality, innovative and
+                      customer-delighting products and services
                     </p>
                   </div>
                 </div>
-                <div className="col-md-6"></div>
+                {/* <div className="col-md-6"></div> */}
               </div>
             </div>
           </div>
         </section>
 
-        <section id="mission">
+        {/* <section id="mission">
           <div className="mission pt-4">
             <div className="container">
               <div className="row">
                 <div className="col-md-6"></div>
-                <div className="col-md-6 vision-text">
+                <div
+                  className="col-md-6 vision-text"
+                  data-aos="fade-left"
+                  data-aos-offset="20"
+                  data-aos-anchor-placement="top-bottom"
+                >
                   <div className=" ">
                     <h2 className="mml-title text-center pt-5">Mission</h2>
                     <div className="p-2 mission-content-text">
                       <ul>
-                        <li>To deliver advanced and quality products.</li>
                         <li>
-                          To delight customers in need of services the company
-                          provides.
+                          To win customers by delivering quality and innovative
+                          products
+                        </li>
+                        <li>
+                          To win customers through providing customer-delighting
+                          services
                         </li>
                       </ul>
                     </div>
@@ -212,61 +215,64 @@ function HomePage()  {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section id="core-value">
-          <div className="core-value pt-4 pb-5">
+          <div className="core-value pt-5 pb-5">
             <div className="container">
               <div className="row">
-                <div className="col-md-12 core-value-content-body">
+                <div
+                  className="col-md-12 core-value-content-body"
+                  data-aos="fade-up"
+                  data-aos-offset="20"
+                  data-aos-anchor-placement="top-bottom"
+                >
                   <div className="my-auto">
                     <h2 className="mml-title text-center pt-5">Core Value</h2>
                     <div className="ml-5 value-content-text">
-                      <div className="row pt-3">
-                        <div className="col-md-1"></div>
-
-                        <div className="col-md-2 text-center">
+                      <div className="row justify-content-center pt-3">
+                        <div className="col-md-3 px-5 text-center">
                           <i
                             className="fas fa-award fa-4x"
-                            style={{ color: "#EF5B0C" }}
+                            style={{ color: "#2A0944" }}
                           ></i>
-                          <p className="pt-3">
-                            Becoming the Best In Tis Area of operation
+                          <p className="pt-3 text-description">
+                            Becoming the logical choice in our field
+                            {/* in our fields of operation */}
                           </p>
                         </div>
 
-                        <div className="col-md-2 text-center">
-                          <i
-                            className="fas fa-user-headset fa-4x"
-                            style={{ color: "#0078AA" }}
-                          ></i>
-                          <p className="pt-3">Delighting customer</p>
-                        </div>
-
-                        <div className="col-md-2 text-center">
+                        <div className="col-md-3 px-5 text-center">
                           <i
                             className="fas fa-check fa-4x"
                             style={{ color: "#3CCF4E" }}
                           ></i>
-                          <p className="pt-3">Quality advanced product</p>
+                          <p className="pt-3 text-description">
+                            Offering high-quality, sophisticated products
+                          </p>
                         </div>
 
-                        <div className="col-md-2 text-center">
+                        <div className="col-md-3 px-5 text-center">
                           <i
                             className="fas fa-users fa-4x"
-                            style={{ color: "#EB1D36" }}
+                            style={{ color: "#358d7e" }}
                           ></i>
-                          <p className="pt-3">Teamwork</p>
-                        </div>
-                        <div className="col-md-2 text-center">
-                          <i
-                            className="fas fa-balance-scale fa-4x"
-                            style={{ color: "#610C63" }}
-                          ></i>
-                          <p className="pt-3">Integrity</p>
+                          <p className="pt-3 text-description">
+                            Serving through an empowered team
+                          </p>
                         </div>
 
-                        <div className="col-md-1"></div>
+                        <div className="col-md-3 px-5 text-center">
+                          {/* 610C63 */}
+                          <i
+                            className="fas fa-balance-scale fa-4x"
+                            style={{ color: "#EB1D36" }}
+                          ></i>
+                          <p className="pt-3 text-description">
+                            {" "}
+                            Preserving Integrity
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -275,10 +281,9 @@ function HomePage()  {
             </div>
           </div>
         </section>
-      </section> */}
+      </section>
 
-      {/* Product Section */}
-      <section
+      {/* <section
         className="services-section mt-5 mb-5 scrollspy-example"
         data-bs-spy="scroll"
         data-bs-target="#ftco-navbar"
@@ -481,7 +486,7 @@ function HomePage()  {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Brand Section */}
       <section className="brands-section">
