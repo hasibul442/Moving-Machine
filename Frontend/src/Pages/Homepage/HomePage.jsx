@@ -52,18 +52,7 @@ function HomePage()  {
               <img
                 className="d-block w-100"
                 // style={{ height: "650px" }}
-                src="/assets/image/slider/Slide5.PNG"
-                alt="Banner_Photo"
-              />
-            </Link>
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <Link to="/aboutus">
-              <img
-                className="d-block w-100"
-                // style={{ height: "650px" }}
-                src="/assets/image/slider/Slide7.PNG"
+                src="/assets/image/slider/Slide1.PNG"
                 alt="Banner_Photo"
               />
             </Link>
@@ -107,7 +96,7 @@ function HomePage()  {
               <img
                 className="d-block w-100"
                 // style={{ height: "650px" }}
-                src="/assets/image/slider/Slide8.PNG"
+                src="/assets/image/slider/Slide5.PNG"
                 alt="Banner_Photo"
               />
             </Link>
@@ -118,7 +107,18 @@ function HomePage()  {
               <img
                 className="d-block w-100"
                 // style={{ height: "650px" }}
-                src="/assets/image/slider/Slide1.PNG"
+                src="/assets/image/slider/Slide6.PNG"
+                alt="Banner_Photo"
+              />
+            </Link>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <Link to="/aboutus">
+              <img
+                className="d-block w-100"
+                // style={{ height: "650px" }}
+                src="/assets/image/slider/Slide7.PNG"
                 alt="Banner_Photo"
               />
             </Link>
