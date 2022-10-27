@@ -4,19 +4,20 @@ import "./product.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Brochures from "../../Component/Brochures/Brochures";
-function AirCompressor() {
+
+function WelderGenerator() {
   AOS.init({
     duration: 500,
-    delay: 300,
+    delay: 200,
     mirror: true,
   });
   React.useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section>
       <section className="product-bg">
-        <h1 className="text-center page-title">Portable Air Compressor</h1>
+        <h1 className="text-center page-title">Welder generator</h1>
       </section>
 
       <section className="product-info-background">
@@ -30,23 +31,32 @@ function AirCompressor() {
             >
               <div className="text-center">
                 <img
-                  src="/assets/image/products/airman.png"
+                  src="/assets/image/products/Denyo.png"
                   className="img-fluid"
                   alt="Sheet Pile Driven"
-                  style={{ height: "40px", width: "200px" }}
+                  style={{ height: "50px", width: "200px" }}
                 />
-                <p className="product-name text-center mb-5">Air Compressor</p>
+                <p className="product-name text-center mb-5">Engine Welder</p>
               </div>
+
               <div>
                 <p className="product-key-point-title">
-                Why chose AIRMAN?
+                  Benefits of Denyo Welder-Generator:
                 </p>
                 <ul className="product-key-point-list">
-                  <li>Compact design</li>
-                  <li>Highly reliable Japanese quality</li>
-                  <li>The most popular air compressor in Bangladesh</li>
-                  <li>High re-sale value</li>
-                  <li>Screw type operation for high efficiency</li>
+                  <li>Fuel economy</li>
+                  <li>High efficiency for remote welding</li>
+                  <li>Duty cycle of 100% realized</li>
+                  <li>Automatic standby and auto start feature</li>
+                  <li>Automatic engine rpm control</li>
+                  <li>
+                    Dual head welding setup available. (Selective models only)
+                  </li>
+                  <li>Compact design for easy mobility</li>
+                  <li>Easy maintenance</li>
+                  <li>
+                    Can also be used as regular generator for power delivery
+                  </li>
                 </ul>
               </div>
             </div>
@@ -60,7 +70,18 @@ function AirCompressor() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                  Since its founding in 1938, Hokuetsu Industries Co. Ltd. has been a maker of air compressors. Combining their many years’ innovations in air, electric and hydraulic pressure technologies, they made their AIRMAN product line. They have high performance engine and electric air compressors both indoor and outdoor. These compressors can be both box type (without wheel) or trolly mounted.
+                    Denyo's engine-driven welders are not only simple to
+                    operate, but they also produce quality results. They are
+                    also long-lasting, adaptable, energy-efficient, and
+                    reasonably priced. Denyo has continued to develop engine
+                    welders that satisfy all of these requirements since its
+                    inception in 1948. Denyo products are utilized not only in
+                    the construction and manufacturing industries, but also on
+                    oil and gas and mining sites. Denyo provides extraordinary
+                    performance and toughness that is unique to Japanese
+                    products, and it has been utilized in both severely cold
+                    wilderness and extremely hot desert. Denyo is always at your
+                    side, assisting you in producing your best work.
                   </p>
                 </div>
               </div>
@@ -72,14 +93,16 @@ function AirCompressor() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">AIR COMPRESSOR EQUIPMENT</p>
+            <p className="product-block-title">
+              ENGINE WELDER EQUIPMENT & CUSTOMIZED SOLUTIONS{" "}
+            </p>
 
             <section className="product-image">
               <div className="row align-items-end  justify-content-center">
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Airman/1.png"
+                      src="/assets/image/product-description/Deyno-w/1.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -89,7 +112,7 @@ function AirCompressor() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Airman/2.png"
+                      src="/assets/image/product-description/Deyno-w/2.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -99,7 +122,7 @@ function AirCompressor() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Airman/3.png"
+                      src="/assets/image/product-description/Deyno-w/3.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -109,7 +132,7 @@ function AirCompressor() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Airman/4.png"
+                      src="/assets/image/product-description/Deyno-w/4.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -119,39 +142,28 @@ function AirCompressor() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Airman/5.png"
+                      src="/assets/image/product-description/Deyno-w/5.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
                   </div>
                 </div>
               </div>
-
               <div className="row justify-content-center">
                 <div className="col-md-2">
-                  <p className="product-description-name">
-                    Standard Type PDS Series
-                  </p>
+                  <p className="product-description-name"> DLW-300LS</p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name">
-                    After-Cooler Type PDS-C Series
-                  </p>
+                  <p className="product-description-name"> DLW-200X2LS</p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name">
-                    Leak Gard Type PDS-L Series
-                  </p>
+                  <p className="product-description-name"> DLW-300LSW2</p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name">
-                    Dry-Air Type PDS-D Series
-                  </p>
+                  <p className="product-description-name"> DLW-400LSW</p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name">
-                    High Pressure Type PDSE,F,G,H,J,K Series
-                  </p>
+                  <p className="product-description-name"> DCW-480ESW</p>
                 </div>
               </div>
             </section>
@@ -245,4 +257,4 @@ function AirCompressor() {
   );
 }
 
-export default AirCompressor;
+export default WelderGenerator;

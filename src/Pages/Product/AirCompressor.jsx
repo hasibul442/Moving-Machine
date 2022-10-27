@@ -4,19 +4,19 @@ import "./product.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Brochures from "../../Component/Brochures/Brochures";
-function Crimping() {
+function AirCompressor() {
   AOS.init({
     duration: 500,
-    delay: 200,
+    delay: 300,
     mirror: true,
   });
   React.useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <section>
       <section className="product-bg">
-        <h1 className="text-center page-title">Crimping Machine</h1>
+        <h1 className="text-center page-title">Portable Air Compressor</h1>
       </section>
 
       <section className="product-info-background">
@@ -30,14 +30,24 @@ function Crimping() {
             >
               <div className="text-center">
                 <img
-                  src="/assets/image/products/lillbacka.png"
+                  src="/assets/image/products/airman.png"
                   className="img-fluid"
                   alt="Sheet Pile Driven"
-                  style={{ height: "55px", width: "200px" }}
+                  style={{ height: "40px", width: "200px" }}
                 />
-                <p className="product-name text-center mb-5">
-                  Crimping Machines
-                </p>
+                <p className="product-name text-center mb-5">Air Compressor</p>
+              </div>
+              <div>
+                <p className="product-key-point-title">Why chose AIRMAN?</p>
+                <ul className="product-key-point-list">
+                  <li>Compact design</li>
+                  <li>Low noise</li>
+                  <li>Low emissions, thus eco-friendly</li>
+                  <li>Highly reliable Japanese quality</li>
+                  <li>Easy maintenance</li>
+                  <li>High re-sale value</li>
+                  <li>Screw type operation for high efficiency</li>
+                </ul>
               </div>
             </div>
 
@@ -50,7 +60,17 @@ function Crimping() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                  Every year, Lillbacka Powerco Oy produces thousands of crimping machines, as well as hose cutting and nut crimping equipment. Finn-Power is well-known for its high-quality, long-lasting hydraulic crimping machines, which are manufactured by Lillbacka Powerco, a Finnish company with over 50 years of manufacturing expertise. They provide dependable, long-lasting, and precise crimping machines to fulfill the needs of various sectors. Finn-Power crimping machines are built with cutting-edge manufacturing equipment and technology. Precision made parts, along with our engineering and assembly experience, as well as our quality control and final testing methods, result in dependable and precise crimping machines for your production needs.
+                    <b>
+                      Being active in a wide range of fields from construction
+                      machinery through to industrial machinery.{" "}
+                    </b>
+                    AIRMAN is the one of the leading manufacturers of portable
+                    compressors in the world. Since its inception more than 80
+                    years ago, AIRMAN has been making and supplying compressors,
+                    and they are skilled of every stage of production, from
+                    development to manufacture to support and service. As a
+                    comprehensive producer of industrial gear, AIRMAN is able to
+                    provide our clients with unique and creative products
                   </p>
                 </div>
               </div>
@@ -62,14 +82,14 @@ function Crimping() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">CRIMPING MACHINES EQUIPMENT</p>
+            <p className="product-block-title">AIR COMPRESSOR EQUIPMENT</p>
 
             <section className="product-image">
-              <div className="row align-items-end justify-content-center">
+              <div className="row align-items-end  justify-content-center">
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Lillbacka/1.png"
+                      src="/assets/image/product-description/Airman/1.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -79,7 +99,7 @@ function Crimping() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Lillbacka/2.png"
+                      src="/assets/image/product-description/Airman/2.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -89,7 +109,27 @@ function Crimping() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Lillbacka/3.png"
+                      src="/assets/image/product-description/Airman/3.png"
+                      alt=""
+                      className="img-fluid product-details-image"
+                    />
+                  </div>
+                </div>
+
+                <div className="col-md-2">
+                  <div className="text-center">
+                    <img
+                      src="/assets/image/product-description/Airman/4.png"
+                      alt=""
+                      className="img-fluid product-details-image"
+                    />
+                  </div>
+                </div>
+
+                <div className="col-md-2">
+                  <div className="text-center">
+                    <img
+                      src="/assets/image/product-description/Airman/5.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -99,13 +139,29 @@ function Crimping() {
 
               <div className="row justify-content-center">
                 <div className="col-md-2">
-                  <p className="product-description-name">P20CS SCC</p>
+                  <p className="product-description-name">
+                    Standard Type PDS Series
+                  </p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name">IM2</p>
+                  <p className="product-description-name">
+                    After-Cooler Type PDS-C Series
+                  </p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name">P32CS SCC</p>
+                  <p className="product-description-name">
+                    Leak Gard Type PDS-L Series
+                  </p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">
+                    Dry-Air Type PDS-D Series
+                  </p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">
+                    High Pressure Type PDSE,F,G,H,J,K Series
+                  </p>
                 </div>
               </div>
             </section>
@@ -199,4 +255,4 @@ function Crimping() {
   );
 }
 
-export default Crimping;
+export default AirCompressor;

@@ -4,8 +4,7 @@ import "./product.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Brochures from "../../Component/Brochures/Brochures";
-
-function MountedCrane() {
+function DieselGenerator() {
   AOS.init({
     duration: 500,
     delay: 200,
@@ -17,7 +16,7 @@ function MountedCrane() {
   return (
     <section>
       <section className="product-bg">
-        <h1 className="text-center page-title">Truck-Mounted Crane</h1>
+        <h1 className="text-center page-title">Diesel Generator</h1>
       </section>
 
       <section className="product-info-background">
@@ -31,30 +30,28 @@ function MountedCrane() {
             >
               <div className="text-center">
                 <img
-                  src="/assets/image/products/unic.png"
+                  src="/assets/image/products/Denyo.png"
                   className="img-fluid"
                   alt="Sheet Pile Driven"
-                  style={{ height: "40px", width: "200px" }}
+                  style={{ height: "50px", width: "200px" }}
                 />
-                <p className="product-name text-center mb-5">Crane</p>
+                <p className="product-name text-center mb-5">
+                  Diesel Generator
+                </p>
               </div>
 
               <div>
                 <p className="product-key-point-title">
-                  We highly recommend UNIC because:
+                  Unique features of Denyo Generator:
                 </p>
                 <ul className="product-key-point-list">
-                  <li>Professional grade support</li>
+                  <li>Continuous power delivery</li>
+                  <li>Easy maintenance </li>
+                  <li>Low fuel consumption</li>
+                  <li>Low sound operations</li>
                   <li>
-                    Highly skilled engineers happily provide authentic
-                    suggestions for end user
+                    Operational sounds lower than 45 dB(A). (Mālie models only)
                   </li>
-                  <li>
-                    Easily mountable and compatible with wide range of trucks
-                  </li>
-                  <li>Compact design for using less space</li>
-                  <li>Highly reliable Japanese technology</li>
-                  <li>Simplistic mechanical design for easy maintenance.</li>
                 </ul>
               </div>
             </div>
@@ -67,20 +64,36 @@ function MountedCrane() {
             >
               <div className="card border-0 shadow">
                 <div className="card-body">
-                  <p className="product-text text-justify">
-                    FURUKAWA UNIC's strength is distinguished by its superior
-                    quality and technology. Since the introduction of the first
-                    truck-mounted crane in Japan in 1961, they have been
-                    developing new technologies to fulfill the demands of the
-                    customers while also improving in quality. They provide a
-                    wide range of truck mounted cranes. Truck mounted cranes
-                    work like a two in one vehicle, providing the facility of
-                    both carrying and lifting heavy goods. These trucks are
-                    designed to be well balanced and easily maneuverable. UNIC
-                    cranes are straight-boom type cranes which provide greater
-                    accuracy of reach over obstacles and straight and stable
-                    lifting ability. UNIC also have compact crawler crane for
-                    challenging terrains.
+                  <p className="product-text">
+                    Denyo is a renowned manufacturer of engine-driven generators
+                    with a strong market presence. These units are highly useful
+                    in locations where traditional power supply infrastructure
+                    is absent. There are many different versions of
+                    engine-driven generators available, ranging from 0.9kVA to
+                    1,100kVA. There are also primary and emergency generators
+                    available. Denyo's generators are long-lasting,
+                    energy-efficient, and soundproof, thanks to cutting-edge
+                    technology and creativity.
+                  </p>
+                  <h6>Cutting-age technology, High performance</h6>
+                  <p className="product-text">
+                    The innovative excitation system* installed on Denyo’s DCA
+                    series, in tandem with the Automatic Voltage Regulator (AVR)
+                    and modern brushless generator, enables quick voltage
+                    regulation in response to load fluctuations, allowing usage
+                    as soon as the unit is powered on.
+                  </p>
+                  <h6>Eco-friendly design and operation</h6>
+                  <p className="product-text">
+                    The engines utilized in these generators comply with
+                    California's air pollution law, which ranks among the most
+                    strict anti-pollution requirements in the world. These
+                    engines do this through the use of a PCV (Plug Control
+                    Valve) system. As a result, these engines do not release
+                    blow by gas to the outside, keeping the inside of the
+                    equipment cleaner and reducing exhaust emissions.
+                    <br />
+                    <small>*U.S. Patent No. 4268788</small>
                   </p>
                 </div>
               </div>
@@ -92,16 +105,14 @@ function MountedCrane() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">
-              TRUCK-MOUNTED CRANE EQUIPMENT & CUSTOMIZED SOLUTIONS{" "}
-            </p>
+            <p className="product-block-title">DIESEL GENERATOR EQUIPMENT</p>
 
             <section className="product-image">
               <div className="row align-items-end  justify-content-center">
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Unic/1.png"
+                      src="/assets/image/product-description/Deyno-g/1.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -111,7 +122,7 @@ function MountedCrane() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Unic/2.png"
+                      src="/assets/image/product-description/Deyno-g/2.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -121,7 +132,7 @@ function MountedCrane() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Unic/3.png"
+                      src="/assets/image/product-description/Deyno-g/3.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -131,7 +142,7 @@ function MountedCrane() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Unic/4.png"
+                      src="/assets/image/product-description/Deyno-g/4.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -141,17 +152,7 @@ function MountedCrane() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Unic/5.png"
-                      alt=""
-                      className="img-fluid product-details-image"
-                    />
-                  </div>
-                </div>
-
-                <div className="col-md-2">
-                  <div className="text-center">
-                    <img
-                      src="/assets/image/product-description/Unic/6.png"
+                      src="/assets/image/product-description/Deyno-g/5.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -161,22 +162,19 @@ function MountedCrane() {
 
               <div className="row justify-content-center">
                 <div className="col-md-2">
-                  <p className="product-description-name">URV290</p>
+                  <p className="product-description-name">DCA-45USKE</p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name">URV550K-TH</p>
+                  <p className="product-description-name">Malie DCA-45MZ</p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name">URV550H</p>
+                  <p className="product-description-name"> DCA-25USIE</p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name">URV800</p>
+                  <p className="product-description-name"> DA-6000SS</p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name">URV1004-CNCT</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">UR1504</p>
+                  <p className="product-description-name"> DCA-6LSX</p>
                 </div>
               </div>
             </section>
@@ -184,13 +182,26 @@ function MountedCrane() {
         </div>
       </section>
 
+      {/* <section className="pt-5 pb-5">
+        <div className="container">
+          <div className="card">
+            <div className="card-body">
+              <div className="row justyify-content-center">
+                <div className="col-md-6">
+                </div>
+               </div> 
+            </div>
+          </div>
+        </div>
+      </section> */}
+
       <div className="pt-5 pb-5">
         <div className="container">
           <div className="row">
             <div className="col-md-2"></div>
             <div className="col-md-8">
               <div className="card border-0">
-                <div className=" shadow">
+                <div className="shadow">
                   <Brochures />
                   <div className="brochures-name mt-5">
                     <a href="/assets/dumy.pdf" className="brochures-download">
@@ -270,4 +281,4 @@ function MountedCrane() {
   );
 }
 
-export default MountedCrane;
+export default DieselGenerator;

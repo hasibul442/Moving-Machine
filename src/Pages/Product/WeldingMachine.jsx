@@ -4,21 +4,20 @@ import "./product.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Brochures from "../../Component/Brochures/Brochures";
-// import { Link } from "react-router-dom";
 
-function SheetPileDriver() {
+function WeldingMachine() {
   AOS.init({
     duration: 500,
     delay: 200,
     mirror: true,
   });
   React.useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <section>
       <section className="product-bg">
-        <h1 className="text-center page-title">Sheet Pile Driver</h1>
+        <h1 className="text-center page-title">Welding Machine</h1>
       </section>
 
       <section className="product-info-background">
@@ -32,23 +31,23 @@ function SheetPileDriver() {
             >
               <div className="text-center">
                 <img
-                  src="/assets/image/products/movex.png"
+                  src="/assets/image/products/esab.png"
                   className="img-fluid"
                   alt="Sheet Pile Driven"
-                  style={{ height: "50px", width: "200px" }}
+                  style={{ height: "70px", width: "200px" }}
                 />
-                <p className="product-name text-center mb-5">Pile Drivers</p>
+                <p className="product-name text-center mb-5">Welding Machine</p>
               </div>
               <div>
                 <p className="product-key-point-title">
-                MOVAX solutions are:
+                  Advantages of ESAB Welding machines:
                 </p>
                 <ul className="product-key-point-list">
-                  <li>Fastest way to handle, pitch, drive, and extract piles</li>
-                  <li>High accuracy due to excavator mounting and side grip driving</li>
-                  <li>High level control and efficiency. Excavator mounted, can be easily manipulated</li>
-                  <li>Higher versatility compared to crane mounted drive</li>
-                  <li>Unmatched safety thanks to the side grip technology's intrinsic safety, high-quality manufacturing from Europe</li>
+                  <li>Compact Design</li>
+                  <li>Electricity efficiency</li>
+                  <li>Portability</li>
+                  <li>High quality German Technology</li>
+                  <li>Simple interface for ease of use</li>
                 </ul>
               </div>
             </div>
@@ -61,11 +60,14 @@ function SheetPileDriver() {
             >
               <div className="card border-0 shadow">
                 <div className="card-body">
-                  <p className="product-text">
-                  MOVAX Oy, founded in 1993, is a privately held Finnish company that is a world-leading creator, developer, and manufacturer of excavator-mounted piling and foundation equipment with innovative automatic control systems and information management solutions. MOVAX holds more than 40 patents in innovation of piling equipment sector. Their excavator-mounted piling and foundation equipment has a positive track record of being high quality and being produced in Finland. They provide wide range of products such as, pile drivers, piling hammers, piling drills, multi-tool leaders and stabilization leaders.
+                  <p className="product-text text-justify">
+                    ESAB cutting-edge, world-class equipment and solutions are
+                    designed with client input and produced with the skills and
+                    tradition of a global manufacturing leader. Over the time
+                    they have become one of the world’s leading production
+                    companies for welding equipment and consumables.
                   </p>
                 </div>
-
               </div>
             </div>
           </div>
@@ -75,14 +77,16 @@ function SheetPileDriver() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">Sheet piling equipment</p>
+            <p className="product-block-title">
+              WELDING MACHINE EQUIPMENT & CUSTOMIZED SOLUTIONS{" "}
+            </p>
 
             <section className="product-image">
               <div className="row align-items-end justify-content-center">
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Movax/1.png"
+                      src="/assets/image/product-description/Esab-w/1.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -92,7 +96,7 @@ function SheetPileDriver() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Movax/2.png"
+                      src="/assets/image/product-description/Esab-w/2.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -102,7 +106,7 @@ function SheetPileDriver() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Movax/3.png"
+                      src="/assets/image/product-description/Esab-w/3.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -112,7 +116,7 @@ function SheetPileDriver() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Movax/4.png"
+                      src="/assets/image/product-description/Esab-w/4.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -122,7 +126,7 @@ function SheetPileDriver() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Movax/5.png"
+                      src="/assets/image/product-description/Esab-w/5.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -132,19 +136,21 @@ function SheetPileDriver() {
 
               <div className="row justify-content-center">
                 <div className="col-md-2">
-                  <p className="product-description-name">PILE DRIVERS</p>
+                  <p className="product-description-name">Warrior Feed 404HD</p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name">PILING HAMMERS</p>
+                  <p className="product-description-name">Rebel™ EMP 285ic</p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name">PILING DRILLS</p>
+                  <p className="product-description-name">Renegade ES 300i</p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name">PILING DRILLS</p>
+                  <p className="product-description-name">Origo Mig 320/410</p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name">PILING DRILLS</p>
+                  <p className="product-description-name">
+                    Aristo Mig 5000i/U5000i
+                  </p>
                 </div>
               </div>
             </section>
@@ -158,7 +164,7 @@ function SheetPileDriver() {
             <div className="col-md-2"></div>
             <div className="col-md-8">
               <div className="card border-0">
-                <div className=" shadow">
+                <div className="shadow">
                   <Brochures />
                   <div className="brochures-name mt-5">
                     <a href="/assets/dumy.pdf" className="brochures-download">
@@ -238,4 +244,4 @@ function SheetPileDriver() {
   );
 }
 
-export default SheetPileDriver;
+export default WeldingMachine;

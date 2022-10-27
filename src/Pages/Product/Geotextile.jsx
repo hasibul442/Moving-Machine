@@ -4,19 +4,20 @@ import "./product.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Brochures from "../../Component/Brochures/Brochures";
-function DieselGenerator() {
+
+function Geotextile() {
   AOS.init({
     duration: 500,
     delay: 200,
     mirror: true,
   });
   React.useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <section>
       <section className="product-bg">
-        <h1 className="text-center page-title">Diesel Generator</h1>
+        <h1 className="text-center page-title">Geotextile</h1>
       </section>
 
       <section className="product-info-background">
@@ -28,34 +29,14 @@ function DieselGenerator() {
               data-aos-offset="20"
               data-aos-anchor-placement="top-bottom"
             >
-              <div className="text-center">
+              <div className="text-center  my-5">
                 <img
-                  src="/assets/image/products/Denyo.png"
+                  src="/assets/image/products/tencate.png"
                   className="img-fluid"
                   alt="Sheet Pile Driven"
-                  style={{ height: "50px", width: "200px" }}
+                  style={{ height: "45px", width: "200px" }}
                 />
-                <p className="product-name text-center mb-5">
-                  Diesel Generator
-                </p>
-              </div>
-
-              <div>
-                <p className="product-key-point-title">
-                  Unique features of Denyo Generator:
-                </p>
-                <ul className="product-key-point-list">
-                  <li>
-                    Continuous power delivery for 240 hours at 70% load.
-                    (Service to service)
-                  </li>
-                  {/* <li>12 hours power delivery at 80% load.</li> */}
-                  <li>Low fuel consumption</li>
-                  <li>Low sound operations</li>
-                  <li>
-                    Operational sounds lower than 45 dB(A). (Mālie models only)
-                  </li>
-                </ul>
+                <p className="product-name text-center mb-5">Geosynthetic</p>
               </div>
             </div>
 
@@ -67,18 +48,16 @@ function DieselGenerator() {
             >
               <div className="card border-0 shadow">
                 <div className="card-body">
-                  <p className="product-text">
-                    Denyo is one of the market leading generator manufacturers
-                    in the world. Their product praised for the robust
-                    manufacturing, high reliability and long-lasting service.
-                    Denyo has a wide range of products for different
-                    applications. These generators range from 5kVA up to
-                    1100kVA. These generators use engines sourced from a few
-                    high-end diesel experts of Japan namely Komatsu, Mitsubishi,
-                    Yanmar, Kobuta, Isuzu. The alternators and genset assemblies
-                    are designed, developed, and manufactured at Denyo in Japan
-                    with exception of some smaller models (up to 125) being
-                    manufactured at Denyo’s factory in Indonesia and Vietnam.
+                  <p className="product-text text-justify">
+                    TENCATE Geosynthetics offers a worldwide manufacturing
+                    platform, a commercial and technical organization, and has
+                    effectively consolidated and grown key markets to optimize
+                    client value. TENCATE Geosynthetics develop, manufacture,
+                    and provide innovative and dependable geosynthetics by
+                    processing synthetic raw materials. In Asia, TENCATE
+                    Geosynthetics headquarter is located in Malaysia having
+                    manufacturing facilities in Selengor, Malaysia and Zhuhai,
+                    China.
                   </p>
                 </div>
               </div>
@@ -90,14 +69,14 @@ function DieselGenerator() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">DIESEL GENERATOR EQUIPMENT</p>
+            <p className="product-block-title">GEOTEXTILE EQUIPMENT</p>
 
             <section className="product-image">
               <div className="row align-items-end  justify-content-center">
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Deyno-g/1.png"
+                      src="/assets/image/product-description/Tencate/1.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -107,7 +86,7 @@ function DieselGenerator() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Deyno-g/2.png"
+                      src="/assets/image/product-description/Tencate/2.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -117,7 +96,7 @@ function DieselGenerator() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Deyno-g/3.png"
+                      src="/assets/image/product-description/Tencate/3.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -127,39 +106,27 @@ function DieselGenerator() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Deyno-g/4.png"
-                      alt=""
-                      className="img-fluid product-details-image"
-                    />
-                  </div>
-                </div>
-
-                <div className="col-md-2">
-                  <div className="text-center">
-                    <img
-                      src="/assets/image/product-description/Deyno-g/5.png"
+                      src="/assets/image/product-description/Tencate/4.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
                   </div>
                 </div>
               </div>
-
               <div className="row justify-content-center">
                 <div className="col-md-2">
-                  <p className="product-description-name">DCA-45USKE</p>
+                  <p className="product-description-name">Mirafi® PET</p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name">Malie DCA-45MZ</p>
+                  <p className="product-description-name">Polyfelt® TS & KET</p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name"> DCA-25USIE</p>
+                  <p className="product-description-name">
+                    Polyfelt® Heavy Duty TS & KE
+                  </p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name"> DA-6000SS</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name"> DCA-6LSX</p>
+                  <p className="product-description-name">Polyfelt® F</p>
                 </div>
               </div>
             </section>
@@ -167,26 +134,13 @@ function DieselGenerator() {
         </div>
       </section>
 
-      {/* <section className="pt-5 pb-5">
-        <div className="container">
-          <div className="card">
-            <div className="card-body">
-              <div className="row justyify-content-center">
-                <div className="col-md-6">
-                </div>
-               </div> 
-            </div>
-          </div>
-        </div>
-      </section> */}
-
       <div className="pt-5 pb-5">
         <div className="container">
           <div className="row">
             <div className="col-md-2"></div>
             <div className="col-md-8">
               <div className="card border-0">
-                <div className="shadow">
+                <div className=" shadow">
                   <Brochures />
                   <div className="brochures-name mt-5">
                     <a href="/assets/dumy.pdf" className="brochures-download">
@@ -266,4 +220,4 @@ function DieselGenerator() {
   );
 }
 
-export default DieselGenerator;
+export default Geotextile;

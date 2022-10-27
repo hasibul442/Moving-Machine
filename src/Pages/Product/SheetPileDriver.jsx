@@ -4,20 +4,21 @@ import "./product.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Brochures from "../../Component/Brochures/Brochures";
+// import { Link } from "react-router-dom";
 
-function Geotextile() {
+function SheetPileDriver() {
   AOS.init({
     duration: 500,
     delay: 200,
     mirror: true,
   });
   React.useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section>
       <section className="product-bg">
-        <h1 className="text-center page-title">Geotextile</h1>
+        <h1 className="text-center page-title">Sheet Pile Driver</h1>
       </section>
 
       <section className="product-info-background">
@@ -29,14 +30,31 @@ function Geotextile() {
               data-aos-offset="20"
               data-aos-anchor-placement="top-bottom"
             >
-              <div className="text-center  my-5">
+              <div className="text-center">
                 <img
-                  src="/assets/image/products/tencate.png"
+                  src="/assets/image/products/movex.png"
                   className="img-fluid"
                   alt="Sheet Pile Driven"
-                  style={{ height: "45px", width: "200px" }}
+                  style={{ height: "50px", width: "200px" }}
                 />
-                <p className="product-name text-center mb-5">Geosynthetic</p>
+                <p className="product-name text-center mb-5">Pile Drivers</p>
+              </div>
+              <div>
+                <p className="product-key-point-title">MOVAX solutions are:</p>
+                <ul className="product-key-point-list">
+                  <li>
+                    Fastest way to handle, pitch, drive, and extract piles
+                  </li>
+                  <li>
+                    High accuracy due to excavator mounting and side grip
+                    driving
+                  </li>
+                  <li>High level control and efficiency</li>
+                  <li>High degree of maneuverability</li>
+                  <li>Versatility of operational area</li>
+                  <li>Unmatched safety </li>
+                  <li>Designed and manufactured in Europe</li>
+                </ul>
               </div>
             </div>
 
@@ -48,8 +66,23 @@ function Geotextile() {
             >
               <div className="card border-0 shadow">
                 <div className="card-body">
-                  <p className="product-text text-justify">
-                  TENCATE Geosynthetics offers a worldwide manufacturing platform, a commercial and technical organization, and has effectively consolidated and grown key markets to optimize client value. TENCATE Geosynthetics and TENCATE Industrial Fabrics are two business subsidiaries of TENCATE Geosynthetics that service the global market. They develop, manufacture, and provide innovative and dependable geosynthetics and industrial textiles by processing synthetic raw materials. In Asia, TENCATE Geosynthetics headquarter is located at Malaysia and manufacturing facility is stablished in Selengor, Malaysia and Zhuhai, China.
+                  <p className="product-text">
+                    <b>PILING & FOUNDATION SOLUTIONS WITH AN ADDED VALUE.</b>{" "}
+                    <br />
+                    MOVAX is a world-leading developer and manufacturer of
+                    excavator-mounted, automatically controlled piling and
+                    foundation equipment - and the inventor of the patented,
+                    modular side grip technology. MOVAX Side grip pile drivers
+                    are excavator-mounted, high-frequency, vibratory-type pile
+                    drivers that provide the best solution for a wide range of
+                    piling requirements, particularly when a high degree of
+                    precision is required; and for piling in sensitive
+                    environments with limited space, head room, or access.
+                    <br />
+                    The same unit can handle, pitch, drive, and extract various
+                    types of piles and can complete the whole piling process
+                    without the use of physical handling or auxiliary
+                    technology.
                   </p>
                 </div>
               </div>
@@ -61,14 +94,14 @@ function Geotextile() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">GEOTEXTILE EQUIPMENT</p>
+            <p className="product-block-title">Sheet piling equipment</p>
 
             <section className="product-image">
-              <div className="row align-items-end  justify-content-center">
+              <div className="row align-items-end justify-content-center">
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Tencate/1.png"
+                      src="/assets/image/product-description/Movax/1.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -78,7 +111,7 @@ function Geotextile() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Tencate/2.png"
+                      src="/assets/image/product-description/Movax/2.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -88,7 +121,7 @@ function Geotextile() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Tencate/3.png"
+                      src="/assets/image/product-description/Movax/3.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -98,27 +131,39 @@ function Geotextile() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Tencate/4.png"
+                      src="/assets/image/product-description/Movax/4.png"
+                      alt=""
+                      className="img-fluid product-details-image"
+                    />
+                  </div>
+                </div>
+
+                <div className="col-md-2">
+                  <div className="text-center">
+                    <img
+                      src="/assets/image/product-description/Movax/5.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
                   </div>
                 </div>
               </div>
+
               <div className="row justify-content-center">
                 <div className="col-md-2">
-                  <p className="product-description-name">Mirafi® PET</p>
+                  <p className="product-description-name">PILE DRIVERS</p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name">Polyfelt® TS & KET</p>
+                  <p className="product-description-name">PILING HAMMERS</p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name">
-                    Polyfelt® Heavy Duty TS & KE
-                  </p>
+                  <p className="product-description-name">PILING DRILLS</p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name">Polyfelt® F</p>
+                  <p className="product-description-name">PILING DRILLS</p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">PILING DRILLS</p>
                 </div>
               </div>
             </section>
@@ -212,4 +257,4 @@ function Geotextile() {
   );
 }
 
-export default Geotextile;
+export default SheetPileDriver;

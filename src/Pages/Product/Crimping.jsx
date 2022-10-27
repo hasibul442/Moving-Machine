@@ -4,20 +4,19 @@ import "./product.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Brochures from "../../Component/Brochures/Brochures";
-
-function WeldingMachine() {
+function Crimping() {
   AOS.init({
     duration: 500,
     delay: 200,
     mirror: true,
   });
   React.useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section>
       <section className="product-bg">
-        <h1 className="text-center page-title">Welding Machine</h1>
+        <h1 className="text-center page-title">Crimping Machine</h1>
       </section>
 
       <section className="product-info-background">
@@ -31,27 +30,14 @@ function WeldingMachine() {
             >
               <div className="text-center">
                 <img
-                  src="/assets/image/products/esab.png"
+                  src="/assets/image/products/lillbacka.png"
                   className="img-fluid"
                   alt="Sheet Pile Driven"
-                  style={{ height: "70px", width: "200px" }}
+                  style={{ height: "55px", width: "200px" }}
                 />
-                <p className="product-name text-center mb-5">Welding Machine</p>
-              </div>
-              <div>
-                <p className="product-key-point-title">
-                Advantages of ESAB Welding:
+                <p className="product-name text-center mb-5">
+                  Crimping Machines
                 </p>
-                <ul className="product-key-point-list">
-                  <li>Compact Design</li>
-                  {/* <li>12 hours power delivery at 80% load.</li> */}
-                  <li>Electricity efficiency</li>
-                  <li>Portability</li>
-                  <li>
-                  High quality German Technology
-                  </li>
-                  <li>Simple interface for ease of use</li>
-                </ul>
               </div>
             </div>
 
@@ -64,12 +50,19 @@ function WeldingMachine() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                    <span style={{ fontWeight: "bold" }}>ESAB</span>{" "}
-                    cutting-edge, world-class equipment and solutions are
-                    designed with client input and produced with the skills and
-                    tradition of a global manufacturing leader. Over the time
-                    they have become one of the world’s leading production
-                    companies for welding and cutting equipment and consumables.
+                    Every year, Lillbacka Powerco Oy produces thousands of
+                    crimping machines, as well as hose cutting and nut crimping
+                    equipment. Finn-Power is well-known for its high-quality,
+                    long-lasting hydraulic crimping machines, which are
+                    manufactured by Lillbacka Powerco, a Finnish company with
+                    over 50 years of manufacturing expertise. They provide
+                    dependable, long-lasting, and precise crimping machines to
+                    fulfill the needs of various sectors. Finn-Power crimping
+                    machines are built with cutting-edge manufacturing equipment
+                    and technology. Precision made parts, along with engineering
+                    and assembly experience, as well as quality control and
+                    final testing methods, result in dependable and precise
+                    crimping machines for your production needs.
                   </p>
                 </div>
               </div>
@@ -81,16 +74,14 @@ function WeldingMachine() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">
-              WELDING MACHINE EQUIPMENT & CUSTOMIZED SOLUTIONS{" "}
-            </p>
+            <p className="product-block-title">CRIMPING MACHINES EQUIPMENT</p>
 
             <section className="product-image">
               <div className="row align-items-end justify-content-center">
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Esab-w/1.png"
+                      src="/assets/image/product-description/Lillbacka/1.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -100,7 +91,7 @@ function WeldingMachine() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Esab-w/2.png"
+                      src="/assets/image/product-description/Lillbacka/2.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -110,27 +101,7 @@ function WeldingMachine() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Esab-w/3.png"
-                      alt=""
-                      className="img-fluid product-details-image"
-                    />
-                  </div>
-                </div>
-
-                <div className="col-md-2">
-                  <div className="text-center">
-                    <img
-                      src="/assets/image/product-description/Esab-w/4.png"
-                      alt=""
-                      className="img-fluid product-details-image"
-                    />
-                  </div>
-                </div>
-
-                <div className="col-md-2">
-                  <div className="text-center">
-                    <img
-                      src="/assets/image/product-description/Esab-w/5.png"
+                      src="/assets/image/product-description/Lillbacka/3.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -140,21 +111,13 @@ function WeldingMachine() {
 
               <div className="row justify-content-center">
                 <div className="col-md-2">
-                  <p className="product-description-name">Warrior Feed 404HD</p>
+                  <p className="product-description-name">P20CS SCC</p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name">Rebel™ EMP 285ic</p>
+                  <p className="product-description-name">IM2</p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name">Renegade ES 300i</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">Origo Mig 320/410</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">
-                    Aristo Mig 5000i/U5000i
-                  </p>
+                  <p className="product-description-name">P32CS SCC</p>
                 </div>
               </div>
             </section>
@@ -168,7 +131,7 @@ function WeldingMachine() {
             <div className="col-md-2"></div>
             <div className="col-md-8">
               <div className="card border-0">
-                <div className="shadow">
+                <div className=" shadow">
                   <Brochures />
                   <div className="brochures-name mt-5">
                     <a href="/assets/dumy.pdf" className="brochures-download">
@@ -248,4 +211,4 @@ function WeldingMachine() {
   );
 }
 
-export default WeldingMachine;
+export default Crimping;

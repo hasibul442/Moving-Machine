@@ -5,19 +5,19 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Brochures from "../../Component/Brochures/Brochures";
 
-function WelderGenerator() {
+function Cutting() {
   AOS.init({
     duration: 500,
     delay: 200,
     mirror: true,
   });
   React.useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <section>
       <section className="product-bg">
-        <h1 className="text-center page-title">Welder generator</h1>
+        <h1 className="text-center page-title">Cutting Machine</h1>
       </section>
 
       <section className="product-info-background">
@@ -31,24 +31,27 @@ function WelderGenerator() {
             >
               <div className="text-center">
                 <img
-                  src="/assets/image/products/Denyo.png"
+                  src="/assets/image/products/esab.png"
                   className="img-fluid"
                   alt="Sheet Pile Driven"
-                  style={{ height: "50px", width: "200px" }}
+                  style={{ height: "70px", width: "200px" }}
                 />
-                <p className="product-name text-center mb-5">Engine Welder</p>
+                <p className="product-name text-center mb-5">Cutting Machine</p>
               </div>
-
               <div>
                 <p className="product-key-point-title">
-                Benefits of Denyo Welder-Generator:
+                  Advantages of ESAB cutting Machine:
                 </p>
                 <ul className="product-key-point-list">
-                  <li>Fuel economy</li>
-                  <li>High efficiency welding.</li>
-                  <li>Automatic standby and auto start feature.</li>
-                  <li>Dual head welding setup available. (Selective models only)</li>
-                  <li>Can also be used as regular generator for power delivery</li>
+                  <li>Cutting-edge CNC technology</li>
+                  <li>
+                    Compact design with CNC control ideal for small business
+                  </li>
+                  <li>High-tech Plasma technology for efficient cutting</li>
+                  <li>
+                    Water Plasma technology which brings down consumption of gas
+                  </li>
+                  <li>Multi-head gantry design for versatility of cutting</li>
                 </ul>
               </div>
             </div>
@@ -62,17 +65,11 @@ function WelderGenerator() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                    Denyo engines are known for their durability, versatility
-                    and fuel/energy efficiency. Since foundation of the company
-                    in 1948, Denyo is making engine driven welder generators.
-                    Denyo offer the excellent performance and ruggedness unique
-                    to Japanese products and have a track record of use in
-                    extremely cold wilderness and extremely hot desert. With
-                    their over 70 years of manufacturing experience, Denyo have
-                    become one of the main market leaders in the world. Their
-                    product line includes both petrol and diesel version which
-                    uses high-quality engine from YAMAHA (petrol), Kubota
-                    (Diesel) or Yanmar (Diesel) depending on model variation.
+                    ESAB cutting-edge, world-class equipment and solutions are
+                    designed with client input and produced with the skills and
+                    tradition of a global manufacturing leader. Over the time
+                    they have become one of the world’s leading production
+                    companies for cutting equipment and consumables.
                   </p>
                 </div>
               </div>
@@ -84,16 +81,14 @@ function WelderGenerator() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">
-              ENGINE WELDER EQUIPMENT & CUSTOMIZED SOLUTIONS{" "}
-            </p>
+            <p className="product-block-title">WELDING MACHINE EQUIPMENT</p>
 
             <section className="product-image">
-              <div className="row align-items-end  justify-content-center">
+              <div className="row align-items-end justify-content-center">
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Deyno-w/1.png"
+                      src="/assets/image/product-description/Esab-c/1.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -103,7 +98,7 @@ function WelderGenerator() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Deyno-w/2.png"
+                      src="/assets/image/product-description/Esab-c/2.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -113,7 +108,7 @@ function WelderGenerator() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Deyno-w/3.png"
+                      src="/assets/image/product-description/Esab-c/3.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -123,7 +118,7 @@ function WelderGenerator() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Deyno-w/4.png"
+                      src="/assets/image/product-description/Esab-c/4.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -133,28 +128,35 @@ function WelderGenerator() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Deyno-w/5.png"
+                      src="/assets/image/product-description/Esab-c/5.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
                   </div>
                 </div>
               </div>
+
               <div className="row justify-content-center">
                 <div className="col-md-2">
-                  <p className="product-description-name"> DLW-300LS</p>
+                  <p className="product-description-name">
+                    Global Oxy-Fuel IR-CBU Pro
+                  </p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name"> DLW-200X2LS</p>
+                  <p className="product-description-name">Suprarex™ HDX</p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name"> DLW-300LSW2</p>
+                  <p className="product-description-name">
+                    A-Series Power Supply
+                  </p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name"> DLW-400LSW</p>
+                  <p className="product-description-name">Hydrocut HDX</p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name"> DCW-480ESW</p>
+                  <p className="product-description-name">
+                    m2 200i Plasma Cutting Systems
+                  </p>
                 </div>
               </div>
             </section>
@@ -248,4 +250,4 @@ function WelderGenerator() {
   );
 }
 
-export default WelderGenerator;
+export default Cutting;

@@ -5,19 +5,19 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Brochures from "../../Component/Brochures/Brochures";
 
-function Cutting() {
+function MountedCrane() {
   AOS.init({
     duration: 500,
     delay: 200,
     mirror: true,
   });
   React.useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section>
       <section className="product-bg">
-        <h1 className="text-center page-title">Cutting Machine</h1>
+        <h1 className="text-center page-title">Truck-Mounted Crane</h1>
       </section>
 
       <section className="product-info-background">
@@ -31,26 +31,27 @@ function Cutting() {
             >
               <div className="text-center">
                 <img
-                  src="/assets/image/products/esab.png"
+                  src="/assets/image/products/unic.png"
                   className="img-fluid"
                   alt="Sheet Pile Driven"
-                  style={{ height: "70px", width: "200px" }}
+                  style={{ height: "40px", width: "200px" }}
                 />
-                <p className="product-name text-center mb-5">Cutting Machine</p>
+                <p className="product-name text-center mb-5">Crane</p>
               </div>
+
               <div>
                 <p className="product-key-point-title">
-                Advantages of ESAB cutting Machine:
+                  Why choose UNIC Truck-mounted crane?
                 </p>
                 <ul className="product-key-point-list">
-                  <li>Cutting-edge CNC technology</li>
-                  {/* <li>12 hours power delivery at 80% load.</li> */}
-                  <li>Compact design with CNC control ideal for small business</li>
-                  <li>High-tech Plasma technology for efficient cutting</li>
-                  <li>
-                  Water Plasma technology which brings down consumption of gas
-                  </li>
-                  <li>Multi-head gantry design for versatility of cutting</li>
+                  <li>Design Philosophy to Pursue High Standards </li>
+                  <li>Built on order</li>
+                  <li>Thorough Quality Control</li>
+                  <li>Diversity of Mounting Methods</li>
+                  <li>Compatible with wide range of trucks</li>
+                  <li>Compact design, can operate in tight space</li>
+                  <li>Highly reliable Japanese construction.</li>
+                  <li>Simplistic mechanical design for easy maintenance</li>
                 </ul>
               </div>
             </div>
@@ -64,12 +65,23 @@ function Cutting() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                    <span style={{ fontWeight: "bold" }}>ESAB</span>{" "}
-                    cutting-edge, world-class equipment and solutions are
-                    designed with client input and produced with the skills and
-                    tradition of a global manufacturing leader. Over the time
-                    they have become one of the world’s leading production
-                    companies for welding and cutting equipment and consumables.
+                    FURUKAWA UNIC's strength is distinguished by its superior
+                    quality and technology. Since introducing the first
+                    truck-mounted crane in Japan in 1961, we have been
+                    developing new technologies to satisfy the needs of our
+                    customers while also improving our quality. Truck-mounted
+                    cranes are cargo-handling machines that are capable of
+                    lifting, loading, transporting, and performing other tasks
+                    with a single crane and the cargo truck on which the crane
+                    is mounted. A single truck-mounted crane may execute
+                    numerous functions that would ordinarily necessitate the use
+                    of two different types of mobile cranes; Loading and
+                    unloading are often performed by truck cranes, while cargo
+                    transit is typically handled by a cargo truck. As a result,
+                    truck-mounted cranes offer a considerable cost benefit since
+                    they combine the efficiency of two types of mobile cranes in
+                    a single unit, lowering purchase prices, rental fees, and
+                    fuel expenses.
                   </p>
                 </div>
               </div>
@@ -81,14 +93,14 @@ function Cutting() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">WELDING MACHINE EQUIPMENT</p>
+            <p className="product-block-title">TRUCK-MOUNTED CRANE EQUIPMENT</p>
 
             <section className="product-image">
-              <div className="row align-items-end justify-content-center">
+              <div className="row align-items-end  justify-content-center">
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Esab-c/1.png"
+                      src="/assets/image/product-description/Unic/1.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -98,7 +110,7 @@ function Cutting() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Esab-c/2.png"
+                      src="/assets/image/product-description/Unic/2.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -108,7 +120,7 @@ function Cutting() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Esab-c/3.png"
+                      src="/assets/image/product-description/Unic/3.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -118,7 +130,7 @@ function Cutting() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Esab-c/4.png"
+                      src="/assets/image/product-description/Unic/4.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -128,7 +140,17 @@ function Cutting() {
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Esab-c/5.png"
+                      src="/assets/image/product-description/Unic/5.png"
+                      alt=""
+                      className="img-fluid product-details-image"
+                    />
+                  </div>
+                </div>
+
+                <div className="col-md-2">
+                  <div className="text-center">
+                    <img
+                      src="/assets/image/product-description/Unic/6.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
@@ -138,25 +160,22 @@ function Cutting() {
 
               <div className="row justify-content-center">
                 <div className="col-md-2">
-                  <p className="product-description-name">
-                    Global Oxy-Fuel IR-CBU Pro
-                  </p>
+                  <p className="product-description-name">URV290</p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name">Suprarex™ HDX</p>
+                  <p className="product-description-name">URV550K-TH</p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name">
-                    A-Series Power Supply
-                  </p>
+                  <p className="product-description-name">URV550H</p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name">Hydrocut HDX</p>
+                  <p className="product-description-name">URV800</p>
                 </div>
                 <div className="col-md-2">
-                  <p className="product-description-name">
-                    m2 200i Plasma Cutting Systems
-                  </p>
+                  <p className="product-description-name">URV1004-CNCT</p>
+                </div>
+                <div className="col-md-2">
+                  <p className="product-description-name">UR1504</p>
                 </div>
               </div>
             </section>
@@ -250,4 +269,4 @@ function Cutting() {
   );
 }
 
-export default Cutting;
+export default MountedCrane;
