@@ -249,6 +249,7 @@ a:focus {
   border-radius: 4px;
   box-shadow: 18px 12px 34px -17px rgb(0 0 0);
   z-index: 10;
+  /* border: 1px solid #000; */
 }
 
 .second_dropdown_body > .second-dropdown:hover > .third_dropdown_body{
