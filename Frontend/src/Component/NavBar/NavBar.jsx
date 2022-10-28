@@ -1,23 +1,16 @@
 import React, { useState, useEffect } from "react";
 import "./navbar.css";
 import { Link, NavLink } from "react-router-dom";
-// import ScrollspyNav  from 'react-scrollspy-nav';
-// import "./nav.js";
+
 function Navbar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
-
   const [navbar1, setNavbar] = useState(false);
-  const [navbarlogo, setNavbarLogo] = useState(false);
-
   const changeBackground = () => {
-    // console.log(window.scrollY);
     if (window.scrollY > 280) {
       setNavbar(true);
-      setNavbarLogo(true);
     } else {
       setNavbar(false);
-      setNavbarLogo(false);
     }
   };
   useEffect(() => {
@@ -41,7 +34,6 @@ function Navbar() {
               <img
                 src="/assets/image/logo/logo-2.png"
                 alt="Company Logo"
-                // height="40px"
                 className={
                   navbar1
                     ? "navbar-logo  minimg-size"
@@ -79,7 +71,7 @@ function Navbar() {
                 <li className="nav-item dropdown dropdown_auto">
                   <a
                     className="nav-link dropdown-toggle "
-                    href="#products_list"
+                    href="#"
                     id="dropdown04"
                     data-toggle="dropdown"
                     aria-haspopup="true"
@@ -91,98 +83,151 @@ function Navbar() {
                     className="dropdown-menu dropdown_auto_menu"
                     aria-labelledby="dropdown04"
                   >
-                    {/* <div className="container">
-                      <div className="row">
-                        <div className="col-sm-4">
-                          <h3 className="dropdown-title">Products</h3>
-                          <Link className="dropdown-item demo5" to="/dieselgenerator">
-                            Diesel Generator
-                          </Link>
-                          <Link className="dropdown-item" to="/weldergenerator">
-                            Welder Generator
-                          </Link>
-                          <Link className="dropdown-item" to="/sheetpiledriver">
-                            Sheet Pile Driver{" "}
-                          </Link>
-                          <Link className="dropdown-item" to="/aircompressor">
-                            Portable Air Compressor
-                          </Link>
-                          <Link className="dropdown-item" to="/mountedcrane">
-                            Truck-Mounted Crane
-                          </Link>
-                          <Link className="dropdown-item" to="/crimping">
-                            Crimping Machine
-                          </Link>
-                          <Link className="dropdown-item" to="/geotextile">
-                            Geotextile
-                          </Link>
-                          <Link className="dropdown-item" to="/weldingmachine">
-                            Welding Machine
-                          </Link>
-                          <Link className="dropdown-item" to="/cutting">
-                            Cutting Machine
-                          </Link>
-                        </div>
-                        <div className="col-sm-4">
-                          <h3 className="dropdown-title">Services</h3>
-                          <Link className="dropdown-item" to="/services">
-                            Repaire & Maintenance{" "}
-                          </Link>
-                          <Link className="dropdown-item" to="/rental">
-                            Rental Services
-                          </Link>
-                        </div>
-                        <div className="col-sm-4">
-                          <h3 className="dropdown-title">Oil & Gas</h3>
-                          <Link className="dropdown-item" to="/geological">
-                            Geological E&P Services
-                          </Link>
-                        </div>
-                      </div>
-                    </div> */}
                     <li className="second-dropdown">
-                      <a className="dropdown-item " href="#">
-                        Industrial & Constructor Sector
+                      <a className="dropdown-item " href="# ">
+                        <div className="d-flex justify-content-between">
+                          <div>Industrial & Constructor Sector </div>
+                          <div className="px-2">
+                            {" "}
+                            <i className="fas fa-caret-right "></i>{" "}
+                          </div>
+                        </div>
                       </a>
                       <ul className="second_dropdown_body">
-                        <li className="nav-item">
-                          <a className="dropdown-item " href="#">
-                            Machines & Equipment
+                        <li className="nav-item second-dropdown">
+                          <a className="dropdown-item " href="# ">
+                            <div className="d-flex justify-content-between">
+                              <div>Machines & Equipment</div>
+                              <div className="px-2">
+                                {" "}
+                                <i className="fas fa-caret-right "></i>{" "}
+                              </div>
+                            </div>
                           </a>
+                          <ul className="third_dropdown_body">
+                            <li className="nav-item">
+                              <Link
+                                className="dropdown-item demo5"
+                                to="/dieselgenerator"
+                              >
+                                Diesel Generator
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                className="dropdown-item"
+                                to="/weldergenerator"
+                              >
+                                Welder Generator
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                className="dropdown-item"
+                                to="/sheetpiledriver"
+                              >
+                                Sheet Pile Driver{" "}
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                className="dropdown-item"
+                                to="/aircompressor"
+                              >
+                                Portable Air Compressor
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                className="dropdown-item"
+                                to="/mountedcrane"
+                              >
+                                Truck-Mounted Crane
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link className="dropdown-item" to="/crimping">
+                                Crimping Machine
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                className="dropdown-item"
+                                to="/weldingmachine"
+                              >
+                                Welding Machine
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link className="dropdown-item" to="/cutting">
+                                Cutting Machine
+                              </Link>
+                            </li>
+                          </ul>
                         </li>
-                        <li className="nav-item">
-                          <a className="dropdown-item " href="#">
-                            Materials
+                        <li className="nav-item second-dropdown">
+                          <a className="dropdown-item" href='# '>
+                          <div className="d-flex justify-content-between">
+                              <div>Materials</div>
+                              <div className="px-2">
+                                {" "}
+                                <i className="fas fa-caret-right "></i>{" "}
+                              </div>
+                            </div>
                           </a>
+                          <ul className="third_dropdown_body">
+                            <li className="nav-item">
+                              <Link className="dropdown-item" to="/geotextile">
+                                Geotextile
+                              </Link>
+                            </li>
+                          </ul>
                         </li>
-                        <li className="nav-item">
-                          <a className="dropdown-item " href="#">
-                            Services
+
+                        <li className="nav-item second-dropdown">
+                          <a className="dropdown-item" href='# '>
+                          <div className="d-flex justify-content-between">
+                              <div>Services</div>
+                              <div className="px-2">
+                                {" "}
+                                <i className="fas fa-caret-right "></i>{" "}
+                              </div>
+                            </div>
                           </a>
+                          <ul className="third_dropdown_body">
+                            <li className="nav-item">
+                            <Link className="dropdown-item" to="/services">
+                            Repaire & Maintenance{" "}
+                          </Link>
+                            </li>
+                            <li className="nav-item">
+                            <Link className="dropdown-item" to="/rental">
+                            Rental Services
+                          </Link>
+                            </li>
+                          </ul>
                         </li>
                       </ul>
                     </li>
 
-                    <li className="second-dropdown">
-                      <a className="dropdown-item " href="#">
-                        Oil & Gas Sector
+                    <li className="nav-item second-dropdown">
+                      <a className="dropdown-item " href="# ">
+                        <div className="d-flex justify-content-between">
+                          <div>Oil & Gas Sector </div>
+                          <div className="px-2">
+                            {" "}
+                            <i className="fas fa-caret-right "></i>{" "}
+                          </div>
+                        </div>
                       </a>
                       <ul className="second_dropdown_body">
-                        <li className="nav-item">Geological E&P Services</li>
+                        <li className="nav-item">
+                          <Link className="dropdown-item" to="/geological">
+                            Geological E&P Services
+                          </Link>
+                        </li>
                       </ul>
                     </li>
-                    <li></li>
-                    {/* <div
-                      className="dropdown-menu dropdown_auto_menu"
-                      aria-labelledby="dropdown04"
-                    >
-                      <Link
-                        className="dropdown-item demo5"
-                        to="/dieselgenerator"
-                      >
-                        Diesel Generator
-                      </Link>
-                    </div> */}
                   </ul>
                 </li>
                 <li className="nav-item">
