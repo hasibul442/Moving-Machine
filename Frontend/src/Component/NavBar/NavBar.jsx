@@ -71,7 +71,7 @@ function Navbar() {
                 <li className="nav-item dropdown dropdown_auto">
                   <a
                     className="nav-link dropdown-toggle "
-                    href="#"
+                    href="#products_list"
                     id="dropdown04"
                     data-toggle="dropdown"
                     aria-haspopup="true"
@@ -84,7 +84,7 @@ function Navbar() {
                     aria-labelledby="dropdown04"
                   >
                     <li className="second-dropdown">
-                      <a className="dropdown-item " href="# ">
+                      <a className="dropdown-item " href="#">
                         <div className="d-flex justify-content-between">
                           <div>Industrial & Constructor Sector </div>
                           <div className="px-2">
@@ -95,7 +95,7 @@ function Navbar() {
                       </a>
                       <ul className="second_dropdown_body">
                         <li className="nav-item second-dropdown">
-                          <a className="dropdown-item " href="# ">
+                          <a className="dropdown-item " href="#">
                             <div className="d-flex justify-content-between">
                               <div>Machines & Equipment</div>
                               <div className="px-2">
@@ -166,7 +166,7 @@ function Navbar() {
                           </ul>
                         </li>
                         <li className="nav-item second-dropdown">
-                          <a className="dropdown-item" href='# '>
+                          <a className="dropdown-item" href="#">
                           <div className="d-flex justify-content-between">
                               <div>Materials</div>
                               <div className="px-2">
@@ -185,7 +185,7 @@ function Navbar() {
                         </li>
 
                         <li className="nav-item second-dropdown">
-                          <a className="dropdown-item" href='# '>
+                          <a className="dropdown-item" href="#" >
                           <div className="d-flex justify-content-between">
                               <div>Services</div>
                               <div className="px-2">
@@ -211,7 +211,7 @@ function Navbar() {
                     </li>
 
                     <li className="nav-item second-dropdown">
-                      <a className="dropdown-item " href="# ">
+                      <a className="dropdown-item " href="#">
                         <div className="d-flex justify-content-between">
                           <div>Oil & Gas Sector </div>
                           <div className="px-2">
