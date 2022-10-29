@@ -45,4 +45,51 @@
     transform: scale(1.5);
     transition: 2s;
   }
-  
+
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.product-link:hover {
+  color: #ED2226;
+  transition: 0.5s;
+}
+.product-link:hover .product-title {
+  color: #ED2226;
+  transition: 0.5s;
+}
+.product_slider_image {
+  width: 100%;
+  height: 170px;
+  transition: 0.5s;
+}
+.slider_card_style {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+.slider_card_style > .card-body > .image-box_1 {
+  background-image: url("./../../../public/assets/image/products/product-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.image-box_1 {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: auto;
+}
+.image-box_1 img {
+  transition: all 0.3s;
+  display: block;
+  width: 100%;
+  transition: 2s;
+}
+
+.slider_card_style:hover .image-box_1 img {
+  transform: scale(1.5);
+  transition: 2s;
+}
+

@@ -1,23 +1,16 @@
 import React, { useState, useEffect } from "react";
 import "./navbar.css";
 import { Link, NavLink } from "react-router-dom";
-// import ScrollspyNav  from 'react-scrollspy-nav';
-// import "./nav.js";
+
 function Navbar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
-
   const [navbar1, setNavbar] = useState(false);
-  const [navbarlogo, setNavbarLogo] = useState(false);
-
   const changeBackground = () => {
-    // console.log(window.scrollY);
     if (window.scrollY > 280) {
       setNavbar(true);
-      setNavbarLogo(true);
     } else {
       setNavbar(false);
-      setNavbarLogo(false);
     }
   };
   useEffect(() => {
@@ -41,7 +34,6 @@ function Navbar() {
               <img
                 src="/assets/image/logo/logo-2.png"
                 alt="Company Logo"
-                // height="40px"
                 className={
                   navbar1
                     ? "navbar-logo  minimg-size"
@@ -91,58 +83,6 @@ function Navbar() {
                     className="dropdown-menu dropdown_auto_menu"
                     aria-labelledby="dropdown04"
                   >
-                    {/* <div className="container">
-                      <div className="row">
-                        <div className="col-sm-4">
-                          <h3 className="dropdown-title">Products</h3>
-                          <Link className="dropdown-item demo5" to="/dieselgenerator">
-                            Diesel Generator
-                          </Link>
-                          <Link className="dropdown-item" to="/weldergenerator">
-                            Welder Generator
-                          </Link>
-                          <Link className="dropdown-item" to="/sheetpiledriver">
-                            Sheet Pile Driver{" "}
-                          </Link>
-
-                          <Link className="dropdown-item" to="/aircompressor">
-                            Portable Air Compressor
-                          </Link>
-                          <Link className="dropdown-item" to="/mountedcrane">
-                            Truck-Mounted Crane
-                          </Link>
-                          <Link className="dropdown-item" to="/crimping">
-                            Crimping Machine
-                          </Link>
-                          <Link className="dropdown-item" to="/geotextile">
-                            Geotextile
-                          </Link>
-                          <Link className="dropdown-item" to="/weldingmachine">
-                            Welding Machine
-                          </Link>
-                          <Link className="dropdown-item" to="/cutting">
-                            Cutting Machine
-                          </Link>
-                        </div>
-
-                        <div className="col-sm-4">
-                          <h3 className="dropdown-title">Services</h3>
-                          <Link className="dropdown-item" to="/services">
-                            Repaire & Maintenance{" "}
-                          </Link>
-                          <Link className="dropdown-item" to="/rental">
-                            Rental Services
-                          </Link>
-                        </div>
-
-                        <div className="col-sm-4">
-                          <h3 className="dropdown-title">Oil & Gas</h3>
-                          <Link className="dropdown-item" to="/geological">
-                            Geological E&P Services
-                          </Link>
-                        </div>
-                      </div>
-                    </div> */}
                     <li className="second-dropdown">
                       <a className="dropdown-item " href="#">
                         <div className="d-flex justify-content-between">
@@ -155,7 +95,7 @@ function Navbar() {
                       </a>
                       <ul className="second_dropdown_body">
                         <li className="nav-item second-dropdown">
-                          <a className="dropdown-item " href="# ">
+                          <a className="dropdown-item " href="#">
                             <div className="d-flex justify-content-between">
                               <div>Machines & Equipment</div>
                               <div className="px-2">
@@ -226,7 +166,7 @@ function Navbar() {
                           </ul>
                         </li>
                         <li className="nav-item second-dropdown">
-                          <a className="dropdown-item" href='# '>
+                          <a className="dropdown-item" href="#">
                           <div className="d-flex justify-content-between">
                               <div>Materials</div>
                               <div className="px-2">
@@ -245,7 +185,7 @@ function Navbar() {
                         </li>
 
                         <li className="nav-item second-dropdown">
-                          <a className="dropdown-item" href='# '>
+                          <a className="dropdown-item" href="#" >
                           <div className="d-flex justify-content-between">
                               <div>Services</div>
                               <div className="px-2">
@@ -288,18 +228,6 @@ function Navbar() {
                         </li>
                       </ul>
                     </li>
-                    <li></li>
-                    {/* <div
-                      className="dropdown-menu dropdown_auto_menu"
-                      aria-labelledby="dropdown04"
-                    >
-                      <Link
-                        className="dropdown-item demo5"
-                        to="/dieselgenerator"
-                      >
-                        Diesel Generator
-                      </Link>
-                    </div> */}
                   </ul>
                 </li>
                 <li className="nav-item">

@@ -1,4 +1,4 @@
-.products .card {
+/* .products .card {
   overflow: hidden;
   transition: 0.5s;
 }
@@ -25,19 +25,11 @@
   width: 100%;
   left: 0;
   transition: 0.5s;
-}
+} */
 
 .card-1 .layer {
   background: #5fd068;
 }
-/* .card-1 img{
-    background-color: #ff006231;
-    transition: 0.5s;
-  }
-  .card-1:hover img{
-    background-color: #ffffff;
-    transition: 0.5s;
-  } */
 
 .card-2 .layer {
   background: #3330e4;
