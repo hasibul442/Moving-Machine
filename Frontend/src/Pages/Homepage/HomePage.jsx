@@ -13,7 +13,7 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
-function HomePage() {
+function HomePage()  {
   AOS.init({
     duration: 500,
     delay: 200,
@@ -40,8 +40,8 @@ function HomePage() {
     },
   };
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div>
       <div className="navbar-space"></div>
@@ -50,7 +50,7 @@ function HomePage() {
           <Carousel.Item interval={1500}>
             <Link to="/dieselgenerator">
               <img
-                className="d-block w-100 carousel-image"
+                className="d-block w-100"
                 src="/assets/image/slider/Slide1.PNG"
                 alt="Banner_Photo"
               />
@@ -60,7 +60,7 @@ function HomePage() {
           <Carousel.Item interval={1500}>
             <Link to="/aircompressor">
               <img
-                className="d-block w-100 carousel-image"
+                className="d-block w-100"
                 src="/assets/image/slider/Slide2.PNG"
                 alt="Banner_Photo"
               />
@@ -70,7 +70,7 @@ function HomePage() {
           <Carousel.Item interval={1500}>
             <Link to="/weldergenerator">
               <img
-                className="d-block w-100 carousel-image"
+                className="d-block w-100"
                 src="/assets/image/slider/Slide3.PNG"
                 alt="Banner_Photo"
               />
@@ -80,7 +80,7 @@ function HomePage() {
           <Carousel.Item interval={1500}>
             <Link to="/sheetpiledriver">
               <img
-                className="d-block w-100 carousel-image"
+                className="d-block w-100"
                 src="/assets/image/slider/Slide4.PNG"
                 alt="Banner_Photo"
               />
@@ -90,7 +90,7 @@ function HomePage() {
           <Carousel.Item interval={1500}>
             <Link to="/mountedcrane">
               <img
-                className="d-block w-100 carousel-image"
+                className="d-block w-100"
                 src="/assets/image/slider/Slide5.PNG"
                 alt="Banner_Photo"
               />
@@ -100,7 +100,7 @@ function HomePage() {
           <Carousel.Item interval={1500}>
             <Link to="/crimping">
               <img
-                className="d-block w-100 carousel-image"
+                className="d-block w-100"
                 src="/assets/image/slider/Slide6.PNG"
                 alt="Banner_Photo"
               />
@@ -110,7 +110,7 @@ function HomePage() {
           <Carousel.Item interval={1500}>
             <Link to="/geotextile">
               <img
-                className="d-block w-100 carousel-image"
+                className="d-block w-100"
                 src="/assets/image/slider/Slide7.PNG"
                 alt="Banner_Photo"
               />
@@ -150,14 +150,140 @@ function HomePage() {
                   <span className="button-text">See More</span>
                 </Link> */}
               </div>
+              {/* </ShowMoreText> */}
             </div>
           </div>
         </div>
       </section>
 
+      <section className="mission-vision-value-bg">
+        <section id="vision" className="pt-5">
+          <div className="vision">
+            <div className="container">
+              <div className="row">
+                <div
+                  className="col-md-12 vision-text "
+                  data-aos="fade-right"
+                  data-aos-offset="20"
+                  data-aos-anchor-placement="top-bottom"
+                >
+                  <div className="">
+                    <h2 className="mml-title text-center pt-5">
+                      Mission & Vision
+                    </h2>
+                    <p className="px-5 mx-5 text-center py-2 vision-content-text">
+                      We strive to become the leader in providing sustainable
+                      solution to the customers of our areas of operation
+                      through delivering quality, innovative and
+                      customer-delighting products and services
+                    </p>
+                  </div>
+                </div>
+                {/* <div className="col-md-6"></div> */}
+              </div>
+            </div>
+          </div>
+        </section>
 
-      {/* Product Section */}
-      <section
+        {/* <section id="mission">
+          <div className="mission pt-4">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-6"></div>
+                <div
+                  className="col-md-6 vision-text"
+                  data-aos="fade-left"
+                  data-aos-offset="20"
+                  data-aos-anchor-placement="top-bottom"
+                >
+                  <div className=" ">
+                    <h2 className="mml-title text-center pt-5">Mission</h2>
+                    <div className="p-2 mission-content-text">
+                      <ul>
+                        <li>
+                          To win customers by delivering quality and innovative
+                          products
+                        </li>
+                        <li>
+                          To win customers through providing customer-delighting
+                          services
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> */}
+
+        <section id="core-value">
+          <div className="core-value pt-5 pb-5">
+            <div className="container">
+              <div className="row">
+                <div
+                  className="col-md-12 core-value-content-body"
+                  data-aos="fade-up"
+                  data-aos-offset="20"
+                  data-aos-anchor-placement="top-bottom"
+                >
+                  <div className="my-auto">
+                    <h2 className="mml-title text-center pt-5">Core Value</h2>
+                    <div className="ml-5 value-content-text">
+                      <div className="row justify-content-center pt-3">
+                        <div className="col-md-3 px-5 text-center">
+                          <i
+                            className="fas fa-award fa-4x"
+                            style={{ color: "#2A0944" }}
+                          ></i>
+                          <p className="pt-3 text-description">
+                            Becoming the logical choice in our field
+                            {/* in our fields of operation */}
+                          </p>
+                        </div>
+
+                        <div className="col-md-3 px-5 text-center">
+                          <i
+                            className="fas fa-check fa-4x"
+                            style={{ color: "#3CCF4E" }}
+                          ></i>
+                          <p className="pt-3 text-description">
+                            Offering high-quality, sophisticated products
+                          </p>
+                        </div>
+
+                        <div className="col-md-3 px-5 text-center">
+                          <i
+                            className="fas fa-users fa-4x"
+                            style={{ color: "#358d7e" }}
+                          ></i>
+                          <p className="pt-3 text-description">
+                            Serving through an empowered team
+                          </p>
+                        </div>
+
+                        <div className="col-md-3 px-5 text-center">
+                          {/* 610C63 */}
+                          <i
+                            className="fas fa-balance-scale fa-4x"
+                            style={{ color: "#EB1D36" }}
+                          ></i>
+                          <p className="pt-3 text-description">
+                            {" "}
+                            Preserving Integrity
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      {/* <section
         className="services-section mt-5 mb-5 scrollspy-example"
         data-bs-spy="scroll"
         data-bs-target="#ftco-navbar"
@@ -166,8 +292,9 @@ function HomePage() {
       >
         <div id="products_list">
           <div className="container">
+            <div></div>
             <h2 className="mml-title text-center mt-5 pt-5 mb-5">Products</h2>
-            {/* <div className="row">
+            <div className="row">
               <div className="col-md-4 mb-3" data-aos="zoom-in">
                 <div className="products">
                   <div className="card border-0 shadow card-1">
@@ -176,8 +303,9 @@ function HomePage() {
                       <div className="text-center">
                         <img
                           src="/assets/image/products/Sheet-Pile-Driver.png"
+                          style={{ height: "100px", width: "100px" }}
                           alt="product1"
-                          className="img-fluid product-list-image"
+                          className="img-fluid"
                         />
                       </div>
                       <h5 className="product-title text-center mt-3">
@@ -196,8 +324,9 @@ function HomePage() {
                       <div className="text-center">
                         <img
                           src="/assets/image/products/Generator.png"
+                          style={{ height: "100px", width: "100px" }}
                           alt="product1"
-                          className="img-fluid product-list-image"
+                          className="img-fluid"
                         />
                       </div>
                       <h5 className="product-title text-center mt-3">
@@ -216,8 +345,9 @@ function HomePage() {
                       <div className="text-center">
                         <img
                           src="/assets/image/products/Portable-Air-Compressor.png"
+                          style={{ height: "100px", width: "100px" }}
                           alt="product1"
-                          className="img-fluid product-list-image"
+                          className="img-fluid"
                         />
                       </div>
                       <h5 className="product-title text-center mt-3">
@@ -236,8 +366,9 @@ function HomePage() {
                       <div className="text-center">
                         <img
                           src="/assets/image/products/Truck-Mounted-Crane.png"
+                          style={{ height: "100px", width: "100px" }}
                           alt="product1"
-                          className="img-fluid product-list-image"
+                          className="img-fluid"
                         />
                       </div>
                       <h5 className="product-title text-center mt-3">
@@ -256,8 +387,9 @@ function HomePage() {
                       <div className="text-center">
                         <img
                           src="/assets/image/products/weldergenerator.png"
+                          style={{ height: "100px", width: "100px" }}
                           alt="product1"
-                          className="img-fluid product-list-image"
+                          className="img-fluid"
                         />
                       </div>
                       <h5 className="product-title text-center mt-3">
@@ -276,8 +408,9 @@ function HomePage() {
                       <div className="text-center">
                         <img
                           src="/assets/image/products/Geotextile.png"
+                          style={{ height: "100px", width: "100px" }}
                           alt="product1"
-                          className="img-fluid product-list-image"
+                          className="img-fluid"
                         />
                       </div>
                       <h5 className="product-title text-center mt-3">
@@ -296,8 +429,9 @@ function HomePage() {
                       <div className="text-center">
                         <img
                           src="/assets/image/products/Welding-Machine.png"
+                          style={{ height: "100px", width: "100px" }}
                           alt="product1"
-                          className="img-fluid product-list-image"
+                          className="img-fluid"
                         />
                       </div>
                       <h5 className="product-title text-center mt-3">
@@ -316,8 +450,9 @@ function HomePage() {
                       <div className="text-center">
                         <img
                           src="/assets/image/products/Cutting-Machine.png"
+                          style={{ height: "100px", width: "100px" }}
                           alt="product1"
-                          className="img-fluid product-list-image"
+                          className="img-fluid"
                         />
                       </div>
                       <h5 className="product-title text-center mt-3">
@@ -336,167 +471,15 @@ function HomePage() {
                       <div className="text-center">
                         <img
                           src="/assets/image/products/Crimping-Machine.png"
+                          style={{ height: "100px", width: "100px" }}
                           alt="product1"
-                          className="img-fluid product-list-image"
+                          className="img-fluid"
                         />
                       </div>
                       <h5 className="product-title text-center mt-3">
                         Crimping Machine
                       </h5>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-
-            <div className="row justify-content-center">
-              <div className="col-lg-4 mb-5" data-aos="zoom-in">
-                <div className="card card-style border-0 ">
-                  <div className="card-body shadow">
-                    <div className="image-box">
-                      <img
-                        src="/assets/image/products/Sheet-Pile-Driver.png"
-                        alt="product1"
-                      />
-                    </div>
-                    <h5 className="product-title text-center mt-3">
-                      Sheet Pile Driver
-                    </h5>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 mb-5" data-aos="zoom-in">
-                <div className="card card-style border-0">
-                  <div className="card-body shadow">
-                    <div className="image-box">
-                      <img
-                        src="/assets/image/products/Generator.png"
-                        alt="product1"
-                      />
-                    </div>
-                    <h5 className="product-title text-center mt-3">
-                      Diesel Generator
-                    </h5>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 mb-5" data-aos="zoom-in">
-                <div className="card card-style border-0">
-                  <div className="card-body shadow">
-                    <div className="image-box">
-                      <img
-                        src="/assets/image/products/Portable-Air-Compressor.png"
-                        alt="product1"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <h5 className="product-title text-center mt-3">
-                    Portable Air Compressor
-                    </h5>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 mb-5" data-aos="zoom-in">
-                <div className="card card-style border-0">
-                  <div className="card-body shadow">
-                    <div className="image-box">
-                      <img
-                        src="/assets/image/products/Truck-Mounted-Crane.png"
-                        alt="product1"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <h5 className="product-title text-center mt-3">
-                      Truck Mounted Crane
-                    </h5>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 mb-5" data-aos="zoom-in">
-                <div className="card card-style border-0">
-                  <div className="card-body shadow">
-                    <div className="image-box">
-                      <img
-                        src="/assets/image/products/weldergenerator.png"
-                        alt="product1"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <h5 className="product-title text-center mt-3">
-                      Welder Generator
-                    </h5>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 mb-5" data-aos="zoom-in">
-                <div className="card card-style border-0">
-                  <div className="card-body shadow">
-                    <div className="image-box">
-                      <img
-                        src="/assets/image/products/Geotextile.png"
-                        alt="product1"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <h5 className="product-title text-center mt-3">
-                      Geotextile
-                    </h5>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 mb-5" data-aos="zoom-in">
-                <div className="card card-style border-0">
-                  <div className="card-body shadow">
-                    <div className="image-box">
-                      <img
-                        src="/assets/image/products/Welding-Machine.png"
-                        alt="product1"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <h5 className="product-title text-center mt-3">
-                    Welding Machine
-                    </h5>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 mb-5" data-aos="zoom-in">
-                <div className="card card-style border-0">
-                  <div className="card-body shadow">
-                    <div className="image-box">
-                      <img
-                        src="/assets/image/products/Cutting-Machine.png"
-                        alt="product1"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <h5 className="product-title text-center mt-3">
-                    Cutting Machine
-                    </h5>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 mb-5" data-aos="zoom-in">
-                <div className="card card-style border-0">
-                  <div className="card-body shadow">
-                    <div className="image-box">
-                      <img
-                        src="/assets/image/products/Crimping-Machine.png"
-                        alt="product1"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <h5 className="product-title text-center mt-3">
-                     Crimping Machine
-                    </h5>
                   </div>
                 </div>
               </div>
@@ -621,6 +604,6 @@ function HomePage() {
       </section>
     </div>
   );
-}
+};
 
 export default HomePage;
