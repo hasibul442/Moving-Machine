@@ -31,32 +31,7 @@ function Rental() {
               <div className="">
                 {/* <h5 className="mml-title px-4 py-3" style={{ fontSize: "23px" }}>After Sales Services </h5> */}
                 <p className="px-4 py-3 justify-content-center geo_consult-content-text">
-                  Moving Machines believe that rental is one of the most
-                  effective ways to support a project to progress smoothly. When
-                  an equipment breaks-down, or the project growth demands more
-                  support of equipment but, the machine is not available for one
-                  or two months. MML is always there to provide rental support
-                  to cover these interim needs. We also support new/progressing
-                  businesses to get into the construction field with highly
-                  affordable equipment rental according to your budget. We are
-                  ready to support you with high quality heavy construction
-                  equipment for you so that you don’t have to slow down your
-                  project. With our strong professional team, MML cater to
-                  various fields such as construction, civil and mechanical
-                  works etc. We have highly skilled and experienced
-                  professionals and resources to please our customers with
-                  unique solutions to unique problems. Our goal is to become one
-                  of the leading rental companies in Bangladesh with integrated
-                  solutions and services.
-                  <br />
-                  <br />
-                  Moving Machines is ready to assist your construction projects
-                  by helping you meet your goals, according to realistic
-                  timeline and budget. Our highly skilled professional is ready
-                  to assist you to recognize your needs and recommend you with
-                  the perfect solution. We are always available to assist you on
-                  your needs and providing the perfect construction equipment
-                  for your reach your next big construction milestone.
+                Moving Machines considers rental services as one of the most effective ways to support a project to progress smoothly. We are ever willing to provide rental support to meet short-term as well as long-term needs of projects. Our highly skilled professionals are ready to assist customers in recognizing their needs for rent and recommend them the perfect solution. We are always available to assist our customers by providing the right construction equipment in rent at an affordable cost.
                 </p>
               </div>
             </div>
@@ -81,8 +56,6 @@ function Rental() {
                         All equipment has valid 3rd party inspection certificate
                         and 1st party insurance
                       </li>
-                      <li>Machines not older than 10 to 15 years</li>
-                      <li>Service to all over the country</li>
                     </ul>
                   </div>
 
@@ -90,12 +63,10 @@ function Rental() {
                     <ul>
                       <li>Affordable pricing</li>
                       <li>
-                        Ready to assist in challenging difficulties with your
-                        operation of equipment
+                        Ready to assist in challenging difficulties
                       </li>
                       <li>
-                        Strong team of operators and maintenance engineers and
-                        technicians
+                        Strong team of operators, technicians and maintenance engineers
                       </li>
                       <li>Technical and breakdown support within 24 hours</li>
                     </ul>

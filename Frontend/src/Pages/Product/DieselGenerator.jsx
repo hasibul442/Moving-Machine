@@ -79,7 +79,7 @@ function DieselGenerator() {
                   <p className="product-text">
                     The innovative excitation system* installed on Denyo’s DCA
                     series, in tandem with the Automatic Voltage Regulator (AVR)
-                    and modern brushless generator, enables quick voltage
+                    and modern brush less generator, enables quick voltage
                     regulation in response to load fluctuations, allowing usage
                     as soon as the unit is powered on.
                   </p>
@@ -96,6 +96,7 @@ function DieselGenerator() {
                     <small>*U.S. Patent No. 4268788</small>
                   </p>
                 </div>
+                
               </div>
             </div>
           </div>
@@ -108,74 +109,45 @@ function DieselGenerator() {
             <p className="product-block-title">DIESEL GENERATOR EQUIPMENT</p>
 
             <section className="product-image">
-              <div className="row align-items-end  justify-content-center">
-                <div className="col-md-2">
+              <div className="row align-items-end  justify-content-center mt-5">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Deyno-g/1.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
+                    <p className="product-description-name">DCA-6LSX</p>
                   </div>
                 </div>
 
-                <div className="col-md-2">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Deyno-g/2.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
+                    <p className="product-description-name">DCA-1100SPK</p>
                   </div>
                 </div>
 
-                <div className="col-md-2">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Deyno-g/3.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
-                  </div>
-                </div>
-
-                <div className="col-md-2">
-                  <div className="text-center">
-                    <img
-                      src="/assets/image/product-description/Deyno-g/4.png"
-                      alt=""
-                      className="img-fluid product-details-image"
-                    />
-                  </div>
-                </div>
-
-                <div className="col-md-2">
-                  <div className="text-center">
-                    <img
-                      src="/assets/image/product-description/Deyno-g/5.png"
-                      alt=""
-                      className="img-fluid product-details-image"
-                    />
+                    <p className="product-description-name">Malie DCA-45MZ</p>
                   </div>
                 </div>
               </div>
 
               <div className="row justify-content-center">
-                <div className="col-md-2">
-                  <p className="product-description-name">DCA-45USKE</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">Malie DCA-45MZ</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name"> DCA-25USIE</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name"> DA-6000SS</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name"> DCA-6LSX</p>
-                </div>
+                <div className="col-md-2"></div>
+                <div className="col-md-2"></div>
+                <div className="col-md-2"></div>
               </div>
             </section>
           </div>

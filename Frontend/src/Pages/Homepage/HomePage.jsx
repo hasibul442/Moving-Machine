@@ -132,12 +132,7 @@ function HomePage()  {
 
             <div className="col-md-6 aboutus-description">
               <p>
-                Moving Machines Limited, a private limited company, was
-                established early 2014 with a commitment to source and supply of
-                machines and equipment of cutting-age technology for customers
-                of construction industry in Bangladesh. Subsequently the company
-                expanded its services to customers in the fields of oil and gas,
-                manufacturing and environmental protection.
+              Moving Machines Limited, a private limited company, was established early 2014 with a commitment to source and supply of machines and equipment of cutting-age technology for customers of construction industry in Bangladesh. Subsequently the company expanded its services to customers in the fields of oil and gas, manufacturing and environmental protection. 
               </p>
               <div>
                 {/* <Link
@@ -172,10 +167,7 @@ function HomePage()  {
                       Mission & Vision
                     </h2>
                     <p className="px-5 mx-5 text-center py-2 vision-content-text">
-                      We strive to become the leader in providing sustainable
-                      solution to the customers of our areas of operation
-                      through delivering quality, innovative and
-                      customer-delighting products and services
+                    We strive to become the leader in providing sustainable solution to the customers of our areas of operation through delivering quality, innovative and customer-delighting products and services
                     </p>
                   </div>
                 </div>

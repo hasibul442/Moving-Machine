@@ -70,18 +70,7 @@ function WelderGenerator() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                    Denyo's engine-driven welders are not only simple to
-                    operate, but they also produce quality results. They are
-                    also long-lasting, adaptable, energy-efficient, and
-                    reasonably priced. Denyo has continued to develop engine
-                    welders that satisfy all of these requirements since its
-                    inception in 1948. Denyo products are utilized not only in
-                    the construction and manufacturing industries, but also on
-                    oil and gas and mining sites. Denyo provides extraordinary
-                    performance and toughness that is unique to Japanese
-                    products, and it has been utilized in both severely cold
-                    wilderness and extremely hot desert. Denyo is always at your
-                    side, assisting you in producing your best work.
+                  Denyo's engine-driven welders are not only simple to operate, but they also produce quality results. They are also long-lasting, adaptable, energy-efficient, and reasonably priced. Denyo has continued to develop engine welders that satisfy all of these requirements since its inception in 1948. Denyo products are utilized not only in the construction and manufacturing industries, but also on oil and gas and mining sites. Denyo provides extraordinary performance and toughness that is unique to Japanese products, and it has been utilized in both severely cold wilderness and extremely hot desert. Denyo is always at your side, assisting you in producing your best work.
                   </p>
                 </div>
               </div>
@@ -94,21 +83,22 @@ function WelderGenerator() {
         <div className="product-block">
           <div className="container-fluid">
             <p className="product-block-title">
-              ENGINE WELDER EQUIPMENT & CUSTOMIZED SOLUTIONS{" "}
+              Welder-Generator EQUIPMENT
             </p>
 
             <section className="product-image">
-              <div className="row align-items-end  justify-content-center">
-                <div className="col-md-2">
+              <div className="row align-items-end  justify-content-center mt-5">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Deyno-w/1.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
+                    <p className="product-description-name"> DLW-300LS</p>
                   </div>
                 </div>
-
+{/* 
                 <div className="col-md-2">
                   <div className="text-center">
                     <img
@@ -116,54 +106,41 @@ function WelderGenerator() {
                       alt=""
                       className="img-fluid product-details-image"
                     />
+                    <p className="product-description-name"> DLW-200X2LS</p>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="col-md-2">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Deyno-w/3.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
+                    <p className="product-description-name"> DLW-300LSW2</p>
                   </div>
                 </div>
 
-                <div className="col-md-2">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Deyno-w/4.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
+                    <p className="product-description-name"> DLW-400LSW</p>
                   </div>
                 </div>
 
-                <div className="col-md-2">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Deyno-w/5.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
+                    <p className="product-description-name"> DCW-480ESW</p>
                   </div>
-                </div>
-              </div>
-              <div className="row justify-content-center">
-                <div className="col-md-2">
-                  <p className="product-description-name"> DLW-300LS</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name"> DLW-200X2LS</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name"> DLW-300LSW2</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name"> DLW-400LSW</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name"> DCW-480ESW</p>
                 </div>
               </div>
             </section>

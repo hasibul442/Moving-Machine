@@ -14,13 +14,7 @@ function Geological() {
         <div className="container">
           <div className="px-5 geological_service_text">
             <p>
-              With a long-term objective of becoming a major player in oil and
-              gas industry thus energy sector of Bangladesh, Moving Machines has
-              built a team of seasoned industry professionals to assist large
-              international operators in consultancy, survey and drilling for
-              on-shore and off-shore oil and gas exploration as well as
-              production. With extensive local experience of the members of the
-              team, we can assist in following ways but not limited to:
+            With a long-term objective of becoming a major player in oil and gas industry thus energy sector of Bangladesh, Moving Machines has built a team of seasoned industry professionals to assist large international operators in consultancy, survey and drilling for on-shore and off-shore oil and gas exploration as well as production. With extensive local experience of the members of the team, we can assist in following ways but not limited to:
             </p>
             <ul>
               <li>

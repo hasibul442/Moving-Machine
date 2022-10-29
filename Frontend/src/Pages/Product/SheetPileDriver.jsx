@@ -67,22 +67,9 @@ function SheetPileDriver() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text">
-                    <b>PILING & FOUNDATION SOLUTIONS WITH AN ADDED VALUE.</b>{" "}
+                  MOVAX is a world-leading developer and manufacturer of excavator-mounted, automatically controlled piling and foundation equipment - and the inventor of the patented, modular side grip technology. MOVAX Side grip pile drivers are excavator-mounted, high-frequency, vibratory-type pile drivers that provide the best solution for a wide range of piling requirements, particularly when a high degree of precision is required; and for piling in sensitive environments with limited space, head room, or access.
                     <br />
-                    MOVAX is a world-leading developer and manufacturer of
-                    excavator-mounted, automatically controlled piling and
-                    foundation equipment - and the inventor of the patented,
-                    modular side grip technology. MOVAX Side grip pile drivers
-                    are excavator-mounted, high-frequency, vibratory-type pile
-                    drivers that provide the best solution for a wide range of
-                    piling requirements, particularly when a high degree of
-                    precision is required; and for piling in sensitive
-                    environments with limited space, head room, or access.
-                    <br />
-                    The same unit can handle, pitch, drive, and extract various
-                    types of piles and can complete the whole piling process
-                    without the use of physical handling or auxiliary
-                    technology.
+                    The same unit can handle, pitch, drive, and extract various types of piles and can complete the whole piling process without the use of physical handling or auxiliary technology.
                   </p>
                 </div>
               </div>
@@ -97,73 +84,38 @@ function SheetPileDriver() {
             <p className="product-block-title">Sheet piling equipment</p>
 
             <section className="product-image">
-              <div className="row align-items-end justify-content-center">
-                <div className="col-md-2">
+              <div className="row align-items-end justify-content-center mt-5">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Movax/1.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
+                    <p className="product-description-name">Piling Drills</p>
                   </div>
                 </div>
 
-                <div className="col-md-2">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Movax/2.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
+                    <p className="product-description-name">PILING HAMMERS</p>
                   </div>
                 </div>
 
-                <div className="col-md-2">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Movax/3.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
+                    <p className="product-description-name">Side Grip Pile Drivers</p>
                   </div>
-                </div>
-
-                <div className="col-md-2">
-                  <div className="text-center">
-                    <img
-                      src="/assets/image/product-description/Movax/4.png"
-                      alt=""
-                      className="img-fluid product-details-image"
-                    />
-                  </div>
-                </div>
-
-                <div className="col-md-2">
-                  <div className="text-center">
-                    <img
-                      src="/assets/image/product-description/Movax/5.png"
-                      alt=""
-                      className="img-fluid product-details-image"
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <div className="row justify-content-center">
-                <div className="col-md-2">
-                  <p className="product-description-name">PILE DRIVERS</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">PILING HAMMERS</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">PILING DRILLS</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">PILING DRILLS</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">PILING DRILLS</p>
                 </div>
               </div>
             </section>

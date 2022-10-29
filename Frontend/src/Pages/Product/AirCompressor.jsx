@@ -11,8 +11,8 @@ function AirCompressor() {
     mirror: true,
   });
   React.useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section>
       <section className="product-bg">
@@ -38,7 +38,7 @@ function AirCompressor() {
                 <p className="product-name text-center mb-5">Air Compressor</p>
               </div>
               <div>
-                <p className="product-key-point-title">Why chose AIRMAN?</p>
+                <p className="product-key-point-title">Why AIRMAN?</p>
                 <ul className="product-key-point-list">
                   <li>Compact design</li>
                   <li>Low noise</li>
@@ -60,17 +60,7 @@ function AirCompressor() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                    <b>
-                      Being active in a wide range of fields from construction
-                      machinery through to industrial machinery.{" "}
-                    </b>
-                    AIRMAN is the one of the leading manufacturers of portable
-                    compressors in the world. Since its inception more than 80
-                    years ago, AIRMAN has been making and supplying compressors,
-                    and they are skilled of every stage of production, from
-                    development to manufacture to support and service. As a
-                    comprehensive producer of industrial gear, AIRMAN is able to
-                    provide our clients with unique and creative products
+                  AIRMAN is the one of the leading manufacturers of portable compressors in the world. Since its inception more than 80 years ago, AIRMAN has been making and supplying compressors, and they are skilled of every stage of production, from development to manufacture to support and service. As a comprehensive producer of industrial gear, AIRMAN is able to provide our clients with unique and creative products. 
                   </p>
                 </div>
               </div>
@@ -85,83 +75,44 @@ function AirCompressor() {
             <p className="product-block-title">AIR COMPRESSOR EQUIPMENT</p>
 
             <section className="product-image">
-              <div className="row align-items-end  justify-content-center">
-                <div className="col-md-2">
+              <div className="row align-items-end  justify-content-center mt-5">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Airman/1.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
+                    <p className="product-description-name">
+                      Standard Type PDS Series
+                    </p>
                   </div>
                 </div>
 
-                <div className="col-md-2">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Airman/2.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
+                    <p className="product-description-name">
+                      After-Cooler Type PDS-C Series
+                    </p>
                   </div>
                 </div>
 
-                <div className="col-md-2">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Airman/3.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
+                    <p className="product-description-name">
+                      Leak Gard Type PDS-L Series
+                    </p>
                   </div>
-                </div>
-
-                <div className="col-md-2">
-                  <div className="text-center">
-                    <img
-                      src="/assets/image/product-description/Airman/4.png"
-                      alt=""
-                      className="img-fluid product-details-image"
-                    />
-                  </div>
-                </div>
-
-                <div className="col-md-2">
-                  <div className="text-center">
-                    <img
-                      src="/assets/image/product-description/Airman/5.png"
-                      alt=""
-                      className="img-fluid product-details-image"
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <div className="row justify-content-center">
-                <div className="col-md-2">
-                  <p className="product-description-name">
-                    Standard Type PDS Series
-                  </p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">
-                    After-Cooler Type PDS-C Series
-                  </p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">
-                    Leak Gard Type PDS-L Series
-                  </p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">
-                    Dry-Air Type PDS-D Series
-                  </p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">
-                    High Pressure Type PDSE,F,G,H,J,K Series
-                  </p>
                 </div>
               </div>
             </section>

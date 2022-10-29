@@ -9,6 +9,7 @@ import ContactUs from "./Pages/Contact/ContactUs";
 import GeologicalConsultancy from "./Pages/Geological-Consultancy/GeologicalConsultancy";
 import HomePage from "./Pages/Homepage/HomePage";
 import AirCompressor from "./Pages/Product/AirCompressor";
+import Coolant from "./Pages/Product/Coolant";
 import Crimping from "./Pages/Product/Crimping";
 import Cutting from "./Pages/Product/Cutting";
 import DieselGenerator from "./Pages/Product/DieselGenerator";
@@ -46,6 +47,7 @@ function App() {
           <Route path="/mountedcrane" element={<MountedCrane />} />
           <Route path="/weldergenerator" element={<WelderGenerator />} />
           <Route path="/weldingmachine" element={<WeldingMachine />} />
+          <Route path="/coolant" element={<Coolant />} />
           <Route path="/about-us" element={<About />} />
           <Route path="/geological" element={<Geological />} />
           <Route path="/career" element={<Career />} />

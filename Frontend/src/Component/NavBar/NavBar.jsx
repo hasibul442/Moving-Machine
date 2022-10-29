@@ -79,7 +79,125 @@ function Navbar() {
                   >
                     What We Do
                   </a>
-                  <ul
+                  <div
+                    className="dropdown-menu dropdown_auto_menu"
+                    aria-labelledby="dropdown04"
+                  >
+                    <div className="px-2 py-2">
+                      <div className="row">
+                        <div className="col-md-8">
+                          <p
+                            className="text-center"
+                            style={{ color: "#ED2226" }}
+                          >
+                            <b>
+                              <u>Industrial & Constructor Sector</u>
+                            </b>
+                          </p>
+                          <div className="row">
+                            <div className="col-md-4">
+                              <p
+                                className="text-center"
+                                style={{ color: "#ED2226" }}
+                              >
+                                <b>
+                                  <u>Machines & Equipment</u>
+                                </b>
+                              </p>
+                              <Link
+                                className="dropdown-item"
+                                to="/dieselgenerator"
+                              >
+                                Diesel Generator{" "}
+                              </Link>
+                              <Link
+                                className="dropdown-item"
+                                to="/weldergenerator"
+                              >
+                                Welder Generator
+                              </Link>
+                              <Link
+                                className="dropdown-item"
+                                to="/sheetpiledriver"
+                              >
+                                Sheet Pile Driver
+                              </Link>
+                              <Link
+                                className="dropdown-item"
+                                to="/aircompressor"
+                              >
+                                Portable Air Compressor
+                              </Link>
+                              <Link
+                                className="dropdown-item"
+                                to="/mountedcrane"
+                              >
+                                Truck-Mounted Crane
+                              </Link>
+                              <Link className="dropdown-item" to="/crimping">
+                                Crimping Machine
+                              </Link>
+                              <Link
+                                className="dropdown-item"
+                                to="/weldingmachine"
+                              >
+                                Welding Machine
+                              </Link>
+                              <Link className="dropdown-item" to="/cutting">
+                                Cutting Machine
+                              </Link>
+                            </div>
+                            <div className="col-md-4">
+                              <p
+                                className="text-center"
+                                style={{ color: "#ED2226" }}
+                              >
+                                <b>
+                                  <u>Materials</u>
+                                </b>
+                              </p>
+                              <Link className="dropdown-item" to="/geotextile">
+                                Geotextile
+                              </Link>
+                              <Link className="dropdown-item" to="/coolant">
+                                Coolant Leak Repair
+                              </Link>
+                            </div>
+                            <div className="col-md-4">
+                              <p
+                                className="text-center"
+                                style={{ color: "#ED2226" }}
+                              >
+                                <b>
+                                  <u>Services</u>
+                                </b>
+                              </p>
+                              <Link className="dropdown-item" to="/services">
+                                Repaire & Maintenance{" "}
+                              </Link>
+                              <Link className="dropdown-item" to="/rental">
+                                Rental Services
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="col-md-4">
+                          <p
+                            className="text-center"
+                            style={{ color: "#ED2226" }}
+                          >
+                            <b>
+                              <u>Oil & Gas Sector</u>
+                            </b>
+                          </p>
+                          <Link className="dropdown-item" to="/geological">
+                            Geological E&P Services
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* <ul
                     className="dropdown-menu dropdown_auto_menu"
                     aria-labelledby="dropdown04"
                   >
@@ -208,7 +326,7 @@ function Navbar() {
                           </ul>
                         </li>
                       </ul>
-                    </li>
+                    </li> 
 
                     <li className="nav-item second-dropdown">
                       <a className="dropdown-item " href="#">
@@ -222,13 +340,11 @@ function Navbar() {
                       </a>
                       <ul className="second_dropdown_body">
                         <li className="nav-item">
-                          <Link className="dropdown-item" to="/geological">
-                            Geological E&P Services
-                          </Link>
+                          
                         </li>
                       </ul>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li className="nav-item">
                   <Link to="/contactus" className="nav-link">

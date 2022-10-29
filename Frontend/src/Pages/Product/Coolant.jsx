@@ -5,7 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Brochures from "../../Component/Brochures/Brochures";
 
-function Geotextile() {
+function Coolant() {
   AOS.init({
     duration: 500,
     delay: 200,
@@ -17,7 +17,7 @@ function Geotextile() {
   return (
     <section>
       <section className="product-bg">
-        <h1 className="text-center page-title">Geotextile</h1>
+        <h1 className="text-center page-title">Coolant Leak Repair </h1>
       </section>
 
       <section className="product-info-background">
@@ -31,12 +31,12 @@ function Geotextile() {
             >
               <div className="text-center  my-5">
                 <img
-                  src="/assets/image/products/tencate.png"
+                  src="/assets/image/products/k-seal.png"
                   className="img-fluid"
                   alt="Sheet Pile Driven"
                   style={{ height: "45px", width: "200px" }}
                 />
-                <p className="product-name text-center mb-5">Geosynthetic</p>
+                <p className="product-name text-center mb-5">Coolant Leak Repair</p>
               </div>
             </div>
 
@@ -49,7 +49,7 @@ function Geotextile() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                  Every year, Lillbacka Powerco Oy produces thousands of crimping machines, as well as hose cutting and nut crimping equipment. Finn-Power is well-known for its high-quality, long-lasting hydraulic crimping machines, which are manufactured by Lillbacka Powerco, a Finnish company with over 50 years of manufacturing expertise. The company provides dependable, long-lasting, and precise crimping machines to fulfill the needs of various sectors. Finn-Power crimping machines are built with cutting-edge manufacturing equipment and technology. Precision made parts, along with engineering and assembly experience, as well as quality control and final testing methods, result in dependable and precise crimping machines for your production needs.
+                  K-Seal, K-Seal HD and K-Seal Ultimate are a one-step permanent multi-purpose system for coolant leak repair. It permanently repairs leaks in the head gasket, block, radiator, heater core, freeze plug and water pump casing. K-Seal is suitable for use with all water-cooled engines including cars, motorbikes, commercial vehicles and heavy machinery. K-Seal products are compatible with all types of antifreeze/coolant and are not affected by other additives that may already be in the cooling system
                   </p>
                 </div>
               </div>
@@ -61,70 +61,46 @@ function Geotextile() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">GEOTEXTILE EQUIPMENT</p>
+            <p className="product-block-title">Coolant Leak Repair EQUIPMENT</p>
 
             <section className="product-image">
               <div className="row align-items-end  justify-content-center mt-5">
                 <div className="col-md-3">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Tencate/1.png"
+                      src="/assets/image/product-description/K-Seal/1.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
-                    <p className="product-description-name">Mirafi® PET</p>
+                    <p className="product-description-name pt-3">K-Seal®</p>
                   </div>
                 </div>
 
                 <div className="col-md-3">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Tencate/2.png"
+                      src="/assets/image/product-description/K-Seal/2.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
-                    <p className="product-description-name">Polyfelt® TS & KET</p>
+                    <p className="product-description-name pt-3">K-Seal® HD</p>
                   </div>
                 </div>
 
                 <div className="col-md-3">
                   <div className="text-center">
                     <img
-                      src="/assets/image/product-description/Tencate/3.png"
+                      src="/assets/image/product-description/K-Seal/3.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
-                    <p className="product-description-name">
-                    Polyfelt® Heavy Duty TS & KE
+                    <p className="product-description-name pt-3">
+                    K-Seal® ULTIMATE
                   </p>
                   </div>
                 </div>
+              </div>
 
-                <div className="col-md-3">
-                  <div className="text-center">
-                    <img
-                      src="/assets/image/product-description/Tencate/4.png"
-                      alt=""
-                      className="img-fluid product-details-image"
-                    />
-                    <p className="product-description-name">Polyfelt® F</p>
-                  </div>
-                </div>
-              </div>
-              <div className="row justify-content-center">
-                <div className="col-md-2">
-                  
-                </div>
-                <div className="col-md-2">
-                  
-                </div>
-                <div className="col-md-2">
-                  
-                </div>
-                <div className="col-md-2">
-                  
-                </div>
-              </div>
             </section>
           </div>
         </div>
@@ -216,4 +192,4 @@ function Geotextile() {
   );
 }
 
-export default Geotextile;
+export default Coolant;

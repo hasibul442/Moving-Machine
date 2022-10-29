@@ -61,11 +61,7 @@ function WeldingMachine() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                    ESAB cutting-edge, world-class equipment and solutions are
-                    designed with client input and produced with the skills and
-                    tradition of a global manufacturing leader. Over the time
-                    they have become one of the world’s leading production
-                    companies for welding equipment and consumables.
+                  ESAB cutting-edge, world-class equipment and solutions are designed with client input and produced with the skills and tradition of a global manufacturing leader. Over the time the company has become one of the world’s leading production companies for welding equipment and consumables. 
                   </p>
                 </div>
               </div>
@@ -78,79 +74,44 @@ function WeldingMachine() {
         <div className="product-block">
           <div className="container-fluid">
             <p className="product-block-title">
-              WELDING MACHINE EQUIPMENT & CUSTOMIZED SOLUTIONS{" "}
+              WELDING MACHINE EQUIPMENT
             </p>
 
             <section className="product-image">
-              <div className="row align-items-end justify-content-center">
-                <div className="col-md-2">
+              <div className="row align-items-end justify-content-center mt-5">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Esab-w/1.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
+                    <p className="product-description-name">RS 400 Rectifier</p>
                   </div>
                 </div>
 
-                <div className="col-md-2">
-                  <div className="text-center">
-                    <img
-                      src="/assets/image/product-description/Esab-w/2.png"
-                      alt=""
-                      className="img-fluid product-details-image"
-                    />
-                  </div>
-                </div>
-
-                <div className="col-md-2">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Esab-w/3.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
+                    <p className="product-description-name">Renegade ES 300i</p>
                   </div>
                 </div>
 
-                <div className="col-md-2">
-                  <div className="text-center">
-                    <img
-                      src="/assets/image/product-description/Esab-w/4.png"
-                      alt=""
-                      className="img-fluid product-details-image"
-                    />
-                  </div>
-                </div>
-
-                <div className="col-md-2">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Esab-w/5.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
-                  </div>
-                </div>
-              </div>
-
-              <div className="row justify-content-center">
-                <div className="col-md-2">
-                  <p className="product-description-name">Warrior Feed 404HD</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">Rebel™ EMP 285ic</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">Renegade ES 300i</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">Origo Mig 320/410</p>
-                </div>
-                <div className="col-md-2">
                   <p className="product-description-name">
                     Aristo Mig 5000i/U5000i
                   </p>
+                  </div>
                 </div>
               </div>
             </section>

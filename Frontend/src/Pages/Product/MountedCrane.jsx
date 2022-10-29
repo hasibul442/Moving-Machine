@@ -65,23 +65,7 @@ function MountedCrane() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                    FURUKAWA UNIC's strength is distinguished by its superior
-                    quality and technology. Since introducing the first
-                    truck-mounted crane in Japan in 1961, we have been
-                    developing new technologies to satisfy the needs of our
-                    customers while also improving our quality. Truck-mounted
-                    cranes are cargo-handling machines that are capable of
-                    lifting, loading, transporting, and performing other tasks
-                    with a single crane and the cargo truck on which the crane
-                    is mounted. A single truck-mounted crane may execute
-                    numerous functions that would ordinarily necessitate the use
-                    of two different types of mobile cranes; Loading and
-                    unloading are often performed by truck cranes, while cargo
-                    transit is typically handled by a cargo truck. As a result,
-                    truck-mounted cranes offer a considerable cost benefit since
-                    they combine the efficiency of two types of mobile cranes in
-                    a single unit, lowering purchase prices, rental fees, and
-                    fuel expenses.
+                  FURUKAWA UNIC's strength is distinguished by its superior quality and technology. Since introducing the first truck-mounted crane in Japan in 1961, the company has been developing new technologies to satisfy the needs of its customers while also improving crane quality. Truck-mounted cranes are cargo-handling machines that are capable of lifting, loading, transporting, and performing other tasks with a single crane and the cargo truck on which the crane is mounted. A single truck-mounted crane may execute numerous functions that would ordinarily necessitate the use of two different types of mobile cranes; loading and unloading are often performed by truck cranes, while cargo transit is typically handled by a cargo truck. As a result, truck-mounted cranes offer a considerable cost benefit since they combine the efficiency of two types of mobile cranes in a single unit, lowering purchase prices, rental fees, and fuel expenses. 
                   </p>
                 </div>
               </div>
@@ -96,86 +80,38 @@ function MountedCrane() {
             <p className="product-block-title">TRUCK-MOUNTED CRANE EQUIPMENT</p>
 
             <section className="product-image">
-              <div className="row align-items-end  justify-content-center">
-                <div className="col-md-2">
+              <div className="row align-items-end  justify-content-center mt-5">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Unic/1.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
+                    <p className="product-description-name">URV290</p>
                   </div>
                 </div>
 
-                <div className="col-md-2">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Unic/2.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
+                    <p className="product-description-name">URV550K-TH</p>
                   </div>
                 </div>
 
-                <div className="col-md-2">
-                  <div className="text-center">
-                    <img
-                      src="/assets/image/product-description/Unic/3.png"
-                      alt=""
-                      className="img-fluid product-details-image"
-                    />
-                  </div>
-                </div>
-
-                <div className="col-md-2">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Unic/4.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
+                    <p className="product-description-name">URV800</p>
                   </div>
-                </div>
-
-                <div className="col-md-2">
-                  <div className="text-center">
-                    <img
-                      src="/assets/image/product-description/Unic/5.png"
-                      alt=""
-                      className="img-fluid product-details-image"
-                    />
-                  </div>
-                </div>
-
-                <div className="col-md-2">
-                  <div className="text-center">
-                    <img
-                      src="/assets/image/product-description/Unic/6.png"
-                      alt=""
-                      className="img-fluid product-details-image"
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <div className="row justify-content-center">
-                <div className="col-md-2">
-                  <p className="product-description-name">URV290</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">URV550K-TH</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">URV550H</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">URV800</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">URV1004-CNCT</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">UR1504</p>
                 </div>
               </div>
             </section>

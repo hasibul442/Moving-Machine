@@ -12,8 +12,8 @@ function Cutting() {
     mirror: true,
   });
   React.useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section>
       <section className="product-bg">
@@ -65,11 +65,7 @@ function Cutting() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                    ESAB cutting-edge, world-class equipment and solutions are
-                    designed with client input and produced with the skills and
-                    tradition of a global manufacturing leader. Over the time
-                    they have become one of the world’s leading production
-                    companies for cutting equipment and consumables.
+                  ESAB cutting-edge, world-class equipment and solutions are designed with client input and produced with the skills and tradition of a global manufacturing leader. Over the time they have become one of the world’s leading production companies for cutting equipment and consumables.
                   </p>
                 </div>
               </div>
@@ -81,82 +77,58 @@ function Cutting() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">WELDING MACHINE EQUIPMENT</p>
+            <p className="product-block-title">CUTTING MACHINE EQUIPMENT</p>
 
             <section className="product-image">
-              <div className="row align-items-end justify-content-center">
-                <div className="col-md-2">
+              <div className="row align-items-end justify-content-center mt-5">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Esab-c/1.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
+                    <p className="product-description-name">
+                      Global Oxy-Fuel IR-CBU Pro
+                    </p>
                   </div>
                 </div>
 
-                <div className="col-md-2">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Esab-c/2.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
+                    <p className="product-description-name">Suprarex™ HDX</p>
                   </div>
                 </div>
 
-                <div className="col-md-2">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Esab-c/3.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
+                    <p className="product-description-name">
+                      A-Series Power Supply
+                    </p>
                   </div>
                 </div>
 
-                <div className="col-md-2">
-                  <div className="text-center">
-                    <img
-                      src="/assets/image/product-description/Esab-c/4.png"
-                      alt=""
-                      className="img-fluid product-details-image"
-                    />
-                  </div>
-                </div>
-
-                <div className="col-md-2">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Esab-c/5.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
+                    <p className="product-description-name">
+                      m2 200i Plasma Cutting Systems
+                    </p>
                   </div>
-                </div>
-              </div>
-
-              <div className="row justify-content-center">
-                <div className="col-md-2">
-                  <p className="product-description-name">
-                    Global Oxy-Fuel IR-CBU Pro
-                  </p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">Suprarex™ HDX</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">
-                    A-Series Power Supply
-                  </p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">Hydrocut HDX</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">
-                    m2 200i Plasma Cutting Systems
-                  </p>
                 </div>
               </div>
             </section>

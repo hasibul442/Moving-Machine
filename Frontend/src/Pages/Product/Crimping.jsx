@@ -50,19 +50,7 @@ function Crimping() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                    Every year, Lillbacka Powerco Oy produces thousands of
-                    crimping machines, as well as hose cutting and nut crimping
-                    equipment. Finn-Power is well-known for its high-quality,
-                    long-lasting hydraulic crimping machines, which are
-                    manufactured by Lillbacka Powerco, a Finnish company with
-                    over 50 years of manufacturing expertise. They provide
-                    dependable, long-lasting, and precise crimping machines to
-                    fulfill the needs of various sectors. Finn-Power crimping
-                    machines are built with cutting-edge manufacturing equipment
-                    and technology. Precision made parts, along with engineering
-                    and assembly experience, as well as quality control and
-                    final testing methods, result in dependable and precise
-                    crimping machines for your production needs.
+                  Every year, Lillbacka Powerco Oy produces thousands of crimping machines, as well as hose cutting and nut crimping equipment. Finn-Power is well-known for its high-quality, long-lasting hydraulic crimping machines, which are manufactured by Lillbacka Powerco, a Finnish company with over 50 years of manufacturing expertise. The company provides dependable, long-lasting, and precise crimping machines to fulfill the needs of various sectors. Finn-Power crimping machines are built with cutting-edge manufacturing equipment and technology. Precision made parts, along with engineering and assembly experience, as well as quality control and final testing methods, result in dependable and precise crimping machines for your production needs.
                   </p>
                 </div>
               </div>
@@ -77,47 +65,38 @@ function Crimping() {
             <p className="product-block-title">CRIMPING MACHINES EQUIPMENT</p>
 
             <section className="product-image">
-              <div className="row align-items-end justify-content-center">
-                <div className="col-md-2">
+              <div className="row align-items-end justify-content-center mt-5">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Lillbacka/1.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
+                    <p className="product-description-name">P20CS SCC</p>
                   </div>
                 </div>
 
-                <div className="col-md-2">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Lillbacka/2.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
+                    <p className="product-description-name">IM2</p>
                   </div>
                 </div>
 
-                <div className="col-md-2">
+                <div className="col-md-3">
                   <div className="text-center">
                     <img
                       src="/assets/image/product-description/Lillbacka/3.png"
                       alt=""
                       className="img-fluid product-details-image"
                     />
+                    <p className="product-description-name">P32CS SCC</p>
                   </div>
-                </div>
-              </div>
-
-              <div className="row justify-content-center">
-                <div className="col-md-2">
-                  <p className="product-description-name">P20CS SCC</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">IM2</p>
-                </div>
-                <div className="col-md-2">
-                  <p className="product-description-name">P32CS SCC</p>
                 </div>
               </div>
             </section>

@@ -46,20 +46,10 @@ function About() {
           <div className="row">
             <div className="col-md-12 aboutus-description-1">
               <p>
-                The products and services of Moving Machines have primarily been
-                developed focusing the fields of construction, oil and gas,
-                manufacturing, and environmental protection. Our team
-                relentlessly works to delight its customers through innovative
-                and quality products supported by outstanding consultancy,
-                sales, repairment and rental services. Over the years the
-                company has been able to establish a long list of delighted
-                customers that includes reputed local and international
-                construction companies, manufacturing companies and public
-                entities.
+              The products and services of Moving Machines have primarily been developed focusing the fields of construction, oil and gas, manufacturing, and environmental protection. Our team relentlessly works to delight its customers through sourcing and delivering innovative and quality products supported by outstanding consultancy, sales, repairment and rental services. Over the years the company has been able to establish a long list of delighted customers that includes reputed local and international construction companies, manufacturing companies and public entities.
               </p>
               <p>
-                TThe company takes the pride of mentioning its participation in
-                various capacities in projects like:
+              The products and services of Moving Machines have primarily been developed focusing the fields of construction, oil and gas, manufacturing, and environmental protection. Our team relentlessly works to delight its customers through sourcing and delivering innovative and quality products supported by outstanding consultancy, sales, repairment and rental services. Over the years the company has been able to establish a long list of delighted customers that includes reputed local and international construction companies, manufacturing companies and public entities.
               </p>
               <div className="row">
                 <div className="col-sm-6">

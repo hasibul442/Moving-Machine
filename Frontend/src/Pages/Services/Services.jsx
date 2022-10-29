@@ -31,23 +31,13 @@ function Services() {
               <div className="">
                 <h5 className="mml-title px-4 py-3" style={{ fontSize: "23px" }}>After Sales Services </h5>
                 <p className="px-4 pb-3 justify-content-center geo_consult-content-text">
-                  Moving Machines Limited believes after
-                  sales services makes the difference in the business of
-                  machines and equipment. During warranty period, MML provides
-                  free services for all the equipment. MML wants to brand itself
-                  as the champion service company through a skilled and
-                  customer-centric service team. We are committed in keeping our
-                  affiliate branded equipment running in prime condition as long
-                  as possible. Our service team checks upon your equipment time
-                  to time to check its condition. We will notify you about any
-                  possibilities of breakdown before it happens to keep your
-                  projects flowless.
+                Moving Machines believes after sales service makes the difference in the business of machines and equipment. During warranty period, the company provides free services for all the equipment it sells. Moving Machines wants to brand itself as the champion service company through a skilled and customer-centric service team. Our service team checks upon customers’ equipment time to time to assess its condition. We put our best efforts to keep customers’ equipment fully functional all the time so that it performs at the time it is needed.  
                 </p>
               </div>
               <div className=" mt-2">
               <h4 className="mml-title px-4 py-3" style={{ fontSize: "23px" }}>Paid Services </h4>
                 <p className="px-4 pb-3 justify-content-center geo_consult-content-text">
-                Moving Machines also provides repair and maintenance to almost all types of construction and industrial equipment. Our repair and maintenance team are highly skilled about cranes, crawlers, bulldoggers, excavators, heavy trucks, RMC trucks, truck cranes alongside the product line of MML.
+                Moving Machines also provides repair and maintenance services of construction and industrial equipment. Our experienced and motivated maintenance team is highly skilled in repair works of equipment like crane, excavator, bulldozer, road roller, manlift, air compressor, generator, RMC truck, forklift, water truck, vibro hammer, dump truck, rig, truck-crane, etc. 
                 </p>
               </div>
             </div>
