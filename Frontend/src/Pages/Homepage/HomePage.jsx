@@ -47,8 +47,8 @@ function HomePage() {
       <div className="navbar-space"></div>
       <section className="carousel-section">
         <Carousel>
-          <Carousel.Item>
-            <Link to="/aboutus">
+          <Carousel.Item interval={1500}>
+            <Link to="/dieselgenerator">
               <img
                 className="d-block w-100 carousel-image"
                 src="/assets/image/slider/Slide1.PNG"
@@ -57,8 +57,8 @@ function HomePage() {
             </Link>
           </Carousel.Item>
 
-          <Carousel.Item>
-            <Link to="/aboutus">
+          <Carousel.Item interval={1500}>
+            <Link to="/aircompressor">
               <img
                 className="d-block w-100 carousel-image"
                 src="/assets/image/slider/Slide2.PNG"
@@ -67,8 +67,8 @@ function HomePage() {
             </Link>
           </Carousel.Item>
 
-          <Carousel.Item>
-            <Link to="/aboutus">
+          <Carousel.Item interval={1500}>
+            <Link to="/weldergenerator">
               <img
                 className="d-block w-100 carousel-image"
                 src="/assets/image/slider/Slide3.PNG"
@@ -77,8 +77,8 @@ function HomePage() {
             </Link>
           </Carousel.Item>
 
-          <Carousel.Item>
-            <Link to="/aboutus">
+          <Carousel.Item interval={1500}>
+            <Link to="/sheetpiledriver">
               <img
                 className="d-block w-100 carousel-image"
                 src="/assets/image/slider/Slide4.PNG"
@@ -87,8 +87,8 @@ function HomePage() {
             </Link>
           </Carousel.Item>
 
-          <Carousel.Item>
-            <Link to="/aboutus">
+          <Carousel.Item interval={1500}>
+            <Link to="/mountedcrane">
               <img
                 className="d-block w-100 carousel-image"
                 src="/assets/image/slider/Slide5.PNG"
@@ -97,8 +97,8 @@ function HomePage() {
             </Link>
           </Carousel.Item>
 
-          <Carousel.Item>
-            <Link to="/aboutus">
+          <Carousel.Item interval={1500}>
+            <Link to="/crimping">
               <img
                 className="d-block w-100 carousel-image"
                 src="/assets/image/slider/Slide6.PNG"
@@ -107,8 +107,8 @@ function HomePage() {
             </Link>
           </Carousel.Item>
 
-          <Carousel.Item>
-            <Link to="/aboutus">
+          <Carousel.Item interval={1500}>
+            <Link to="/geotextile">
               <img
                 className="d-block w-100 carousel-image"
                 src="/assets/image/slider/Slide7.PNG"
@@ -122,24 +122,25 @@ function HomePage() {
       <section className="about-section mt-5 mb-5" id="about">
         <div className="container">
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-6">
               <div className="text-center">
                 <div className="my-auto">
-                  <p className="about-us-title">About Us</p>
+                  <p className="about-us-title">Inception</p>
                 </div>
               </div>
             </div>
 
-            <div className="col-md-8 aboutus-description">
+            <div className="col-md-6 aboutus-description">
               <p>
                 Moving Machines Limited, a private limited company, was
-                established in early 2014 with a mission to source machines and
-                equipment of cutting-age technology for customers of
-                construction industry in Bangladesh. Subsequently the company
-                expanded its operation in the fields of . . .
+                established early 2014 with a commitment to source and supply of
+                machines and equipment of cutting-age technology for customers
+                of construction industry in Bangladesh. Subsequently the company
+                expanded its services to customers in the fields of oil and gas,
+                manufacturing and environmental protection.
               </p>
               <div>
-                <Link
+                {/* <Link
                   to="/about-us"
                   className="learn-more button-style-2 border-0"
                 >
@@ -147,12 +148,13 @@ function HomePage() {
                     <span className="icon arrow"></span>
                   </span>
                   <span className="button-text">See More</span>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
         </div>
       </section>
+
 
       {/* Product Section */}
       <section
@@ -501,7 +503,7 @@ function HomePage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Brand Section */}
       <section className="brands-section">

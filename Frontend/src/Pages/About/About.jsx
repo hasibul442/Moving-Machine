@@ -46,10 +46,20 @@ function About() {
           <div className="row">
             <div className="col-md-12 aboutus-description-1">
               <p>
-              Moving Machines Limited, a private limited company, was established in early 2014 with a commitment to source and supply of machines and equipment of cutting-age technology for customers of construction industry in Bangladesh. Subsequently the company expanded its services to customers in the fields of oil and gas, manufacturing and environmental protection. To fulfill its commitment the company relentlessly worked to delight its customers through exclusive and quality products supported by outstanding consultancy, sales, repairment and rental services. Over the years the company has been able to establish a long list of delighted customers that includes reputed local and international construction companies, manufacturing companies and public entities.
+                The products and services of Moving Machines have primarily been
+                developed focusing the fields of construction, oil and gas,
+                manufacturing, and environmental protection. Our team
+                relentlessly works to delight its customers through innovative
+                and quality products supported by outstanding consultancy,
+                sales, repairment and rental services. Over the years the
+                company has been able to establish a long list of delighted
+                customers that includes reputed local and international
+                construction companies, manufacturing companies and public
+                entities.
               </p>
               <p>
-              The company takes the pride of mentioning its participation in various capacities in projects like:
+                TThe company takes the pride of mentioning its participation in
+                various capacities in projects like:
               </p>
               <div className="row">
                 <div className="col-sm-6">
@@ -59,6 +69,7 @@ function About() {
                     <li>Kalna bridge project</li>
                     <li>Kalshi flyover project</li>
                     <li>Chattogram flyover project</li>
+                    <li>Kuakata Sea Beach Protection Project</li>
                   </ul>
                 </div>
                 <div className="col-sm-6">
@@ -76,117 +87,7 @@ function About() {
         </div>
       </section>
 
-      <section className="mission-vision-value-bg">
-        <section id="vision" className="pt-5">
-          <div className="vision">
-            <div className="container">
-              <div className="row">
-                <div
-                  className="col-md-6 vision-text "
-                  data-aos="fade-right"
-                  data-aos-offset="20"
-                  data-aos-anchor-placement="top-bottom"
-                >
-                  <div className="">
-                    <h2 className="mml-title text-center pt-5">Vision</h2>
-                    <p className="p-2 vision-content-text">
-                    To become the leader in providing sustainable solution to the customers from industrial and heavy construction sectors.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-md-6"></div>
-              </div>
-            </div>
-          </div>
-        </section>
 
-        <section id="mission">
-          <div className="mission pt-4">
-            <div className="container">
-              <div className="row">
-                <div className="col-md-6"></div>
-                <div
-                  className="col-md-6 vision-text"
-                  data-aos="fade-left"
-                  data-aos-offset="20"
-                  data-aos-anchor-placement="top-bottom"
-                >
-                  <div className=" ">
-                    <h2 className="mml-title text-center pt-5">Mission</h2>
-                    <div className="p-2 mission-content-text">
-                      <ul>
-                        <li>To win customers by delivering quality and innovative products</li>
-                        <li>To win customers through providing customer-delighting services</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="core-value">
-          <div className="core-value pt-4 pb-5">
-            <div className="container">
-              <div className="row">
-                <div
-                  className="col-md-12 core-value-content-body"
-                  data-aos="fade-up"
-                  data-aos-offset="20"
-                  data-aos-anchor-placement="top-bottom"
-                >
-                  <div className="my-auto">
-                    <h2 className="mml-title text-center pt-5">Core Value</h2>
-                    <div className="ml-5 value-content-text">
-                      <div className="row justify-content-center pt-3">
-
-                        <div className="col-md-3 px-5 text-center">
-                          <i
-                            className="fas fa-award fa-4x"
-                            style={{ color: "#2A0944" }}
-                          ></i>
-                          <p className="pt-3 text-description">
-                          Becoming the logical choice 
-                          {/* in our fields of operation */}
-                          </p>
-                        </div>
-
-                        <div className="col-md-3 px-5 text-center">
-                          <i
-                            className="fas fa-check fa-4x"
-                            style={{ color: "#3CCF4E" }}
-                          ></i>
-                          <p className="pt-3 text-description">
-                          Offering high-quality, sophisticated products
-                          </p>
-                        </div>
-
-                        <div className="col-md-3 px-5 text-center">
-                          <i
-                            className="fas fa-users fa-4x"
-                            style={{ color: "#358d7e" }}
-                          ></i>
-                          <p className="pt-3 text-description">Serving through an empowered team</p>
-                        </div>
-
-                        <div className="col-md-3 px-5 text-center">
-                        {/* 610C63 */}
-                          <i
-                            className="fas fa-balance-scale fa-4x"
-                            style={{ color: "#EB1D36" }}
-                          ></i>
-                          <p className="pt-3 text-description">Integrity</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </section>
 
       <section className="brands-section">
         <div className="container">

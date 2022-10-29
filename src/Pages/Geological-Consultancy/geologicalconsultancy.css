@@ -1,0 +1,105 @@
+.geological-bg {
+    background-image: linear-gradient(#000000e1, #000000e1),
+      url("./../../../public/assets/image/background/Geological-Consultancy.jpg");
+      width: auto;
+      height: 380px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+  }
+  .text-1{
+    /* margin-top: 25%; */
+    font-size: 20px;
+  }
+
+.module-border-wrap {
+    /* max-width: 250px; */
+    /* padding: 1rem; */
+    position: relative;
+    background: linear-gradient(to right, #0F2C67, #F3950D);
+    padding: 3px;
+}
+.module {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    /* padding: 2rem; */
+}
+
+.geological-consultancy-box{
+  width: 350px;
+  height: 300px;
+  margin: 0px 0 0 0px;
+  /* border: 2px solid #db0d0d; */
+  /* float: right; */
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%  ;
+  animation: geo_consult 8s ease-in-out infinite;
+  box-shadow: 5px 10px 18px #888888;
+  /* transition: 0.5s; */
+}
+@keyframes geo_consult {
+  0% {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  }
+  25% {
+    border-radius: 43% 57% 35% 65% / 36% 35% 65% 64%;
+  }
+  
+  50% {
+    border-radius: 16% 84% 35% 65% / 17% 35% 65% 83%;
+  }
+ 
+  75% {
+    border-radius: 79% 21% 55% 45% / 76% 64% 36% 24%;
+  }
+ 
+  100% {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  }
+}
+
+.geo_consult-text{
+background: #ffffffc0;
+border-radius: 10px;
+box-shadow: -5px 5px 15px #000000d0;
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+transition: 0.5s;
+cursor: pointer;
+}
+
+.geo_consult-text:hover{
+  box-shadow: 5px 10px 15px #000000d0;
+}
+
+.geo_consult-content-text{
+  font-family: 'Noway', sans-serif;
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 600;
+}
+.geo-img{
+  height: 280px;
+  width: 280px;
+}
+.losange, .losange div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+}
+.losange {
+  transform: rotate(45deg) translateY(10px);
+}
+.losange .los1 {
+  width: 355px;
+  height: 355px;
+  transform: rotate(-45deg) translateY(-74px);
+}
+.losange .los1 img {
+  width: 100%;
+  height: auto;
+}
+
+

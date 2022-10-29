@@ -1,0 +1,20 @@
+.image-card{
+    /* text-justify: center !important; */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.product-link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.product-link:hover{
+    color: #ffffff;
+    transition: 0.5s;
+}
+.product-link:hover .product-title{
+    color: #ffffff;
+    transition: 0.5s;
+}

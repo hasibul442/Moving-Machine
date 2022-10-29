@@ -1,7 +1,6 @@
 {
   "hosting": {
     "public": "build",
-    "site" : "movingmachine",
     "ignore": [
       "firebase.json",
       "**/.*",
