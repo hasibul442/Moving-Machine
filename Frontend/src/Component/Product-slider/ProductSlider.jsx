@@ -28,16 +28,15 @@ function ProductSlider() {
   };
   return (
     <section>
-      <section className="container">
+      <section className="container mb-5">
         <h2 className="mml-title text-center pt-5 pb-5">Other Product</h2>
         <OwlCarousel {...settings}>
-          <div className="item mt-4 mb-4">
+          {/* <div className="item mt-4 mb-4">
             <div className="products">
-              <div className="card border-0 shadow card-1">
-                <div className="layer"></div>
-                <div className="card-body text-center">
+              <div className="card card-style border-0 ">
+                <div className="card-body shadow text-center">
                   <Link to="/sheetpiledriver" className="product-link">
-                    <div className=" mx-auto">
+                    <div className="image-box">
                       <img
                         src="/assets/image/products/Sheet-Pile-Driver.png"
                         style={{ height: "100px", width: "100px" }}
@@ -56,11 +55,10 @@ function ProductSlider() {
 
           <div className="item mt-4 mb-4">
             <div className="products">
-              <div className="card border-0 shadow card-2">
-                <div className="layer"></div>
-                <div className="card-body text-center">
+              <div className="card card-style border-0 ">
+                <div className="card-body shadow text-center">
                   <Link to="/dieselgenerator" className="product-link">
-                    <div className=" mx-auto">
+                    <div className="image-box">
                       <img
                         src="/assets/image/products/Generator.png"
                         style={{ height: "100px", width: "100px" }}
@@ -79,11 +77,10 @@ function ProductSlider() {
 
           <div className="item mt-4 mb-4">
             <div className="products">
-              <div className="card border-0 shadow card-3">
-                <div className="layer"></div>
-                <div className="card-body text-center">
+              <div className="card card-style border-0 ">
+                <div className="card-body shadow text-center">
                   <Link to="/aircompressor" className="product-link">
-                    <div className=" mx-auto">
+                    <div className="image-box">
                       <img
                         src="/assets/image/products/Portable-Air-Compressor.png"
                         style={{ height: "100px", width: "100px" }}
@@ -236,8 +233,196 @@ function ProductSlider() {
                 </div>
               </div>
             </div>
+          </div> */}
+
+          <div className="item mt-4 mb-5">
+            <div className="slider-image">
+              <Link className="product-link" to="/sheetpiledriver">
+                <div className="card slider_card_style border-0 shadow">
+                  <div className="card-body ">
+                    <div className="image-box_1">
+                      <img
+                        src="/assets/image/products/Sheet-Pile-Driver.png"
+                        alt="product1 "
+                        className="product_slider_image"
+                      />
+                    </div>
+                    <h5 className="product-title text-center mt-3">
+                      Sheet Pile Driver
+                    </h5>
+                  </div>
+                </div>
+              </Link>
+            </div>
           </div>
 
+          <div className="item mt-4 mb-5">
+            <div className="slider-image">
+              <Link className="product-link" to="/dieselgenerator">
+                <div className="card slider_card_style border-0 shadow">
+                  <div className="card-body ">
+                    <div className="image-box_1">
+                      <img
+                        src="/assets/image/products/Generator.png"
+                        alt="product1 "
+                        className="product_slider_image"
+                      />
+                    </div>
+                    <h5 className="product-title text-center mt-3">
+                      Diesel Generator
+                    </h5>
+                  </div>
+                </div>
+              </Link>
+            </div>
+          </div>
+
+          <div className="item mt-4 mb-5">
+            <div className="slider-image">
+              <Link className="product-link" to="/aircompressor">
+                <div className="card slider_card_style border-0 shadow">
+                  <div className="card-body ">
+                    <div className="image-box_1">
+                      <img
+                        src="/assets/image/products/Portable-Air-Compressor.png"
+                        alt="product1 "
+                        className="product_slider_image"
+                      />
+                    </div>
+                    <h5 className="product-title text-center mt-3">
+                      Portable Air Compressor
+                    </h5>
+                  </div>
+                </div>
+              </Link>
+            </div>
+          </div>
+
+          <div className="item mt-4 mb-5">
+            <div className="slider-image">
+              <Link className="product-link" to="/mountedcrane">
+                <div className="card slider_card_style border-0 shadow">
+                  <div className="card-body ">
+                    <div className="image-box_1">
+                      <img
+                        src="/assets/image/products/Truck-Mounted-Crane.png"
+                        alt="product1 "
+                        className="product_slider_image"
+                      />
+                    </div>
+                    <h5 className="product-title text-center mt-3">
+                      Truck Mounted Crane
+                    </h5>
+                  </div>
+                </div>
+              </Link>
+            </div>
+          </div>
+
+          <div className="item mt-4 mb-5">
+            <div className="slider-image">
+              <Link className="product-link" to="/weldergenerator">
+                <div className="card slider_card_style border-0 shadow">
+                  <div className="card-body ">
+                    <div className="image-box_1">
+                      <img
+                        src="/assets/image/products/weldergenerator.png"
+                        alt="product1 "
+                        className="product_slider_image"
+                      />
+                    </div>
+                    <h5 className="product-title text-center mt-3">
+                      Welder Generator
+                    </h5>
+                  </div>
+                </div>
+              </Link>
+            </div>
+          </div>
+
+          <div className="item mt-4 mb-5">
+            <div className="slider-image">
+              <Link className="product-link" to="/geotextile">
+                <div className="card slider_card_style border-0 shadow">
+                  <div className="card-body ">
+                    <div className="image-box_1">
+                      <img
+                        src="/assets/image/products/Geotextile.png"
+                        alt="product1 "
+                        className="product_slider_image"
+                      />
+                    </div>
+                    <h5 className="product-title text-center mt-3">
+                      Geotextile
+                    </h5>
+                  </div>
+                </div>
+              </Link>
+            </div>
+          </div>
+
+          <div className="item mt-4 mb-5">
+            <div className="slider-image">
+              <Link className="product-link" to="/weldingmachine">
+                <div className="card slider_card_style border-0 shadow">
+                  <div className="card-body ">
+                    <div className="image-box_1">
+                      <img
+                        src="/assets/image/products/Welding-Machine.png"
+                        alt="product1 "
+                        className="product_slider_image"
+                      />
+                    </div>
+                    <h5 className="product-title text-center mt-3">
+                      Welding Machine
+                    </h5>
+                  </div>
+                </div>
+              </Link>
+            </div>
+          </div>
+
+          <div className="item mt-4 mb-5">
+            <div className="slider-image">
+              <Link className="product-link" to="/cutting">
+                <div className="card slider_card_style border-0 shadow">
+                  <div className="card-body ">
+                    <div className="image-box_1">
+                      <img
+                        src="/assets/image/products/Cutting-Machine.png"
+                        alt="product1 "
+                        className="product_slider_image"
+                      />
+                    </div>
+                    <h5 className="product-title text-center mt-3">
+                      Cutting Machine
+                    </h5>
+                  </div>
+                </div>
+              </Link>
+            </div>
+          </div>
+
+          <div className="item mt-4 mb-5">
+            <div className="slider-image">
+              <Link className="product-link" to="/crimping">
+                <div className="card slider_card_style border-0 shadow">
+                  <div className="card-body ">
+                    <div className="image-box_1">
+                      <img
+                        src="/assets/image/products/Crimping-Machine.png"
+                        alt="product1 "
+                        className="product_slider_image"
+                      />
+                    </div>
+                    <h5 className="product-title text-center mt-3">
+                      Crimping Machine
+                    </h5>
+                  </div>
+                </div>
+              </Link>
+            </div>
+          </div>
         </OwlCarousel>
       </section>
     </section>
