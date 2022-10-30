@@ -30,11 +30,10 @@ function About() {
     duration: 500,
     delay: 300,
     mirror: false,
-    // anchorPlacement:"top"
   });
-  // React.useEffect(() => {
-  //   window.scrollTo(0, 0)
-  // }, [])
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <section>
       <section className="aboutus-bg">
