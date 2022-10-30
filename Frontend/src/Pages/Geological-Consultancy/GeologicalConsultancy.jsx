@@ -18,13 +18,6 @@ function GeologicalConsultancy() {
       <div className="geological-bg">
         <h1 className="text-center page-title">Geological Consultancy</h1>
       </div>
-      {/* <div className="custome-shape">
-        <img
-          src="/assets/image/background/Asset-1.png"
-          className="shape-image img-fluid"
-          alt="Custom Shape"
-        />
-      </div> */}
 
       <div className="mt-5 mb-5">
         <div className="container ">
@@ -49,7 +42,6 @@ function GeologicalConsultancy() {
               data-aos-offset="300"
               data-aos-easing="ease-in-sine">
               <div className="geo_consult-text">
-                {/* <h2 className="mml-title text-center pt-5">Vision</h2> */}
                 <p className="p-5 geo_consult-content-text">
                   We provide independent geoscientific assessment of onshore and
                   offshore oil and gas. Our team has extensive experience in
@@ -67,7 +59,6 @@ function GeologicalConsultancy() {
               data-aos-offset="300"
               data-aos-easing="ease-in-sine">
               <div className="geo_consult-text">
-                {/* <h2 className="mml-title text-center pt-5">Vision</h2> */}
                 <p className="p-5 geo_consult-content-text">
                   Our team is built with industry-recognized experts in oil and
                   gas sectors in Bangladesh. The team is also supported by

@@ -140,14 +140,6 @@ function Footer() {
                       </a>
                     </div>
                   </div>
-                  {/* <div> */}
-                  {/* <div className="visitorcounter mt-3"> */}
-                  {/* <div className="text-light"><span className="counter-text">Total Visited:</span> <span className="visitor-amount"> */}
-                  {/* <CountUp end={countamount.value}></CountUp> */}
-                  {/* </span></div> */}
-                  {/* <div className="text-light"><span className="counter-text">Total Visited:</span> <span className="visitor-amount">120</span></div> */}
-                  {/* </div> */}
-                  {/* </div> */}
                 </div>
                 <p className=" footer-text  pt-5">
                   Copyright © {new Date().getFullYear()} Moving Mechines Ltd.{" "}
@@ -163,18 +155,6 @@ function Footer() {
             </div>
           </div>
         </div>
-
-        {/* <div className="footer2">
-          <p className="text-right container-fluid footer-text my-auto pt-2 pb-2">
-            Copyright © {new Date().getFullYear()} Moving Mechines Ltd. <br />
-            <span className="">
-              Developed by{" "}
-              <a href="https://hasibulhasan.web.app/" className="hasib">
-                Hasib
-              </a>
-            </span>
-          </p>
-        </div> */}
       </section>
     </section>
   );
