@@ -163,7 +163,7 @@ function HomePage()  {
               <div className="row">
                 <div
                   className="col-md-12 vision-text "
-                  data-aos="fade-right"
+                  data-aos="fade-up"
                   data-aos-offset="20"
                   data-aos-anchor-placement="top-bottom"
                 >
