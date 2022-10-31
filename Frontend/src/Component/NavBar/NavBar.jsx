@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./navbar.css";
 import { Link, NavLink } from "react-router-dom";
+import { NavDropdown } from "react-bootstrap";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -85,115 +86,202 @@ function Navbar() {
                   >
                     <div className="px-2 py-2">
                       <div className="row">
-                        <div className="col-md-8">
+                        <div className="col-md-9 pt-1">
                           <p
                             className="text-center"
-                            style={{ color: "#ED2226" }}
+                            style={{
+                              color: "#2F75B5",
+                              fontSize: "20px",
+                              fontWeight: "700",
+                            }}
                           >
-                            <b>
-                              <u>Industrial & Constructor Sector</u>
-                            </b>
+                            Industrial & Constructor Sector
                           </p>
                           <div className="row">
-                            <div className="col-md-4">
+                            <div className="col-md-4 pt-1">
                               <p
                                 className="text-center"
-                                style={{ color: "#ED2226" }}
+                                style={{
+                                  color: "#3CADE8",
+                                  fontSize: "16px",
+                                  fontWeight: "600",
+                                }}
                               >
-                                <b>
-                                  <u>Machines & Equipment</u>
-                                </b>
+                                Machines & Equipment
                               </p>
-                              <Link
+                              <NavDropdown.Item
                                 className="dropdown-item"
-                                to="/dieselgenerator"
+                                href="/dieselgenerator"
+                                style={{
+                                  fontSize: "15px",
+                                  fontWeight: "400",
+                                }}
                               >
                                 Diesel Generator{" "}
-                              </Link>
-                              <Link
+                              </NavDropdown.Item>
+                              <NavDropdown.Item
                                 className="dropdown-item"
-                                to="/weldergenerator"
+                                href="/weldergenerator"
+                                style={{
+                                  fontSize: "15px",
+                                  fontWeight: "400",
+                                }}
                               >
                                 Welder Generator
-                              </Link>
-                              <Link
+                              </NavDropdown.Item>
+                              <NavDropdown.Item
                                 className="dropdown-item"
-                                to="/sheetpiledriver"
+                                href="/sheetpiledriver"
+                                style={{
+                                  fontSize: "15px",
+                                  fontWeight: "400",
+                                }}
                               >
                                 Sheet Pile Driver
-                              </Link>
-                              <Link
+                              </NavDropdown.Item>
+                              <NavDropdown.Item
                                 className="dropdown-item"
-                                to="/aircompressor"
+                                href="/aircompressor"
+                                style={{
+                                  fontSize: "15px",
+                                  fontWeight: "400",
+                                }}
                               >
                                 Portable Air Compressor
-                              </Link>
-                              <Link
+                              </NavDropdown.Item>
+                              <NavDropdown.Item
                                 className="dropdown-item"
-                                to="/mountedcrane"
+                                href="/mountedcrane"
+                                style={{
+                                  fontSize: "15px",
+                                  fontWeight: "400",
+                                }}
                               >
                                 Truck-Mounted Crane
-                              </Link>
-                              <Link className="dropdown-item" to="/crimping">
-                                Crimping Machine
-                              </Link>
-                              <Link
+                              </NavDropdown.Item>
+                              <NavDropdown.Item
                                 className="dropdown-item"
-                                to="/weldingmachine"
+                                href="/crimping"
+                                style={{
+                                  fontSize: "15px",
+                                  fontWeight: "400",
+                                }}
+                              >
+                                Crimping Machine
+                              </NavDropdown.Item>
+                              <NavDropdown.Item
+                                className="dropdown-item"
+                                href="/weldingmachine"
+                                style={{
+                                  fontSize: "15px",
+                                  fontWeight: "400",
+                                }}
                               >
                                 Welding Machine
-                              </Link>
-                              <Link className="dropdown-item" to="/cutting">
+                              </NavDropdown.Item>
+                              <NavDropdown.Item
+                                className="dropdown-item"
+                                href="/cutting"
+                                style={{
+                                  fontSize: "15px",
+                                  fontWeight: "400",
+                                }}
+                              >
                                 Cutting Machine
-                              </Link>
+                              </NavDropdown.Item>
                             </div>
-                            <div className="col-md-4">
-                              <p
-                                className="text-center"
-                                style={{ color: "#ED2226" }}
-                              >
-                                <b>
-                                  <u>Materials</u>
-                                </b>
+                            <div
+                              className="col-md-4 pt-1"
+                              style={{
+                                color: "#3CADE8",
+                                fontSize: "16px",
+                                fontWeight: "600",
+                                background: "#F2F2F2",
+                              }}
+                            >
+                              <p className="px-3" style={{ color: "#3CADE8" }}>
+                                Materials
                               </p>
-                              <Link className="dropdown-item" to="/geotextile">
+                              <NavDropdown.Item
+                                className="dropdown-item"
+                                href="/geotextile"
+                                style={{
+                                  fontSize: "15px",
+                                  fontWeight: "400",
+                                }}
+                              >
                                 Geotextile
-                              </Link>
-                              <Link className="dropdown-item" to="/coolant">
-                                Coolant Leak Repair
-                              </Link>
-                            </div>
-                            <div className="col-md-4">
-                              <p
-                                className="text-center"
-                                style={{ color: "#ED2226" }}
+                              </NavDropdown.Item>
+                              <NavDropdown.Item
+                                className="dropdown-item"
+                                href="/coolant"
+                                style={{
+                                  fontSize: "15px",
+                                  fontWeight: "400",
+                                }}
                               >
-                                <b>
-                                  <u>Services</u>
-                                </b>
+                                Coolant Leak Repair
+                              </NavDropdown.Item>
+                            </div>
+                            <div className="col-md-4 pt-1">
+                              <p
+                                className="px-3"
+                                style={{
+                                  color: "#3CADE8",
+                                  fontSize: "16px",
+                                  fontWeight: "600",
+                                }}
+                              >
+                                Services
                               </p>
-                              <Link className="dropdown-item" to="/services">
+                              <NavDropdown.Item
+                                className="dropdown-item"
+                                href="/services"
+                                style={{
+                                  fontSize: "15px",
+                                  fontWeight: "400",
+                                }}
+                              >
                                 Repaire & Maintenance{" "}
-                              </Link>
-                              <Link className="dropdown-item" to="/rental">
+                              </NavDropdown.Item>
+                              <NavDropdown.Item
+                                className="dropdown-item"
+                                href="/rental"
+                                style={{
+                                  fontSize: "15px",
+                                  fontWeight: "400",
+                                }}
+                              >
                                 Rental Services
-                              </Link>
+                              </NavDropdown.Item>
                             </div>
                           </div>
                         </div>
-                        <div className="col-md-4">
+                        <div
+                          className="col-md-3 pt-1"
+                          style={{ background: "#F2F2F2" }}
+                        >
                           <p
                             className="text-center"
-                            style={{ color: "#ED2226" }}
+                            style={{
+                              color: "#2F75B5",
+                              fontSize: "20px",
+                              fontWeight: "700",
+                            }}
                           >
-                            <b>
-                              <u>Oil & Gas Sector</u>
-                            </b>
+                            Oil & Gas Sector
                           </p>
-                          <p style={{ marginTop:"57px" }}></p>
-                          <Link className="dropdown-item" to="/geological">
+                          <p style={{ marginTop: "57px" }}></p>
+                          <NavDropdown.Item
+                            className="dropdown-item text-center"
+                            href="/geological"
+                            style={{
+                              fontSize: "15px",
+                              fontWeight: "400",
+                            }}
+                          >
                             Geological E&P Services
-                          </Link>
+                          </NavDropdown.Item>
                         </div>
                       </div>
                     </div>

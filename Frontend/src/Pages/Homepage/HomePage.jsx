@@ -132,7 +132,12 @@ function HomePage()  {
 
             <div className="col-md-6 aboutus-description">
               <p>
-              Moving Machines Limited, a private limited company, was established early 2014 with a commitment to source and supply of machines and equipment of cutting-age technology for customers of construction industry in Bangladesh. Subsequently the company expanded its services to customers in the fields of oil and gas, manufacturing and environmental protection. 
+                Moving Machines Limited, a private limited company, was
+                established early 2014 with a commitment to source and supply of
+                machines and equipment of cutting-age technology for customers
+                of construction industry in Bangladesh. Subsequently the company
+                expanded its services to customers in the fields of oil and gas,
+                manufacturing and environmental protection.
               </p>
               <div>
                 {/* <Link
@@ -163,12 +168,17 @@ function HomePage()  {
                   data-aos-anchor-placement="top-bottom"
                 >
                   <div className="">
-                    <h2 className="mml-title text-center pt-5">
-                      Mission & Vision
-                    </h2>
-                    <p className="px-5 mx-5 text-center py-2 vision-content-text">
-                    We strive to become the leader in providing sustainable solution to the customers of our areas of operation through delivering quality, innovative and customer-delighting products and services
-                    </p>
+                    <div className="py-5">
+                      <h2 className="mml-title text-center">
+                        Mission & Vision
+                      </h2>
+                      <p className="px-5 mx-5 text-center pt-2 vision-content-text">
+                        We strive to become the leader in providing sustainable
+                        solution to the customers of our areas of operation
+                        through delivering quality, innovative and
+                        customer-delighting products and services
+                      </p>
+                    </div>
                   </div>
                 </div>
                 {/* <div className="col-md-6"></div> */}
@@ -188,50 +198,52 @@ function HomePage()  {
                   data-aos-anchor-placement="top-bottom"
                 >
                   <div className="my-auto">
-                    <h2 className="mml-title text-center pt-5">Core Value</h2>
-                    <div className="ml-5 value-content-text">
-                      <div className="row justify-content-center pt-3">
-                        <div className="col-md-3 px-5 text-center">
-                          <i
-                            className="fas fa-award fa-4x"
-                            style={{ color: "#2A0944" }}
-                          ></i>
-                          <p className="pt-3 text-description">
-                            Becoming the logical choice in our field
-                            {/* in our fields of operation */}
-                          </p>
-                        </div>
+                    <div className="py-5">
+                      <h2 className="mml-title text-center">Core Value</h2>
+                      <div className="ml-5 value-content-text">
+                        <div className="row justify-content-center pt-3">
+                          <div className="col-md-3 px-5 text-center">
+                            <i
+                              className="fas fa-award fa-4x"
+                              style={{ color: "#2A0944" }}
+                            ></i>
+                            <p className="pt-3 text-description">
+                              Becoming the logical choice in our field
+                              {/* in our fields of operation */}
+                            </p>
+                          </div>
 
-                        <div className="col-md-3 px-5 text-center">
-                          <i
-                            className="fas fa-check fa-4x"
-                            style={{ color: "#3CCF4E" }}
-                          ></i>
-                          <p className="pt-3 text-description">
-                            Offering high-quality, sophisticated products
-                          </p>
-                        </div>
+                          <div className="col-md-3 px-5 text-center">
+                            <i
+                              className="fas fa-check fa-4x"
+                              style={{ color: "#3CCF4E" }}
+                            ></i>
+                            <p className="pt-3 text-description">
+                              Offering high-quality, sophisticated products
+                            </p>
+                          </div>
 
-                        <div className="col-md-3 px-5 text-center">
-                          <i
-                            className="fas fa-users fa-4x"
-                            style={{ color: "#358d7e" }}
-                          ></i>
-                          <p className="pt-3 text-description">
-                            Serving through an empowered team
-                          </p>
-                        </div>
+                          <div className="col-md-3 px-5 text-center">
+                            <i
+                              className="fas fa-users fa-4x"
+                              style={{ color: "#358d7e" }}
+                            ></i>
+                            <p className="pt-3 text-description">
+                              Serving through an empowered team
+                            </p>
+                          </div>
 
-                        <div className="col-md-3 px-5 text-center">
-                          {/* 610C63 */}
-                          <i
-                            className="fas fa-balance-scale fa-4x"
-                            style={{ color: "#EB1D36" }}
-                          ></i>
-                          <p className="pt-3 text-description">
-                            {" "}
-                            Preserving Integrity
-                          </p>
+                          <div className="col-md-3 px-5 text-center">
+                            {/* 610C63 */}
+                            <i
+                              className="fas fa-balance-scale fa-4x"
+                              style={{ color: "#EB1D36" }}
+                            ></i>
+                            <p className="pt-3 text-description">
+                              {" "}
+                              Preserving Integrity
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
