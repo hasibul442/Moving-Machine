@@ -258,10 +258,10 @@ function HomePage()  {
       {/* Brand Section */}
       <section className="brands-section">
         <div className="container">
-          <h2 className="mml-title text-center pt-5 pb-5">Brands</h2>
+          <h2 className="mml-title text-center pt-5">BRANDS WE DEAL</h2>
           <div>
             <OwlCarousel {...settings}>
-              <div className="item mt-4 mb-4">
+              <div className="item mb-4">
                 <div className="card card-shadow border-0">
                   <div className="card-body">
                     <div className="text-center mx-auto">
@@ -276,7 +276,7 @@ function HomePage()  {
                 </div>
               </div>
 
-              <div className="item mt-4 mb-4">
+              <div className="item mb-4">
                 <div className="card card-shadow border-0">
                   <div className="card-body border-0">
                     <div className="text-center mx-auto">
@@ -291,7 +291,7 @@ function HomePage()  {
                 </div>
               </div>
 
-              <div className="item mt-4 mb-4">
+              <div className="item mb-4">
                 <div className="card card-shadow border-0">
                   <div className="card-body border-0">
                     <div className="text-center mx-auto">
@@ -306,7 +306,7 @@ function HomePage()  {
                 </div>
               </div>
 
-              <div className="item mt-4 mb-4">
+              <div className="item mb-4">
                 <div className="card card-shadow border-0">
                   <div className="card-body border-0">
                     <div className="text-center mx-auto">
@@ -321,7 +321,7 @@ function HomePage()  {
                 </div>
               </div>
 
-              <div className="item mt-4 mb-4">
+              <div className="item  mb-4">
                 <div className="card card-shadow border-0">
                   <div className="card-body border-0">
                     <div className="text-center mx-auto">
@@ -336,7 +336,7 @@ function HomePage()  {
                 </div>
               </div>
 
-              <div className="item mt-4 mb-4">
+              <div className="item mb-4">
                 <div className="card card-shadow border-0">
                   <div className="card-body border-0">
                     <div className="text-center mx-auto">
@@ -351,12 +351,27 @@ function HomePage()  {
                 </div>
               </div>
 
-              <div className="item mt-4 mb-4">
+              <div className="item mb-4">
                 <div className="card card-shadow border-0">
                   <div className="card-body border-0">
                     <div className="text-center mx-auto">
                       <img
                         src="/assets/image/brands/lillbacka.png"
+                        alt="Brand logo"
+                        style={{ height: "180px", width: "200px" }}
+                        className="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="item mb-4">
+                <div className="card card-shadow border-0">
+                  <div className="card-body border-0">
+                    <div className="text-center mx-auto">
+                      <img
+                        src="/assets/image/brands/k-seal.png"
                         alt="Brand logo"
                         style={{ height: "180px", width: "200px" }}
                         className="img-fluid"

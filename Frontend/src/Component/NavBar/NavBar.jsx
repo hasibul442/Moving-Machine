@@ -31,7 +31,7 @@ function Navbar() {
           id="ftco-navbar"
         >
           <div className="container">
-            <Link className="navbar-brand" to="/">
+            <a className="navbar-brand" href="/">
               <img
                 src="/assets/image/logo/logo-2.png"
                 alt="Company Logo"
@@ -41,7 +41,7 @@ function Navbar() {
                     : "navbar-logo maximage-size"
                 }
               />
-            </Link>
+            </a>
             <div
               className="menu-icon navbar-toggler text-dark"
               onClick={handleClick}
@@ -59,14 +59,14 @@ function Navbar() {
             >
               <ul className="navbar-nav mr-auto ">
                 <li className="nav-item">
-                  <NavLink to="/home" className="nav-link">
+                  <a href="/home" className="nav-link">
                     Home
-                  </NavLink>
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <NavLink to="/about-us" className="nav-link">
+                  <a href="/about-us" className="nav-link">
                     WHO WE ARE
-                  </NavLink>
+                  </a>
                 </li>
 
                 <li className="nav-item dropdown dropdown_auto">
@@ -288,14 +288,14 @@ function Navbar() {
                   </div>
                 </li>
                 <li className="nav-item">
-                  <Link to="/contactus" className="nav-link">
+                  <a href="/contactus" className="nav-link">
                     Contact Us
-                  </Link>
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <Link to="/career" className="nav-link">
+                  <a href="/career" className="nav-link">
                     Career
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>

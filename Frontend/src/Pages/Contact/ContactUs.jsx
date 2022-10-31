@@ -42,7 +42,7 @@ function ContactUs() {
 
       <div className="mt-5">
         <div className="container">
-          <p className="mml-title text-center mb-5">Get In Touch</p>
+          {/* <p className="mml-title text-center mb-5">Get In Touch</p> */}
           <div className="row">
             <div className="col-md-4 p-3">
               <div className="text-center">

@@ -12,7 +12,7 @@ function Career() {
 
       <div className="mt-3 pt-5">
         <div className="container">
-            <div className="px-5">
+            <div className="text-center">
                 <p className="pt-5" style={{ fontStyle:"italic", fontSize:"18px" }}>"It doesn’t make sense to hire smart people and then tell<br/>them what to do; we hire smart people so they can tell us what to do."</p>
                 <p style={{ fontWeight: "bold", fontSize:"20px" }}>– Steve Jobs</p>
             </div>

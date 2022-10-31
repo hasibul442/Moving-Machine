@@ -30,8 +30,16 @@ function Rental() {
             >
               <div className="">
                 {/* <h5 className="mml-title px-4 py-3" style={{ fontSize: "23px" }}>After Sales Services </h5> */}
-                <p className="px-4 py-3 justify-content-center geo_consult-content-text">
-                Moving Machines considers rental services as one of the most effective ways to support a project to progress smoothly. We are ever willing to provide rental support to meet short-term as well as long-term needs of projects. Our highly skilled professionals are ready to assist customers in recognizing their needs for rent and recommend them the perfect solution. We are always available to assist our customers by providing the right construction equipment in rent at an affordable cost.
+                <p className="px-4 py-3 justify-content-center aboutus-description-1">
+                  Moving Machines considers rental services as one of the most
+                  effective ways to support a project to progress smoothly. We
+                  are ever willing to provide rental support to meet short-term
+                  as well as long-term needs of projects. Our highly skilled
+                  professionals are ready to assist customers in recognizing
+                  their needs for rent and recommend them the perfect solution.
+                  We are always available to assist our customers by providing
+                  the right construction equipment in rent at an affordable
+                  cost.
                 </p>
               </div>
             </div>
@@ -44,7 +52,7 @@ function Rental() {
           <div className="container">
             <div className="row">
               <div className="col-sm-12 details1 mt-5 mb-5">
-                <h2 className="p-3">Why chose Moving Machines?</h2>
+                <h2 className="p-3">Why chose Moving Machines</h2>
                 <div className="row">
                   <div className="col-sm-6 aboutus-description-1">
                     <ul>
@@ -54,7 +62,7 @@ function Rental() {
                       </li>
                       <li>
                         All equipment has valid 3rd party inspection certificate
-                        and 1st party insurance
+                        and <br /> 1st party insurance
                       </li>
                     </ul>
                   </div>
@@ -62,11 +70,10 @@ function Rental() {
                   <div className="col-sm-6 aboutus-description-1">
                     <ul>
                       <li>Affordable pricing</li>
+                      <li>Ready to assist in challenging difficulties</li>
                       <li>
-                        Ready to assist in challenging difficulties
-                      </li>
-                      <li>
-                        Strong team of operators, technicians and maintenance engineers
+                        Strong team of operators, technicians and maintenance
+                        engineers
                       </li>
                       <li>Technical and breakdown support within 24 hours</li>
                     </ul>
@@ -74,7 +81,7 @@ function Rental() {
                 </div>
               </div>
 
-              <div className="col-sm-12 details1 mt-5 mb-5">
+              <div className="col-sm-12 details1 mt-3 mb-5">
                 <h2 className="p-3">List of Equipment:</h2>
                 <div className="row">
                   <div className="col-sm-4 aboutus-description-1">
