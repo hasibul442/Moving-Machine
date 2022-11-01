@@ -17,7 +17,7 @@ function Coolant() {
   return (
     <section>
       <section className="product-bg">
-        <h1 className="text-center page-title">Coolant Leak Repair </h1>
+        <h1 className="text-center page-title">Engine Leak Repair </h1>
       </section>
 
       <section className="product-info-background">
@@ -36,7 +36,7 @@ function Coolant() {
                   alt="Sheet Pile Driven"
                   style={{ height: "45px", width: "200px" }}
                 />
-                <p className="product-name text-center mb-5">Coolant Leak Repair</p>
+                <p className="product-name text-center mb-5">Engine Leak Repair</p>
               </div>
             </div>
 
@@ -61,7 +61,7 @@ function Coolant() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">Coolant Leak Repair EQUIPMENT</p>
+            <p className="product-block-title">Engine Leak Repair's</p>
 
             <section className="product-image">
               <div className="row align-items-end  justify-content-center mt-5">
