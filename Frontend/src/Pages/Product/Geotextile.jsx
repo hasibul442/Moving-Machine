@@ -36,7 +36,7 @@ function Geotextile() {
                   alt="Sheet Pile Driven"
                   style={{ height: "45px", width: "200px" }}
                 />
-                <p className="product-name text-center mb-5">Geosynthetic</p>
+                <p className="product-name text-center mb-5">Geotextile</p>
               </div>
             </div>
 
@@ -61,7 +61,7 @@ function Geotextile() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">GEOTEXTILE EQUIPMENT</p>
+            <p className="product-block-title">Few Grotextiles</p>
 
             <section className="product-image">
               <div className="row align-items-end  justify-content-center mt-5">

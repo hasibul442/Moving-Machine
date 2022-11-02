@@ -4,6 +4,7 @@ import "./product.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Brochures from "../../Component/Brochures/Brochures";
+import { useState } from "react";
 
 function Cutting() {
   AOS.init({
@@ -14,6 +15,21 @@ function Cutting() {
   React.useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  // const [brochures, setBrochures] = useState([]);
+
+  const brochures = [
+    {key: '1', title: 'ESAB - MACHINE OVERVIEW', pdf: '/assets/image/brochures/Esab-c/1.pdf', thumbnail: '/assets/image/brochures/Esab-c/1.png'},
+    {key: '2', title: 'ESAB-A-Series-Fact Sheet', pdf: '/assets/image/brochures/Esab-c/2.pdf', thumbnail: '/assets/image/brochures/Esab-c/2.png'},
+    {key: '3', title: 'ESAB-A-Series-Low Power Plasma System', pdf: '/assets/image/brochures/Esab-c/3.pdf', thumbnail: '/assets/image/brochures/Esab-c/3.png'},
+    {key: '4', title: 'ESAB-Crossbow HD-Portable & Flexible CNC Cutting Machine', pdf: '/assets/image/brochures/Esab-c/4.pdf', thumbnail: '/assets/image/brochures/Esab-c/4.png'},
+    {key: '5', title: 'ESAB-DMX-Plasma Beveling System', pdf: '/assets/image/brochures/Esab-c/5.pdf', thumbnail: '/assets/image/brochures/Esab-c/5.png'},
+    {key: '6', title: 'ESAB-iSeries System-Plasma Cutting Control System', pdf: '/assets/image/brochures/Esab-c/6.pdf', thumbnail: '/assets/image/brochures/Esab-c/6.png'},
+    {key: '7', title: 'ESAB-iSGM-CNC Gantry Cutting Machine', pdf: '/assets/image/brochures/Esab-c/7.pdf', thumbnail: '/assets/image/brochures/Esab-c/7.png'},
+    {key: '8', title: 'ESAB-PUG-Portable Cutting Machine', pdf: '/assets/image/brochures/Esab-c/8.pdf', thumbnail: '/assets/image/brochures/Esab-c/8.png'},
+    {key: '9', title: 'ESAB-Suprarex-CNC Plasma Cutting Machine', pdf: '/assets/image/brochures/Esab-c/9.pdf', thumbnail: '/assets/image/brochures/Esab-c/9.png'},
+  ];
+  // console.log(data);
   return (
     <section>
       <section className="product-bg">
@@ -34,13 +50,13 @@ function Cutting() {
                   src="/assets/image/products/esab.png"
                   className="img-fluid"
                   alt="Sheet Pile Driven"
-                  style={{ height: "70px", width: "200px" }}
+                  style={{ height: "100px", width: "200px" }}
                 />
                 <p className="product-name text-center mb-5">Cutting Machine</p>
               </div>
               <div>
                 <p className="product-key-point-title">
-                  Advantages of ESAB cutting Machine:
+                  {/* Advantages of ESAB cutting Machine: */}
                 </p>
                 <ul className="product-key-point-list">
                   <li>Cutting-edge CNC technology</li>
@@ -77,7 +93,7 @@ function Cutting() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">CUTTING MACHINE EQUIPMENT</p>
+            <p className="product-block-title">CUTTING MACHINE's</p>
 
             <section className="product-image">
               <div className="row align-items-end justify-content-center mt-5">
@@ -145,15 +161,18 @@ function Cutting() {
                 <div className=" shadow">
                   <Brochures />
                   <div className="brochures-name">
-                    <a
-                      href="/assets/image/brochures/Airman/Airman-PDS-series.pdf"
+
+                        {brochures.map((item) => (
+                      <div key={item.key}>
+                        <a 
+                      href={item.pdf}
                       className="brochures-download"
                     >
                       <div className="row">
                         <div className="col-sm-2">
                           <div className="text-center">
                             <img
-                              src="/assets/image/brochures/Airman/Air-T.gif"
+                              src={ item.thumbnail}
                               className=""
                               alt="Sheet Pile Driven"
                               style={{ height: "50px", width: "30px" }}
@@ -161,7 +180,7 @@ function Cutting() {
                           </div>
                         </div>
                         <div className="col-sm-8">
-                          <p className="pt-3">Engine Compressor PDS Series</p>
+                          <p className="pt-3">{item.title}</p>
                         </div>
                         <div className="col-sm-2">
                           <div className="pt-3">
@@ -170,7 +189,11 @@ function Cutting() {
                         </div>
                       </div>
                     </a>
-                    <hr />
+                      <hr />
+                      </div>
+                    ))}
+
+
                   </div>
                 </div>
               </div>

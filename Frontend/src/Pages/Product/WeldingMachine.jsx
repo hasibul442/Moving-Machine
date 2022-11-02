@@ -34,13 +34,13 @@ function WeldingMachine() {
                   src="/assets/image/products/esab.png"
                   className="img-fluid"
                   alt="Sheet Pile Driven"
-                  style={{ height: "70px", width: "200px" }}
+                  style={{ height: "100px", width: "200px" }}
                 />
                 <p className="product-name text-center mb-5">Welding Machine</p>
               </div>
               <div>
                 <p className="product-key-point-title">
-                  Advantages of ESAB Welding machines:
+                  {/* Advantages of ESAB Welding machines: */}
                 </p>
                 <ul className="product-key-point-list">
                   <li>Compact Design</li>
@@ -74,7 +74,7 @@ function WeldingMachine() {
         <div className="product-block">
           <div className="container-fluid">
             <p className="product-block-title">
-              WELDING MACHINE EQUIPMENT
+              WELDING MACHINE's
             </p>
 
             <section className="product-image">
@@ -129,14 +129,14 @@ function WeldingMachine() {
                   <Brochures />
                   <div className="brochures-name">
                     <a
-                      href="/assets/image/brochures/Airman/Airman-PDS-series.pdf"
+                      href="/assets/image/brochures/Esab-w/1.pdf"
                       className="brochures-download"
                     >
                       <div className="row">
                         <div className="col-sm-2">
                           <div className="text-center">
                             <img
-                              src="/assets/image/brochures/Airman/Air-T.gif"
+                              src="/assets/image/brochures/Esab-w/1.png"
                               className=""
                               alt="Sheet Pile Driven"
                               style={{ height: "50px", width: "30px" }}
@@ -144,7 +144,7 @@ function WeldingMachine() {
                           </div>
                         </div>
                         <div className="col-sm-8">
-                          <p className="pt-3">Engine Compressor PDS Series</p>
+                          <p className="pt-3">Aristo Feed 3004, 4804 U6 & Aristo U8</p>
                         </div>
                         <div className="col-sm-2">
                           <div className="pt-3">
@@ -154,6 +154,196 @@ function WeldingMachine() {
                       </div>
                     </a>
                     <hr />
+
+                    <a
+                      href="/assets/image/brochures/Esab-w/2.pdf"
+                      className="brochures-download"
+                    >
+                      <div className="row">
+                        <div className="col-sm-2">
+                          <div className="text-center">
+                            <img
+                              src="/assets/image/brochures/Esab-w/2.png"
+                              className=""
+                              alt="Sheet Pile Driven"
+                              style={{ height: "50px", width: "30px" }}
+                            />
+                          </div>
+                        </div>
+                        <div className="col-sm-8">
+                          <p className="pt-3">Aristo Mig 5000i Commertial Presentation</p>
+                        </div>
+                        <div className="col-sm-2">
+                          <div className="pt-3">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                    <hr />
+
+                    <a
+                      href="/assets/image/brochures/Esab-w/3.pdf"
+                      className="brochures-download"
+                    >
+                      <div className="row">
+                        <div className="col-sm-2">
+                          <div className="text-center">
+                            <img
+                              src="/assets/image/brochures/Esab-w/3.png"
+                              className=""
+                              alt="Sheet Pile Driven"
+                              style={{ height: "50px", width: "30px" }}
+                            />
+                          </div>
+                        </div>
+                        <div className="col-sm-8">
+                          <p className="pt-3">Buddy Mig</p>
+                        </div>
+                        <div className="col-sm-2">
+                          <div className="pt-3">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                    <hr />
+
+                    <a
+                      href="/assets/image/brochures/Esab-w/4.pdf"
+                      className="brochures-download"
+                    >
+                      <div className="row">
+                        <div className="col-sm-2">
+                          <div className="text-center">
+                            <img
+                              src="/assets/image/brochures/Esab-w/4.png"
+                              className=""
+                              alt="Sheet Pile Driven"
+                              style={{ height: "50px", width: "30px" }}
+                            />
+                          </div>
+                        </div>
+                        <div className="col-sm-8">
+                          <p className="pt-3">ESAB Flashback Arrestor FRT 2013-08-28</p>
+                        </div>
+                        <div className="col-sm-2">
+                          <div className="pt-3">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                    <hr />
+
+                    <a
+                      href="/assets/image/brochures/Esab-w/5.pdf"
+                      className="brochures-download"
+                    >
+                      <div className="row">
+                        <div className="col-sm-2">
+                          <div className="text-center">
+                            <img
+                              src="/assets/image/brochures/Esab-w/5.png"
+                              className=""
+                              alt="Sheet Pile Driven"
+                              style={{ height: "50px", width: "30px" }}
+                            />
+                          </div>
+                        </div>
+                        <div className="col-sm-8">
+                          <p className="pt-3">ESAB India Equipment Product Catalog</p>
+                        </div>
+                        <div className="col-sm-2">
+                          <div className="pt-3">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                    <hr />
+
+                    <a
+                      href="/assets/image/brochures/Esab-w/6.pdf"
+                      className="brochures-download"
+                    >
+                      <div className="row">
+                        <div className="col-sm-2">
+                          <div className="text-center">
+                            <img
+                              src="/assets/image/brochures/Esab-w/6.png"
+                              className=""
+                              alt="Sheet Pile Driven"
+                              style={{ height: "50px", width: "30px" }}
+                            />
+                          </div>
+                        </div>
+                        <div className="col-sm-8">
+                          <p className="pt-3">Renegade ET 300iP</p>
+                        </div>
+                        <div className="col-sm-2">
+                          <div className="pt-3">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                    <hr />
+
+                    <a
+                      href="/assets/image/brochures/Esab-w/7.pdf"
+                      className="brochures-download"
+                    >
+                      <div className="row">
+                        <div className="col-sm-2">
+                          <div className="text-center">
+                            <img
+                              src="/assets/image/brochures/Esab-w/7.png"
+                              className=""
+                              alt="Sheet Pile Driven"
+                              style={{ height: "50px", width: "30px" }}
+                            />
+                          </div>
+                        </div>
+                        <div className="col-sm-8">
+                          <p className="pt-3">RS400 & RS400S</p>
+                        </div>
+                        <div className="col-sm-2">
+                          <div className="pt-3">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                    <hr />
+
+                    <a
+                      href="/assets/image/brochures/Esab-w/8.pdf"
+                      className="brochures-download"
+                    >
+                      <div className="row">
+                        <div className="col-sm-2">
+                          <div className="text-center">
+                            <img
+                              src="/assets/image/brochures/Esab-w/8.png"
+                              className=""
+                              alt="Sheet Pile Driven"
+                              style={{ height: "50px", width: "30px" }}
+                            />
+                          </div>
+                        </div>
+                        <div className="col-sm-8">
+                          <p className="pt-3">TRANSWELD 400</p>
+                        </div>
+                        <div className="col-sm-2">
+                          <div className="pt-3">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                    <hr />
+
                   </div>
                 </div>
               </div>
