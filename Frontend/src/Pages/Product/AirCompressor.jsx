@@ -35,10 +35,12 @@ function AirCompressor() {
                   alt="Sheet Pile Driven"
                   style={{ height: "40px", width: "200px" }}
                 />
-                <p className="product-name text-center mb-5">Air Compressor</p>
+                <p className="product-name text-center mb-5">
+                  PORTABLE Air Compressor
+                </p>
               </div>
               <div>
-                <p className="product-key-point-title">Why AIRMAN?</p>
+                <p className="product-key-point-title">Why choose AIRMAN?</p>
                 <ul className="product-key-point-list">
                   <li>Compact design</li>
                   <li>Low noise</li>
@@ -78,7 +80,7 @@ function AirCompressor() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">AIR COMPRESSOR's</p>
+            <p className="product-block-title">PORTABLE AIR COMPRESSOR's</p>
 
             <section className="product-image">
               <div className="row align-items-end  justify-content-center mt-5">

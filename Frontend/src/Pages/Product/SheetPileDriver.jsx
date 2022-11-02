@@ -37,7 +37,9 @@ function SheetPileDriver() {
                   alt="Sheet Pile Driven"
                   style={{ height: "50px", width: "200px" }}
                 />
-                <p className="product-name text-center mb-5">Pile Drivers</p>
+                <p className="product-name text-center mb-5">
+                  Sheet Pile Driver
+                </p>
               </div>
               <div>
                 <p className="product-key-point-title">MOVAX solutions are:</p>
@@ -67,9 +69,20 @@ function SheetPileDriver() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text">
-                  MOVAX is a world-leading developer and manufacturer of excavator-mounted, automatically controlled piling and foundation equipment - and the inventor of the patented, modular side grip technology. MOVAX Side grip pile drivers are excavator-mounted, high-frequency, vibratory-type pile drivers that provide the best solution for a wide range of piling requirements, particularly when a high degree of precision is required; and for piling in sensitive environments with limited space, head room, or access.
+                    MOVAX is a world-leading developer and manufacturer of
+                    excavator-mounted, automatically controlled piling and
+                    foundation equipment - and the inventor of the patented,
+                    modular side grip technology. MOVAX Side grip pile drivers
+                    are excavator-mounted, high-frequency, vibratory-type pile
+                    drivers that provide the best solution for a wide range of
+                    piling requirements, particularly when a high degree of
+                    precision is required; and for piling in sensitive
+                    environments with limited space, head room, or access.
                     <br />
-                    The same unit can handle, pitch, drive, and extract various types of piles and can complete the whole piling process without the use of physical handling or auxiliary technology.
+                    The same unit can handle, pitch, drive, and extract various
+                    types of piles and can complete the whole piling process
+                    without the use of physical handling or auxiliary
+                    technology.
                   </p>
                 </div>
               </div>
@@ -114,7 +127,9 @@ function SheetPileDriver() {
                       alt=""
                       className="img-fluid product-details-image"
                     />
-                    <p className="product-description-name">Side Grip Pile Drivers</p>
+                    <p className="product-description-name">
+                      Side Grip Pile Drivers
+                    </p>
                   </div>
                 </div>
               </div>
@@ -186,7 +201,6 @@ function SheetPileDriver() {
                     </a>
                     <hr />
 
-                    
                     <a
                       href="/assets/image/brochures/Movex/3.pdf"
                       className="brochures-download"
@@ -203,7 +217,9 @@ function SheetPileDriver() {
                           </div>
                         </div>
                         <div className="col-sm-8">
-                          <p className="pt-3">MOVAX Column Stabilisation Leaders</p>
+                          <p className="pt-3">
+                            MOVAX Column Stabilisation Leaders
+                          </p>
                         </div>
                         <div className="col-sm-2">
                           <div className="pt-3">
@@ -213,7 +229,7 @@ function SheetPileDriver() {
                       </div>
                     </a>
                     <hr />
-                    
+
                     <a
                       href="/assets/image/brochures/Movex/4.pdf"
                       className="brochures-download"
@@ -240,7 +256,7 @@ function SheetPileDriver() {
                       </div>
                     </a>
                     <hr />
-                    
+
                     <a
                       href="/assets/image/brochures/Movex/5.pdf"
                       className="brochures-download"
@@ -257,7 +273,9 @@ function SheetPileDriver() {
                           </div>
                         </div>
                         <div className="col-sm-8">
-                          <p className="pt-3">MOVAX Information Management system</p>
+                          <p className="pt-3">
+                            MOVAX Information Management system
+                          </p>
                         </div>
                         <div className="col-sm-2">
                           <div className="pt-3">
@@ -267,7 +285,7 @@ function SheetPileDriver() {
                       </div>
                     </a>
                     <hr />
-                    
+
                     <a
                       href="/assets/image/brochures/Movex/6.pdf"
                       className="brochures-download"
@@ -284,7 +302,9 @@ function SheetPileDriver() {
                           </div>
                         </div>
                         <div className="col-sm-8">
-                          <p className="pt-3">MOVAX Multi-tool Piling Leaders</p>
+                          <p className="pt-3">
+                            MOVAX Multi-tool Piling Leaders
+                          </p>
                         </div>
                         <div className="col-sm-2">
                           <div className="pt-3">
@@ -294,7 +314,7 @@ function SheetPileDriver() {
                       </div>
                     </a>
                     <hr />
-                    
+
                     <a
                       href="/assets/image/brochures/Movex/7.pdf"
                       className="brochures-download"
@@ -321,7 +341,7 @@ function SheetPileDriver() {
                       </div>
                     </a>
                     <hr />
-                    
+
                     <a
                       href="/assets/image/brochures/Movex/8.pdf"
                       className="brochures-download"
@@ -348,7 +368,7 @@ function SheetPileDriver() {
                       </div>
                     </a>
                     <hr />
-                    
+
                     <a
                       href="/assets/image/brochures/Movex/9.pdf"
                       className="brochures-download"
@@ -365,7 +385,9 @@ function SheetPileDriver() {
                           </div>
                         </div>
                         <div className="col-sm-8">
-                          <p className="pt-3">MOVAX Product Catalogue July-2022</p>
+                          <p className="pt-3">
+                            MOVAX Product Catalogue July-2022
+                          </p>
                         </div>
                         <div className="col-sm-2">
                           <div className="pt-3">
@@ -375,7 +397,7 @@ function SheetPileDriver() {
                       </div>
                     </a>
                     <hr />
-                    
+
                     <a
                       href="/assets/image/brochures/Movex/10.pdf"
                       className="brochures-download"
@@ -402,7 +424,6 @@ function SheetPileDriver() {
                       </div>
                     </a>
                     <hr />
-                    
                   </div>
                 </div>
               </div>

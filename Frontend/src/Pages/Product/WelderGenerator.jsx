@@ -36,7 +36,9 @@ function WelderGenerator() {
                   alt="Sheet Pile Driven"
                   style={{ height: "50px", width: "200px" }}
                 />
-                <p className="product-name text-center mb-5">Engine Welder</p>
+                <p className="product-name text-center mb-5">
+                  Welding generator
+                </p>
               </div>
 
               <div>
@@ -70,7 +72,18 @@ function WelderGenerator() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                  Denyo's engine-driven welders are not only simple to operate, but they also produce quality results. They are also long-lasting, adaptable, energy-efficient, and reasonably priced. Denyo has continued to develop engine welders that satisfy all of these requirements since its inception in 1948. Denyo products are utilized not only in the construction and manufacturing industries, but also on oil and gas and mining sites. Denyo provides extraordinary performance and toughness that is unique to Japanese products, and it has been utilized in both severely cold wilderness and extremely hot desert. Denyo is always at your side, assisting you in producing your best work.
+                    Denyo's engine-driven welders are not only simple to
+                    operate, but they also produce quality results. They are
+                    also long-lasting, adaptable, energy-efficient, and
+                    reasonably priced. Denyo has continued to develop engine
+                    welders that satisfy all of these requirements since its
+                    inception in 1948. Denyo products are utilized not only in
+                    the construction and manufacturing industries, but also on
+                    oil and gas and mining sites. Denyo provides extraordinary
+                    performance and toughness that is unique to Japanese
+                    products, and it has been utilized in both severely cold
+                    wilderness and extremely hot desert. Denyo is always at your
+                    side, assisting you in producing your best work.
                   </p>
                 </div>
               </div>
@@ -82,9 +95,7 @@ function WelderGenerator() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">
-              Welder-Generator's
-            </p>
+            <p className="product-block-title">Welder Generator's</p>
 
             <section className="product-image">
               <div className="row align-items-end  justify-content-center mt-5">
@@ -163,7 +174,9 @@ function WelderGenerator() {
                           </div>
                         </div>
                         <div className="col-sm-8">
-                          <p className="pt-3">Denyo 480A single head or 240A duel head</p>
+                          <p className="pt-3">
+                            Denyo 480A single head or 240A duel head
+                          </p>
                         </div>
                         <div className="col-sm-2">
                           <div className="pt-3">
@@ -217,7 +230,9 @@ function WelderGenerator() {
                           </div>
                         </div>
                         <div className="col-sm-8">
-                          <p className="pt-3">Denyo welder DAW-500ss Single head</p>
+                          <p className="pt-3">
+                            Denyo welder DAW-500ss Single head
+                          </p>
                         </div>
                         <div className="col-sm-2">
                           <div className="pt-3">
@@ -244,7 +259,9 @@ function WelderGenerator() {
                           </div>
                         </div>
                         <div className="col-sm-8">
-                          <p className="pt-3">Denyo welders upto 380A (Single and Duel head)</p>
+                          <p className="pt-3">
+                            Denyo welders upto 380A (Single and Duel head)
+                          </p>
                         </div>
                         <div className="col-sm-2">
                           <div className="pt-3">

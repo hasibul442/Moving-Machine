@@ -36,7 +36,7 @@ function Crimping() {
                   style={{ height: "55px", width: "200px" }}
                 />
                 <p className="product-name text-center mb-5">
-                  Crimping Machines
+                  Crimping Machine
                 </p>
               </div>
             </div>
@@ -62,7 +62,7 @@ function Crimping() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">CRIMPING MACHINES EQUIPMENT</p>
+            <p className="product-block-title">CRIMPING MACHINES</p>
 
             <section className="product-image">
               <div className="row align-items-end justify-content-center mt-5">
