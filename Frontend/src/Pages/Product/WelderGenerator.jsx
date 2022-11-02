@@ -83,7 +83,7 @@ function WelderGenerator() {
         <div className="product-block">
           <div className="container-fluid">
             <p className="product-block-title">
-              Welder-Generator EQUIPMENT
+              Welder-Generator's
             </p>
 
             <section className="product-image">
@@ -98,17 +98,6 @@ function WelderGenerator() {
                     <p className="product-description-name"> DLW-300LS</p>
                   </div>
                 </div>
-{/* 
-                <div className="col-md-2">
-                  <div className="text-center">
-                    <img
-                      src="/assets/image/product-description/Deyno-w/2.png"
-                      alt=""
-                      className="img-fluid product-details-image"
-                    />
-                    <p className="product-description-name"> DLW-200X2LS</p>
-                  </div>
-                </div> */}
 
                 <div className="col-md-3">
                   <div className="text-center">
@@ -156,67 +145,111 @@ function WelderGenerator() {
               <div className="card border-0">
                 <div className=" shadow">
                   <Brochures />
-                  <div className="brochures-name mt-5">
-                    <a href="/assets/dumy.pdf" className="brochures-download">
-                      <div className="d-flex justify-content-between">
-                        <div className="px-4 bd-highlight">
-                          <img
-                            src="/assets/image/brochures/b-1.jpg"
-                            className=""
-                            alt="Sheet Pile Driven"
-                            style={{ height: "50px", width: "30px" }}
-                          />
+
+                  <div className="brochures-name">
+                    <a
+                      href="/assets/image/brochures/Denyo-W/1.pdf"
+                      className="brochures-download"
+                    >
+                      <div className="row">
+                        <div className="col-sm-2">
+                          <div className="text-center">
+                            <img
+                              src="/assets/image/brochures/Denyo-W/1.png"
+                              className=""
+                              alt="Sheet Pile Driven"
+                              style={{ height: "50px", width: "30px" }}
+                            />
+                          </div>
                         </div>
-                        <div className="px-2 py-2 bd-highlight">
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s
+                        <div className="col-sm-8">
+                          <p className="pt-3">Denyo 480A single head or 240A duel head</p>
                         </div>
-                        <div className="px-2 py-2 bd-highlight">
-                          <span></span>
+                        <div className="col-sm-2">
+                          <div className="pt-3">
+                            <span></span>
+                          </div>
                         </div>
                       </div>
                     </a>
                     <hr />
 
-                    <a href="/assets/dumy.pdf" className="brochures-download">
-                      <div className="d-flex justify-content-between">
-                        <div className="px-4">
-                          <img
-                            src="/assets/image/brochures/b-1.jpg"
-                            className=""
-                            alt="Sheet Pile Driven"
-                            style={{ height: "50px", width: "30px" }}
-                          />
+                    <a
+                      href="/assets/image/brochures/Denyo-W/2.pdf"
+                      className="brochures-download"
+                    >
+                      <div className="row">
+                        <div className="col-sm-2">
+                          <div className="text-center">
+                            <img
+                              src="/assets/image/brochures/Denyo-W/2.png"
+                              className=""
+                              alt="Sheet Pile Driven"
+                              style={{ height: "50px", width: "30px" }}
+                            />
+                          </div>
                         </div>
-                        <div className="px-2 py-2 bd-highlight">
-                          when an unknown printer took a galley of type and
-                          scrambled it to make a type specimen book. It has
-                          survived not only five centuries,
+                        <div className="col-sm-8">
+                          <p className="pt-3">Denyo welder 500A Single head</p>
                         </div>
-                        <div className="px-2 py-2 bd-highlight">
-                          <span></span>
+                        <div className="col-sm-2">
+                          <div className="pt-3">
+                            <span></span>
+                          </div>
                         </div>
                       </div>
                     </a>
                     <hr />
-                    <a href="/assets/dumy.pdf" className="brochures-download">
-                      <div className="d-flex justify-content-between">
-                        <div className="px-4">
-                          <img
-                            src="/assets/image/brochures/b-1.jpg"
-                            className=""
-                            alt="Sheet Pile Driven"
-                            style={{ height: "50px", width: "30px" }}
-                          />
+
+                    <a
+                      href="/assets/image/brochures/Denyo-W/3.pdf"
+                      className="brochures-download"
+                    >
+                      <div className="row">
+                        <div className="col-sm-2">
+                          <div className="text-center">
+                            <img
+                              src="/assets/image/brochures/Denyo-W/3.png"
+                              className=""
+                              alt="Sheet Pile Driven"
+                              style={{ height: "50px", width: "30px" }}
+                            />
+                          </div>
                         </div>
-                        <div className="px-2 py-2 bd-highlight">
-                          It is a long established fact that a reader will be
-                          distracted by the readable content of a page when
-                          looking at its layout.
+                        <div className="col-sm-8">
+                          <p className="pt-3">Denyo welder DAW-500ss Single head</p>
                         </div>
-                        <div className="px-2 py-2 bd-highlight">
-                          <span></span>
+                        <div className="col-sm-2">
+                          <div className="pt-3">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                    <hr />
+
+                    <a
+                      href="/assets/image/brochures/Denyo-W/4.pdf"
+                      className="brochures-download"
+                    >
+                      <div className="row">
+                        <div className="col-sm-2">
+                          <div className="text-center">
+                            <img
+                              src="/assets/image/brochures/Denyo-W/4.png"
+                              className=""
+                              alt="Sheet Pile Driven"
+                              style={{ height: "50px", width: "30px" }}
+                            />
+                          </div>
+                        </div>
+                        <div className="col-sm-8">
+                          <p className="pt-3">Denyo welders upto 380A (Single and Duel head)</p>
+                        </div>
+                        <div className="col-sm-2">
+                          <div className="pt-3">
+                            <span></span>
+                          </div>
                         </div>
                       </div>
                     </a>

@@ -123,29 +123,11 @@ function DieselGenerator() {
                   </div>
                 </div>
               </div>
-
-              <div className="row justify-content-center">
-                <div className="col-md-2"></div>
-                <div className="col-md-2"></div>
-                <div className="col-md-2"></div>
-              </div>
             </section>
           </div>
         </div>
       </section>
 
-      {/* <section className="pt-5 pb-5">
-        <div className="container">
-          <div className="card">
-            <div className="card-body">
-              <div className="row justyify-content-center">
-                <div className="col-md-6">
-                </div>
-               </div> 
-            </div>
-          </div>
-        </div>
-      </section> */}
 
       <div className="pt-5 pb-5">
         <div className="container">
@@ -155,67 +137,137 @@ function DieselGenerator() {
               <div className="card border-0">
                 <div className="shadow">
                   <Brochures />
-                  <div className="brochures-name mt-5">
-                    <a href="/assets/dumy.pdf" className="brochures-download">
-                      <div className="d-flex justify-content-between">
-                        <div className="px-4 bd-highlight">
-                          <img
-                            src="/assets/image/brochures/b-1.jpg"
-                            className=""
-                            alt="Sheet Pile Driven"
-                            style={{ height: "50px", width: "30px" }}
-                          />
+                  <div className="brochures-name">
+                    <a
+                      href="/assets/image/brochures/Denyo-G/1.pdf"
+                      className="brochures-download"
+                    >
+                      <div className="row">
+                        <div className="col-sm-2">
+                          <div className="text-center">
+                            <img
+                              src="/assets/image/brochures/Denyo-G/1.png"
+                              className=""
+                              alt="Sheet Pile Driven"
+                              style={{ height: "50px", width: "30px" }}
+                            />
+                          </div>
                         </div>
-                        <div className="px-2 py-2 bd-highlight">
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s
+                        <div className="col-sm-8">
+                          <p className="pt-3">Denyo 5.5kVA single phase</p>
                         </div>
-                        <div className="px-2 py-2 bd-highlight">
-                          <span></span>
+                        <div className="col-sm-2">
+                          <div className="pt-3">
+                            <span></span>
+                          </div>
                         </div>
                       </div>
                     </a>
                     <hr />
 
-                    <a href="/assets/dumy.pdf" className="brochures-download">
-                      <div className="d-flex justify-content-between">
-                        <div className="px-4">
-                          <img
-                            src="/assets/image/brochures/b-1.jpg"
-                            className=""
-                            alt="Sheet Pile Driven"
-                            style={{ height: "50px", width: "30px" }}
-                          />
+                    <a
+                      href="/assets/image/brochures/Denyo-G/2.pdf"
+                      className="brochures-download"
+                    >
+                      <div className="row">
+                        <div className="col-sm-2">
+                          <div className="text-center">
+                            <img
+                              src="/assets/image/brochures/Denyo-G/2.png"
+                              className=""
+                              alt="Sheet Pile Driven"
+                              style={{ height: "50px", width: "30px" }}
+                            />
+                          </div>
                         </div>
-                        <div className="px-2 py-2 bd-highlight">
-                          when an unknown printer took a galley of type and
-                          scrambled it to make a type specimen book. It has
-                          survived not only five centuries,
+                        <div className="col-sm-8">
+                          <p className="pt-3">Denyo DCA series-single phase (5kVA to 33kVA)</p>
                         </div>
-                        <div className="px-2 py-2 bd-highlight">
-                          <span></span>
+                        <div className="col-sm-2">
+                          <div className="pt-3">
+                            <span></span>
+                          </div>
                         </div>
                       </div>
                     </a>
                     <hr />
-                    <a href="/assets/dumy.pdf" className="brochures-download">
-                      <div className="d-flex justify-content-between">
-                        <div className="px-4">
-                          <img
-                            src="/assets/image/brochures/b-1.jpg"
-                            className=""
-                            alt="Sheet Pile Driven"
-                            style={{ height: "50px", width: "30px" }}
-                          />
+                    
+                    <a
+                      href="/assets/image/brochures/Denyo-G/3.pdf"
+                      className="brochures-download"
+                    >
+                      <div className="row">
+                        <div className="col-sm-2">
+                          <div className="text-center">
+                            <img
+                              src="/assets/image/brochures/Denyo-G/3.png"
+                              className=""
+                              alt="Sheet Pile Driven"
+                              style={{ height: "50px", width: "30px" }}
+                            />
+                          </div>
                         </div>
-                        <div className="px-2 py-2 bd-highlight">
-                          It is a long established fact that a reader will be
-                          distracted by the readable content of a page when
-                          looking at its layout.
+                        <div className="col-sm-8">
+                          <p className="pt-3">Denyo DCA series-three phase (10.5kVA to 1100kVA)</p>
                         </div>
-                        <div className="px-2 py-2 bd-highlight">
-                          <span></span>
+                        <div className="col-sm-2">
+                          <div className="pt-3">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                    <hr />
+                    
+                    <a
+                      href="/assets/image/brochures/Denyo-G/4.pdf"
+                      className="brochures-download"
+                    >
+                      <div className="row">
+                        <div className="col-sm-2">
+                          <div className="text-center">
+                            <img
+                              src="/assets/image/brochures/Denyo-G/4.png"
+                              className=""
+                              alt="Sheet Pile Driven"
+                              style={{ height: "50px", width: "30px" }}
+                            />
+                          </div>
+                        </div>
+                        <div className="col-sm-8">
+                          <p className="pt-3">Denyo DCA Ultra silent (20 and 37kVA three phase)</p>
+                        </div>
+                        <div className="col-sm-2">
+                          <div className="pt-3">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                    <hr />
+                                        
+                    <a
+                      href="/assets/image/brochures/Denyo-G/5.pdf"
+                      className="brochures-download"
+                    >
+                      <div className="row">
+                        <div className="col-sm-2">
+                          <div className="text-center">
+                            <img
+                              src="/assets/image/brochures/Denyo-G/5.png"
+                              className=""
+                              alt="Sheet Pile Driven"
+                              style={{ height: "50px", width: "30px" }}
+                            />
+                          </div>
+                        </div>
+                        <div className="col-sm-8">
+                          <p className="pt-3">Denyo TLG series (5kVA to 16kVA single and three phase)</p>
+                        </div>
+                        <div className="col-sm-2">
+                          <div className="pt-3">
+                            <span></span>
+                          </div>
                         </div>
                       </div>
                     </a>
