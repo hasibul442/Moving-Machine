@@ -12,14 +12,15 @@
 .product-name {
   font-family: "Noway", sans-serif;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 32px;
   color: #000000;
   text-transform: uppercase;
 }
 .product-text {
   font-family: "Noway", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   text-align: justify;
+  font-weight: 600;
 }
 .brochures-download {
   font-family: "Noway", sans-serif;

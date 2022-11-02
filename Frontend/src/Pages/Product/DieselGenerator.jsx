@@ -42,7 +42,7 @@ function DieselGenerator() {
 
               <div>
                 <p className="product-key-point-title">
-                  Unique features of Denyo Generator:
+                  Features of Denyo Generator:
                 </p>
                 <ul className="product-key-point-list">
                   <li>Continuous power delivery</li>
@@ -75,26 +75,6 @@ function DieselGenerator() {
                     energy-efficient, and soundproof, thanks to cutting-edge
                     technology and creativity.
                   </p>
-                  <h6>Cutting-age technology, High performance</h6>
-                  <p className="product-text">
-                    The innovative excitation system* installed on Denyo’s DCA
-                    series, in tandem with the Automatic Voltage Regulator (AVR)
-                    and modern brush less generator, enables quick voltage
-                    regulation in response to load fluctuations, allowing usage
-                    as soon as the unit is powered on.
-                  </p>
-                  <h6>Eco-friendly design and operation</h6>
-                  <p className="product-text">
-                    The engines utilized in these generators comply with
-                    California's air pollution law, which ranks among the most
-                    strict anti-pollution requirements in the world. These
-                    engines do this through the use of a PCV (Plug Control
-                    Valve) system. As a result, these engines do not release
-                    blow by gas to the outside, keeping the inside of the
-                    equipment cleaner and reducing exhaust emissions.
-                    <br />
-                    <small>*U.S. Patent No. 4268788</small>
-                  </p>
                 </div>
                 
               </div>
@@ -106,7 +86,7 @@ function DieselGenerator() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">DIESEL GENERATOR EQUIPMENT</p>
+            <p className="product-block-title">DIESEL GENERATOR's</p>
 
             <section className="product-image">
               <div className="row align-items-end  justify-content-center mt-5">

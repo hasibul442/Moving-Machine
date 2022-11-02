@@ -100,7 +100,7 @@ function Navbar() {
                           <div className="row">
                             <div className="col-md-4 pt-1">
                               <p
-                                className="text-center"
+                                className="px-3"
                                 style={{
                                   color: "#3CADE8",
                                   fontSize: "16px",
@@ -220,7 +220,7 @@ function Navbar() {
                                   fontWeight: "400",
                                 }}
                               >
-                                Coolant Leak Repair
+                                Engine Leak Repair
                               </NavDropdown.Item>
                             </div>
                             <div className="col-md-4 pt-1">
