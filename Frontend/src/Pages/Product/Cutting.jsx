@@ -4,7 +4,6 @@ import "./product.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Brochures from "../../Component/Brochures/Brochures";
-import { useState } from "react";
 
 function Cutting() {
   AOS.init({
