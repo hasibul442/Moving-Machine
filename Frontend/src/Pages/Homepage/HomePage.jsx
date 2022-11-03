@@ -25,7 +25,6 @@ function HomePage()  {
     dots: false,
     loop: true,
     center: true,
-    // infinite: true,
     slidestoshow: 1,
     slidestoscroll: 1,
     autoplay: true,
@@ -47,7 +46,7 @@ function HomePage()  {
       <div className="navbar-space"></div>
       <section className="carousel-section">
         <Carousel>
-          <Carousel.Item interval={1500}>
+          <Carousel.Item interval={2000}>
             <Link to="/dieselgenerator">
               <img
                 className="d-block w-100"
@@ -57,7 +56,7 @@ function HomePage()  {
             </Link>
           </Carousel.Item>
 
-          <Carousel.Item interval={1500}>
+          <Carousel.Item interval={2000}>
             <Link to="/aircompressor">
               <img
                 className="d-block w-100"
@@ -67,7 +66,7 @@ function HomePage()  {
             </Link>
           </Carousel.Item>
 
-          <Carousel.Item interval={1500}>
+          <Carousel.Item interval={2000}>
             <Link to="/weldergenerator">
               <img
                 className="d-block w-100"
@@ -77,7 +76,7 @@ function HomePage()  {
             </Link>
           </Carousel.Item>
 
-          <Carousel.Item interval={1500}>
+          <Carousel.Item interval={2000}>
             <Link to="/sheetpiledriver">
               <img
                 className="d-block w-100"
@@ -87,7 +86,7 @@ function HomePage()  {
             </Link>
           </Carousel.Item>
 
-          <Carousel.Item interval={1500}>
+          <Carousel.Item interval={2000}>
             <Link to="/mountedcrane">
               <img
                 className="d-block w-100"
@@ -97,7 +96,7 @@ function HomePage()  {
             </Link>
           </Carousel.Item>
 
-          <Carousel.Item interval={1500}>
+          <Carousel.Item interval={2000}>
             <Link to="/crimping">
               <img
                 className="d-block w-100"
@@ -107,7 +106,7 @@ function HomePage()  {
             </Link>
           </Carousel.Item>
 
-          <Carousel.Item interval={1500}>
+          <Carousel.Item interval={2000}>
             <Link to="/geotextile">
               <img
                 className="d-block w-100"

@@ -95,7 +95,7 @@ function Navbar() {
                               fontWeight: "700",
                             }}
                           >
-                            Industrial & Constructor Sector
+                            Construction & Industries
                           </p>
                           <div className="row">
                             <div className="col-md-4 pt-1">
@@ -137,7 +137,7 @@ function Navbar() {
                                   fontWeight: "400",
                                 }}
                               >
-                                Sheet Pile Driver
+                                Sheet Pile Drivers
                               </NavDropdown.Item>
                               <NavDropdown.Item
                                 className="dropdown-item"
@@ -242,7 +242,7 @@ function Navbar() {
                                   fontWeight: "400",
                                 }}
                               >
-                                Repaire & Maintenance{" "}
+                                Repair & Maintenance{" "}
                               </NavDropdown.Item>
                               <NavDropdown.Item
                                 className="dropdown-item"
@@ -252,7 +252,7 @@ function Navbar() {
                                   fontWeight: "400",
                                 }}
                               >
-                                Rental Services
+                                Rental Service
                               </NavDropdown.Item>
                             </div>
                           </div>
@@ -269,7 +269,7 @@ function Navbar() {
                               fontWeight: "700",
                             }}
                           >
-                            Oil & Gas Sector
+                            Oil & Gas
                           </p>
                           <p style={{ marginTop: "57px" }}></p>
                           <NavDropdown.Item

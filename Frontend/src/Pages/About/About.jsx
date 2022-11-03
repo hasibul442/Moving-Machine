@@ -11,12 +11,11 @@ function About() {
     dots: false,
     loop: true,
     center: true,
-    // infinite: true,
     slidestoshow: 1,
     slidestoscroll: 1,
     autoplay: true,
-    autoplaySpeed: 8000,
-    autoplayTimeout: 8000,
+    autoplaySpeed: 500,
+    autoplayTimeout: 2500,
     autoplayHoverPause: true,
     margin: 30,
     responsive: {
@@ -45,10 +44,20 @@ function About() {
           <div className="row">
             <div className="col-md-12 aboutus-description-1">
               <p>
-              The products and services of Moving Machines have primarily been developed focusing the fields of construction, oil and gas, manufacturing, and environmental protection. Our team relentlessly works to delight its customers through sourcing and delivering innovative and quality products supported by outstanding consultancy, sales, repairment and rental services. Over the years the company has been able to establish a long list of delighted customers that includes reputed local and international construction companies, manufacturing companies and public entities.
+                The products and services of Moving Machines have primarily been
+                developed focusing the fields of construction, oil and gas,
+                manufacturing, and environmental protection. Our team
+                relentlessly works to delight its customers through sourcing and
+                delivering innovative and quality products supported by
+                outstanding consultancy, sales, repairment and rental services.
+                Over the years the company has been able to establish a long
+                list of delighted customers that includes reputed local and
+                international construction companies, manufacturing companies
+                and public entities.
               </p>
               <p>
-              The products and services of Moving Machines have primarily been developed focusing the fields of construction, oil and gas, manufacturing, and environmental protection. Our team relentlessly works to delight its customers through sourcing and delivering innovative and quality products supported by outstanding consultancy, sales, repairment and rental services. Over the years the company has been able to establish a long list of delighted customers that includes reputed local and international construction companies, manufacturing companies and public entities.
+                The company takes the pride of mentioning its participation in
+                various capacities in projects like:
               </p>
               <div className="row">
                 <div className="col-sm-6">
@@ -76,14 +85,12 @@ function About() {
         </div>
       </section>
 
-
-
       <section className="brands-section">
         <div className="container">
-          <h2 className="mml-title text-center pt-5 pb-5">Brands</h2>
+          <h2 className="mml-title text-center pt-5">BRANDS WE DEAL</h2>
           <div>
             <OwlCarousel {...settings}>
-              <div className="item mt-4 mb-4">
+              <div className="item mb-4">
                 <div className="card card-shadow border-0">
                   <div className="card-body">
                     <div className="text-center mx-auto">
@@ -98,7 +105,7 @@ function About() {
                 </div>
               </div>
 
-              <div className="item mt-4 mb-4">
+              <div className="item mb-4">
                 <div className="card card-shadow border-0">
                   <div className="card-body border-0">
                     <div className="text-center mx-auto">
@@ -113,7 +120,7 @@ function About() {
                 </div>
               </div>
 
-              <div className="item mt-4 mb-4">
+              <div className="item mb-4">
                 <div className="card card-shadow border-0">
                   <div className="card-body border-0">
                     <div className="text-center mx-auto">
@@ -128,7 +135,7 @@ function About() {
                 </div>
               </div>
 
-              <div className="item mt-4 mb-4">
+              <div className="item mb-4">
                 <div className="card card-shadow border-0">
                   <div className="card-body border-0">
                     <div className="text-center mx-auto">
@@ -143,7 +150,7 @@ function About() {
                 </div>
               </div>
 
-              <div className="item mt-4 mb-4">
+              <div className="item  mb-4">
                 <div className="card card-shadow border-0">
                   <div className="card-body border-0">
                     <div className="text-center mx-auto">
@@ -158,7 +165,7 @@ function About() {
                 </div>
               </div>
 
-              <div className="item mt-4 mb-4">
+              <div className="item mb-4">
                 <div className="card card-shadow border-0">
                   <div className="card-body border-0">
                     <div className="text-center mx-auto">
@@ -173,12 +180,27 @@ function About() {
                 </div>
               </div>
 
-              <div className="item mt-4 mb-4">
+              <div className="item mb-4">
                 <div className="card card-shadow border-0">
                   <div className="card-body border-0">
                     <div className="text-center mx-auto">
                       <img
                         src="/assets/image/brands/lillbacka.png"
+                        alt="Brand logo"
+                        style={{ height: "180px", width: "200px" }}
+                        className="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="item mb-4">
+                <div className="card card-shadow border-0">
+                  <div className="card-body border-0">
+                    <div className="text-center mx-auto">
+                      <img
+                        src="/assets/image/brands/k-seal.png"
                         alt="Brand logo"
                         style={{ height: "180px", width: "200px" }}
                         className="img-fluid"
