@@ -14,6 +14,8 @@ function Coolant() {
   React.useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
+
+  const brochures = [];
   return (
     <section>
       <section className="product-bg">
@@ -114,71 +116,34 @@ function Coolant() {
               <div className="card border-0">
                 <div className=" shadow">
                   <Brochures />
-                  <div className="brochures-name mt-5">
-                    <a href="/assets/dumy.pdf" className="brochures-download">
-                      <div className="d-flex justify-content-between">
-                        <div className="px-4 bd-highlight">
-                          <img
-                            src="/assets/image/brochures/b-1.jpg"
-                            className=""
-                            alt="Sheet Pile Driven"
-                            style={{ height: "50px", width: "30px" }}
-                          />
-                        </div>
-                        <div className="px-2 py-2 bd-highlight">
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s
-                        </div>
-                        <div className="px-2 py-2 bd-highlight">
-                          <span></span>
-                        </div>
+                  <div className="brochures-name">
+                    {brochures.map((item) => (
+                      <div key={item.key}>
+                        <a href={item.pdf} className="brochures-download">
+                          <div className="row">
+                            <div className="col-sm-2">
+                              <div className="text-center">
+                                <img
+                                  src={item.thumbnail}
+                                  className=""
+                                  alt="Sheet Pile Driven"
+                                  style={{ height: "50px", width: "30px" }}
+                                />
+                              </div>
+                            </div>
+                            <div className="col-sm-8">
+                              <p className="pt-3">{item.title}</p>
+                            </div>
+                            <div className="col-sm-2">
+                              <div className="pt-3">
+                                <span></span>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                        <hr />
                       </div>
-                    </a>
-                    <hr />
-
-                    <a href="/assets/dumy.pdf" className="brochures-download">
-                      <div className="d-flex justify-content-between">
-                        <div className="px-4">
-                          <img
-                            src="/assets/image/brochures/b-1.jpg"
-                            className=""
-                            alt="Sheet Pile Driven"
-                            style={{ height: "50px", width: "30px" }}
-                          />
-                        </div>
-                        <div className="px-2 py-2 bd-highlight">
-                          when an unknown printer took a galley of type and
-                          scrambled it to make a type specimen book. It has
-                          survived not only five centuries,
-                        </div>
-                        <div className="px-2 py-2 bd-highlight">
-                          <span></span>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
-                    <a href="/assets/dumy.pdf" className="brochures-download">
-                      <div className="d-flex justify-content-between">
-                        <div className="px-4">
-                          <img
-                            src="/assets/image/brochures/b-1.jpg"
-                            className=""
-                            alt="Sheet Pile Driven"
-                            style={{ height: "50px", width: "30px" }}
-                          />
-                        </div>
-                        <div className="px-2 py-2 bd-highlight">
-                          It is a long established fact that a reader will be
-                          distracted by the readable content of a page when
-                          looking at its layout.
-                        </div>
-                        <div className="px-2 py-2 bd-highlight">
-                          <span></span>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
+                    ))}
                   </div>
                 </div>
               </div>

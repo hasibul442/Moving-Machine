@@ -15,18 +15,61 @@ function Cutting() {
     window.scrollTo(0, 0);
   }, []);
 
-  // const [brochures, setBrochures] = useState([]);
-
   const brochures = [
-    {key: '1', title: 'ESAB - MACHINE OVERVIEW', pdf: '/assets/image/brochures/Esab-c/1.pdf', thumbnail: '/assets/image/brochures/Esab-c/1.png'},
-    {key: '2', title: 'ESAB-A-Series-Fact Sheet', pdf: '/assets/image/brochures/Esab-c/2.pdf', thumbnail: '/assets/image/brochures/Esab-c/2.png'},
-    {key: '3', title: 'ESAB-A-Series-Low Power Plasma System', pdf: '/assets/image/brochures/Esab-c/3.pdf', thumbnail: '/assets/image/brochures/Esab-c/3.png'},
-    {key: '4', title: 'ESAB-Crossbow HD-Portable & Flexible CNC Cutting Machine', pdf: '/assets/image/brochures/Esab-c/4.pdf', thumbnail: '/assets/image/brochures/Esab-c/4.png'},
-    {key: '5', title: 'ESAB-DMX-Plasma Beveling System', pdf: '/assets/image/brochures/Esab-c/5.pdf', thumbnail: '/assets/image/brochures/Esab-c/5.png'},
-    {key: '6', title: 'ESAB-iSeries System-Plasma Cutting Control System', pdf: '/assets/image/brochures/Esab-c/6.pdf', thumbnail: '/assets/image/brochures/Esab-c/6.png'},
-    {key: '7', title: 'ESAB-iSGM-CNC Gantry Cutting Machine', pdf: '/assets/image/brochures/Esab-c/7.pdf', thumbnail: '/assets/image/brochures/Esab-c/7.png'},
-    {key: '8', title: 'ESAB-PUG-Portable Cutting Machine', pdf: '/assets/image/brochures/Esab-c/8.pdf', thumbnail: '/assets/image/brochures/Esab-c/8.png'},
-    {key: '9', title: 'ESAB-Suprarex-CNC Plasma Cutting Machine', pdf: '/assets/image/brochures/Esab-c/9.pdf', thumbnail: '/assets/image/brochures/Esab-c/9.png'},
+    {
+      key: "1",
+      title: "ESAB - MACHINE OVERVIEW",
+      pdf: "/assets/image/brochures/Esab-c/1.pdf",
+      thumbnail: "/assets/image/brochures/Esab-c/1.png",
+    },
+    {
+      key: "2",
+      title: "ESAB-A-Series-Fact Sheet",
+      pdf: "/assets/image/brochures/Esab-c/2.pdf",
+      thumbnail: "/assets/image/brochures/Esab-c/2.png",
+    },
+    {
+      key: "3",
+      title: "ESAB-A-Series-Low Power Plasma System",
+      pdf: "/assets/image/brochures/Esab-c/3.pdf",
+      thumbnail: "/assets/image/brochures/Esab-c/3.png",
+    },
+    {
+      key: "4",
+      title: "ESAB-Crossbow HD-Portable & Flexible CNC Cutting Machine",
+      pdf: "/assets/image/brochures/Esab-c/4.pdf",
+      thumbnail: "/assets/image/brochures/Esab-c/4.png",
+    },
+    {
+      key: "5",
+      title: "ESAB-DMX-Plasma Beveling System",
+      pdf: "/assets/image/brochures/Esab-c/5.pdf",
+      thumbnail: "/assets/image/brochures/Esab-c/5.png",
+    },
+    {
+      key: "6",
+      title: "ESAB-iSeries System-Plasma Cutting Control System",
+      pdf: "/assets/image/brochures/Esab-c/6.pdf",
+      thumbnail: "/assets/image/brochures/Esab-c/6.png",
+    },
+    {
+      key: "7",
+      title: "ESAB-iSGM-CNC Gantry Cutting Machine",
+      pdf: "/assets/image/brochures/Esab-c/7.pdf",
+      thumbnail: "/assets/image/brochures/Esab-c/7.png",
+    },
+    {
+      key: "8",
+      title: "ESAB-PUG-Portable Cutting Machine",
+      pdf: "/assets/image/brochures/Esab-c/8.pdf",
+      thumbnail: "/assets/image/brochures/Esab-c/8.png",
+    },
+    {
+      key: "9",
+      title: "ESAB-Suprarex-CNC Plasma Cutting Machine",
+      pdf: "/assets/image/brochures/Esab-c/9.pdf",
+      thumbnail: "/assets/image/brochures/Esab-c/9.png",
+    },
   ];
   // console.log(data);
   return (
@@ -80,7 +123,11 @@ function Cutting() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                  ESAB cutting-edge, world-class equipment and solutions are designed with client input and produced with the skills and tradition of a global manufacturing leader. Over the time they have become one of the world’s leading production companies for cutting equipment and consumables.
+                    ESAB cutting-edge, world-class equipment and solutions are
+                    designed with client input and produced with the skills and
+                    tradition of a global manufacturing leader. Over the time
+                    they have become one of the world’s leading production
+                    companies for cutting equipment and consumables.
                   </p>
                 </div>
               </div>
@@ -160,39 +207,33 @@ function Cutting() {
                 <div className=" shadow">
                   <Brochures />
                   <div className="brochures-name">
-
-                        {brochures.map((item) => (
+                    {brochures.map((item) => (
                       <div key={item.key}>
-                        <a 
-                      href={item.pdf}
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src={ item.thumbnail}
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
+                        <a href={item.pdf} className="brochures-download">
+                          <div className="row">
+                            <div className="col-sm-2">
+                              <div className="text-center">
+                                <img
+                                  src={item.thumbnail}
+                                  className=""
+                                  alt="Sheet Pile Driven"
+                                  style={{ height: "50px", width: "30px" }}
+                                />
+                              </div>
+                            </div>
+                            <div className="col-sm-8">
+                              <p className="pt-3">{item.title}</p>
+                            </div>
+                            <div className="col-sm-2">
+                              <div className="pt-3">
+                                <span></span>
+                              </div>
+                            </div>
                           </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">{item.title}</p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                      <hr />
+                        </a>
+                        <hr />
                       </div>
                     ))}
-
-
                   </div>
                 </div>
               </div>

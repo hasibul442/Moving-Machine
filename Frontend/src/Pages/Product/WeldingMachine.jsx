@@ -14,6 +14,57 @@ function WeldingMachine() {
   React.useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
+
+  const brochures = [
+    {
+      key: "1",
+      title: "Aristo Feed 3004, 4804 U6 & Aristo U8",
+      pdf: "/assets/image/brochures/Esab-w/1.pdf",
+      thumbnail: "/assets/image/brochures/Esab-w/1.png",
+    },
+    {
+      key: "2",
+      title: "Aristo Mig 5000i Commertial Presentation",
+      pdf: "/assets/image/brochures/Esab-w/2.pdf",
+      thumbnail: "/assets/image/brochures/Esab-w/2.png",
+    },
+    {
+      key: "3",
+      title: "Buddy Mig",
+      pdf: "/assets/image/brochures/Esab-w/3.pdf",
+      thumbnail: "/assets/image/brochures/Esab-w/3.png",
+    },
+    {
+      key: "4",
+      title: "ESAB Flashback Arrestor FRT 2013-08-28",
+      pdf: "/assets/image/brochures/Esab-w/4.pdf",
+      thumbnail: "/assets/image/brochures/Esab-w/4.png",
+    },
+    {
+      key: "5",
+      title: "ESAB India Equipment Product Catalog",
+      pdf: "/assets/image/brochures/Esab-w/5.pdf",
+      thumbnail: "/assets/image/brochures/Esab-w/5.png",
+    },
+    {
+      key: "6",
+      title: "Renegade ET 300iP",
+      pdf: "/assets/image/brochures/Esab-w/6.pdf",
+      thumbnail: "/assets/image/brochures/Esab-w/6.png",
+    },
+    {
+      key: "7",
+      title: "RS400 & RS400S",
+      pdf: "/assets/image/brochures/Esab-w/7.pdf",
+      thumbnail: "/assets/image/brochures/Esab-w/7.png",
+    },
+    {
+      key: "8",
+      title: "TRANSWELD 400",
+      pdf: "/assets/image/brochures/Esab-w/8.pdf",
+      thumbnail: "/assets/image/brochures/Esab-w/8.png",
+    },
+  ];
   return (
     <section>
       <section className="product-bg">
@@ -128,222 +179,33 @@ function WeldingMachine() {
                 <div className="shadow">
                   <Brochures />
                   <div className="brochures-name">
-                    <a
-                      href="/assets/image/brochures/Esab-w/1.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Esab-w/1.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
+                    {brochures.map((item) => (
+                      <div key={item.key}>
+                        <a href={item.pdf} className="brochures-download">
+                          <div className="row">
+                            <div className="col-sm-2">
+                              <div className="text-center">
+                                <img
+                                  src={item.thumbnail}
+                                  className=""
+                                  alt="Sheet Pile Driven"
+                                  style={{ height: "50px", width: "30px" }}
+                                />
+                              </div>
+                            </div>
+                            <div className="col-sm-8">
+                              <p className="pt-3">{item.title}</p>
+                            </div>
+                            <div className="col-sm-2">
+                              <div className="pt-3">
+                                <span></span>
+                              </div>
+                            </div>
                           </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">Aristo Feed 3004, 4804 U6 & Aristo U8</p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
+                        </a>
+                        <hr />
                       </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Esab-w/2.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Esab-w/2.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">Aristo Mig 5000i Commertial Presentation</p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Esab-w/3.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Esab-w/3.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">Buddy Mig</p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Esab-w/4.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Esab-w/4.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">ESAB Flashback Arrestor FRT 2013-08-28</p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Esab-w/5.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Esab-w/5.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">ESAB India Equipment Product Catalog</p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Esab-w/6.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Esab-w/6.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">Renegade ET 300iP</p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Esab-w/7.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Esab-w/7.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">RS400 & RS400S</p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Esab-w/8.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Esab-w/8.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">TRANSWELD 400</p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
-
+                    ))}
                   </div>
                 </div>
               </div>
