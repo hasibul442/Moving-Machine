@@ -28,7 +28,7 @@ function ProductSlider() {
   return (
     <section>
       <section className="container mb-5">
-        <h2 className="mml-title text-center pt-5 pb-5">Other Product</h2>
+        <h2 className="mml-title text-center pt-5 pb-5">Other Products</h2>
         <OwlCarousel {...settings}>
           <div className="item mt-4 mb-5">
             <div className="slider-image">

@@ -20,7 +20,7 @@ function Geotextile() {
   return (
     <section>
       <section className="product-bg">
-        <h1 className="text-center page-title">Geotextile</h1>
+        <h1 className="text-center page-title">Geosynthetics</h1>
       </section>
 
       <section className="product-info-background">
@@ -39,7 +39,7 @@ function Geotextile() {
                   alt="Sheet Pile Driven"
                   style={{ height: "45px", width: "200px" }}
                 />
-                <p className="product-name text-center mb-5">Geotextile</p>
+                <p className="product-name text-center mb-5">Geosynthetics</p>
               </div>
             </div>
 
@@ -52,7 +52,7 @@ function Geotextile() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                  Every year, Lillbacka Powerco Oy produces thousands of crimping machines, as well as hose cutting and nut crimping equipment. Finn-Power is well-known for its high-quality, long-lasting hydraulic crimping machines, which are manufactured by Lillbacka Powerco, a Finnish company with over 50 years of manufacturing expertise. The company provides dependable, long-lasting, and precise crimping machines to fulfill the needs of various sectors. Finn-Power crimping machines are built with cutting-edge manufacturing equipment and technology. Precision made parts, along with engineering and assembly experience, as well as quality control and final testing methods, result in dependable and precise crimping machines for your production needs.
+                  TenCate Geosynthetics, a SOLMAX company, is the world’s leading provider of geosynthetics and industrial fabrics. TENCATE Geosynthetics offers a worldwide manufacturing platform, a commercial and technical organization, and has effectively consolidated and grown key markets to optimize client value. TENCATE Geosynthetics develop, manufacture, and provide innovative and dependable geosynthetics by processing synthetic raw materials. In Asia, TENCATE Geosynthetics headquarter is located in Malaysia having manufacturing facilities in Selengor, Malaysia and Zhuhai, China.
                   </p>
                 </div>
               </div>
@@ -64,7 +64,7 @@ function Geotextile() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">Few Grotextiles</p>
+            <p className="product-block-title">Few TENCATE Geosynthetics</p>
 
             <section className="product-image">
               <div className="row align-items-end  justify-content-center mt-5">
@@ -75,7 +75,7 @@ function Geotextile() {
                       alt=""
                       className="img-fluid product-details-image"
                     />
-                    <p className="product-description-name">Mirafi® PET</p>
+                    <p className="product-description-name">Mirafi® PP (Woven)</p>
                   </div>
                 </div>
 
@@ -86,7 +86,7 @@ function Geotextile() {
                       alt=""
                       className="img-fluid product-details-image"
                     />
-                    <p className="product-description-name">Polyfelt® TS & KET</p>
+                    <p className="product-description-name">Polyfelt® Envirocell (Geocell)</p>
                   </div>
                 </div>
 
@@ -98,7 +98,7 @@ function Geotextile() {
                       className="img-fluid product-details-image"
                     />
                     <p className="product-description-name">
-                    Polyfelt® Heavy Duty TS & KE
+                    Miragrid GX
                   </p>
                   </div>
                 </div>
@@ -110,22 +110,8 @@ function Geotextile() {
                       alt=""
                       className="img-fluid product-details-image"
                     />
-                    <p className="product-description-name">Polyfelt® F</p>
+                    <p className="product-description-name">Tancate® Geotube</p>
                   </div>
-                </div>
-              </div>
-              <div className="row justify-content-center">
-                <div className="col-md-2">
-                  
-                </div>
-                <div className="col-md-2">
-                  
-                </div>
-                <div className="col-md-2">
-                  
-                </div>
-                <div className="col-md-2">
-                  
                 </div>
               </div>
             </section>
@@ -140,7 +126,11 @@ function Geotextile() {
             <div className="col-md-8">
               <div className="card border-0">
                 <div className=" shadow">
-                  <Brochures />
+                <div>
+      <div className="brochures-header seven">
+        <h2 className="text-center py-5 brochures-title">Technical Data Sheet</h2>
+      </div>
+    </div>
                   <div className="brochures-name">
                     {brochures.map((item) => (
                       <div key={item.key}>

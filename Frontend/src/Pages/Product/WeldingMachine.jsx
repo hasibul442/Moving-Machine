@@ -125,7 +125,7 @@ function WeldingMachine() {
         <div className="product-block">
           <div className="container-fluid">
             <p className="product-block-title">
-              WELDING MACHINE's
+              WELDING MACHINEs
             </p>
 
             <section className="product-image">

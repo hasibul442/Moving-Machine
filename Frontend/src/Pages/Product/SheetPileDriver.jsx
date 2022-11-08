@@ -105,7 +105,7 @@ function SheetPileDriver() {
                 </p>
               </div>
               <div>
-                <p className="product-key-point-title">MOVAX solutions are:</p>
+                {/* <p className="product-key-point-title">MOVAX solutions are:</p> */}
                 <ul className="product-key-point-list">
                   <li>
                     Fastest way to handle, pitch, drive, and extract piles
@@ -141,7 +141,6 @@ function SheetPileDriver() {
                     piling requirements, particularly when a high degree of
                     precision is required; and for piling in sensitive
                     environments with limited space, head room, or access.
-                    <br />
                     The same unit can handle, pitch, drive, and extract various
                     types of piles and can complete the whole piling process
                     without the use of physical handling or auxiliary

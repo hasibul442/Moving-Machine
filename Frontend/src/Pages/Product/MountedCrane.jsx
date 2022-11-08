@@ -94,7 +94,7 @@ function MountedCrane() {
 
               <div>
                 <p className="product-key-point-title">
-                  Why choose UNIC Truck-mounted crane?
+                  
                 </p>
                 <ul className="product-key-point-list">
                   <li>Design Philosophy to Pursue High Standards </li>
@@ -146,7 +146,7 @@ function MountedCrane() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">TRUCK-MOUNTED CRANE's</p>
+            <p className="product-block-title">TRUCK-MOUNTED CRANEs</p>
 
             <section className="product-image">
               <div className="row align-items-end  justify-content-center mt-5">

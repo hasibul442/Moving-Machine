@@ -115,14 +115,14 @@ function Cutting() {
             </div>
 
             <div
-              className="col-md-4 mt-5"
+              className="col-md-4 mt-5 align-items-center"
               data-aos="fade-left"
               data-aos-offset="20"
               data-aos-anchor-placement="top-bottom"
             >
               <div className="card border-0 shadow">
                 <div className="card-body">
-                  <p className="product-text text-justify">
+                  <p className="product-text  text-justify">
                     ESAB cutting-edge, world-class equipment and solutions are
                     designed with client input and produced with the skills and
                     tradition of a global manufacturing leader. Over the time
@@ -139,22 +139,10 @@ function Cutting() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">CUTTING MACHINE's</p>
+            <p className="product-block-title">CUTTING MACHINEs</p>
 
             <section className="product-image">
               <div className="row align-items-end justify-content-center mt-5">
-                <div className="col-md-3">
-                  <div className="text-center">
-                    <img
-                      src="/assets/image/product-description/Esab-c/1.png"
-                      alt=""
-                      className="img-fluid product-details-image"
-                    />
-                    <p className="product-description-name">
-                      Global Oxy-Fuel IR-CBU Pro
-                    </p>
-                  </div>
-                </div>
 
                 <div className="col-md-3">
                   <div className="text-center">
@@ -163,7 +151,7 @@ function Cutting() {
                       alt=""
                       className="img-fluid product-details-image"
                     />
-                    <p className="product-description-name">Suprarex™ HDX</p>
+                    <p className="product-description-name">Combirex™</p>
                   </div>
                 </div>
 
@@ -188,7 +176,7 @@ function Cutting() {
                       className="img-fluid product-details-image"
                     />
                     <p className="product-description-name">
-                      m2 200i Plasma Cutting Systems
+                      m2 200i Plasma System
                     </p>
                   </div>
                 </div>

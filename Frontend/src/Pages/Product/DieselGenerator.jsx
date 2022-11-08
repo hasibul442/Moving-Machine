@@ -75,9 +75,6 @@ function DieselGenerator() {
               </div>
 
               <div>
-                <p className="product-key-point-title">
-                  Features of Denyo Generator:
-                </p>
                 <ul className="product-key-point-list">
                   <li>Continuous power delivery</li>
                   <li>Easy maintenance </li>
@@ -120,7 +117,7 @@ function DieselGenerator() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">DIESEL GENERATOR's</p>
+            <p className="product-block-title">DIESEL GENERATORs</p>
 
             <section className="product-image">
               <div className="row align-items-end  justify-content-center mt-5">

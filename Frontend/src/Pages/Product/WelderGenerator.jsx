@@ -64,14 +64,11 @@ function WelderGenerator() {
                   style={{ height: "50px", width: "200px" }}
                 />
                 <p className="product-name text-center mb-5">
-                  Welding generator
+                Welder generator
                 </p>
               </div>
 
               <div>
-                <p className="product-key-point-title">
-                  Benefits of Denyo Welder-Generator:
-                </p>
                 <ul className="product-key-point-list">
                   <li>Fuel economy</li>
                   <li>High efficiency for remote welding</li>
@@ -122,7 +119,7 @@ function WelderGenerator() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">Welder Generator's</p>
+            <p className="product-block-title">Welder Generators</p>
 
             <section className="product-image">
               <div className="row align-items-end  justify-content-center mt-5">

@@ -19,7 +19,7 @@ function Coolant() {
   return (
     <section>
       <section className="product-bg">
-        <h1 className="text-center page-title">Engine Leak Repair </h1>
+        <h1 className="text-center page-title">Coolant system & Engine Leak Repair </h1>
       </section>
 
       <section className="product-info-background">
@@ -38,7 +38,7 @@ function Coolant() {
                   alt="Sheet Pile Driven"
                   style={{ height: "45px", width: "200px" }}
                 />
-                <p className="product-name text-center mb-5">Engine Leak Repair</p>
+                <p className="product-name text-center mb-5">Coolant system & Engine Leak Repair</p>
               </div>
             </div>
 
@@ -63,7 +63,7 @@ function Coolant() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">Few Grotextiles</p>
+            <p className="product-block-title">The K-Seal product range</p>
 
             <section className="product-image">
               <div className="row align-items-end  justify-content-center mt-5">
@@ -115,7 +115,11 @@ function Coolant() {
             <div className="col-md-8">
               <div className="card border-0">
                 <div className=" shadow">
-                  <Brochures />
+                <div>
+      <div className="brochures-header seven">
+        <h2 className="text-center py-5 brochures-title">Technical Data Sheet</h2>
+      </div>
+    </div>
                   <div className="brochures-name">
                     {brochures.map((item) => (
                       <div key={item.key}>

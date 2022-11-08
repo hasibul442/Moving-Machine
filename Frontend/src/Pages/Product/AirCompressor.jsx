@@ -49,7 +49,7 @@ function AirCompressor() {
                 </p>
               </div>
               <div>
-                <p className="product-key-point-title">Why choose AIRMAN?</p>
+                {/* <p className="product-key-point-title">Why choose AIRMAN?</p> */}
                 <ul className="product-key-point-list">
                   <li>Compact design</li>
                   <li>Low noise</li>
@@ -89,7 +89,7 @@ function AirCompressor() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">PORTABLE AIR COMPRESSOR's</p>
+            <p className="product-block-title">PORTABLE AIR COMPRESSORs</p>
 
             <section className="product-image">
               <div className="row align-items-end  justify-content-center mt-5">
