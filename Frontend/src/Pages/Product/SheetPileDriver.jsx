@@ -15,6 +15,69 @@ function SheetPileDriver() {
   React.useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const brochures = [
+    {
+      key: "1",
+      title: "Control System_MCONTROL +",
+      pdf: "/assets/image/brochures/Movex/1.pdf",
+      thumbnail: "/assets/image/brochures/Movex/1.png",
+    },
+    {
+      key: "2",
+      title: "Manipulators",
+      pdf: "/assets/image/brochures/Movex/2.pdf",
+      thumbnail: "/assets/image/brochures/Movex/2.png",
+    },
+    {
+      key: "3",
+      title: "MOVAX Column Stabilisation Leaders",
+      pdf: "/assets/image/brochures/Movex/3.pdf",
+      thumbnail: "/assets/image/brochures/Movex/3.png",
+    },
+    {
+      key: "4",
+      title: "MOVAX Control System_MCS",
+      pdf: "/assets/image/brochures/Movex/4.pdf",
+      thumbnail: "/assets/image/brochures/Movex/4.png",
+    },
+    {
+      key: "5",
+      title: "MOVAX Information Management system",
+      pdf: "/assets/image/brochures/Movex/5.pdf",
+      thumbnail: "/assets/image/brochures/Movex/5.png",
+    },
+    {
+      key: "6",
+      title: "MOVAX Multi-tool Piling Leaders",
+      pdf: "/assets/image/brochures/Movex/6.pdf",
+      thumbnail: "/assets/image/brochures/Movex/6.png",
+    },
+    {
+      key: "7",
+      title: "MOVAX Piling Drills",
+      pdf: "/assets/image/brochures/Movex/7.pdf",
+      thumbnail: "/assets/image/brochures/Movex/7.png",
+    },
+    {
+      key: "8",
+      title: "MOVAX Piling Hammer",
+      pdf: "/assets/image/brochures/Movex/8.pdf",
+      thumbnail: "/assets/image/brochures/Movex/8.png",
+    },
+    {
+      key: "9",
+      title: "MOVAX Product Catalogue July-2022",
+      pdf: "/assets/image/brochures/Movex/9.pdf",
+      thumbnail: "/assets/image/brochures/Movex/9.png",
+    },
+    {
+      key: "10",
+      title: "MOVAX Side Grip Pile Drivers",
+      pdf: "/assets/image/brochures/Movex/10.pdf",
+      thumbnail: "/assets/image/brochures/Movex/10.png",
+    },
+  ];
   return (
     <section>
       <section className="product-bg">
@@ -42,7 +105,7 @@ function SheetPileDriver() {
                 </p>
               </div>
               <div>
-                <p className="product-key-point-title">MOVAX solutions are:</p>
+                {/* <p className="product-key-point-title">MOVAX solutions are:</p> */}
                 <ul className="product-key-point-list">
                   <li>
                     Fastest way to handle, pitch, drive, and extract piles
@@ -78,7 +141,6 @@ function SheetPileDriver() {
                     piling requirements, particularly when a high degree of
                     precision is required; and for piling in sensitive
                     environments with limited space, head room, or access.
-                    <br />
                     The same unit can handle, pitch, drive, and extract various
                     types of piles and can complete the whole piling process
                     without the use of physical handling or auxiliary
@@ -147,283 +209,33 @@ function SheetPileDriver() {
                 <div className=" shadow">
                   <Brochures />
                   <div className="brochures-name">
-                    <a
-                      href="/assets/image/brochures/Movex/1.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Movex/1.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
+                    {brochures.map((item) => (
+                      <div key={item.key}>
+                        <a href={item.pdf} className="brochures-download">
+                          <div className="row">
+                            <div className="col-sm-2">
+                              <div className="text-center">
+                                <img
+                                  src={item.thumbnail}
+                                  className=""
+                                  alt="Sheet Pile Driven"
+                                  style={{ height: "50px", width: "30px" }}
+                                />
+                              </div>
+                            </div>
+                            <div className="col-sm-8">
+                              <p className="pt-3">{item.title}</p>
+                            </div>
+                            <div className="col-sm-2">
+                              <div className="pt-3">
+                                <span></span>
+                              </div>
+                            </div>
                           </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">Control System_MCONTROL +</p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
+                        </a>
+                        <hr />
                       </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Movex/2.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Movex/2.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">Manipulators</p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Movex/3.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Movex/3.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">
-                            MOVAX Column Stabilisation Leaders
-                          </p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Movex/4.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Movex/4.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">MOVAX Control System_MCS</p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Movex/5.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Movex/5.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">
-                            MOVAX Information Management system
-                          </p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Movex/6.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Movex/6.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">
-                            MOVAX Multi-tool Piling Leaders
-                          </p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Movex/7.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Movex/7.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">MOVAX Piling Drills</p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Movex/8.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Movex/8.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">MOVAX Piling Hammer</p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Movex/9.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Movex/9.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">
-                            MOVAX Product Catalogue July-2022
-                          </p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Movex/10.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Movex/10.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">MOVAX Side Grip Pile Drivers</p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
+                    ))}
                   </div>
                 </div>
               </div>

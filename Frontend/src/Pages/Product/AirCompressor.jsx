@@ -13,6 +13,15 @@ function AirCompressor() {
   React.useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const brochures = [
+    {
+      key: "1",
+      title: "Engine Compressor PDS Series",
+      pdf: "/assets/image/brochures/Airman/Airman-PDS-series.pdf",
+      thumbnail: "/assets/image/brochures/Airman/Air-T.gif",
+    },
+  ];
   return (
     <section>
       <section className="product-bg">
@@ -40,7 +49,7 @@ function AirCompressor() {
                 </p>
               </div>
               <div>
-                <p className="product-key-point-title">Why choose AIRMAN?</p>
+                {/* <p className="product-key-point-title">Why choose AIRMAN?</p> */}
                 <ul className="product-key-point-list">
                   <li>Compact design</li>
                   <li>Low noise</li>
@@ -80,7 +89,7 @@ function AirCompressor() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">PORTABLE AIR COMPRESSOR's</p>
+            <p className="product-block-title">PORTABLE AIR COMPRESSORs</p>
 
             <section className="product-image">
               <div className="row align-items-end  justify-content-center mt-5">
@@ -137,32 +146,33 @@ function AirCompressor() {
                 <div className=" shadow">
                   <Brochures />
                   <div className="brochures-name">
-                    <a
-                      href="/assets/image/brochures/Airman/Airman-PDS-series.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Airman/Air-T.gif"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
+                    {brochures.map((item) => (
+                      <div key={item.key}>
+                        <a href={item.pdf} className="brochures-download">
+                          <div className="row">
+                            <div className="col-sm-2">
+                              <div className="text-center">
+                                <img
+                                  src={item.thumbnail}
+                                  className=""
+                                  alt="Sheet Pile Driven"
+                                  style={{ height: "50px", width: "30px" }}
+                                />
+                              </div>
+                            </div>
+                            <div className="col-sm-8">
+                              <p className="pt-3">{item.title}</p>
+                            </div>
+                            <div className="col-sm-2">
+                              <div className="pt-3">
+                                <span></span>
+                              </div>
+                            </div>
                           </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">Engine Compressor PDS Series</p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
+                        </a>
+                        <hr />
                       </div>
-                    </a>
-                    <hr />
+                    ))}
                   </div>
                 </div>
               </div>

@@ -48,13 +48,13 @@ function Rental() {
       </div>
 
       <section className="rental-text-bg">
-        <div className="pt-5">
+        <div className="pt-5 pb-5">
           <div className="container">
             <div className="row">
               <div className="col-sm-12 details1 mt-5 mb-5">
-                <h2 className="p-3">Why chose Moving Machines</h2>
-                <div className="row">
-                  <div className="col-sm-6 aboutus-description-1">
+                <h5 className="px-3 pt-3 mml-title" style={{ fontSize: "23px" }}>Why chose Moving Machines</h5>
+                <div className="row pb-3">
+                  <div className="col-sm-6 aboutus-description-1 ">
                     <ul>
                       <li>Wide range of equipment</li>
                       <li>
@@ -81,9 +81,9 @@ function Rental() {
                 </div>
               </div>
 
-              <div className="col-sm-12 details1 mt-3 mb-5">
-                <h2 className="p-3">List of Equipment:</h2>
-                <div className="row">
+              <div className="col-sm-12 details1 mt-5 mb-5">
+                <p className="px-3 pt-3 mml-title" style={{ fontSize: "23px" }}>List of Equipment</p>
+                <div className="row pb-3">
                   <div className="col-sm-4 aboutus-description-1">
                     <ul>
                       <li>Crane</li>

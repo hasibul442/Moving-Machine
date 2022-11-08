@@ -14,6 +14,33 @@ function WelderGenerator() {
   React.useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const brochures = [
+    {
+      key: "1",
+      title: "Denyo 480A single head or 240A duel head",
+      pdf: "/assets/image/brochures/Denyo-W/1.pdf",
+      thumbnail: "/assets/image/brochures/Denyo-W/1.png",
+    },
+    {
+      key: "2",
+      title: "Denyo welder 500A Single head",
+      pdf: "/assets/image/brochures/Denyo-W/2.pdf",
+      thumbnail: "/assets/image/brochures/Denyo-W/2.png",
+    },
+    {
+      key: "3",
+      title: "Denyo welder DAW-500ss Single head",
+      pdf: "/assets/image/brochures/Denyo-W/3.pdf",
+      thumbnail: "/assets/image/brochures/Denyo-W/3.png",
+    },
+    {
+      key: "4",
+      title: "Denyo welders upto 380A (Single and Duel head)",
+      pdf: "/assets/image/brochures/Denyo-W/4.pdf",
+      thumbnail: "/assets/image/brochures/Denyo-W/4.png",
+    },
+  ];
   return (
     <section>
       <section className="product-bg">
@@ -37,14 +64,11 @@ function WelderGenerator() {
                   style={{ height: "50px", width: "200px" }}
                 />
                 <p className="product-name text-center mb-5">
-                  Welding generator
+                Welder generator
                 </p>
               </div>
 
               <div>
-                <p className="product-key-point-title">
-                  Benefits of Denyo Welder-Generator:
-                </p>
                 <ul className="product-key-point-list">
                   <li>Fuel economy</li>
                   <li>High efficiency for remote welding</li>
@@ -95,7 +119,7 @@ function WelderGenerator() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">Welder Generator's</p>
+            <p className="product-block-title">Welder Generators</p>
 
             <section className="product-image">
               <div className="row align-items-end  justify-content-center mt-5">
@@ -156,121 +180,34 @@ function WelderGenerator() {
               <div className="card border-0">
                 <div className=" shadow">
                   <Brochures />
-
                   <div className="brochures-name">
-                    <a
-                      href="/assets/image/brochures/Denyo-W/1.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Denyo-W/1.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
+                    {brochures.map((item) => (
+                      <div key={item.key}>
+                        <a href={item.pdf} className="brochures-download">
+                          <div className="row">
+                            <div className="col-sm-2">
+                              <div className="text-center">
+                                <img
+                                  src={item.thumbnail}
+                                  className=""
+                                  alt="Sheet Pile Driven"
+                                  style={{ height: "50px", width: "30px" }}
+                                />
+                              </div>
+                            </div>
+                            <div className="col-sm-8">
+                              <p className="pt-3">{item.title}</p>
+                            </div>
+                            <div className="col-sm-2">
+                              <div className="pt-3">
+                                <span></span>
+                              </div>
+                            </div>
                           </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">
-                            Denyo 480A single head or 240A duel head
-                          </p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
+                        </a>
+                        <hr />
                       </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Denyo-W/2.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Denyo-W/2.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">Denyo welder 500A Single head</p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Denyo-W/3.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Denyo-W/3.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">
-                            Denyo welder DAW-500ss Single head
-                          </p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Denyo-W/4.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Denyo-W/4.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">
-                            Denyo welders upto 380A (Single and Duel head)
-                          </p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
+                    ))}
                   </div>
                 </div>
               </div>

@@ -210,7 +210,7 @@ function Navbar() {
                                   fontWeight: "400",
                                 }}
                               >
-                                Geotextile
+                                GEOSYNTHETICS
                               </NavDropdown.Item>
                               <NavDropdown.Item
                                 className="dropdown-item"
@@ -220,7 +220,7 @@ function Navbar() {
                                   fontWeight: "400",
                                 }}
                               >
-                                Engine Leak Repair
+                                COOLANT SYSTEM & ENGINE <br/> LEAK REPAIR
                               </NavDropdown.Item>
                             </div>
                             <div className="col-md-4 pt-1">

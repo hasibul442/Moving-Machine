@@ -48,7 +48,7 @@ function ContactUs() {
               <div className="text-center">
                 <i
                   className="fas fa-map-marker-alt fa-3x"
-                  style={{ color: "#000" }}
+                  style={{ color: "#50577A" }}
                 ></i>
                 <div>
                   <p className="contactus-text mt-3 mx-3">
@@ -66,7 +66,7 @@ function ContactUs() {
               <div className="text-center">
                 <i
                   className="fas fa-phone-alt fa-3x"
-                  style={{ color: "#000" }}
+                  style={{ color: "#50577A" }}
                 ></i>
                 <div>
                   <p className="contactus-text mt-3 mx-3">
@@ -90,7 +90,7 @@ function ContactUs() {
               <div className="text-center">
                 <i
                   className="fas fa-envelope fa-3x"
-                  style={{ color: "#000" }}
+                  style={{ color: "#50577A" }}
                 ></i>
                 <div>
                   <p className="contactus-text mt-3 mx-3">

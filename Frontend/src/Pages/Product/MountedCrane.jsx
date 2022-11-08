@@ -14,6 +14,57 @@ function MountedCrane() {
   React.useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const brochures = [
+    {
+      key: "1",
+      title: "UNIC 3T Long UR-V370 C-1919",
+      pdf: "/assets/image/brochures/Unic/1.pdf",
+      thumbnail: "/assets/image/brochures/Unic/1.png",
+    },
+    {
+      key: "2",
+      title: "UNIC 3T Medium UR-V340 C-1918",
+      pdf: "/assets/image/brochures/Unic/2.pdf",
+      thumbnail: "/assets/image/brochures/Unic/2.png",
+    },
+    {
+      key: "3",
+      title: "UNIC 3T Short UR-V290 C-1917",
+      pdf: "/assets/image/brochures/Unic/3.pdf",
+      thumbnail: "/assets/image/brochures/Unic/3.png",
+    },
+    {
+      key: "4",
+      title: "UNIC 5T UR-V550K-TH C-1946",
+      pdf: "/assets/image/brochures/Unic/4.pdf",
+      thumbnail: "/assets/image/brochures/Unic/4.png",
+    },
+    {
+      key: "5",
+      title: "UNIC 8T UR-V800 C-1883",
+      pdf: "/assets/image/brochures/Unic/5.pdf",
+      thumbnail: "/assets/image/brochures/Unic/5.png",
+    },
+    {
+      key: "6",
+      title: "UNIC 10T UR-V1004 C-1977",
+      pdf: "/assets/image/brochures/Unic/6.pdf",
+      thumbnail: "/assets/image/brochures/Unic/6.png",
+    },
+    {
+      key: "7",
+      title: "UNIC 13.6T UR-1504 C-1652",
+      pdf: "/assets/image/brochures/Unic/7.pdf",
+      thumbnail: "/assets/image/brochures/Unic/7.png",
+    },
+    {
+      key: "8",
+      title: "UNIC minicrawler C-2004A",
+      pdf: "/assets/image/brochures/Unic/8.pdf",
+      thumbnail: "/assets/image/brochures/Unic/8.png",
+    },
+  ];
   return (
     <section>
       <section className="product-bg">
@@ -43,7 +94,7 @@ function MountedCrane() {
 
               <div>
                 <p className="product-key-point-title">
-                  Why choose UNIC Truck-mounted crane?
+                  
                 </p>
                 <ul className="product-key-point-list">
                   <li>Design Philosophy to Pursue High Standards </li>
@@ -95,7 +146,7 @@ function MountedCrane() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">TRUCK-MOUNTED CRANE's</p>
+            <p className="product-block-title">TRUCK-MOUNTED CRANEs</p>
 
             <section className="product-image">
               <div className="row align-items-end  justify-content-center mt-5">
@@ -146,221 +197,33 @@ function MountedCrane() {
                 <div className=" shadow">
                   <Brochures />
                   <div className="brochures-name">
-                    <a
-                      href="/assets/image/brochures/Unic/1.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Unic/1.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
+                    {brochures.map((item) => (
+                      <div key={item.key}>
+                        <a href={item.pdf} className="brochures-download">
+                          <div className="row">
+                            <div className="col-sm-2">
+                              <div className="text-center">
+                                <img
+                                  src={item.thumbnail}
+                                  className=""
+                                  alt="Sheet Pile Driven"
+                                  style={{ height: "50px", width: "30px" }}
+                                />
+                              </div>
+                            </div>
+                            <div className="col-sm-8">
+                              <p className="pt-3">{item.title}</p>
+                            </div>
+                            <div className="col-sm-2">
+                              <div className="pt-3">
+                                <span></span>
+                              </div>
+                            </div>
                           </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">UNIC 3T Long UR-V370 C-1919</p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
+                        </a>
+                        <hr />
                       </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Unic/2.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Unic/2.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">UNIC 3T Medium UR-V340 C-1918</p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Unic/3.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Unic/3.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">UNIC 3T Short UR-V290 C-1917</p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Unic/4.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Unic/4.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">UNIC 5T UR-V550K-TH C-1946</p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Unic/5.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Unic/5.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">UNIC 8T UR-V800 C-1883</p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Unic/6.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Unic/6.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">UNIC 10T UR-V1004 C-1977</p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Unic/7.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Unic/7.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">UNIC 13.6T UR-1504 C-1652</p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
-
-                    <a
-                      href="/assets/image/brochures/Unic/8.pdf"
-                      className="brochures-download"
-                    >
-                      <div className="row">
-                        <div className="col-sm-2">
-                          <div className="text-center">
-                            <img
-                              src="/assets/image/brochures/Unic/8.png"
-                              className=""
-                              alt="Sheet Pile Driven"
-                              style={{ height: "50px", width: "30px" }}
-                            />
-                          </div>
-                        </div>
-                        <div className="col-sm-8">
-                          <p className="pt-3">UNIC minicrawler C-2004A</p>
-                        </div>
-                        <div className="col-sm-2">
-                          <div className="pt-3">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <hr />
+                    ))}
                   </div>
                 </div>
               </div>
