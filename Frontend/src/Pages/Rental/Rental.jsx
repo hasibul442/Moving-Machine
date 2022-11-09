@@ -64,15 +64,16 @@ function Rental() {
                         All equipment has valid 3rd party inspection certificate
                         and <br /> 1st party insurance
                       </li>
+                      <li>Affordable pricing</li>
                     </ul>
                   </div>
 
                   <div className="col-sm-6 aboutus-description-1">
-                    <ul>
-                      <li>Affordable pricing</li>
+                    <ul className="pl-1">
+                      
                       <li>Ready to assist in challenging difficulties</li>
                       <li>
-                        Strong team of operators, technicians and maintenance
+                        Strong team of operators, technicians and <br/> maintenance
                         engineers
                       </li>
                       <li>Technical and breakdown support within 24 hours</li>

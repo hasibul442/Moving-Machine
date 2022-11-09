@@ -38,11 +38,17 @@ function Navbar() {
                   alt="Company Logo"
                   className={
                     navbar1
-                      ? "navbar-logo  minimg-size"
+                      ? "navbar-logo minimg-size"
                       : "navbar-logo maximage-size"
                   }
                 />
-                <h5 className="text-dark">Moving Machines</h5>
+                <h5 className={
+                    navbar1
+                      ? "min-size-text"
+                      : "max-size-text"
+                  }>
+                    Moving<br/>Machines
+                  </h5>
               </div>
             </a>
             <div

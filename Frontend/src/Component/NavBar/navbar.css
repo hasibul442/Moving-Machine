@@ -47,6 +47,26 @@ a:focus {
   height: 40px;
   transition: 0.5s;
 }
+.min-size-text{
+  font-size: 14px;
+  font-weight: 800;
+  font-family: 'Noway', serif;
+  color: #0f2c67;
+  line-height: 13px;
+  padding-top: 4px;
+  padding-left: 10px;
+  transition: 0.5s;
+}
+.max-size-text{
+  padding-top: 11px;
+  padding-left: 15px;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Noway', serif;
+  color: #0f2c67;
+  transition: 0.5s;
+  line-height: 22px;
+}
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
     background: #000 !important;

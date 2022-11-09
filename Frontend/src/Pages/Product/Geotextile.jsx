@@ -126,11 +126,7 @@ function Geotextile() {
             <div className="col-md-8">
               <div className="card border-0">
                 <div className=" shadow">
-                <div>
-      <div className="brochures-header seven">
-        <h2 className="text-center py-5 brochures-title">Technical Data Sheet</h2>
-      </div>
-    </div>
+                <Brochures />
                   <div className="brochures-name">
                     {brochures.map((item) => (
                       <div key={item.key}>

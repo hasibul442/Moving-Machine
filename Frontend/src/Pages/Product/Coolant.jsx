@@ -44,6 +44,14 @@ function Coolant() {
                   Coolant system & Engine Leak Repair
                 </p>
               </div>
+              {/* <div>
+                    <ul className="product-key-point-list">
+                      <li>Cost effective</li>
+                      <li>Easy to use</li>
+                      <li>Versatile</li>
+                      <li>Works on all water-cooled engines</li>
+                    </ul>
+                  </div> */}
             </div>
 
             <div
@@ -99,15 +107,6 @@ function Coolant() {
                     />
                     <p className="product-description-name pt-3">K-Seal® HD</p>
                   </div>
-                  <div>
-                    {/* <p className="product-key-point-title">Why choose AIRMAN?</p> */}
-                    <ul className="product-key-point-list">
-                      <li>Cost effective</li>
-                      <li>Easy to use</li>
-                      <li>Versatile</li>
-                      <li>Works on all water-cooled engines</li>
-                    </ul>
-                  </div>
                 </div>
 
                 <div className="col-md-3">
@@ -128,7 +127,7 @@ function Coolant() {
         </div>
       </section>
 
-      <div className="pt-5 pb-5">
+      {/* <div className="pt-5 pb-5">
         <div className="container">
           <div className="row">
             <div className="col-md-2"></div>
@@ -176,7 +175,7 @@ function Coolant() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <ProductSlider />
     </section>

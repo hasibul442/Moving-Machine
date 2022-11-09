@@ -38,9 +38,9 @@ function HomePage()  {
       1000: { items: 4 },
     },
   };
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+  // useEffect(() => {
+  //   window.scrollTo(0, 0)
+  // }, [])
   return (
     <div>
       <div className="navbar-space"></div>
@@ -263,11 +263,11 @@ function HomePage()  {
               <div className="item mb-4">
                 <div className="card card-shadow border-0">
                   <div className="card-body">
-                    <div className="text-center mx-auto">
+                    <div className="justify-content-center">
                       <img
                         src="/assets/image/brands/movex.png"
                         alt="Brand logo"
-                        style={{ height: "180px", width: "200px" }}
+                        style={{ height: "180px" }}
                         className="img-fluid"
                       />
                     </div>
@@ -278,11 +278,11 @@ function HomePage()  {
               <div className="item mb-4">
                 <div className="card card-shadow border-0">
                   <div className="card-body border-0">
-                    <div className="text-center mx-auto">
+                    <div className="justify-content-center">
                       <img
                         src="/assets/image/brands/denyo.png"
                         alt="Brand logo"
-                        style={{ height: "180px", width: "200px" }}
+                        style={{ height: "180px" }}
                         className="img-fluid"
                       />
                     </div>
@@ -293,11 +293,11 @@ function HomePage()  {
               <div className="item mb-4">
                 <div className="card card-shadow border-0">
                   <div className="card-body border-0">
-                    <div className="text-center mx-auto">
+                    <div className="justify-content-center">
                       <img
                         src="/assets/image/brands/tencate.png"
                         alt="Brand logo"
-                        style={{ height: "180px", width: "200px" }}
+                        style={{ height: "180px" }}
                         className="img-fluid"
                       />
                     </div>
@@ -308,11 +308,11 @@ function HomePage()  {
               <div className="item mb-4">
                 <div className="card card-shadow border-0">
                   <div className="card-body border-0">
-                    <div className="text-center mx-auto">
+                    <div className="justify-content-center">
                       <img
                         src="/assets/image/brands/airman.png"
                         alt="Brand logo"
-                        style={{ height: "180px", width: "200px" }}
+                        style={{ height: "180px" }}
                         className="img-fluid"
                       />
                     </div>
@@ -323,11 +323,11 @@ function HomePage()  {
               <div className="item  mb-4">
                 <div className="card card-shadow border-0">
                   <div className="card-body border-0">
-                    <div className="text-center mx-auto">
+                    <div className="justify-content-center">
                       <img
                         src="/assets/image/brands/esab.png"
                         alt="Brand logo"
-                        style={{ height: "180px", width: "200px" }}
+                        style={{ height: "180px" }}
                         className="img-fluid"
                       />
                     </div>
@@ -338,11 +338,11 @@ function HomePage()  {
               <div className="item mb-4">
                 <div className="card card-shadow border-0">
                   <div className="card-body border-0">
-                    <div className="text-center mx-auto">
+                    <div className="justify-content-center">
                       <img
                         src="/assets/image/brands/unic.jpeg"
                         alt="Brand logo"
-                        style={{ height: "180px", width: "200px" }}
+                        style={{ height: "180px" }}
                         className="img-fluid"
                       />
                     </div>
@@ -353,11 +353,11 @@ function HomePage()  {
               <div className="item mb-4">
                 <div className="card card-shadow border-0">
                   <div className="card-body border-0">
-                    <div className="text-center mx-auto">
+                    <div className="justify-content-center">
                       <img
                         src="/assets/image/brands/lillbacka.png"
                         alt="Brand logo"
-                        style={{ height: "180px", width: "200px" }}
+                        style={{ height: "180px" }}
                         className="img-fluid"
                       />
                     </div>
@@ -368,11 +368,11 @@ function HomePage()  {
               <div className="item mb-4">
                 <div className="card card-shadow border-0">
                   <div className="card-body border-0">
-                    <div className="text-center mx-auto">
+                    <div className="justify-content-center">
                       <img
                         src="/assets/image/brands/k-seal.png"
                         alt="Brand logo"
-                        style={{ height: "180px", width: "200px" }}
+                        style={{ height: "180px" }}
                         className="img-fluid"
                       />
                     </div>

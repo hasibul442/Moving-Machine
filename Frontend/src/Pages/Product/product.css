@@ -91,4 +91,8 @@
     font-weight: 500;
     font-size: 18px;
 }
-
+.brochures-name{
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
