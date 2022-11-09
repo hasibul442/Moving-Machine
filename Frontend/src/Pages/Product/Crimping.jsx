@@ -14,7 +14,213 @@ function Crimping() {
     window.scrollTo(0, 0);
   }, []);
 
-  const brochures = [];
+  const brochures = [
+    {
+      key: "1",
+      title: "Crimping HeavyDuty",
+      pdf: "/assets/image/brochures/Lillbacka/1.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/1.png",
+    },
+    {
+      key: "2",
+      title: "Crimping HeavyDuty KC800",
+      pdf: "/assets/image/brochures/Lillbacka/2.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/2.png",
+    },
+    {
+      key: "3",
+      title: "Crimping HeavyDuty KC2000",
+      pdf: "/assets/image/brochures/Lillbacka/3.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/3.png",
+    },
+    {
+      key: "4",
+      title: "Crimping Nut & Cable CC22",
+      pdf: "/assets/image/brochures/Lillbacka/4.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/4.png",
+    },
+    {
+      key: "5",
+      title: "Crimping Nut & Cable CC26",
+      pdf: "/assets/image/brochures/Lillbacka/5.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/5.png",
+    },
+    {
+      key: "6",
+      title: "Crimping Nut & Cable NC20",
+      pdf: "/assets/image/brochures/Lillbacka/6.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/6.png",
+    },
+    {
+      key: "7",
+      title: "Crimping Nut & Cable NC30",
+      pdf: "/assets/image/brochures/Lillbacka/7.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/7.png",
+    },
+    {
+      key: "8",
+      title: "Crimping Nut & Cable NC40",
+      pdf: "/assets/image/brochures/Lillbacka/8.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/8.png",
+    },
+    {
+      key: "9",
+      title: "Crimping Nut & Cable NC60",
+      pdf: "/assets/image/brochures/Lillbacka/9.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/9.png",
+    },
+    {
+      key: "10",
+      title: "Crimping Service_P16HP",
+      pdf: "/assets/image/brochures/Lillbacka/10.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/10.png",
+    },
+    {
+      key: "11",
+      title: "Crimping Service_P20AP",
+      pdf: "/assets/image/brochures/Lillbacka/11.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/11.png",
+    },
+    {
+      key: "12",
+      title: "Crimping Service_P20CS",
+      pdf: "/assets/image/brochures/Lillbacka/12.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/12.png",
+    },
+    {
+      key: "13",
+      title: "Crimping Service_P20HP",
+      pdf: "/assets/image/brochures/Lillbacka/13.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/13.png",
+    },
+    {
+      key: "14",
+      title: "Crimping Service_P20NMS",
+      pdf: "/assets/image/brochures/Lillbacka/14.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/14.png",
+    },
+    {
+      key: "15",
+      title: "Crimping Service_P20X",
+      pdf: "/assets/image/brochures/Lillbacka/15.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/15.png",
+    },
+    {
+      key: "16",
+      title: "Crimping Service_P32CS",
+      pdf: "/assets/image/brochures/Lillbacka/16.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/16.png",
+    },
+    {
+      key: "17",
+      title: "Crimping Service_P32NMS",
+      pdf: "/assets/image/brochures/Lillbacka/17.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/17.png",
+    },
+    {
+      key: "18",
+      title: "Crimping Service_P32X",
+      pdf: "/assets/image/brochures/Lillbacka/18.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/18.png",
+    },
+    {
+      key: "19",
+      title: "Crimping Service_P51",
+      pdf: "/assets/image/brochures/Lillbacka/19.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/19.png",
+    },
+    {
+      key: "20",
+      title: "Crimping Service_P60",
+      pdf: "/assets/image/brochures/Lillbacka/20.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/20.png",
+    },
+    {
+      key: "21",
+      title: "Crimping SideFeed_SP100",
+      pdf: "/assets/image/brochures/Lillbacka/21.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/21.png",
+    },
+    {
+      key: "22",
+      title: "Crimping SideFeed_SP350",
+      pdf: "/assets/image/brochures/Lillbacka/22.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/22.png",
+    },
+    {
+      key: "23",
+      title: "Crimping SideFeed_SP1200",
+      pdf: "/assets/image/brochures/Lillbacka/23.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/23.png",
+    },
+    {
+      key: "24",
+      title: "Crimping SideFeed_SP2000",
+      pdf: "/assets/image/brochures/Lillbacka/24.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/24.png",
+    },
+    {
+      key: "25",
+      title: "Crimping SideFeed_SP5000",
+      pdf: "/assets/image/brochures/Lillbacka/25.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/25.png",
+    },
+    {
+      key: "26",
+      title: "Crimping Workshop_CM30",
+      pdf: "/assets/image/brochures/Lillbacka/26.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/26.png",
+    },
+    {
+      key: "27",
+      title: "Crimping Workshop_CM30CS",
+      pdf: "/assets/image/brochures/Lillbacka/27.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/27.png",
+    },
+    {
+      key: "28",
+      title: "Crimping Workshop_CM35",
+      pdf: "/assets/image/brochures/Lillbacka/28.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/28.png",
+    },
+    {
+      key: "29",
+      title: "Crimping Workshop_CM75",
+      pdf: "/assets/image/brochures/Lillbacka/29.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/29.png",
+    },
+    {
+      key: "30",
+      title: "Crimping Workshop_CM75_SAFE",
+      pdf: "/assets/image/brochures/Lillbacka/30.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/30.png",
+    },
+    {
+      key: "31",
+      title: "Crimping Workshop_CM75QT",
+      pdf: "/assets/image/brochures/Lillbacka/31.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/31.png",
+    },
+    {
+      key: "32",
+      title: "Crimping Workshop_CM91",
+      pdf: "/assets/image/brochures/Lillbacka/32.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/32.png",
+    },
+    {
+      key: "33",
+      title: "Crimping Workshop_CM91_SAFE",
+      pdf: "/assets/image/brochures/Lillbacka/33.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/33.png",
+    },
+    {
+      key: "34",
+      title: "Skiving Workshop_FS50",
+      pdf: "/assets/image/brochures/Lillbacka/34.pdf",
+      thumbnail: "/assets/image/brochures/Lillbacka/34.png",
+    },
+    
+  ];
 
   return (
     <section>

@@ -47,7 +47,7 @@ function Navbar() {
                       ? "min-size-text"
                       : "max-size-text"
                   }>
-                    Moving<br/>Machines
+                    Moving Machines<br/>Limited
                   </h5>
               </div>
             </a>
@@ -93,11 +93,11 @@ function Navbar() {
                     className="dropdown-menu dropdown_auto_menu"
                     aria-labelledby="dropdown04"
                   >
-                    <div className="px-2 py-2">
+                    <div className="container">
                       <div className="row">
-                        <div className="col-md-9 pt-1">
+                        <div className="col-md-9">
                           <p
-                            className="text-center"
+                            className="text-center  pt-1"
                             style={{
                               color: "#2F75B5",
                               fontSize: "20px",
@@ -267,11 +267,11 @@ function Navbar() {
                           </div>
                         </div>
                         <div
-                          className="col-md-3 pt-1"
+                          className="col-md-3"
                           style={{ background: "#F2F2F2" }}
                         >
                           <p
-                            className="text-center"
+                            className="text-center pt-1"
                             style={{
                               color: "#2F75B5",
                               fontSize: "20px",
