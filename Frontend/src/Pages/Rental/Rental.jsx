@@ -82,7 +82,7 @@ function Rental() {
               </div>
 
               <div className="col-sm-12 details1 mt-5 mb-5">
-                <p className="px-3 pt-3 mml-title" style={{ fontSize: "23px" }}>List of Equipment</p>
+                <h5 className="px-3 pt-3 mml-title" style={{ fontSize: "23px" }}>List of Equipment</h5>
                 <div className="row pb-3">
                   <div className="col-sm-4 aboutus-description-1">
                     <ul>

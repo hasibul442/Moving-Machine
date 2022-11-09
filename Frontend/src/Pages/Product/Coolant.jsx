@@ -19,7 +19,9 @@ function Coolant() {
   return (
     <section>
       <section className="product-bg">
-        <h1 className="text-center page-title">Coolant system & Engine Leak Repair </h1>
+        <h1 className="text-center page-title">
+          Coolant system & Engine Leak Repair{" "}
+        </h1>
       </section>
 
       <section className="product-info-background">
@@ -38,7 +40,9 @@ function Coolant() {
                   alt="Sheet Pile Driven"
                   style={{ height: "45px", width: "200px" }}
                 />
-                <p className="product-name text-center mb-5">Coolant system & Engine Leak Repair</p>
+                <p className="product-name text-center mb-5">
+                  Coolant system & Engine Leak Repair
+                </p>
               </div>
             </div>
 
@@ -51,7 +55,15 @@ function Coolant() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                  K-Seal, K-Seal HD and K-Seal Ultimate are a one-step permanent multi-purpose system for coolant leak repair. It permanently repairs leaks in the head gasket, block, radiator, heater core, freeze plug and water pump casing. K-Seal is suitable for use with all water-cooled engines including cars, motorbikes, commercial vehicles and heavy machinery. K-Seal products are compatible with all types of antifreeze/coolant and are not affected by other additives that may already be in the cooling system
+                    K-Seal, K-Seal HD and K-Seal Ultimate are a one-step
+                    permanent multi-purpose system for coolant leak repair. It
+                    permanently repairs leaks in the head gasket, block,
+                    radiator, heater core, freeze plug and water pump casing.
+                    K-Seal is suitable for use with all water-cooled engines
+                    including cars, motorbikes, commercial vehicles and heavy
+                    machinery. K-Seal products are compatible with all types of
+                    antifreeze/coolant and are not affected by other additives
+                    that may already be in the cooling system
                   </p>
                 </div>
               </div>
@@ -87,6 +99,15 @@ function Coolant() {
                     />
                     <p className="product-description-name pt-3">K-Seal® HD</p>
                   </div>
+                  <div>
+                    {/* <p className="product-key-point-title">Why choose AIRMAN?</p> */}
+                    <ul className="product-key-point-list">
+                      <li>Cost effective</li>
+                      <li>Easy to use</li>
+                      <li>Versatile</li>
+                      <li>Works on all water-cooled engines</li>
+                    </ul>
+                  </div>
                 </div>
 
                 <div className="col-md-3">
@@ -97,12 +118,11 @@ function Coolant() {
                       className="img-fluid product-details-image"
                     />
                     <p className="product-description-name pt-3">
-                    K-Seal® ULTIMATE
-                  </p>
+                      K-Seal® ULTIMATE
+                    </p>
                   </div>
                 </div>
               </div>
-
             </section>
           </div>
         </div>
@@ -115,11 +135,13 @@ function Coolant() {
             <div className="col-md-8">
               <div className="card border-0">
                 <div className=" shadow">
-                <div>
-      <div className="brochures-header seven">
-        <h2 className="text-center py-5 brochures-title">Technical Data Sheet</h2>
-      </div>
-    </div>
+                  <div>
+                    <div className="brochures-header seven">
+                      <h2 className="text-center py-5 brochures-title">
+                        Technical Data Sheet
+                      </h2>
+                    </div>
+                  </div>
                   <div className="brochures-name">
                     {brochures.map((item) => (
                       <div key={item.key}>

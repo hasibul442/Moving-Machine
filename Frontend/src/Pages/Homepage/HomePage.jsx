@@ -124,7 +124,7 @@ function HomePage()  {
             <div className="col-md-6">
               <div className="text-center">
                 <div className="my-auto">
-                  <p className="about-us-title">Inception</p>
+                  <p className="about-us-title pt-3">Inception</p>
                 </div>
               </div>
             </div>

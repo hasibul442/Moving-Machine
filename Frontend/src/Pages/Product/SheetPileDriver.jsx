@@ -81,7 +81,7 @@ function SheetPileDriver() {
   return (
     <section>
       <section className="product-bg">
-        <h1 className="text-center page-title">Sheet Pile Driver</h1>
+        <h1 className="text-center page-title">Piling Solutions</h1>
       </section>
 
       <section className="product-info-background">
@@ -101,7 +101,7 @@ function SheetPileDriver() {
                   style={{ height: "50px", width: "200px" }}
                 />
                 <p className="product-name text-center mb-5">
-                  Sheet Pile Driver
+                  Piling Solutions
                 </p>
               </div>
               <div>
@@ -140,8 +140,8 @@ function SheetPileDriver() {
                     drivers that provide the best solution for a wide range of
                     piling requirements, particularly when a high degree of
                     precision is required; and for piling in sensitive
-                    environments with limited space, head room, or access.
-                    The same unit can handle, pitch, drive, and extract various
+                    environments with limited space, head room, or access. The
+                    same unit can handle, pitch, drive, and extract various
                     types of piles and can complete the whole piling process
                     without the use of physical handling or auxiliary
                     technology.
@@ -156,7 +156,7 @@ function SheetPileDriver() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">Sheet piling equipment</p>
+            <p className="product-block-title">Piling equipment</p>
 
             <section className="product-image">
               <div className="row align-items-end justify-content-center mt-5">

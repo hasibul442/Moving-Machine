@@ -32,15 +32,18 @@ function Navbar() {
         >
           <div className="container">
             <a className="navbar-brand" href="/">
-              <img
-                src="/assets/image/logo/logo-2.png"
-                alt="Company Logo"
-                className={
-                  navbar1
-                    ? "navbar-logo  minimg-size"
-                    : "navbar-logo maximage-size"
-                }
-              />
+              <div className="d-flex">
+                <img
+                  src="/assets/image/logo/logo-2.png"
+                  alt="Company Logo"
+                  className={
+                    navbar1
+                      ? "navbar-logo  minimg-size"
+                      : "navbar-logo maximage-size"
+                  }
+                />
+                <h5 className="text-dark">Moving Machines</h5>
+              </div>
             </a>
             <div
               className="menu-icon navbar-toggler text-dark"
@@ -137,7 +140,7 @@ function Navbar() {
                                   fontWeight: "400",
                                 }}
                               >
-                                Sheet Pile Drivers
+                                Piling Solutions
                               </NavDropdown.Item>
                               <NavDropdown.Item
                                 className="dropdown-item"
@@ -210,7 +213,7 @@ function Navbar() {
                                   fontWeight: "400",
                                 }}
                               >
-                                GEOSYNTHETICS
+                                Geosynthetic
                               </NavDropdown.Item>
                               <NavDropdown.Item
                                 className="dropdown-item"
@@ -220,7 +223,7 @@ function Navbar() {
                                   fontWeight: "400",
                                 }}
                               >
-                                COOLANT SYSTEM & ENGINE <br/> LEAK REPAIR
+                                Coolant System & Engine <br /> Leak Repair
                               </NavDropdown.Item>
                             </div>
                             <div className="col-md-4 pt-1">
