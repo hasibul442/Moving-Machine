@@ -15,7 +15,110 @@ function Geotextile() {
     window.scrollTo(0, 0)
   }, [])
 
-  const brochures = [];
+  const brochures = [
+    {
+      key: "1",
+      title: "Gen Broc -  Geosynthetics For Mining Infrastructure (100 338 gb 0520)",
+      pdf: "/assets/image/brochures/Tencate/1.pdf",
+      thumbnail: "/assets/image/brochures/Tencate/1.png",
+    },
+    {
+      key: "2",
+      title: "Gen Broc - Geosynthetics for Sludge Pond Capping",
+      pdf: "/assets/image/brochures/Tencate/2.pdf",
+      thumbnail: "/assets/image/brochures/Tencate/2.png",
+    },
+    {
+      key: "3",
+      title: "Gen Broc - Subgrade Stabilization (200 311-gb-0216)",
+      pdf: "/assets/image/brochures/Tencate/3.pdf",
+      thumbnail: "/assets/image/brochures/Tencate/3.png",
+    },
+    {
+      key: "4",
+      title: "Gen Broc -Basal Reinforcement (100 300-gb-0412)",
+      pdf: "/assets/image/brochures/Tencate/4.pdf",
+      thumbnail: "/assets/image/brochures/Tencate/4.png",
+    },
+    {
+      key: "5",
+      title: "Gen Broc -Enviromat Geosynthetic Clay Liners GCL (100 336-gb)",
+      pdf: "/assets/image/brochures/Tencate/5.pdf",
+      thumbnail: "/assets/image/brochures/Tencate/5.png",
+    },
+    {
+      key: "6",
+      title: "Gen Broc -Environmental Sustainability (100 302-gb-1012)",
+      pdf: "/assets/image/brochures/Tencate/6.pdf",
+      thumbnail: "/assets/image/brochures/Tencate/6.png",
+    },
+    {
+      key: "7",
+      title: "Gen Broc -Erosion Control with High Performance Turf Reinforcement Mat",
+      pdf: "/assets/image/brochures/Tencate/7.pdf",
+      thumbnail: "/assets/image/brochures/Tencate/7.png",
+    },
+    {
+      key: "8",
+      title: "Gen Broc -Infrastructure (100 303-gb-1115)",
+      pdf: "/assets/image/brochures/Tencate/8.pdf",
+      thumbnail: "/assets/image/brochures/Tencate/8.png",
+    },
+    {
+      key: "9",
+      title: "Gen Broc -Slope & Wall Reinforcement (100 301-gb-1012)",
+      pdf: "/assets/image/brochures/Tencate/9.pdf",
+      thumbnail: "/assets/image/brochures/Tencate/9.png",
+    },
+    {
+      key: "10",
+      title: "Gen Broc -Soft Foundation Consolidation (100 336-gb)",
+      pdf: "/assets/image/brochures/Tencate/10.pdf",
+      thumbnail: "/assets/image/brochures/Tencate/10.png",
+    },
+    {
+      key: "11",
+      title: "Geotube Brochure For Municipal Sludge Dewatering",
+      pdf: "/assets/image/brochures/Tencate/11.pdf",
+      thumbnail: "/assets/image/brochures/Tencate/11.png",
+    },
+    {
+      key: "12",
+      title: "Geotube Brochure For Palm Oil Mill Effluent Sludge Dewatering (POME)",
+      pdf: "/assets/image/brochures/Tencate/12.pdf",
+      thumbnail: "/assets/image/brochures/Tencate/12.png",
+    },
+    {
+      key: "13",
+      title: "Geotube Coastal & Marine Engineering",
+      pdf: "/assets/image/brochures/Tencate/13.pdf",
+      thumbnail: "/assets/image/brochures/Tencate/13.png",
+    },
+    {
+      key: "14",
+      title: "Geotube Dewatering for Mining and Mineral",
+      pdf: "/assets/image/brochures/Tencate/14.pdf",
+      thumbnail: "/assets/image/brochures/Tencate/14.png",
+    },
+    {
+      key: "15",
+      title: "Geotube Industrial Fabrics Dewatering Systems",
+      pdf: "/assets/image/brochures/Tencate/15.pdf",
+      thumbnail: "/assets/image/brochures/Tencate/15.png",
+    },
+    {
+      key: "16",
+      title: "Geotube Waterways & Impoundments",
+      pdf: "/assets/image/brochures/Tencate/16.pdf",
+      thumbnail: "/assets/image/brochures/Tencate/16.png",
+    },
+    {
+      key: "17",
+      title: "Leaflet -GT Deebag (600 703-lf-0313)",
+      pdf: "/assets/image/brochures/Tencate/17.pdf",
+      thumbnail: "/assets/image/brochures/Tencate/17.png",
+    },
+  ];
 
   return (
     <section>
