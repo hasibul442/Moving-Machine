@@ -97,7 +97,7 @@ function Navbar() {
                       <div className="row">
                         <div className="col-md-9">
                           <p
-                            className="text-center  pt-1"
+                            className="text-center pt-2"
                             style={{
                               color: "#2F75B5",
                               fontSize: "20px",
@@ -109,7 +109,7 @@ function Navbar() {
                           <div className="row">
                             <div className="col-md-4 pt-1">
                               <p
-                                className="px-3"
+                                className="text-center"
                                 style={{
                                   color: "#3CADE8",
                                   fontSize: "16px",
@@ -208,7 +208,7 @@ function Navbar() {
                                 background: "#F2F2F2",
                               }}
                             >
-                              <p className="px-3" style={{ color: "#3CADE8" }}>
+                              <p className="text-center" style={{ color: "#3CADE8" }}>
                                 Materials
                               </p>
                               <NavDropdown.Item
@@ -234,7 +234,7 @@ function Navbar() {
                             </div>
                             <div className="col-md-4 pt-1">
                               <p
-                                className="px-3"
+                                className="text-center"
                                 style={{
                                   color: "#3CADE8",
                                   fontSize: "16px",
@@ -271,7 +271,7 @@ function Navbar() {
                           style={{ background: "#F2F2F2" }}
                         >
                           <p
-                            className="text-center pt-1"
+                            className="text-center pt-2"
                             style={{
                               color: "#2F75B5",
                               fontSize: "20px",
@@ -282,7 +282,7 @@ function Navbar() {
                           </p>
                           <p style={{ marginTop: "57px" }}></p>
                           <NavDropdown.Item
-                            className="dropdown-item text-center"
+                            className="dropdown-item"
                             href="/geological"
                             style={{
                               fontSize: "15px",
