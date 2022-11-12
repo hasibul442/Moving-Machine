@@ -47,7 +47,7 @@ function Navbar() {
                       ? "min-size-text"
                       : "max-size-text"
                   }>
-                    Moving Machines<br/>Limited
+                    Moving Machines
                   </h5>
               </div>
             </a>
@@ -289,7 +289,7 @@ function Navbar() {
                               fontWeight: "400",
                             }}
                           >
-                            Geological E&P Services
+                            E&P Services
                           </NavDropdown.Item>
                         </div>
                       </div>

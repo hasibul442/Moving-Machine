@@ -53,19 +53,20 @@ a:focus {
   font-family: 'Noway', serif;
   color: #0f2c67;
   line-height: 13px;
-  padding-top: 4px;
+  padding-top: 15px;
   padding-left: 7px;
   transition: 0.5s;
 }
 .max-size-text{
-  padding-top: 11px;
-  padding-left: 15px;
-  font-size: 20px;
+  padding-top: 33px;
+  padding-left: 13px;
+  font-size: 22px;
   font-weight: 800;
   font-family: 'Noway', serif;
   color: #0f2c67;
   transition: 0.5s;
   line-height: 22px;
+  font-stretch: expanded;
 }
 @media (max-width: 991.98px) {
   .ftco-navbar-light {

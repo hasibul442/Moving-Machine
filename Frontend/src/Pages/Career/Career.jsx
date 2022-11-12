@@ -27,7 +27,7 @@ function Career() {
         <div className="container">
             <p className="text-center" style={{ fontSize:'26px' }}>Currently No Opportunities Available.</p>
 
-            <p className="pt-3 text-center" style={{ fontSize:'22px' }}>Mail us your Resume at <b>info@mmlbd.com.</b> Let's see what awaits!</p>
+            <p className="pt-3 text-center" style={{ fontSize:'22px' }}>Mail us your Resume at <b>info@mmlbd.com</b>. Let's see what awaits!</p>
         </div>
       </div>
     </section>

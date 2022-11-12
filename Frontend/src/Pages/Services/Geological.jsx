@@ -7,7 +7,7 @@ function Geological() {
   return (
     <section>
       <div className="geological-bg">
-        <h1 className="text-center page-title">Geological E&P Services</h1>
+        <h1 className="text-center page-title">E&P Services</h1>
       </div>
 
       <div className="mt-5 mb-5">
