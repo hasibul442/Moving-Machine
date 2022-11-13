@@ -273,3 +273,20 @@ a:focus {
 .second_dropdown_body > .second-dropdown:hover > .third_dropdown_body{
   display: inline-block;
 }
+.navbar-header{
+  color: #2F75B5;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 5px;
+  /* border-bottom: 1px solid #2F75B5; */
+  
+}
+.navbar-header::after {
+  content : "";
+  position : absolute;
+  width : 50%;
+  border-bottom: 3px dashed #A0E4CB;
+  bottom: 0; 
+  left: 25%;
+}  

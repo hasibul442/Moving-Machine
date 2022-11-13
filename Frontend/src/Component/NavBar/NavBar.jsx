@@ -42,13 +42,9 @@ function Navbar() {
                       : "navbar-logo maximage-size"
                   }
                 />
-                <h5 className={
-                    navbar1
-                      ? "min-size-text"
-                      : "max-size-text"
-                  }>
-                    Moving Machines
-                  </h5>
+                <h5 className={navbar1 ? "min-size-text" : "max-size-text"}>
+                  Moving Machines
+                </h5>
               </div>
             </a>
             <div
@@ -97,12 +93,7 @@ function Navbar() {
                       <div className="row">
                         <div className="col-md-9">
                           <p
-                            className="text-center pt-2"
-                            style={{
-                              color: "#2F75B5",
-                              fontSize: "20px",
-                              fontWeight: "700",
-                            }}
+                            className="text-center navbar-header pt-2"
                           >
                             Construction & Industries
                           </p>
@@ -208,7 +199,10 @@ function Navbar() {
                                 background: "#F2F2F2",
                               }}
                             >
-                              <p className="text-center" style={{ color: "#3CADE8" }}>
+                              <p
+                                className="text-center"
+                                style={{ color: "#3CADE8" }}
+                              >
                                 Materials
                               </p>
                               <NavDropdown.Item
@@ -268,29 +262,39 @@ function Navbar() {
                         </div>
                         <div
                           className="col-md-3"
-                          style={{ background: "#F2F2F2" }}
                         >
                           <p
-                            className="text-center pt-2"
-                            style={{
-                              color: "#2F75B5",
-                              fontSize: "20px",
-                              fontWeight: "700",
-                            }}
+                            className="text-center navbar-header pt-2"
                           >
                             Oil & Gas
                           </p>
-                          <p style={{ marginTop: "57px" }}></p>
-                          <NavDropdown.Item
-                            className="dropdown-item"
-                            href="/geological"
-                            style={{
-                              fontSize: "15px",
-                              fontWeight: "400",
-                            }}
-                          >
-                            E&P Services
-                          </NavDropdown.Item>
+                          {/* <p style={{ marginTop: "57px" }}></p> */}
+                          <div className="row">
+                            <div className="col-md-12 pt-1" 
+                          style={{ background: "#F2F2F2",height:'24rem' }}>
+                              <p
+                                className="text-center"
+                                style={{
+                                  color: "#3CADE8",
+                                  fontSize: "16px",
+                                  fontWeight: "600",
+                                }}
+                              >
+                                Services
+                              </p>
+
+                              <NavDropdown.Item
+                                className="dropdown-item"
+                                href="/geological"
+                                style={{
+                                  fontSize: "15px",
+                                  fontWeight: "400",
+                                }}
+                              >
+                                E&P Services
+                              </NavDropdown.Item>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
