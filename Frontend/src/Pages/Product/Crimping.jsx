@@ -259,7 +259,21 @@ function Crimping() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                  Every year, Lillbacka Powerco Oy produces thousands of crimping machines, as well as hose cutting and nut crimping equipment. Finn-Power is well-known for its high-quality, long-lasting hydraulic crimping machines, which are manufactured by Lillbacka Powerco, a Finnish company with over 50 years of manufacturing expertise. The company provides dependable, long-lasting, and precise crimping machines to fulfill the needs of various sectors. Finn-Power crimping machines are built with cutting-edge manufacturing equipment and technology. Precision made parts, along with engineering and assembly experience, as well as quality control and final testing methods, result in dependable and precise crimping machines for your production needs.
+                    Every year, Lillbacka Powerco Oy produces thousands of
+                    crimping machines, as well as hose cutting and nut crimping
+                    equipment. Finn-Power is well-known for its high-quality,
+                    long-lasting hydraulic crimping machines, which are
+                    manufactured by Lillbacka Powerco, a Finnish company with
+                    over 50 years of manufacturing expertise. The company
+                    provides dependable, long-lasting, and precise crimping
+                    machines to fulfill the needs of various sectors. Finn-Power
+                    crimping machines are built with cutting-edge manufacturing
+                    equipment and technology. Precision made parts, along with
+                    engineering and assembly experience, as well as quality
+                    control and final testing methods, result in dependable and
+                    precise crimping machines for your production needs.
+                    <br />
+                    <a href="www.finnpower.fi">www.finnpower.fi</a>
                   </p>
                 </div>
               </div>

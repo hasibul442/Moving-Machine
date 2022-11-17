@@ -44,14 +44,13 @@ function Coolant() {
                   Coolant system & Engine Leak Repair
                 </p>
               </div>
-              {/* <div>
-                    <ul className="product-key-point-list">
-                      <li>Cost effective</li>
-                      <li>Easy to use</li>
-                      <li>Versatile</li>
-                      <li>Works on all water-cooled engines</li>
-                    </ul>
-                  </div> */}
+              <div>
+                <p className="product-key-point-list">
+                  No need to drain the system or worry about what type of
+                  coolant is in the cooling system; just shake, pour and get
+                  back on the road!
+                </p>
+              </div>
             </div>
 
             <div
@@ -71,7 +70,9 @@ function Coolant() {
                     including cars, motorbikes, commercial vehicles and heavy
                     machinery. K-Seal products are compatible with all types of
                     antifreeze/coolant and are not affected by other additives
-                    that may already be in the cooling system
+                    that may already be in the cooling system.
+                    <br />
+                    <a href="www.kseal.com/">www.kseal.com</a>
                   </p>
                 </div>
               </div>
@@ -83,7 +84,7 @@ function Coolant() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">The K-Seal product range</p>
+            <p className="product-block-title">K-Seal product range</p>
 
             <section className="product-image">
               <div className="row align-items-end  justify-content-center mt-5">
@@ -126,57 +127,6 @@ function Coolant() {
           </div>
         </div>
       </section>
-
-      {/* <div className="pt-5 pb-5">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-2"></div>
-            <div className="col-md-8">
-              <div className="card border-0">
-                <div className=" shadow">
-                  <div>
-                    <div className="brochures-header seven">
-                      <h2 className="text-center py-5 brochures-title">
-                        Technical Data Sheet
-                      </h2>
-                    </div>
-                  </div>
-                  <div className="brochures-name">
-                    {brochures.map((item) => (
-                      <div key={item.key}>
-                        <a href={item.pdf} className="brochures-download">
-                          <div className="row">
-                            <div className="col-sm-2">
-                              <div className="text-center">
-                                <img
-                                  src={item.thumbnail}
-                                  className=""
-                                  alt="Sheet Pile Driven"
-                                  style={{ height: "50px", width: "30px" }}
-                                />
-                              </div>
-                            </div>
-                            <div className="col-sm-8">
-                              <p className="pt-3">{item.title}</p>
-                            </div>
-                            <div className="col-sm-2">
-                              <div className="pt-3">
-                                <span></span>
-                              </div>
-                            </div>
-                          </div>
-                        </a>
-                        <hr />
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
       <ProductSlider />
     </section>
   );

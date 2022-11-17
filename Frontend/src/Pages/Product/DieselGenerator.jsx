@@ -105,9 +105,10 @@ function DieselGenerator() {
                     available. Denyo's generators are long-lasting,
                     energy-efficient, and soundproof, thanks to cutting-edge
                     technology and creativity.
+                    <br />
+                    <a href="www.sg.denyogroup.com">www.sg.denyogroup.com</a>
                   </p>
                 </div>
-                
               </div>
             </div>
           </div>
@@ -158,7 +159,6 @@ function DieselGenerator() {
           </div>
         </div>
       </section>
-
 
       <div className="pt-5 pb-5">
         <div className="container">
