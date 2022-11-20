@@ -64,7 +64,7 @@ function WelderGenerator() {
                   style={{ height: "50px", width: "200px" }}
                 />
                 <p className="product-name text-center mb-5">
-                Welder generator
+                  Welder generator
                 </p>
               </div>
 
@@ -108,6 +108,8 @@ function WelderGenerator() {
                     products, and it has been utilized in both severely cold
                     wilderness and extremely hot desert. Denyo is always at your
                     side, assisting you in producing your best work.
+                    <br />
+                    <a href="www.sg.denyogroup.com">www.sg.denyogroup.com</a>
                   </p>
                 </div>
               </div>

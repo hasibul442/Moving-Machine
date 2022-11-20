@@ -142,7 +142,10 @@ function Geotextile() {
                   alt="Sheet Pile Driven"
                   style={{ height: "45px", width: "200px" }}
                 />
-                <p className="product-name text-center mb-5">Geosynthetics</p>
+                <p className="product-name text-center mb-5">
+                  Geosynthetics <br />
+                  (SOLMAX)
+                </p>
               </div>
             </div>
 
@@ -155,7 +158,19 @@ function Geotextile() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                  TenCate Geosynthetics, a SOLMAX company, is the world’s leading provider of geosynthetics and industrial fabrics. TENCATE Geosynthetics offers a worldwide manufacturing platform, a commercial and technical organization, and has effectively consolidated and grown key markets to optimize client value. TENCATE Geosynthetics develop, manufacture, and provide innovative and dependable geosynthetics by processing synthetic raw materials. In Asia, TENCATE Geosynthetics headquarter is located in Malaysia having manufacturing facilities in Selengor, Malaysia and Zhuhai, China.
+                    TenCate Geosynthetics (SOLMAX) is the world’s leading
+                    provider of geosynthetics and industrial fabrics. TENCATE
+                    Geosynthetics offers a worldwide manufacturing platform, a
+                    commercial and technical organization, and has effectively
+                    consolidated and grown key markets to optimize client value.
+                    TENCATE Geosynthetics develop, manufacture, and provide
+                    innovative and dependable geosynthetics by processing
+                    synthetic raw materials. In Asia, TENCATE Geosynthetics
+                    headquarter is located in Malaysia having manufacturing
+                    facilities in Selengor, Malaysia and Zhuhai, China. <br />
+                    <a href="www.tencategeo.asia/en-as/">
+                      www.tencategeo.asia/en-as/
+                    </a>
                   </p>
                 </div>
               </div>
@@ -178,7 +193,9 @@ function Geotextile() {
                       alt=""
                       className="img-fluid product-details-image"
                     />
-                    <p className="product-description-name">Mirafi® PP (Woven)</p>
+                    <p className="product-description-name">
+                      Mirafi® PP (Woven)
+                    </p>
                   </div>
                 </div>
 
@@ -189,7 +206,9 @@ function Geotextile() {
                       alt=""
                       className="img-fluid product-details-image"
                     />
-                    <p className="product-description-name">Polyfelt® Envirocell (Geocell)</p>
+                    <p className="product-description-name">
+                      Polyfelt® Envirocell (Geocell)
+                    </p>
                   </div>
                 </div>
 
@@ -200,9 +219,7 @@ function Geotextile() {
                       alt=""
                       className="img-fluid product-details-image"
                     />
-                    <p className="product-description-name">
-                    Miragrid GX
-                  </p>
+                    <p className="product-description-name">Miragrid GX</p>
                   </div>
                 </div>
 
@@ -229,7 +246,7 @@ function Geotextile() {
             <div className="col-md-8">
               <div className="card border-0">
                 <div className=" shadow">
-                <Brochures />
+                  <Brochures />
                   <div className="brochures-name">
                     {brochures.map((item) => (
                       <div key={item.key}>

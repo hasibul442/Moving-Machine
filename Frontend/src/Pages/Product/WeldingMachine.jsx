@@ -112,7 +112,13 @@ function WeldingMachine() {
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <p className="product-text text-justify">
-                  ESAB cutting-edge, world-class equipment and solutions are designed with client input and produced with the skills and tradition of a global manufacturing leader. Over the time the company has become one of the world’s leading production companies for welding equipment and consumables. 
+                    ESAB cutting-edge, world-class equipment and solutions are
+                    designed with client input and produced with the skills and
+                    tradition of a global manufacturing leader. Over the time
+                    the company has become one of the world’s leading production
+                    companies for welding equipment and consumables.
+                    <br />
+                    <a href="www.esabindia.com">www.esabindia.com</a>
                   </p>
                 </div>
               </div>
@@ -124,9 +130,7 @@ function WeldingMachine() {
       <section className="pt-5 pb-5">
         <div className="product-block">
           <div className="container-fluid">
-            <p className="product-block-title">
-              WELDING MACHINEs
-            </p>
+            <p className="product-block-title">WELDING MACHINEs</p>
 
             <section className="product-image">
               <div className="row align-items-end justify-content-center mt-5">
@@ -159,9 +163,9 @@ function WeldingMachine() {
                       alt=""
                       className="img-fluid product-details-image"
                     />
-                  <p className="product-description-name">
-                    Aristo Mig 5000i/U5000i
-                  </p>
+                    <p className="product-description-name">
+                      Aristo Mig 5000i/U5000i
+                    </p>
                   </div>
                 </div>
               </div>

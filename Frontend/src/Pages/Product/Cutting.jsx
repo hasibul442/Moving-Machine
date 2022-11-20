@@ -128,6 +128,8 @@ function Cutting() {
                     tradition of a global manufacturing leader. Over the time
                     they have become one of the world’s leading production
                     companies for cutting equipment and consumables.
+                    <br />
+                    <a href="www.esabindia.com">www.esabindia.com</a>
                   </p>
                 </div>
               </div>
@@ -143,7 +145,6 @@ function Cutting() {
 
             <section className="product-image">
               <div className="row align-items-end justify-content-center mt-5">
-
                 <div className="col-md-3">
                   <div className="text-center">
                     <img

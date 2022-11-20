@@ -93,9 +93,7 @@ function MountedCrane() {
               </div>
 
               <div>
-                <p className="product-key-point-title">
-                  
-                </p>
+                <p className="product-key-point-title"></p>
                 <ul className="product-key-point-list">
                   <li>Design Philosophy to Pursue High Standards </li>
                   <li>Built on order</li>
@@ -135,6 +133,10 @@ function MountedCrane() {
                     they combine the efficiency of two types of mobile cranes in
                     a single unit, lowering purchase prices, rental fees, and
                     fuel expenses.
+                    <br />
+                    <a href="www.uniccrane-global.com">
+                      www.uniccrane-global.com
+                    </a>
                   </p>
                 </div>
               </div>
