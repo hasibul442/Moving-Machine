@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./navbar.css";
-import { Link, NavLink } from "react-router-dom";
 import { NavDropdown } from "react-bootstrap";
 
 function Navbar() {

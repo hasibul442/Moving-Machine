@@ -32,7 +32,7 @@ a:focus {
 .nav-backgroung-maxhight{
   background: #ffffff !important;
   transition: 0.5s;
-  height: 100px;
+  height: 80px;
 }
 .nav-backgroung-minhight{
   background: #ffffff !important;
@@ -40,11 +40,11 @@ a:focus {
   transition: 0.5s;
 }
 .maximage-size{
-  height: 80px;
+  height: 60px;
   transition: 0.5s;
 }
 .minimg-size{
-  height: 40px;
+  height: 35px;
   transition: 0.5s;
 }
 .min-size-text{
@@ -52,21 +52,19 @@ a:focus {
   font-weight: 800;
   font-family: 'Noway', serif;
   color: #0f2c67;
-  line-height: 13px;
-  padding-top: 15px;
-  padding-left: 7px;
+  /* line-height: 13px; */
+  padding-top: 16px;
+  padding-left: 2px;
   transition: 0.5s;
 }
 .max-size-text{
-  padding-top: 33px;
-  padding-left: 13px;
-  font-size: 22px;
+  padding-top: 25px;
+  padding-left: 5px;
+  font-size: 24px;
   font-weight: 800;
   font-family: 'Noway', serif;
   color: #0f2c67;
   transition: 0.5s;
-  line-height: 22px;
-  font-stretch: expanded;
 }
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
@@ -286,7 +284,7 @@ a:focus {
   content : "";
   position : absolute;
   width : 50%;
-  border-bottom: 3px dashed #A0E4CB;
+  border-bottom: 3px dashed #2F75B5;
   bottom: 0; 
   left: 25%;
 }  
