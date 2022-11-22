@@ -35,7 +35,7 @@ function Footer() {
                             className="touch-with-us-text"
                             href="https://goo.gl/maps/fNXbEh9e6tEeKg718"
                           >
-                            Moving Machine Ltd. <br /> House# 428A (3rd Floor), Road# 30,
+                            Moving Machines Ltd. <br /> House# 428A (3rd Floor), Road# 30,
                             <br /> New DOHS Mohakhali, Dhaka-1212, Bangladesh
                           </a>
                         </div>
