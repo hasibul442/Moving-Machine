@@ -11,7 +11,7 @@ function Footer() {
               <div className="col-lg-1"></div>
 
               <div className="col-lg-6">
-                <div >
+                <div>
                   <div className="p-2">
                     <h5 className="text-white pb-1">
                       <span className="footer-headline">Contact Us</span>
@@ -19,7 +19,10 @@ function Footer() {
 
                     <div className="d-flex flex-row pb-2">
                       <div className="">
-                        <div className="icon-block" style={{ marginTop:"10px" }}>
+                        <div
+                          className="icon-block"
+                          style={{ marginTop: "10px" }}
+                        >
                           <i
                             className="fas fa-map-marker-alt"
                             style={{ color: "#D61C4E" }}
@@ -32,8 +35,8 @@ function Footer() {
                             className="touch-with-us-text"
                             href="https://goo.gl/maps/fNXbEh9e6tEeKg718"
                           >
-                            House# 428A (3rd Floor), Road# 30,
-                            <br /> New DOHS Mohakhali, Dhaka
+                            Moving Machines Ltd. <br /> House# 428A (3rd Floor), Road# 30,
+                            <br /> New DOHS Mohakhali, Dhaka-1212, Bangladesh
                           </a>
                         </div>
                       </div>
