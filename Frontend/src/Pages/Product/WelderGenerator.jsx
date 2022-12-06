@@ -89,7 +89,7 @@ function WelderGenerator() {
 
             <div
               className="col-md-4 mt-5"
-              data-aos="fade-left"
+              data-aos="fade-up"
               data-aos-offset="20"
               data-aos-anchor-placement="top-bottom"
             >

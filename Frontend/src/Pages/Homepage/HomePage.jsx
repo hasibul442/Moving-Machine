@@ -49,7 +49,7 @@ function HomePage()  {
           <Carousel.Item interval={2000}>
             <Link to="/dieselgenerator">
               <img
-                className="d-block w-100"
+                className="d-block slider-img"
                 src="/assets/image/slider/Slide1.PNG"
                 alt="Banner_Photo"
               />
@@ -59,7 +59,7 @@ function HomePage()  {
           <Carousel.Item interval={2000}>
             <Link to="/aircompressor">
               <img
-                className="d-block w-100"
+                className="d-block slider-img"
                 src="/assets/image/slider/Slide2.PNG"
                 alt="Banner_Photo"
               />
@@ -69,7 +69,7 @@ function HomePage()  {
           <Carousel.Item interval={2000}>
             <Link to="/weldergenerator">
               <img
-                className="d-block w-100"
+                className="d-block slider-img"
                 src="/assets/image/slider/Slide3.PNG"
                 alt="Banner_Photo"
               />
@@ -79,7 +79,7 @@ function HomePage()  {
           <Carousel.Item interval={2000}>
             <Link to="/sheetpiledriver">
               <img
-                className="d-block w-100"
+                className="d-block slider-img"
                 src="/assets/image/slider/Slide4.PNG"
                 alt="Banner_Photo"
               />
@@ -89,7 +89,7 @@ function HomePage()  {
           <Carousel.Item interval={2000}>
             <Link to="/mountedcrane">
               <img
-                className="d-block w-100"
+                className="d-block slider-img"
                 src="/assets/image/slider/Slide5.PNG"
                 alt="Banner_Photo"
               />
@@ -99,7 +99,7 @@ function HomePage()  {
           <Carousel.Item interval={2000}>
             <Link to="/crimping">
               <img
-                className="d-block w-100"
+                className="d-block slider-img"
                 src="/assets/image/slider/Slide6.PNG"
                 alt="Banner_Photo"
               />
@@ -109,7 +109,7 @@ function HomePage()  {
           <Carousel.Item interval={2000}>
             <Link to="/geotextile">
               <img
-                className="d-block w-100"
+                className="d-block slider-img"
                 src="/assets/image/slider/Slide7.PNG"
                 alt="Banner_Photo"
               />

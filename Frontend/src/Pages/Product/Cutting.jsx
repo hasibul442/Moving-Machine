@@ -116,7 +116,7 @@ function Cutting() {
 
             <div
               className="col-md-4 mt-5 align-items-center"
-              data-aos="fade-left"
+              data-aos="fade-up"
               data-aos-offset="20"
               data-aos-anchor-placement="top-bottom"
             >
