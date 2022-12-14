@@ -44,7 +44,7 @@ function Services() {
 
             <div
               className="col-md-4"
-              data-aos="fade-left"
+              data-aos="fade-up"
               data-aos-offset="20"
               data-aos-anchor-placement="top-bottom"
             >
