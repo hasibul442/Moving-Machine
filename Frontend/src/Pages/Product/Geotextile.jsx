@@ -168,7 +168,7 @@ function Geotextile() {
                     synthetic raw materials. In Asia, TENCATE Geosynthetics
                     headquarter is located in Malaysia having manufacturing
                     facilities in Selengor, Malaysia and Zhuhai, China. <br />
-                    <a href="www.tencategeo.asia/en-as/">
+                    <a href="https://www.tencategeo.asia/en-as/">
                       www.tencategeo.asia/en-as/
                     </a>
                   </p>

@@ -118,7 +118,7 @@ function WeldingMachine() {
                     the company has become one of the world’s leading production
                     companies for welding equipment and consumables.
                     <br />
-                    <a href="www.esabindia.com">www.esabindia.com</a>
+                    <a href="https://www.esabindia.com">www.esabindia.com</a>
                   </p>
                 </div>
               </div>

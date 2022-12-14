@@ -106,7 +106,7 @@ function DieselGenerator() {
                     energy-efficient, and soundproof, thanks to cutting-edge
                     technology and creativity.
                     <br />
-                    <a href="www.sg.denyogroup.com">www.sg.denyogroup.com</a>
+                    <a href="https://www.sg.denyogroup.com">www.sg.denyogroup.com</a>
                   </p>
                 </div>
               </div>

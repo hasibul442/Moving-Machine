@@ -365,7 +365,7 @@ function HomePage()  {
                 </div>
               </div>
 
-              <div className="item mb-4">
+              {/* <div className="item mb-4">
                 <div className="card card-shadow border-0">
                   <div className="card-body border-0">
                     <div className="justify-content-center">
@@ -378,7 +378,7 @@ function HomePage()  {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </OwlCarousel>
           </div>
         </div>

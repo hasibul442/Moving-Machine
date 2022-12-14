@@ -146,7 +146,7 @@ function SheetPileDriver() {
                     without the use of physical handling or auxiliary
                     technology.
                     <br />
-                    <a href="www.movax.com/en-GB/">www.movax.com/en-GB/</a>
+                    <a href="https://www.movax.com/en-GB/">www.movax.com/en-GB/</a>
                   </p>
                 </div>
               </div>

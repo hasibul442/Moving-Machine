@@ -273,7 +273,7 @@ function Crimping() {
                     control and final testing methods, result in dependable and
                     precise crimping machines for your production needs.
                     <br />
-                    <a href="www.finnpower.fi">www.finnpower.fi</a>
+                    <a href="https://www.finnpower.fi">www.finnpower.fi</a>
                   </p>
                 </div>
               </div>

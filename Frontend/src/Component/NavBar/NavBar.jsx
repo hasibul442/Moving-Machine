@@ -214,7 +214,7 @@ function Navbar() {
                               >
                                 Geosynthetic
                               </NavDropdown.Item>
-                              <NavDropdown.Item
+                              {/* <NavDropdown.Item
                                 className="dropdown-item"
                                 href="/coolant"
                                 style={{
@@ -223,7 +223,7 @@ function Navbar() {
                                 }}
                               >
                                 Coolant System & Engine <br /> Leak Repair
-                              </NavDropdown.Item>
+                              </NavDropdown.Item> */}
                             </div>
                             <div className="col-md-4 pt-1">
                               <p

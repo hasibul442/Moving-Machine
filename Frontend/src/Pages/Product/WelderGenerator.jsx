@@ -109,7 +109,7 @@ function WelderGenerator() {
                     wilderness and extremely hot desert. Denyo is always at your
                     side, assisting you in producing your best work.
                     <br />
-                    <a href="www.sg.denyogroup.com">www.sg.denyogroup.com</a>
+                    <a href="https://www.sg.denyogroup.com">www.sg.denyogroup.com</a>
                   </p>
                 </div>
               </div>

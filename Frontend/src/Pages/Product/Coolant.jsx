@@ -72,7 +72,7 @@ function Coolant() {
                     antifreeze/coolant and are not affected by other additives
                     that may already be in the cooling system.
                     <br />
-                    <a href="www.kseal.com/">www.kseal.com</a>
+                    <a href="https://www.kseal.com/">www.kseal.com</a>
                   </p>
                 </div>
               </div>

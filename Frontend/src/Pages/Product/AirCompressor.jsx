@@ -79,7 +79,7 @@ function AirCompressor() {
                     comprehensive producer of industrial gear, AIRMAN is able to
                     provide our clients with unique and creative products.
                     <br />
-                    <a href="www.airman-asia.com/">www.airman-asia.com</a>
+                    <a href="https://www.airman-asia.com/" target>www.airman-asia.com</a>
                   </p>
                 </div>
               </div>
