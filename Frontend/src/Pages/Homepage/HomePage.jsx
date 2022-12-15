@@ -130,6 +130,7 @@ function HomePage()  {
             </div>
 
             <div className="col-md-6 aboutus-description">
+             
               <p>
                 Moving Machines Limited, a private limited company, was
                 established early 2014 with a commitment to source and supply of

@@ -41,6 +41,8 @@ function Navbar() {
                       : "navbar-logo maximage-size"
                   }
                 />
+                <h1 style={{ display:"none" }}>Moving Machines Limited, a private limited company, was
+                established</h1>
                 <h5 className={navbar1 ? "min-size-text" : "max-size-text"}>
                   Moving Machines
                 </h5>
